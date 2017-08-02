@@ -1,0 +1,1 @@
+/datos/Sync/Programacion/Python/linker/src/linker.py
