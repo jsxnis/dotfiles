@@ -1,0 +1,20 @@
+{
+	"default_encoding": "UTF-8",
+	"dictionary": "Packages/Language - Spanish/Spanish.dic",
+	"draw_white_space": "all",
+	"font_face": "Hack",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"JavaScript",
+		"SublimeTextGitX",
+		"Vintage"
+	],
+	"rulers":
+	[
+		80,
+		120
+	],
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

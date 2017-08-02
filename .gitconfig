@@ -1,0 +1,12 @@
+[user]
+	mail = lorenzo.carbonell.cerezo@gmail.com
+	name = Lorenzo
+	email = atareao@atareao.es
+[credential]
+	helper = cache
+[push]
+	default = simple
+[url "git+ssh://lorenzo-carbonell@git.launchpad.net/"]
+	insteadof = lp:
+[url "git+ssh://lorenzo-carbonell@git.launchpad.net/~lorenzo-carbonell/+git/"]
+	insteadof = lpme:

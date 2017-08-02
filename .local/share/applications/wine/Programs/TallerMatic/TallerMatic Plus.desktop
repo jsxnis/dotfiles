@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=TallerMatic Plus
+Exec=env WINEPREFIX="/home/lorenzo/.wine" /opt/wine-staging/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/lorenzo/.wine/dosdevices/c:/users/Public/Start\\ Menu/Programs/TallerMatic/TallerMatic\\ Plus.lnk
+Type=Application
+StartupNotify=true
+Path=/home/lorenzo/.wine/dosdevices/c:/tallermatic
+Icon=3B57_autotaller.0

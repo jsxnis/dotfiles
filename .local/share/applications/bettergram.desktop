@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Bettergram
+Comment=Un official desktop application for the Telegram messaging service
+TryExec=Bettergram
+Exec=/home/lorenzo/.local/bin/Bettergram -- %u
+Icon=telegram
+Terminal=false
+StartupWMClass=TelegramDesktop
+Type=Application
+Categories=Network;InstantMessaging;Qt;
+MimeType=x-scheme-handler/tg;
+X-Desktop-File-Install-Version=0.23
+

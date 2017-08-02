@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=SQLeo
+GenericName=Visual Query Builder
+Comment=Visual Query Builder
+Exec=java -Dcom.sqleo.laf.class=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dfile.encoding=UTF-8 -Duser.home=/datos/apps/SQLeo/ -jar /datos/apps/SQLeo/SQLeoVQB.jar
+Path=/datos/apps/SQLeo
+Icon=turtl.png
+Terminal=false
+Categories=Office;Utility;
+Keywords=sql;database
+StartupNotify=true

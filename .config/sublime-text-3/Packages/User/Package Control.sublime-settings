@@ -1,0 +1,42 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Anaconda",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"Indent XML",
+		"IndentX",
+		"JavaScript Console",
+		"JavaScript Snippets",
+		"JavaScript Ultimate",
+		"MarkdownEditing",
+		"Minifier",
+		"Package Control",
+		"Pandoc",
+		"rsub",
+		"Sass",
+		"SASS Build",
+		"SASS Snippets",
+		"SassBeautify",
+		"SassBuilder",
+		"SassSolution",
+		"SideBarEnhancements",
+		"Terminal",
+		"TerminalView",
+		"TypeScript",
+		"TypeScript Syntax",
+		"TypescriptCompletion",
+		"WordPress Completions"
+	],
+	"repositories":
+	[
+		"https://github.com/bnlucas/SassBuilder"
+	]
+}
