@@ -1,0 +1,17 @@
+{
+	"default_encoding": "UTF-8",
+	"dictionary": "Packages/Language - Spanish/Spanish.dic",
+	"draw_white_space": "all",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"SublimeTextGitX",
+		"Vintage"
+	],
+	"rulers":
+	[
+		80,
+		120
+	],
+	"translate_tabs_to_spaces": true
+}
