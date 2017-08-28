@@ -1,8 +1,11 @@
+## Options
+
 set autoindent
 set constantshow
 set linenumbers
 set locking
 set mouse
+set multibuffer
 set showcursor
 set smarthome
 set smooth
@@ -20,3 +23,15 @@ bind ^V uncut main
 bind ^Q exit main
 bind ^F whereis main
 bind ^R replace main
+
+## Highlight
+
+include /usr/share/nano/css.nanorc
+include /usr/share/nano/html.nanorc
+include /usr/share/nano/javascript.nanorc
+include /usr/share/nano/json.nanorc
+include /usr/share/nano/nanorc.nanorc
+include /usr/share/nano/python.nanorc
+include /usr/share/nano/sh.nanorc
+include /usr/share/nano/xml.nanorc
+
