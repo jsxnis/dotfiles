@@ -1,1 +1,22 @@
-set const
+set autoindent
+set constantshow
+set linenumbers
+set locking
+set mouse
+set showcursor
+set smarthome
+set smooth
+set softwrap
+set tabsize 4
+set whitespace ">·"
+
+## Rebinding Keys
+
+bind ^S savefile main
+bind ^O insert main
+bind ^C copytext main
+bind ^X cut main
+bind ^V uncut main
+bind ^Q exit main
+bind ^F whereis main
+bind ^R replace main

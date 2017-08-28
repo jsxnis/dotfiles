@@ -1,37 +1,130 @@
 {
 	"folder_history":
 	[
+		"/datos/Sync/Programacion/Python/yoaup",
+		"/datos/Sync/Programacion/Python/wps-dictionary-installer/policykit/actions",
+		"/home/lorenzo/Escritorio/postcreator",
+		"/datos/Sync/Programacion/Python/scripts",
+		"/datos/Sync/Programacion/Python/power-commands",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/default/public/wordpress01/wp-content/themes/WEB_201709",
+		"/datos/Sync/Programacion/Python/utext",
+		"/home/lorenzo/Escritorio/ezodf-0.3.2",
+		"/datos/Sync/Programacion/Python/national-geographic-wallpaper",
+		"/datos/Sync/Programacion/Python/pomodoro-indicator",
+		"/datos/Sync/Programacion/Python/gqrcode",
+		"/datos/Sync/Programacion/Python/my-weather-indicator",
+		"/datos/Sync/Programacion/Python/yoaup/src/yoaup",
+		"/datos/Sync/Programacion/Python/youtube-indicator",
+		"/home/lorenzo/.config",
+		"/datos/Sync/Programacion/Nautilus/nautilus-convert2ogg/src",
+		"/datos/Sync/Programacion/Python/yap",
+		"/home/lorenzo/temporal/Unionpod/_posts",
+		"/datos/Sync/Programacion/Python/upodcatcher",
+		"/datos/Sync/Programacion/Nautilus/nautilus-crusher",
+		"/datos/Sync/Programacion/Python/imagedownloader",
+		"/datos/Sync/WEB_201709",
+		"/datos/Sync/Programacion/Python/utext2"
 	],
 	"last_version": 3126,
-	"last_window_id": 1,
+	"last_window_id": 53,
 	"log_indexing": false,
 	"settings":
 	{
-	},
-	"windows":
-	[
+		"new_window_height": 480.0,
+		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"get",
+						"get_value_as_int"
+					],
+					[
+						"col",
+						"columns\tstatement"
+					],
+					[
+						"sh",
+						"sheet_model\tstatement"
+					],
+					[
+						"create",
+						"create_sheet_model\tfunction"
+					],
+					[
+						"s",
+						"sheet_view"
+					],
+					[
+						"track",
+						"trackview\tstatement"
+					],
+					[
+						"select",
+						"select_row"
+					],
+					[
+						"langu",
+						"languages_dir"
+					],
+					[
+						"src",
+						"src_dir\tparam"
+					],
+					[
+						"langua",
+						"languages_dir\tparam"
+					],
+					[
+						"lang",
+						"languages_dir"
+					],
+					[
+						"tools_",
+						"tools_popover\tstatement"
+					],
+					[
+						"sho",
+						"show_all"
+					],
+					[
+						"on_fi",
+						"on_file_saved\tfunction"
+					],
+					[
+						"save",
+						"save_as\tfunction"
+					]
 				]
 			},
-			"buffers":
-			[
-				{
-					"file": "/datos/Sync/Programacion/Python/linker/src/linker.py",
-					"settings":
-					{
-						"buffer_size": 4706,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Anaconda Python Builder",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/User/python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/python3.sublime-build",
+						""
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
@@ -64,7 +157,7 @@
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 38.0
 			},
 			"find_in_files":
 			{
@@ -78,6 +171,59 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"create-table",
+					"insert-table",
+					"on_show_table_editor",
+					"inserttabledialog",
+					"preview",
+					"self.active_row",
+					"prep",
+					"_sound_menu_next",
+					"preview",
+					"hide_preview",
+					"hide",
+					"preview",
+					"self.indicators[index].set_label",
+					"set_label",
+					"set_icon",
+					"on_pomodoro_restart",
+					"list_src",
+					"babilon",
+					"po",
+					"template1",
+					"self.player.set_filename",
+					"self.player",
+					"b64encode",
+					"on_iconview_actived",
+					"trackview",
+					"focus()",
+					"self.writer.grab_focus()",
+					"foc",
+					"popover",
+					"self.scrolledwindow1",
+					"scrolledwindow1",
+					"is_saving",
+					"contador",
+					"key_counter",
+					"load_styles",
+					"self.worker",
+					"file-saved",
+					"on_file_saved",
+					"self.writer.get_buffer().set_modified",
+					"file-saved",
+					"set_win_ti",
+					"close",
+					"file_saved",
+					"close",
+					"file_saved",
+					"is_saving",
+					"launched",
+					"is_closing",
+					"set_win_title",
+					"work_with_file",
+					"set_win_title",
+					"save_current_file",
+					"file-modified"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -92,6 +238,300 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"incremental_find":
+			{
+				"height": 30.0
+			},
+			"input":
+			{
+				"height": 38.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 324.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 56.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 277.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"get",
+						"get_value_as_int"
+					],
+					[
+						"col",
+						"columns\tstatement"
+					],
+					[
+						"sh",
+						"sheet_model\tstatement"
+					],
+					[
+						"create",
+						"create_sheet_model\tfunction"
+					],
+					[
+						"s",
+						"sheet_view"
+					],
+					[
+						"track",
+						"trackview\tstatement"
+					],
+					[
+						"select",
+						"select_row"
+					],
+					[
+						"langu",
+						"languages_dir"
+					],
+					[
+						"src",
+						"src_dir\tparam"
+					],
+					[
+						"langua",
+						"languages_dir\tparam"
+					],
+					[
+						"lang",
+						"languages_dir"
+					],
+					[
+						"tools_",
+						"tools_popover\tstatement"
+					],
+					[
+						"sho",
+						"show_all"
+					],
+					[
+						"on_fi",
+						"on_file_saved\tfunction"
+					],
+					[
+						"save",
+						"save_as\tfunction"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/datos/Sync/Programacion/Python/yoaup/README.md",
+					"settings":
+					{
+						"buffer_size": 1837,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Anaconda Python Builder",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/User/python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/python3.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/datos/Sync/Programacion/Python/yoaup",
+				"/datos/Sync/Programacion/Python/yoaup/screenshots"
+			],
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 30.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"create-table",
+					"insert-table",
+					"on_show_table_editor",
+					"inserttabledialog",
+					"preview",
+					"self.active_row",
+					"prep",
+					"_sound_menu_next",
+					"preview",
+					"hide_preview",
+					"hide",
+					"preview",
+					"self.indicators[index].set_label",
+					"set_label",
+					"set_icon",
+					"on_pomodoro_restart",
+					"list_src",
+					"babilon",
+					"po",
+					"template1",
+					"self.player.set_filename",
+					"self.player",
+					"b64encode",
+					"on_iconview_actived",
+					"trackview",
+					"focus()",
+					"self.writer.grab_focus()",
+					"foc",
+					"popover",
+					"self.scrolledwindow1",
+					"scrolledwindow1",
+					"is_saving",
+					"contador",
+					"key_counter",
+					"load_styles",
+					"self.worker",
+					"file-saved",
+					"on_file_saved",
+					"self.writer.get_buffer().set_modified",
+					"file-saved",
+					"set_win_ti",
+					"close",
+					"file_saved",
+					"close",
+					"file_saved",
+					"is_saving",
+					"launched",
+					"is_closing",
+					"set_win_title",
+					"work_with_file",
+					"set_win_title",
+					"save_current_file",
+					"file-modified"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/datos/Sync/Programacion/Python/yoaup"
+				}
+			],
 			"groups":
 			[
 				{
@@ -100,44 +540,51 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/datos/Sync/Programacion/Python/linker/src/linker.py",
+							"file": "/datos/Sync/Programacion/Python/yoaup/README.md",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 4706,
+								"buffer_size": 1837,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										825,
-										825
+										1461,
+										1461
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Python/Python.sublime-syntax",
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 446.0,
+								"translation.y": 990.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
 							"type": "text"
+						},
+						{
+							"file": "/datos/Sync/Programacion/Python/yoaup/screenshots/YOAUP | Preferencias_073.png",
+							"semi_transient": true,
+							"stack_index": 1,
+							"type": "image"
 						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 30.0
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 38.0
 			},
 			"layout":
 			{
@@ -162,16 +609,20 @@
 				]
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 324.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,960,27,1920,1046,1920,1080",
+			"position": "0,1,0,0,0,0,0,0,0,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -209,12 +660,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 150.0,
+			"side_bar_width": 277.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 1,
+			"window_id": 53,
 			"workspace_name": ""
 		}
 	],

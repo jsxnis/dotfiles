@@ -132,10 +132,10 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="450"
-         height="570"
-         rx="5.54667"
-         ry="5.76" />
+         width="3.78807"
+         height="14.3947"
+         rx="2"
+         ry="2" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -169,10 +169,10 @@
       <eventcontext
          id="arc"
          style="fill:red;"
-         end="343.489"
+         end="0"
          start="0"
          usecurrent="1"
-         open="1" />
+         open="0" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -337,8 +337,8 @@
        style="fill:black;fill-opacity:1;stroke:none;font-family:FontAwesome;font-style:normal;font-weight:normal;font-size:106.66666667px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:FontAwesome;font-stretch:normal;font-variant:normal"
        selcue="1">
       <group
-         display_unit="0"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="0" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -424,12 +424,12 @@
        offset="0"
        offsetunits="cm" />
     <group
-       unit="px"
-       offset="5"
-       scale="100"
-       precision="2"
+       id="measure"
        fontsize="10"
-       id="measure" />
+       precision="2"
+       scale="100"
+       offset="5"
+       unit="mm" />
   </group>
   <group
      id="palette">
@@ -577,7 +577,7 @@
        x="0"
        y="0"
        w="481"
-       h="519"
+       h="527"
        visible="1"
        state="2"
        placement="5" />
@@ -587,7 +587,7 @@
        id="textandfont" />
     <group
        id="transformation"
-       applyseparately="0"
+       applyseparately="1"
        panel_size="1"
        panel_ratio="100"
        panel_mode="1"
@@ -597,7 +597,7 @@
        x="0"
        y="0"
        w="481"
-       h="519"
+       h="527"
        visible="1"
        state="2"
        placement="5" />
@@ -608,18 +608,30 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       align-to="0"
+       align-to="4"
        x="0"
        y="0"
        w="481"
-       h="519"
+       h="527"
        visible="1"
        state="2"
        placement="5" />
     <group
        id="xml" />
     <group
-       id="find" />
+       id="find"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="481"
+       h="527"
+       visible="1"
+       state="2"
+       placement="5" />
     <group
        id="spellcheck"
        w="200"
@@ -634,15 +646,25 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1202"
+       x="1192"
        y="0"
-       w="714"
+       w="724"
        h="869"
        visible="0"
        placement="1" />
     <group
        id="preferences"
-       state="1" />
+       state="1"
+       page="2"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="781"
+       y="486"
+       w="358"
+       h="108" />
     <group
        id="gradienteditor" />
     <group
@@ -660,23 +682,23 @@
        x="0"
        y="0"
        w="481"
-       h="519"
+       h="527"
        visible="1"
        state="2"
        placement="5">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
-         value="96" />
+         value="521" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="0"
        enable_preview="1"
-       path="/datos/Sync/Programacion/Python/utext/data/icons"
+       path="/datos/Sync/Programacion/Python/power-commands/data/icons"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -687,7 +709,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/lorenzo/Escritorio/" />
+       path="/datos/Sync/Programacion/Python/yoaup/data/icons/" />
     <group
        id="import"
        enable_preview="1"
@@ -1044,10 +1066,10 @@
      org.inkscape.output.pdf.cairorenderer.bleed="0" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#00ffff;fill-opacity:1;font-size:16px;stroke-width:2.89133858;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;-inkscape-font-specification:'Carlito Bold';font-family:Carlito;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">
+     style="line-height:1.25;fill:#ffffff;fill-opacity:1;font-size:16px;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;-inkscape-font-specification:fontawesome;font-family:fontawesome;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1">
     <group
-       width="1712"
-       height="920"
+       width="960"
+       height="1019"
        x="0"
        y="27"
        fullscreen="0"

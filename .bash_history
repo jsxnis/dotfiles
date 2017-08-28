@@ -1,1207 +1,3 @@
-ls -la
-gst-launch-1.0 v4l2src ! video/x-raw-yuv,width=640,height=480,framerate=30/1 ! xvimagesink
-gst-launch-1.0 -e v4l2src ! video/x-raw-yuv,width=640,height=480,framerate=30/1 ! xvimagesink
-gst-launch-1.0 -e v4l2src ! video/x-raw-yuv,width=640,height=480,framerate=30/1 ! filesink location=test.png
-gst-launch v4l2camsrc device=/dev/video0 num-buffers=1 ! dspjpegenc ! filesink location=test.jpg 
-gst-launch-1.0 v4l2camsrc device=/dev/video0 num-buffers=1 ! dspjpegenc ! filesink location=test.jpg 
-gst-launch-1.0 v4l2src device=/dev/video0 num-buffers=1 ! dspjpegenc ! filesink location=test.jpg 
-gst-launch-1.0 v4l2src device=/dev/video0 num-buffers=1 ! pngenc ! filesink location=test.png
-gst-launch-1.0 v4l2src device=/dev/video0 num-buffers=1 ! jpegenc ! filesink location=test.png
-gst-launch-1.0 v4l2src device=/dev/video0 ! ffmpegcolorspace ! jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src device=/dev/video0 ! jpegenc ! filesink location=test.jpg
-python3
-sudo apt install python3-v4l2
-gst-launch-1.0 v4l2src device=/dev/video0 num-buffers=1 ! video/x-raw-yuv, framerate=10/1, width=320, height=240 ! jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src device=/dev/video0 num-buffers=1 ! jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! jpegenc ! filesink location=test.jpg
-gst-launch-1.0 uvch264src num-buffers=1 ! jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! queue !  jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! queue ! video/x-h264,width=1280,height=720,framerate=30/1 ! jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! queue !  jpegdec ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! video/x-raw-rgb,width=640,height=480,framerate=8/1 !  jpegdec ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! video/x-raw-rgb,width=640,height=480,framerate=8/1 !  jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! video/x-raw-rgb,width=640,height=480,framerate=8/1 ! ffmpegcolorspace ! jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! video/x-raw-rgb,width=640,height=480,framerate=8/1 ! omx_jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! videoscale ! video/x-raw-rgb,width=640,height=480,framerate=8/1 !  jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! videoscale ! video/x-raw-yuv,width=640,height=480,framerate=8/1 !  jpegenc ! filesink location=test.jpg
-gst-launch-1.0 v4l2src num-buffers=1 ! image/jpeg,width=640,height=480,framerate=8/1 ! jpegenc ! filesink location=test.jpg
-gst-launch v4l2src device=/dev/video2 ! video/x-raw-yuv,framerate=30/1 ! xvidenc ! queue ! avimux ! filesink location=test.avi
-gst-launch-1.0 v4l2src device=/dev/video2 ! video/x-raw-yuv,framerate=30/1 ! xvidenc ! queue ! avimux ! filesink location=test.avi
-gst-launch-1.0 v4l2src ! tee name=t ! queue ! videoconvert ! autovideosink t. ! queue ! videoconvert ! jpegenc ! multifilesink location=image_%06d.jpg
-gst-launch-1.0 -v v4l2src device=/dev/video0 ! video/x-raw,framerate=30/1,width=1280,height=720 ! xvimagesink
-gst-launch-1.0 -v v4l2src device=/dev/video0 ! video/x-raw,framerate=30/1,width=1280,height=720 ! filesink location=video.mpg
-gst-launch-1.0 -v v4l2src device=/dev/video0 ! video/x-h264,framerate=30/1,width=1280,height=720 ! filesink location=video.mpg
-gst-launch-1.0 v4l2src ! video/x-raw, width=(int)640, height=(int)480, framerate=10/1 ! videoconvert ! filesink location=out.yuv  
-gst-launch-1.0 v4l2src ! video/x-raw, width=640, height=480, framerate=10/1 ! videoconvert ! filesink location=out.yuv  
-echo $VIDEO_CAPABILITIES
-gst-launch-1.0 v4l2src ! video/x-raw, width=640, height=480, framerate=10/1 ! avimux ! filesink location=out.yuv  
-gst-launch-1.0 v4l2src ! video/x-raw, width=640, height=480, framerate=10/1 ! avimux !    gst-launch-1.0 -v v4l2src ! video/x-raw,width=960,height=720,framerate=30/1 ! x264enc ! mux. alsasrc ! audio/x-raw,width=16,depth=16,rate=44100,channels=2 ! mux. avimux name=mux ! filesink location=test.avi  filesink location=out.yuv  
-gst-launch-1.0 -v v4l2src ! video/x-raw,width=960,height=720,framerate=30/1 ! x264enc ! mux. alsasrc ! audio/x-raw,width=16,depth=16,rate=44100,channels=2 ! mux. avimux name=mux ! filesink location=test.avi  filesink location=out.yuv  
-gst-launch-1.0 -v v4l2src ! video/x-raw,width=960,height=720,framerate=30/1 ! x264enc ! filesink location=test.avi  filesink location=out.yuv  
-gst-launch-1.0 -v v4l2src ! video/x-raw,width=960,height=720,framerate=30/1 ! queue ! x264enc ! filesink location=test.avi  filesink location=out.yuv  
-gst-launch-1.0 -v v4l2src ! queue ! video/x-raw,width=960,height=720,framerate=30/1 ! queue ! x264enc ! filesink location=test.avi  filesink location=out.yuv  
-gst-launch-1.0 -v v4l2src ! queue ! video/x-raw,width=960,height=720,framerate=30/1 ! queue ! x264enc ! filesink location=test.avi
-gst-launch-1.0 -v v4l2src ! queue ! video/x-raw,width=960,height=720,framerate=30/1 ! queue ! x264enc ! queue ! filesink location=test.avi
-gst-launch-1.0 v4l2src ! videoscale ! videoconvert ! autovideosink
-gst-launch-1.0 v4l2src ! videoscale ! videoconvert ! filesink test.avi
-gst-launch-1.0 v4l2src ! videoscale ! videoconvert ! filesink=test.avi
-gst-launch-1.0 v4l2src ! videoscale ! videoconvert ! filesink location=test.avi
-gst-launch-1.0 v4l2src ! videoscale ! theoraenc ! filesink location=test.ogv
-gst-launch-1.0 v4l2src ! video/x-raw-yuv,width=640,height=480,framerate=30/1 ! videoscale ! theoraenc ! filesink location=test.ogv
-gst-launch-1.0 v4l2src ! video/x-raw-yuv,width=640,height=480,framerate=30/1 ! theoraenc ! filesink location=test.ogv
-gst-launch-1.0 v4l2src ! video/x-raw-yuv,width=640,height=480,framerate=30/1 ! queue ! theoraenc ! filesink location=test.ogv
-gst-launch-1.0 v4l2src ! queue ! video/x-raw-yuv,width=640,height=480,framerate=30/1 ! queue ! theoraenc ! filesink location=test.ogv
-v4l2src ! 'video/x-raw-yuv, width=640, height=480' ! videorate ! 'video/x-raw-yuv, framerate=15/1' ! queue max-size-bytes=100000000 max-size-time=0 ! theoraenc bitrate=150 ! filesink location=test.ogv
-gst-launch-1.0 v4l2src ! 'video/x-raw-yuv, width=640, height=480' ! videorate ! 'video/x-raw-yuv, framerate=15/1' ! queue max-size-bytes=100000000 max-size-time=0 ! theoraenc bitrate=150 ! filesink location=test.ogv
-gst-launch-1.0 v4l2src ! 'video/x-raw-yuv, width=640, height=480' ! videorate ! queue max-size-bytes=100000000 max-size-time=0 ! theoraenc bitrate=150 ! filesink location=test.ogv
-gst-launch-1.0 v4l2src ! videorate ! queue max-size-bytes=100000000 max-size-time=0 ! theoraenc bitrate=150 ! filesink location=test.ogv
-gst-launch-1.0 -v v4l2src ! 'video/x-raw, width=(int)640, height=(int)480, framerate=10/1' ! videoconvert ! filesink location=out.yuv  
-gst-launch-1.0 -v v4l2src ! 'video/x-raw, width=640, height=480, framerate=10/1' ! videoconvert ! filesink location=out.yuv  
-gst-launch-1.0 -v v4l2src ! video/x-raw, width=640, height=480, framerate=10/1' ! videoconvert ! filesink location=out.yuv  
-gst-launch-1.0 -v v4l2src ! video/x-raw, width=640, height=480, framerate=10/1 ! videoconvert ! filesink location=out.yuv  
-gst-launch-1.0 v4l2src ! video/x-raw, width=640, height=480, framerate=10/1 ! filesink location=out.yuv  
-gst-launch-1.0 v4l2src ! video/x-raw-yuv, width=640, height=480, framerate=10/1 ! jpegenc ! avimux ! filesink location=out.yuv  
-gst-launch-1.0 v4l2src ! jpegenc ! avimux ! filesink location=out.yuv  
-gst-launch-1.0 v4l2src ! jpegenc ! avimux ! filesink location=out.avi
-gst-launch-1.0 v4l2src ! jpegenc ! avimux ! videoconvert ! videoscale ! gdkpixbufsink name=sink
-gst-launch-1.0 v4l2src ! videoconvert ! videoscale ! gdkpixbufsink name=sink
-gst-launch-1.0 v4l2src ! jpegenc ! videoconvert ! videoscale ! gdkpixbufsink name=sink
-gst-launch-1.0 v4l2src ! jpegenc ! videoscale ! gdkpixbufsink name=sink
-gst-launch-1.0 v4l2src ! jpegenc ! gdkpixbufsink name=sink
-gst-launch-1.0 v4l2src num-buffers=1 ! jpegenc ! filesink location=/tmp/capture1.jpeg
-gst-launch-1.0 v4l2src num-buffers=1 ! jpegenc ! filesink location=/home/lorenzo/Escritorio/capture1.jpeg
-gst-launch-1.0 -v autovideosrc ! omxh264enc ! 'video/x-h264, 
-stream-format=(string)byte-stream' ! h264parse ! qtmux ! filesink 
-location=test.mp4 sync=false
-gst-launch videotestsrc ! videorate ! video/x-raw-yuv,framerate=5/1 ! queue ! theoraenc ! queue ! mux. pulsesrc device="alsa_input.usb-046d_HD_Pro_Webcam_C920_F1894590-02-C920.analog-stereo" ! audio/x-raw-int,rate=48000,channels=2,depth=16 ! queue ! audioconvert ! queue ! vorbisenc ! queue ! mux. oggmux name=mux ! filesink location=stream.ogv
-gst-launch v4l2 ! videorate ! video/x-raw-yuv,framerate=5/1 ! queue ! theoraenc ! queue ! vorbisenc ! queue ! filesink location=stream.ogv
-gst-launch-1.0 v4l2 ! videorate ! video/x-raw-yuv,framerate=5/1 ! queue ! theoraenc ! queue ! vorbisenc ! queue ! filesink location=stream.ogv
-gst-launch-1.0 v4l2src ! videorate ! video/x-raw-yuv,framerate=5/1 ! queue ! theoraenc ! queue ! vorbisenc ! queue ! filesink location=stream.ogv
-gst-launch-1.0 v4l2src ! video/x-raw-yuv,framerate=5/1 ! queue ! theoraenc ! queue ! vorbisenc ! queue ! filesink location=stream.ogv
-gst-launch-1.0 v4l2src ! theoraenc ! queue ! vorbisenc ! queue ! filesink location=stream.ogv
-rm stream.ogv 
-gst-launch-1.0 v4l2src ! theoraenc ! queue ! filesink location=stream.ogv
-gst-launch-1.0 v4l2src ! location=stream.ogv
-gst-launch-1.0 v4l2src ! queue ! filesink location=stream.ogv
-gst-launch-1.0 v4l2src ! queue ! filesink location=stream2.ogv
-gst-launch-1.0 v4l2src ! videoconvert ! videoscale ! queue ! filesink location=stream2.ogv
-gst-launch-1.0 v4l2src ! h264parse ! videoconvert ! videoscale ! queue ! filesink location=stream2.ogv
-gst-launch-1.0 v4l2src num-buffers=100 ! video/x-raw-yuv ! videoconvert ! videoscale ! queue ! filesink location=stream2.ogv
-gst-launch-1.0 v4l2src num-buffers=100 ! video/x-raw-yuv ! queue ! filesink location=stream2.ogv
-gst-launch v4l2src num-buffers=100 ! video/x-raw-yuv ! queue ! ffmpegcolorspace ! queue ! vpuenc codec=6 ! avimux ! filesink location=outputh264.avi sync=false
-gst-launch-1.0 v4l2src num-buffers=100 ! video/x-raw-yuv ! queue ! ffmpegcolorspace ! queue ! vpuenc codec=6 ! avimux ! filesink location=outputh264.avi sync=false
-gst-launch-1.0 v4l2src num-buffers=100 ! video/x-raw-yuv ! queue ! vpuenc codec=6 ! avimux ! filesink location=outputh264.avi sync=false
-gst-launch-1.0 v4l2src num-buffers=100 ! video/x-raw-yuv ! queue ! avimux ! filesink location=outputh264.avi sync=false
-gst-launcg-1.0 v4l2src device=/dev/video0 timestamp=true ! video/x-h264, width=1920, height=1080, framerate=30/1
-gst-launch-1.0 v4l2src device=/dev/video0 timestamp=true ! video/x-h264, width=1920, height=1080, framerate=30/1
-gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-h264, width=1920, height=1080, framerate=30/1
-gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-h264, width=1920, height=1080, framerate=30/1 ! xvimagesink
-gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-h264, width=1920, height=1080, framerate=30/1 ! h264parse ! xvimagesink
-gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg, width=1920, height=1080 ! jpegparse ! jpegdec ! xvimagesink
-gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg, width=1920, height=1080 ! jpegparse ! jpegdec ! autovideoconvert ! filesink location=test
-gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg, width=1920, height=1080 ! jpegparse ! jpegdec ! filesink location=test
-gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg ! jpegparse ! jpegdec ! filesink location=test
-gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg ! jpegparse ! jpegenc ! filesink location=test
-gst-launch-1.0 videotestsrc ! video/x-raw,width=640,height=480 ! autovideosink
-gst-launch-1.0 v4l2src device="/dev/video0" ! video/x-raw,width=640,height=480 ! autovideosink
-gst-launch-1.0 v4l2src device="/dev/video0" ! video/x-raw,width=640,height=480 ! filesink location=test
-gst-launch-1.0 v4l2src device="/dev/video0" ! videoconvert ! videoscale ! video/x-raw,width=640,height=480 ! jpegenc ! filesink location=test
-gst-launch-1.0 v4l2src device="/dev/video0" ! videoconvert ! videoscale ! video/x-raw,width=640,height=480 ! jpegenc ! filesink location=test.mpeg
-gst-launch-1.0 v4l2src device="/dev/video0" ! videoconvert ! videoscale ! video/x-raw,width=640,height=480 ! jpegenc ! queue ! gdkpixbufsink
-gst-launch-1.0 v4l2src device="/dev/video0" ! videoconvert ! videoscale ! video/x-raw,width=640,height=480 ! jpegenc ! gdkpixbufsink
-uridecodebin uri=file:///tmp.test.png ! videoconvert ! videoscale ! autovideosik
-uridecodebin uri=file:///tmp.test.png ! videoconvert ! videoscale ! autovideosink
-gst-launch-1.0 uridecodebin uri=file:///tmp.test.png ! videoconvert ! videoscale ! autovideosink
-gst-launch-1.0 uridecodebin uri=file:///tmp/test.png ! videoconvert ! videoscale ! autovideosink
-gst-launch-1.0 uridecodebin uri=file:///tmp/test.mpeg ! videoconvert ! videoscale ! autovideosink
-cd /datos/Sync/Programacion/Python/backlight-indicator/src/
-python3 webcam2.py 
-ls
-cd Es
-cd 
-cd Escritorio
-fswebcam -r 640x480 --jpeg 85 -D 1 web-cam-shot.jpg
-fswebcam -r 640x480 --jpeg 85 -D 2 web-cam-shot.jpg
-fswebcam -r 640x480 --jpeg 85 -D 5 web-cam-shot.jpg
-ffmpeg -f video4linux2 -s 640x480 -i /dev/video0 -ss 0:0:2 -frames 1 /tmp/out.jpg
-ffmpeg -f video4linux2 -s 640x480 -i /dev/video0 -ss 0:0:2 -frames 1 out.jpg
-ffmpeg -f video4linux2 -s 6fswebcam -r 640x480 --jpeg 100 -D 3 -S 13 fswebcam.jpg40x480 -i /dev/video0 -ss 0:0:2 -frames 1 out.jpg
-fswebcam -r 640x480 --jpeg 100 -D 3 -S 13 fswebcam.jpg
-fswebcam -r 640x480 --jpeg 100 -D 1 -S 13 fswebcam.jpg
-man fswebcam
-fswebcam -r 640x480 --jpeg 100 --no-banner -D 1 -S 13 fswebcam.jpg
-fswebcam -r 640x480 --jpeg 100 --no-banner -S 13 fswebcam.jpg
-gst-launch-1.0 v4l2src ! video/x-raw-yuv,framerate=5/1 ! queue ! theoraenc ! queue ! vorbisenc ! queue ! filesink location=stream.ogv
-gst-launch-1.0 v4l2src ! theoraenc ! queue ! vorbisenc ! queue ! filesink location=stream.ogv
-rm stream.ogv 
-gst-launch-1.0 v4l2src ! theoraenc ! queue ! filesink location=stream.ogv
-gst-launch-1.0 v4l2src ! location=stream.ogv
-gst-launch-1.0 v4l2src ! queue ! filesink location=stream.ogv
-gst-launch-1.0 v4l2src ! queue ! filesink location=stream2.ogv
-gst-launch-1.0 v4l2src ! videoconvert ! videoscale ! queue ! filesink location=stream2.ogv
-gst-launch-1.0 v4l2src ! h264parse ! videoconvert ! videoscale ! queue ! filesink location=stream2.ogv
-gst-launch-1.0 v4l2src num-buffers=100 ! video/x-raw-yuv ! videoconvert ! videoscale ! queue ! filesink location=stream2.ogv
-gst-launch-1.0 v4l2src num-buffers=100 ! video/x-raw-yuv ! queue ! filesink location=stream2.ogv
-gst-launch v4l2src num-buffers=100 ! video/x-raw-yuv ! queue ! ffmpegcolorspace ! queue ! vpuenc codec=6 ! avimux ! filesink location=outputh264.avi sync=false
-gst-launch-1.0 v4l2src num-buffers=100 ! video/x-raw-yuv ! queue ! ffmpegcolorspace ! queue ! vpuenc codec=6 ! avimux ! filesink location=outputh264.avi sync=false
-gst-launch-1.0 v4l2src num-buffers=100 ! video/x-raw-yuv ! queue ! vpuenc codec=6 ! avimux ! filesink location=outputh264.avi sync=false
-gst-launch-1.0 v4l2src num-buffers=100 ! video/x-raw-yuv ! queue ! avimux ! filesink location=outputh264.avi sync=false
-gst-launcg-1.0 v4l2src device=/dev/video0 timestamp=true ! video/x-h264, width=1920, height=1080, framerate=30/1
-gst-launch-1.0 v4l2src device=/dev/video0 timestamp=true ! video/x-h264, width=1920, height=1080, framerate=30/1
-gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-h264, width=1920, height=1080, framerate=30/1
-gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-h264, width=1920, height=1080, framerate=30/1 ! xvimagesink
-gst-launch-1.0 v4l2src device=/dev/video0 ! video/x-h264, width=1920, height=1080, framerate=30/1 ! h264parse ! xvimagesink
-gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg, width=1920, height=1080 ! jpegparse ! jpegdec ! xvimagesink
-gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg, width=1920, height=1080 ! jpegparse ! jpegdec ! autovideoconvert ! filesink location=test
-gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg, width=1920, height=1080 ! jpegparse ! jpegdec ! filesink location=test
-gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg ! jpegparse ! jpegdec ! filesink location=test
-gst-launch-1.0 v4l2src device=/dev/video0 ! image/jpeg ! jpegparse ! jpegenc ! filesink location=test
-gst-launch-1.0 videotestsrc ! video/x-raw,width=640,height=480 ! autovideosink
-gst-launch-1.0 v4l2src device="/dev/video0" ! video/x-raw,width=640,height=480 ! autovideosink
-gst-launch-1.0 v4l2src device="/dev/video0" ! video/x-raw,width=640,height=480 ! filesink location=test
-gst-launch-1.0 v4l2src device="/dev/video0" ! videoconvert ! videoscale ! video/x-raw,width=640,height=480 ! jpegenc ! filesink location=test
-gst-launch-1.0 v4l2src device="/dev/video0" ! videoconvert ! videoscale ! video/x-raw,width=640,height=480 ! jpegenc ! filesink location=test.mpeg
-gst-launch-1.0 v4l2src device="/dev/video0" ! videoconvert ! videoscale ! video/x-raw,width=640,height=480 ! jpegenc ! queue ! gdkpixbufsink
-gst-launch-1.0 v4l2src device="/dev/video0" ! videoconvert ! videoscale ! video/x-raw,width=640,height=480 ! jpegenc ! gdkpixbufsink
-uridecodebin uri=file:///tmp.test.png ! videoconvert ! videoscale ! autovideosik
-uridecodebin uri=file:///tmp.test.png ! videoconvert ! videoscale ! autovideosink
-gst-launch-1.0 uridecodebin uri=file:///tmp.test.png ! videoconvert ! videoscale ! autovideosink
-gst-launch-1.0 uridecodebin uri=file:///tmp/test.png ! videoconvert ! videoscale ! autovideosink
-gst-launch-1.0 uridecodebin uri=file:///tmp/test.mpeg ! videoconvert ! videoscale ! autovideosink
-python3 webcam2.py 
-cd Es
-cd Escritorio
-fswebcam -r 640x480 --jpeg 85 -D 1 web-cam-shot.jpg
-fswebcam -r 640x480 --jpeg 85 -D 2 web-cam-shot.jpg
-fswebcam -r 640x480 --jpeg 85 -D 5 web-cam-shot.jpg
-ffmpeg -f video4linux2 -s 640x480 -i /dev/video0 -ss 0:0:2 -frames 1 /tmp/out.jpg
-ffmpeg -f video4linux2 -s 640x480 -i /dev/video0 -ss 0:0:2 -frames 1 out.jpg
-ffmpeg -f video4linux2 -s 6fswebcam -r 640x480 --jpeg 100 -D 3 -S 13 fswebcam.jpg40x480 -i /dev/video0 -ss 0:0:2 -frames 1 out.jpg
-fswebcam -r 640x480 --jpeg 100 -D 3 -S 13 fswebcam.jpg
-fswebcam -r 640x480 --jpeg 100 -D 1 -S 13 fswebcam.jpg
-man fswebcam
-fswebcam -r 640x480 --jpeg 100 --no-banner -D 1 -S 13 fswebcam.jpg
-fswebcam -r 640x480 --jpeg 100 --no-banner -S 13 fswebcam.jpg
-umake android
-cat /proc/acpi/button/lid/LID0/state
-python3
-cd /datos/Sync/Programacion/Python/backlight-indicator/src/
-ls -la
-python3 calculation.py 
-python3 backlightindicator.py 
-dch -r
-dch -i
-git commit -m "Fixed bugs #2 and #3"
-mybuilder
-umake
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt upgrade
-sudo apt-get install oracle-java9-installer
-sudo apt-get install oracle-java8-installer
-sudo apt install oracle-java8-set-default
-oracle-java8-set-default
-sudo oracle-java8-set-default
-sudo apt install x11vnc
-x11vnc -display:0
-x11vnc
-killall x11vnc
-x11vnc -clear-all
-killall x11vnc && /usr/bin/x11vnc -rfbport 5900 -bg -vncconnect -xvnc -forever 
-x11vnc -R stop
-cd ..
-cd Nautilus/
-cp nautilus-locompress/ nautilus-loextract
-cd nautilus-loextract/
-git remove remote
-git remote remove origin
-git remote -v
-git remote add origin git@github.com:atareao/nautilus-loextract.git
-git commit -m "First release"
-git push -u origin master
-ls
-git add .
-git commit -m "Updated icon"
-git push
-compile_extension 
-sudo apt install vino
-vnc
-cd 
-sudo apt install vncserver
-sudo apt install tightvncserver
-vncserver -kill :2
-nano .vnc/xstartup 
-vncserver -kill :1
-vncserver
-cat .vnc/xps13\:1.log 
-sudo apt instal vnc4server
-sudo apt install vnc4server
-sudo apt remove tightvncserver
-vncpasswd
-vnc4server 
-cat .vnc/xps13\:2.log 
-sudo apt install gufw
-sudo apt remove gufw
-gufw
-sudo apt remove vnc4server
-sudo apt autoremove
-sudo apt remove vnc*
-sudo apt updat
-sudo apt update
-sudo apt install nautilus-loextract
-killall nautilus
-nautilus
-sudo apt install x11vnc
-x11vnc -display :0 -auth /var/lib/gdm/:0.Xauth
-x11vnc -display :0 -auth ~/.Xauthority
-x11vnc -noxdamage -many -display :0 -auth /var/run/gdm/$(sudo ls /var/run/gdm | grep $(whoami))/database -forever -bg
-sudo apt remove x11vnc
-sudo apt autoremove
-vino
-sudo apt install fonts-font-awesome
-/opt/extras.ubuntu.com/backlight-indicator/bin/backlight-indicator 
-sudo apt remove vnc4server
-sudo apt remove vnc*
-sudo apt updat
-sudo apt install nautilus-loextract
-nautilus
-sudo apt install x11vnc
-x11vnc -display :0 -auth /var/lib/gdm/:0.Xauth
-x11vnc -display :0 -auth ~/.Xauthority
-x11vnc -noxdamage -many -display :0 -auth /var/run/gdm/$(sudo ls /var/run/gdm | grep $(whoami))/database -forever -bg
-sudo apt remove x11vnc
-vino
-sudo apt install fonts-font-awesome
-/opt/extras.ubuntu.com/backlight-indicator/bin/backlight-indicator 
-cd Descargas
-cd Telegram\ Desktop/
-ffmpeg -i filename.mp4 filename.mp3
-ffmpeg -i instalacion_ubuntu_server.mp4 instalacion_ubuntu_server.mp3
-cp instalacion_ubuntu_server.mp4 ~/Escritorio/
-ls -la
-ffmpeg -i instalacion_ubuntu_server.mp4 -i instalacion_ubuntu_server.mp3 -vcodec copy -acodec copy -map 0:0 -map 1:0 output.mp4
-cd 
-cd Escritorio
-ffmpeg -i instalacion_ubuntu_server.mp4 -i instalacion_ubuntu_server.mp3 -c:v copy -map 0:v:0 -map 1:a:0 output.mp4
-sudo add-apt-repository ppa:atareao/nautilus-extensions
-sudo apt install nautilus-iconify
-killall nautilus
-cd /datos/Sync/Programacion/Nautilus/nautilus-iconify/
-ls
-cd src/
-cd ..
-dch -i 
-mybuilder 
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove
-killall nautilus
-nautilus
-sudo apt remove vnc4server
-sudo apt remove vnc*
-sudo apt updat
-sudo apt install nautilus-loextract
-nautilus
-sudo apt install x11vnc
-x11vnc -display :0 -auth /var/lib/gdm/:0.Xauth
-x11vnc -display :0 -auth ~/.Xauthority
-x11vnc -noxdamage -many -display :0 -auth /var/run/gdm/$(sudo ls /var/run/gdm | grep $(whoami))/database -forever -bg
-sudo apt remove x11vnc
-vino
-sudo apt install fonts-font-awesome
-/opt/extras.ubuntu.com/backlight-indicator/bin/backlight-indicator 
-cd Descargas
-cd Telegram\ Desktop/
-ffmpeg -i filename.mp4 filename.mp3
-ffmpeg -i instalacion_ubuntu_server.mp4 instalacion_ubuntu_server.mp3
-cp instalacion_ubuntu_server.mp4 ~/Escritorio/
-ffmpeg -i instalacion_ubuntu_server.mp4 -i instalacion_ubuntu_server.mp3 -vcodec copy -acodec copy -map 0:0 -map 1:0 output.mp4
-cd 
-cd Escritorio
-ffmpeg -i instalacion_ubuntu_server.mp4 -i instalacion_ubuntu_server.mp3 -c:v copy -map 0:v:0 -map 1:a:0 output.mp4
-sudo add-apt-repository ppa:atareao/nautilus-extensions
-sudo apt install nautilus-iconify
-killall nautilus
-cd /datos/Sync/Programacion/Nautilus/nautilus-iconify/
-dch -i 
-mybuilder 
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove
-killall nautilus
-nautilus
-cd /datos/Sync/Programacion/
-cd Python/
-git commit -m "some changes"
-git pull
-ls -la
-cd src/
-rm -rf comun.pyc
-rm -rf __pycache__/
-git commit -m
-git remote remove origin
-git remote -v
-git remote add 
-git remote add origin git@github.com:atareao/national-geographic-wallpaper.git
-git push -u origin master
-./national-geographic-wallpaper.py 
-cd /datos/Sync/Programacion/Python/backlight-indicator/src/
-ba
-python3 backlightindicator.py 
-dch -e
-git commit -m "free webcam when not used"
-cd national-geographic-wallpaper/
-git add .
-git commit -m "merged"
-git push
-dch -r
-dch -i
-cd ..
-cd backlight-indicator/
-ls
-mybuilder
-cd .ssh
-ls
-cat id_rsa.pub
-git pull
-cd src/
-rm -rf comun.pyc
-rm -rf __pycache__/
-git commit -m
-git remote remove origin
-git remote -v
-git remote add 
-git remote add origin git@github.com:atareao/national-geographic-wallpaper.git
-git push -u origin master
-./national-geographic-wallpaper.py 
-cd /datos/Sync/Programacion/Python/backlight-indicator/src/
-ba
-python3 backlightindicator.py 
-dch -e
-git commit -m "free webcam when not used"
-cd national-geographic-wallpaper/
-git commit -m "merged"
-dch -i
-cd ..
-cd backlight-indicator/
-sudo apt update
-sudo apt upgrade
-sudo apt install national-geographic-wallpaper
-cd /datos/Sync/Programacion/Python/national-geographic-wallpaper/
-dch -r
-git add .
-git commit -m "Notification for GoPro"
-git push
-mybuilder
-ssh -W 192.168.1.26:2222
-ssh 192.168.
-ssh 192.168.1.118
-ssh 192.168.1.151
-ssh 192.168.1.181
-ssh 192.168.1.26
-ssh 192.168.1.26:2222
-ssh
-ssh 192.168.1.26 -p 2222
-scp
-scp user@192.168.1.26:2222//storage/emulated/0/Pictures/Screenshots/Screenshot_20170616-074923.png ./
-scp -P 2222 user@192.168.1.26://storage/emulated/0/Pictures/Screenshots/Screenshot_20170616-074923.png ./
-scp -P 2222 user@192.168.1.26://storage/emulated/0/Pictures/Screenshots/Screenshot_20170616-074926.png ./
-mv * .png ~/Escritorio/
-mv *.png ~/Escritorio/
-ls -la
-cd
-cd Escritorio
-ls
-ssh -p 2222 user@192.168.1.26
-scp -P 2222 user@192.168.1.26:/sdcard/Pictures/Screenshots/Screenshot_20170616-0802*.png ./
-scp
-scp user@192.168.1.26:2222//storage/emulated/0/Pictures/Screenshots/Screenshot_20170616-074923.png ./
-scp -P 2222 user@192.168.1.26://storage/emulated/0/Pictures/Screenshots/Screenshot_20170616-074923.png ./
-scp -P 2222 user@192.168.1.26://storage/emulated/0/Pictures/Screenshots/Screenshot_20170616-074926.png ./
-mv * .png ~/Escritorio/
-mv *.png ~/Escritorio/
-ls -la
-cd
-cd Escritorio
-ssh -p 2222 user@192.168.1.26
-scp -P 2222 user@192.168.1.26:/sdcard/Pictures/Screenshots/Screenshot_20170616-0802*.png ./
-cd /datos/Sync/Programacion/
-cd Android/
-cd InstaShare/
-git init
-git commit -m "First commit"
-git remote add origin git@github.com:atareao/InstaShare.git
-git push -u origin master
-cp ../../Nautilus/nautilus-loextract/README ./
-nano README 
-git commit -m "Added README"
-cp ../../Python/my-weather-indicator/.gitignore ./
-git commit -m "Added .gitignore"
-cp ../../Nautilus/nautilus-loextract/AUTHORS ./
-cp ../../Nautilus/nautilus-loextract/COPYING ./
-ls
-git add .
-git commit -m "Added license"
-git push
-cd Escritorio
-ls
-rm instalacion_ubuntu_server.mp3
-ffmpeg -i instalacion_ubuntu_server.mp4 instalacion_ubuntu_server.mp3
-history | ffmpeg
-history | grep ffmpeg
-ffmpeg -i video.mp4 -i audio_mejorado.mp3 -c:v copy -map 0:v:0 -map 1:a:0 video_mejorado.mp4
-history | grep ffmpeg
-rm instalacion_ubuntu_server.mp3
-ffmpeg -i instalacion_ubuntu_server.mp4 instalacion_ubuntu_server.mp3
-history | ffmpeg
-history | grep ffmpeg
-ffmpeg -i video.mp4 -i audio_mejorado.mp3 -c:v copy -map 0:v:0 -map 1:a:0 video_mejorado.mp4
-history | grep ffmpeg
-sudo apt install curl
-curl http://demo.wp-api.org/wp-json/wp/v2/media
-clear
-curl https://www.atareao.es/wp-json/wp/v2/media
-curl https://www.atareao.es/wp-json/wp/v2/posts
-curl https://www.atareao.es/wp-json/
-sudo apt install python3-requests_oauthlib
-sudo apt install python3-requests-oauthlib
-sudo apt install python3-oauthlib
-umake
-umake ide
-umake ide atom
-sudo apt install pylama
-sudo apt remove pylama
-autoremove
-flake8
-sudo apt install flake8
-apm
-apm install linter
-apm intall flake8
-apm install flake8
-apt install linter-pep8
-apm install linter-pep8
-sudo apt install pep8
-apm install atom-beautify
-apm install python-tools
-apm install python-indent
-apm install autocomplete-python
-apm install linter-flake8
-cd src/
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-apm remove
-apm removeatom-beautify
-apm remove atom-beautify
-apm install hidrogen
-apm install hydrogen
-apm install magicpython
-apm install sublime-style-column-selection
-apm install file-icons
-apm remove linter-flake8
-apm install linter-lintr
-apm intall minimap
-apm install minimap minimap-cursorline minimap-selection minimap-find-and-replace
-apm remove linter-pylint
-apm install highlight-line highlight-selected
-apm remove linter-pycodestyle
-sudo apt install flake8
-sudo apt install flake8-docstrings
-sudo apt install pylint
-sudo apt install linter-pylint
-apm install linter-pylint
-pylint
-sudo apt install pep8
-apm install linter-python-pep8
-apm remove linter-pylint linter-ui-default
-pep8
-apm install linter-flake8
-apm install linter-pep8
-apm list --installed
-cd Escritorio
-ls
-ls Spanish.*
-cp Spanish.* /datos/apps/atom/resources/app/node_modules/spellchecker/vendor/hunspell_dictionaries/
-autoremove
-flake8
-sudo apt install flake8
-apm
-apm install linter
-apm intall flake8
-apm install flake8
-apt install linter-pep8
-apm install linter-pep8
-sudo apt install pep8
-apm install atom-beautify
-apm install python-tools
-apm install python-indent
-apm install autocomplete-python
-apm install linter-flake8
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-python3 logindialog.py 
-apm remove
-apm removeatom-beautify
-apm remove atom-beautify
-apm install hidrogen
-apm install hydrogen
-apm install magicpython
-apm install sublime-style-column-selection
-apm install file-icons
-apm remove linter-flake8
-apm install linter-lintr
-apm intall minimap
-apm install minimap minimap-cursorline minimap-selection minimap-find-and-replace
-apm remove linter-pylint
-apm install highlight-line highlight-selected
-apm remove linter-pycodestyle
-sudo apt install flake8
-sudo apt install flake8-docstrings
-sudo apt install pylint
-sudo apt install linter-pylint
-apm install linter-pylint
-pylint
-sudo apt install pep8
-apm install linter-python-pep8
-apm remove linter-pylint linter-ui-default
-pep8
-apm install linter-flake8
-apm install linter-pep8
-apm list --installed
-cd /usr/share/atom/resources/app.asar.unpacked/node_modules/spell-check/node_modules/spellchecker/vendor/hunspell_dictionaries
-cd app
-cd /datos/apps/
-cd atom/
-cd app/
-mv en_US.aff en_US.aff.backup
-mv en_US.dic en_US.dic.backup
-ln -s Spanish.aff en_US.aff
-ln -s Spanish.dic en_US.dic
-rm en_US.add
-rm en_US.aff
-rm en_US.dic
-cp Spanish.aff en_US.aff
-cp Spanish.dic en_US.dic
-cd static/
-cd resources/
-cd node_modules/
-cd spell-check/
-cd spec/
-cd lib/
-sudo apt install hunspell-es
-huspell
-hunspell
-sudo apt install hunspell
-hunspell -D
-ls /usr/share/myspell
-cd spellchecker/
-cd vendor/
-cd hunspell_dictionaries/
-history grep | umake
-history | grep umake
-sudo apt remove sublime-text
-sudo apt remove sublime-text-installer
-cd /datos/apps/atom/
-cd 
-cd /datos/Sync/Programacion/Python/palettes-extra-for-inkscape/
-mybuilder 
-cd palettes-extra-for-gimp/
-dch -i
-mybuilder
-cd ,,ç
-cd podcastgetter/
-cd src/
-ls
-./podcastgetter.py 
-ls -la
-cd ..
-git add .
-git commit -m "Updated podcasts"
-git push
-curl http://demo.wp-api.org/wp-json/wp/v2/media
-cd_upodcatcher 
-dch -r
-git add .
-git commit -m "Fixed some bugs"
-git push
-mybuilder
-hunspell -D
-ls /usr/share/myspell
-cd spellchecker/
-cd vendor/
-cd hunspell_dictionaries/
-history grep | umake
-history | grep umake
-sudo apt remove sublime-text
-sudo apt remove sublime-text-installer
-cd /datos/apps/atom/
-cd 
-cd /datos/Sync/Programacion/Python/palettes-extra-for-inkscape/
-mybuilder 
-cd palettes-extra-for-gimp/
-cd ,,ç
-cd podcastgetter/
-cd src/
-./podcastgetter.py 
-ls -la
-git commit -m "Updated podcasts"
-curl http://demo.wp-api.org/wp-json/wp/v2/media
-dch -r
-git commit -m "Fixed some bugs"
-cd_upodcatcher 
-cat debian/changelog 
-cd data/
-cd icons/
-for i in refresh-*.svg do inkscape $i --export-png=`echo $i | sed -e 's/svg$/png/'`; done
-for i in refresh-*.svg do inkscape $i --export-png=`echo $i | sed -e 's/svg/png/'`; done
-convert -delay 20 -loop 0 refresh-*.png
-convert -delay 20 -loop 0 refresh-*.png result.gif
-mv result.gif refresh.gif
-convert refresh-*.png -background white -flatten refresh-*.jpg
-mogrify refresh-*.png -background white -flatten refresh-*.jpg
-rm refresh-12-*
-for i in refresh-*.svg; do inkscape $i --export-background=WHITE --export-png=`echo $i | sed -e 's/svg$/png/'`; done
-rm *.png
-rm *.png~
-sed -i -- 's/fill:#000000/fill:#ffffff/g' *.svg
-for i in refresh-*.svg; do inkscape $i --export-png=`echo $i | sed -e 's/svg$/png/'`; done
-cd bin/
-ls
-./upodcatcher 
-cd ..
-git add .
-git commit -m "Added refresh button"
-git push
-dch -i
-mybuilder
-dch -r
-git commit -m "Fixed some bugs"
-cat debian/changelog 
-cd data/
-cd icons/
-for i in refresh-*.svg do inkscape $i --export-png=`echo $i | sed -e 's/svg$/png/'`; done
-for i in refresh-*.svg do inkscape $i --export-png=`echo $i | sed -e 's/svg/png/'`; done
-convert -delay 20 -loop 0 refresh-*.png
-convert -delay 20 -loop 0 refresh-*.png result.gif
-mv result.gif refresh.gif
-convert refresh-*.png -background white -flatten refresh-*.jpg
-mogrify refresh-*.png -background white -flatten refresh-*.jpg
-rm refresh-12-*
-for i in refresh-*.svg; do inkscape $i --export-background=WHITE --export-png=`echo $i | sed -e 's/svg$/png/'`; done
-rm *.png
-rm *.png~
-sed -i -- 's/fill:#000000/fill:#ffffff/g' *.svg
-for i in refresh-*.svg; do inkscape $i --export-png=`echo $i | sed -e 's/svg$/png/'`; done
-cd ..
-git add .
-git commit -m "Added refresh button"
-git push
-dch -i
-mybuilder
-cd_upodcatcher 
-cd bin/
-ls
-./upodcatcher 
-cd_upodcatcher 
-cd bin/
-./upodcatcher 
-cd Sync/Programacion/Python/national-geographic-wallpaper/
-it pull
-fit pull
-git pull
-ls
-cat debian/changelog 
-mybuilder
-it pull
-fit pull
-git pull
-cat debian/changelog 
-cd Sync/Programacion/Python/national-geographic-wallpaper/
-dch -i
-git commit -m
-git commit -m "Added Fstoppers"
-mybuilder
-groupadd telegram
-sudo groupadd telegram
-cd
-cd apps
-cd Sync/Programacion/Nautilus/nautilus-500px-uploader/
-ls
-dch -r
-git add .
-git commit -m "Minor"
-git push
-compile_extension 
-git commit -m "Minor"
-compile_extension 
-cd /datos/Sync/Programacion/Python/podcastgetter/
-cd src/
-./podcastgetter.py 
-ls
-ls -la
-git add .
-git commit -m "updated"
-git push
-atom podcasts.html 
-ssh lorenzo@192.168.1.185
-ssh lorenzo@192.168.1.181
-exit
-git add .
-git commit -m "updated"
-git push
-atom podcasts.html 
-cd Descargas
-cd EasyRSA-3.0.1/
-cd pki/
-cd certs_by_serial/
-cd ..
-cd issued/
-ls
-sudo apt install openvpn network-manager-openvpn-gnome
-service network-manager restart
-exit
-git commit -m "Added refresh button"
-git push
-dch -i
-mybuilder
-dch -r
-git commit -m "Fixed some bugs"
-cat debian/changelog 
-cd data/
-cd icons/
-for i in refresh-*.svg do inkscape $i --export-png=`echo $i | sed -e 's/svg$/png/'`; done
-for i in refresh-*.svg do inkscape $i --export-png=`echo $i | sed -e 's/svg/png/'`; done
-convert -delay 20 -loop 0 refresh-*.png
-convert -delay 20 -loop 0 refresh-*.png result.gif
-mv result.gif refresh.gif
-convert refresh-*.png -background white -flatten refresh-*.jpg
-mogrify refresh-*.png -background white -flatten refresh-*.jpg
-rm refresh-12-*
-for i in refresh-*.svg; do inkscape $i --export-background=WHITE --export-png=`echo $i | sed -e 's/svg$/png/'`; done
-rm *.png
-rm *.png~
-sed -i -- 's/fill:#000000/fill:#ffffff/g' *.svg
-for i in refresh-*.svg; do inkscape $i --export-png=`echo $i | sed -e 's/svg$/png/'`; done
-git commit -m "Added refresh button"
-git push
-dch -i
-mybuilder
-cd_upodcatcher 
-./upodcatcher 
-cd_upodcatcher 
-./upodcatcher 
-cd Sync/Programacion/Python/national-geographic-wallpaper/
-it pull
-fit pull
-git pull
-cat debian/changelog 
-mybuilder
-it pull
-fit pull
-git pull
-cat debian/changelog 
-cd Sync/Programacion/Python/national-geographic-wallpaper/
-dch -i
-git commit -m
-git commit -m "Added Fstoppers"
-mybuilder
-groupadd telegram
-sudo groupadd telegram
-cd apps
-cd Sync/Programacion/Nautilus/nautilus-500px-uploader/
-dch -r
-git commit -m "Minor"
-git push
-compile_extension 
-git commit -m "Minor"
-compile_extension 
-cd /datos/Sync/Programacion/Python/podcastgetter/
-cd src/
-./podcastgetter.py 
-git commit -m "updated"
-git push
-atom podcasts.html 
-ssh -P 2222 user@192.168.1.15
-ssh
-ssh user@192.168.1.15:2222
-cd Descargas
-scp
-scp -P 2222 openvpn.zip user@192.168.1.15:/storage/emulated/0/ssh
-scp -P 2222 openvpn.zip user@192.168.1.15
-sudo apt install openvpn
-sudo apt autoremove
-build-key
-easy-rsa
-ssh admin@192.168.1.181
-ssh lorenzo@192.168.1.181
-unzip EasyRSA-3.0.1.zip 
-cd EasyRSA-3.0.1/
-cd bin/
-./easyrsa 
-./easyrsa help 14327
-./easyrsa help build-client-full
-cp ../openvpn/ca.crt ./
-mv ca.crt pki/
-rm pki/reqs/server.req 
-rm pki/private/server.key 
-rm pki/ca.crt 
-./easyrsa init-pki
-./easyrsa build-ca
-./easyrsa build-server-full server
-./easyrsa build-client-full lorenzo
-./easyrsa build-client-full ana
-./easyrsa build-client-full belcar
-cd pki/
-cd certs_by_serial/
-ssh -p 2222 user@192.168.1.15
-cp ca.crt -P 2222 user@192.168.1.15
-cp ca.crt -p 2222 user@192.168.1.15
-scp ca.crt -p 2222 user@192.168.1.15
-scp ca.crt -p 2222 user@192.168.1.15:/storage/emulated/0/ssh/openvpn/
-scp ca.crt -P 2222 user@192.168.1.15:/storage/emulated/0/ssh/openvpn/
-man scp
-scp -P 2222  ca.crt user@192.168.1.15:/storage/emulated/0/ssh/openvpn/
-cd issued/
-cd private/
-cd ..
-scp -P 2222  issued/lorenzo.crt user@192.168.1.15:/storage/emulated/0/ssh/openvpn/
-scp -P 2222  private/lorenzo.key user@192.168.1.15:/storage/emulated/0/ssh/openvpn/
-cd
-cd temporal
-mkdir ejemplos
-cd ejemplos/
-git init
-git add articulo_01.md
-touch articulo_01.md
-clear
-git add articulo_01.md 
-git checkout articulo_01.md
-touch articulo_02.md 
-nano articulo_01.md 
-git add .
-git commit -m "test"
-ls
-ls -la
-git reset --soft HEAD^
-git reset HEAD articulo_01.md
-git status
-exit
-ssh -P 2222 lorenzo@192.168.1.181
-ssh -p 2222 lorenzo@192.168.1.181
-ssh lorenzo@192.168.1.181
-atom podcasts.html 
-cd ..
-cd issued/
-sudo apt install openvpn network-manager-openvpn-gnome
-service network-manager restart
-exit
-nano
-cd Descargas
-cd EasyRSA-3.0.1/
-cd pki/
-cd certs_by_serial/
-ls
-scp 01.pem lorenzo@192.168.1.181:\volume1\homes\lorenzo
-scp 01.pem lorenzo@192.168.1.181:/volume2/homes/lorenzo
-ssh lorenzo@192.168.1.181
-git commit -m
-git commit -m "Added Fstoppers"
-mybuilder
-groupadd telegram
-sudo groupadd telegram
-cd
-cd apps
-cd Sync/Programacion/Nautilus/nautilus-500px-uploader/
-dch -r
-git add .
-git commit -m "Minor"
-git push
-compile_extension 
-git commit -m "Minor"
-compile_extension 
-cd /datos/Sync/Programacion/Python/podcastgetter/
-cd src/
-./podcastgetter.py 
-git add .
-git commit -m "updated"
-git push
-atom podcasts.html 
-sudo apt install byobu
-sudo apt install terminator
-ssh -p 2222 lorenzo@192.168.1.181
-cd Descargas
-ls -la
-cd EasyRSA-3.0.1/
-cd x509-types/
-cd pki/
-cd ..
-nano index.txt
-dh
-cd certs_by_serial/
-cat 02.pem 
-cat 03.pem 
-cat 01.pem 
-cd 
-cd Escritorio
-ls
-scp -P 2222 VPNConfig.ovpn user@192.168.1.15
-ssh -p 2222 user@192.168.1.15:/storage/0/ssh
-scp -P 2222 VPNConfig.ovpn user@192.168.1.15:/storage/emulated/0/ssh
-ssh -p 2222 user@192.168.1.15
-ssh -p 2222 user@192.168.1.181
-ssh user@192.168.1.181
-ssh -p 2222 user@10.8.0.14
-tracepath -n belcar.synology.me
-ssh -p 2222 user@10.8.0.6
-scp 01.pem lorenzo@192.168.1.181:/volume2/homes/lorenzo
-ssh lorenzo@192.168.1.181
-ssh -p 2222 user@10.8.0.14
-cp /usr/share/doc/openvpn/examples/sample-config-files/client.conf /etc/openvpn/
-sudo cp /usr/share/doc/openvpn/examples/sample-config-files/client.conf /etc/openvpn/
-cd /etc/openvpn/
-cat client.conf 
-openvpn
-cd Es
-cd
-cd Escritorio
-ls
-cat VPNConfig.ovpn 
-openvpn --config VPNConfig.ovpn
-sudo openvpn --config VPNConfig.ovpn
-sudo nano /etc/default/openvpn 
-sudo cp VPNConfig.ovpn /etc/openvpn/config.conf
-sudo openvpn
-ssh -p 2222 user@10.8.0.6
-cd Descargas
-cd EasyRSA-3.0.1/
-cd pki/
-cd certs_by_serial/
-scp 01.pem lorenzo@192.168.1.181:\volume1\homes\lorenzo
-scp 01.pem lorenzo@192.168.1.181:/volume2/homes/lorenzo
-ssh lorenzo@192.168.1.181
-cd temporal
-cd ejemplos/
-ls
-git checkout articulo_01.md
-clear
-git status
-cd temporal
-cd ejemplos/
-git checkout articulo_01.md
-git status
-cd_upodcatcher 
-cd bin/
-clear
-./upodcatcher 
-cd
-ls
-cat my_atom_packages.txt 
-git checkout articulo_01.md
-clear
-git status
-ls
-apm list --installed --bare > package-list.txt
-cat package-list.txt 
-apm list --installed --bare | grep '^[^@]\+' -o > my_atom_packages.txt
-ls
-ls
-cat package-list.txt 
-apm list --installed --bare | grep '^[^@]\+' -o > my_atom_packages.txt
-ls
-ls
-clear
-cmatrix
-sudo apt install cmatrix
-sudo apt install htop
-htop
-cmatrix
-sudo add-apt-repository ppa:costales/anoise
-sudo apt update
-sudo apt install anoise
-sudo apt install anoise-community-extension1
-sudo apt install anoise-community-extension2 anoise-community-extension3 anoise-community-extension4 anoise-community-extension5
-git upgrade
-sudo apt upgrade
-apm list --installed --bare | grep '^[^@]\+' -o > my_atom_packages.txt
-ls
-ls
-sudo apt install neofetch
-neofetch
-clear
-cmatrix
-sudo apt install cmatrix
-sudo apt install htop
-htop
-cmatrix
-sudo add-apt-repository ppa:costales/anoise
-sudo apt install anoise
-sudo apt install anoise-community-extension1
-sudo apt install anoise-community-extension2 anoise-community-extension3 anoise-community-extension4 anoise-community-extension5
-git upgrade
-sudo apt upgrade
-apm list --installed --bare | grep '^[^@]\+' -o > my_atom_packages.txt
-sudo apt install neofetch
-neofetch
-sudo add-apt-repository ppa:audio-recorder/ppa
-sudo apt update
-sudo apt install audio-recorder
-sudo autoremove
-sudo apt install python3-sounddevice
-sudo apt install python-sounddevice
-cd
-cd Sync/Programacion/Python/
-git clone git@github.com:spatialaudio/python-sounddevice.git
-cd python-sounddevice/
-cat make_dist.sh 
-cd examples/
-ln -s ../sounddevice.py soundevice.py
-rm soundevice.py 
-cp ../sounddevice.py ./
-ls -la
-cat rec_unlimited.py 
-sudo apt install python3-cffi
-ls
-./rec_unlimited.py -l
-sudo apt install python3-ecasound
-sudo apt install python-ecasound
-ecasound 
-sudo apt remove python-ecasound
-sudo apt autoremove
-cat my_atom_packages.txt 
-apm list --installed --bare > package-list.txt
-cat package-list.txt 
-apm list --installed --bare | grep '^[^@]\+' -o > my_atom_packages.txt
-cat package-list.txt 
-apm list --installed --bare | grep '^[^@]\+' -o > my_atom_packages.txt
-cmatrix
-sudo apt install cmatrix
-sudo apt install htop
-htop
-cmatrix
-sudo add-apt-repository ppa:costales/anoise
-sudo apt update
-sudo apt install anoise
-sudo apt install anoise-community-extension1
-sudo apt install anoise-community-extension2 anoise-community-extension3 anoise-community-extension4 anoise-community-extension5
-git upgrade
-sudo apt upgrade
-apm list --installed --bare | grep '^[^@]\+' -o > my_atom_packages.txt
-sudo apt install neofetch
-neofetch
-cd temporal
-cd ejemplos/
-GIT STATUS
-git checkout articulo_01.md
-git add articulo_03.md 
-ls
-git reset articulo_03.md
-git add articulo_03.md
-nano articulo_01.md 
-git reset HEAD~
-git add .
-git commit -m "First commit"
-clear
-ls -la
-git add articulo_02.md 
-nano articulo_02.md 
-git status
-sudo apt install portaudio
-sudo apt install python3-pysoundfile
-sudo apt install python-pysoundfile
-sudo apt install python3-soundfile
-sudo apt install python3-pysoundfile
-sudo apt install python-pysoundfile
-sudo apt install python3-soundfile
-sudo apt install jokosher
-cd Descargas
-sudo dpkg -i jokosher_0.11.5-0ubuntu1_all.deb 
-cd /datos/Sync/Programacion/Python/
-git clone git@github.com:atareao/jokosher.git 
-cd jokosher/
-ls
-nano AUTHORS 
-sudo apt install -f
-sudo apt remove traverso
-autoremove
-sudo apt install gir1.2-gweather-3.0
-python3
-sudo apt install python3-pysoundfile
-sudo apt install python-pysoundfile
-sudo apt install python3-soundfile
-sudo apt install jokosher
-cd Descargas
-sudo dpkg -i jokosher_0.11.5-0ubuntu1_all.deb 
-cd /datos/Sync/Programacion/Python/
-git clone git@github.com:atareao/jokosher.git 
-cd jokosher/
-nano AUTHORS 
-sudo apt install -f
-sudo apt remove traverso
-autoremove
-sudo apt install gir1.2-gweather-3.0
-python3
-sincroniza_xps13 
-apm install super-vala
-cd /datos/Sync/Programacion/Vala/equival/
-./quickbuild.sh -h
-cmake
-sudo apt install cmake
-sudo apt install glib2-devel   
-sudo apt install glib2-de
-sudo apt install glib2-dev
-sudo apt install libglib2.0-dev
-sudo apt install libglib2.0-doc
-sudo apt install libgtk-3-dev libgtk-3-doc libcairo2-dev
-sudo apt install valac-0.36.3
-sudo apt install valac-0.36
-sudo apt install valac-0.34
-sudo apt install vala-0.34
-sudo apt install debhelper
-sudo apt install libgtk-3-dev libjson-glib-dev
-sudo apt install valac
-./quickbuild.sh -b
-./equival 
-history grep vala
-history | grep vala
 apm remove super-vala
 cd_upodcatcher 
 ls
@@ -3692,3 +2488,2513 @@ cd regextools/
 ls
 ./make.sh 
 man stow
+htop
+killall chromium-browser 
+cd /usr/bin/
+tilix -a session-add-right -x ls
+htop
+sudo update-alternatives --config x-terminal-emulator
+uupgrade
+killall chromium-browser
+sudo update-alternatives --config x-terminal-emulator
+uupgrade
+killall chromium-browser
+cp ~/Escritorio/ps_mem.py ./
+nano custom.bash 
+geany custom.bash 
+htop
+killall chromium-browser
+cd Escritorio
+neofetch
+ssh lorenzo#192.168.1.181
+ssh lorenzo@192.168.1.181
+cp ~/Escritorio/ps_mem.py ./
+nano custom.bash 
+geany custom.bash 
+mem
+cd /mnt/
+sudo mount 192.168.1.181:/volume4/media /mnt/media
+cd media/
+uupgrade
+killall chromium-browser
+cp ~/Escritorio/ps_mem.py ./
+nano custom.bash 
+geany custom.bash 
+htop
+killall chromium-browser
+cd Escritorio
+neofetch
+ssh lorenzo#192.168.1.181
+ssh lorenzo@192.168.1.181
+cp ~/Escritorio/ps_mem.py ./
+nano custom.bash 
+geany custom.bash 
+cd /mnt/
+sudo mount 192.168.1.181:/volume4/media /mnt/media
+cd media/
+sudo apt install gt5
+gt5
+sudo apt remove gt5
+sudo apt install ncdu
+cd VirtualBox\ VMs/
+cd .atom/
+sudo apt remove atom
+umake
+umake ide
+umake ide remove atom
+umake remove ide atom
+umake --help
+umake idea atom -h
+umake ide atom -h
+umake ide atom -r
+rm -rf .atom/
+ls google-chrome/
+sudo rm -rf google-chrome/
+cd .cache/
+rm -rf google-chrome/
+killall shutter
+killall shutt
+killall node
+sudo killall node
+mem
+cd .cache/
+rm -rf google-chrome/
+killall shutter
+killall shutt
+killall node
+sudo killall node
+mem
+ls -la Ardour/
+cd Ardour/
+cd --
+cd /opt/
+cd Ardour-5.10.0/
+./ardour-5.10.0 
+./ardour
+usermod -a -G audio lorenzo
+sudo usermod -a -G audio lorenzo
+./ardour5
+sudo nano /etc/security/limits.conf 
+cd /etc/security/limits.d/
+sudo touch 99-realtime.conf
+sudo nano 99-realtime.conf 
+sudo groupadd realtime
+usermod -a -G realtime lorenzo
+sudo usermod -a -G realtime lorenzo
+ls google-chrome/
+sudo rm -rf google-chrome/
+cd .cache/
+rm -rf google-chrome/
+killall shutter
+killall shutt
+killall node
+sudo killall node
+mem
+cd Descargas
+rm Shakira\ -\ Chantaje\ \(Official\ video\)\ ft.\ Maluma_*
+rm Ubuntu_\(16.04_LTS_Xenial\ Xerus_15.10\ Wily\ Werewolf\)_libpkcs11-dnie_1.4.0_amd64.deb Stacer_1.0.1_amd64.deb stacer_1.0.7_amd64.deb 
+rm get_video_info*
+rm MAMÁ\,\ QUIERO\ SER\ YOUTUBER_22.mp4 
+rm Rope\ Tutorial\ -\ Blender\ Guru_0.m4a 
+rm Ro*
+rm w_lina09.pdf 
+rm LibreELEC-RPi2.arm-8.0.2.img 
+rm M1200.ppd 
+rm messengerfordesktop-2.0.9-linux-amd64.deb 
+rm my_atom_packages.txt 
+rm neon-useredition-20170706-1018-amd64.iso 
+rm Ocsp\ Responder\ AV\ DNIE-FNMT_SHA2.*
+rm Photos.zip 
+rm Plantilla\ añadir\ obra.xlsx 
+rm archive*
+rm certificado_cifrado*
+rm cita_previa.pdf 
+rm icons8-*
+rm iMedia\ Talk\ on\ The\ Visual\ Organization_*
+rm impreso-solicitud-prestacion-contributiva.pdf Informe\ de\ Vida\ Laboral.pdf Kid\ Rock\ -\ Po-Dunk\ \[Official\ Video\]_14.webm Keyboard\ Typing\ Sound\ 2\ hours\ \ \ Sonido\ de\ persona\ tecleando\ en\ computadora\ 2\ horas-Rfcm2IoAyds.mp3 
+rm 2017-07-05-raspbian-jessie-lite.*
+rm *.crt
+rm *.ca
+rm *.cab
+ls -la Ardour-5.10.0-x86_64.run 
+chmod +x Ardour-5.10.0-x86_64.run 
+./Ardour-5.10.0-x86_64.run 
+cd /opt/
+cd Ardour-5.10.0/
+ultimit -l
+ulimit -l
+ulimit -a
+sudo ulimit -l unlimited
+ulimit -l unlimited
+cd Ardour-5.10.0/
+ultimit -l
+ulimit -l
+ulimit -a
+sudo ulimit -l unlimited
+ulimit -l unlimited
+cd /opt/Ardour-5.10.0/bin/
+./ardour5
+sudo apt instlal pulseaudio-module-jack
+sudo apt install pulseaudio-module-jack
+sudo nano /etc/pulse/default.pa 
+fg 1
+pulseaudio --check
+pulseaudio -k
+pulseaudio -D
+install cadence
+remove pulseaudio*
+remove jack
+remove pulseaudio-module-jack
+remove pulseaudio-module-utils
+remove pulseaudio-utils
+sudo apt installl ubuntu-gnome-desktop
+sudo apt install ubuntu-gnome-desktop
+sudo apt install pavumeter pavucontrol paman paprefs ubuntu-sounds
+./ardour5
+sudo apt instlal pulseaudio-module-jack
+sudo apt install pulseaudio-mod
+fg 1
+pulseaudio --check
+pulseaudio -D
+install cadence
+remove pulseaudio*
+remove jack
+remove pulseaudio-module-jack
+remove pulseaudio-module-utils
+remove pulseaudio-utils
+sudo apt installl ubuntu-gnome-desktop
+sudo apt install ubuntu-gnome-desktop
+sudo apt install pavumeter pavucontrol paman paprefs ubuntu-sounds
+sudo /etc/init.d/pulseaudio restart
+sudo apt remove module-jack-sink
+history | grep jack
+pulseaudio 
+pulseaudio -l
+killall pulseaudio
+sudo nano /etc/pulse/default.pa 
+pulseaudio
+sudo alsa force-reload
+pulseaudio -k
+alsamixer
+sudo apt remove jack
+pulseaudio --check
+pulseaudio -k
+pulseaudio -D
+install cadence
+remove pulseaudio*
+remove jack
+remove pulseaudio-module-jack
+remove pulseaudio-module-utils
+remove pulseaudio-utils
+sudo apt installl ubuntu-gnome-desktop
+sudo apt install ubuntu-gnome-desktop
+sudo apt install pavumeter pavucontrol paman paprefs ubuntu-sounds
+./ardour5
+sudo apt instlal pulseaudio-module-jack
+sudo apt install pulseaudio-mod
+fg 1
+pulseaudio --check
+pulseaudio -D
+install cadence
+remove pulseaudio*
+remove jack
+remove pulseaudio-module-jack
+remove pulseaudio-module-utils
+remove pulseaudio-utils
+sudo apt installl ubuntu-gnome-desktop
+sudo apt install ubuntu-gnome-desktop
+sudo apt install pavumeter pavucontrol paman paprefs ubuntu-sounds
+sudo /etc/init.d/pulseaudio restart
+sudo apt remove module-jack-sink
+history | grep jack
+pulseaudio 
+pulseaudio -l
+killall pulseaudio
+sudo nano /etc/pulse/default.pa 
+pulseaudio
+sudo alsa force-reload
+pulseaudio -k
+alsamixer
+sudo apt remove jack
+cd Descargas
+sudo dpkg -i kxstudio-repos_9.4.6-kxstudio1_all.deb 
+uupgrade
+cd Escritorio/regextools/
+sudo apt-get install libreoffice-dev*
+killall libreoffice
+killall soffice
+htop
+rm -rf Regextools
+rm -rf Regextools.oxt 
+cd /datos/Sync/Programacion/libreoffice/
+cd hidraulica/
+cd Escritorio
+cd regextools/
+./make.sh 
+sudo apt install ubuntu-gnome-desktop
+sudo apt install pavumeter pavucontrol paman paprefs ubuntu-sounds
+sudo /etc/init.d/pulseaudio restart
+sudo apt remove module-jack-sink
+history | grep jack
+pulseaudio 
+pulseaudio -l
+killall pulseaudio
+sudo nano /etc/pulse/default.pa 
+pulseaudio
+sudo alsa force-reload
+pulseaudio -k
+alsamixer
+sudo apt remove jack
+cd Descargas
+sudo dpkg -i kxstudio-repos_9.4.6-kxstudio1_all.deb 
+uupgrade
+cd Escritorio/regextools/
+sudo apt-get install libreoffice-dev*
+killall soffice
+rm -rf Regextools
+rm -rf Regextools.oxt 
+cd /datos/Sync/Programacion/libreoffice/
+cd hidraulica/
+cd .config/libreoffice/
+cd 4
+cd user/
+cd cache/
+killall libreoffice
+htop
+ps aux | grep office
+killall soffice.bin
+cd uno_packages/
+cd registry/
+cat uno_packages
+cat uno_packages.pmap 
+rm uno_packages.pmap 
+cd Escritorio
+cd casa/
+cd regextools/
+./make.sh 
+sudo apt install stow
+stow
+mkdir dotfiles
+stow -S .w3m
+man stow 
+stow -S .w3m -t dotfiles
+rm -rf *
+STOW_DIR=/home/lorenzo/dotfiles/
+echo $STOW_DIR
+stow -n -S .w3m
+stow -n -R .w3m
+cd .. ls
+l -la
+mkdir -P ~/dotfiles/w3m
+mkdir ~/dotfiles/w3m
+mv .w3m ~/dotfiles/w3m/
+rm .vscode/
+rm -rf .vscode/
+rm .w3m
+md dotfiles/ /datos/
+STOW_DIR=/datos/dotfiles/
+mv dotfiles /datos/
+stow w3m
+rm -rf .w3m
+stow w3m --target=/home/lorenzo/
+cd .w3m
+la -la
+cd apps/
+cd .ssh
+cat extcre.py 
+cd .bin
+cd .cert
+cd .config 
+rm -rf Atom/
+rm ps_mem.py terminator/
+rm -rf ps_mem.py terminator/
+cd .local
+cd bin/
+ls 
+cd sha
+cda applications/
+cd lib/
+./linker.py 
+rm -rf Público
+mv .bashrc dotfiles/
+ls -la /home/lorenzo/
+~/.bash_it/lib/linker.py 
+mv .bash_history dotfiles/
+mv .bash_it dotfiles/
+mv .config dotfiles/
+mv .face dotfiles/
+mv .fonts/ dotfiles/
+mv .gimp-2.8 dotfiles/
+mv .fonts dotfiles/
+mv .gradle dotfiles/
+nano .gitconfig 
+mv .nano dotfiles/
+mv .nanorc dotfiles/
+mv .gitconfig dotfiles/
+cd GIMP/
+rm corebird 
+rm filezilla 
+rm inkscape 
+rm sublime-text-3 
+rm .nano
+rm .nanorc 
+rm .bash_history 
+rm .bash_it 
+rm .bashrc 
+cd .config/
+/datos/
+cd GIMP/2.9/
+rm -rf GIMP/
+rm -rf GitBook/
+rm -rf w3m/
+cd
+rm -rf .w3m 
+cd .bash_it/
+mv .bash_it .bash_it.old
+git submodule add git@github.com:Bash-it/bash-it.git
+cd bash-it/
+cd .bash_it.old/
+ls .gimp-2.8
+rm .gimp-2.8
+cd /datos/
+mv dotfiles/.gimp-2.8 ./
+cd .localshare/icons/
+cd hicolor/
+cd scalable/
+cd 
+cd /datos/dotfiles/
+/datos/Sync/Programacion/Python/linker/src/linker.py 
+.bash_it
+cd .bash_it
+git pull
+rm -rf .bash_it.old/
+git pusll
+cd icons/
+cd .localshare/
+ls.
+mkdir share
+mv icons share/
+mkdir applications
+cd applications/
+mv applications share/
+mv *.desktop share/applications/
+mv mime* share/applications/
+mv .localshare .local
+cd .local/
+cd share/
+mv dotfiles/.local ./
+cd .local/share/applications/
+/datos/dotfiles/.bash_it/lib/linker.py 
+cd dotfiles/
+git commit -m "Second commit"
+cd .git
+cd ..
+ncdu
+mv .gradle/ ../
+rm -rf .git
+git init
+git submodule add git@github.com:Bash-it/bash-it.git /datos/dotfiles/.bash_it
+git commit -m "First commit"
+git remote add origin git@github.com:atareao/dotfiles.git
+git push -u origin master
+git add .bash_history 
+git add .bash_it
+git add .bashrc 
+git add .config/
+git add .face 
+git add .fontconfig/
+git add .fonts
+git add .gitconfig 
+git add .nano
+git add .nanorc
+git add .
+git commit -m "Sc"
+git push
+sudo apt install ranger
+ranger
+ls
+cat .bash_history 
+ls -la
+cd
+cd Escritorio
+cd ..
+cd casa/
+cd regextools/
+./make.sh 
+sudo apt install smbclient
+sudo apt autoremove
+smbclient
+man smbclient
+smbclient -L 
+smbclient -L 192.168.1.181
+smbclient -L 192.168.1.48
+smbclient //raspberrypi/share
+smbclient //raspberrypi/share -U pi
+smbclient //RASPBERRYPI/share -U pi
+smbclient //192.168.1.48/share -U pi
+cd /opt/
+cd sublime_text/
+killall nautilus
+cd ~/.gvfs
+cd /run/user/1000/gvfs
+ls
+ls -la
+echo $UID
+killall soffice.bin
+cd uno_packages/
+cd registry/
+cat uno_packages
+cat uno_packages.pmap 
+rm uno_packages.pmap 
+rm -rf *
+cd ..
+cd casa/
+cd Escritorio
+cd regextools/
+./make.sh 
+cd /mnt/
+cd raspberry/
+cd 
+history | grep raspberry
+sudo mount.nfs4 192.168.1.48:/srv/nfs4/share /mnt/raspberry
+cd /mnt/raspberry/
+ls
+cd
+sudo add-apt-repository ppa:libreoffice/ppa
+uupgrade
+ssh pi@192.168.1.48
+sudo apt installl ubuntu-gnome-desktop
+sudo apt install ubuntu-gnome-desktop
+sudo apt install pavumeter pavucontrol paman paprefs ubuntu-sounds
+sudo /etc/init.d/pulseaudio restart
+sudo apt remove module-jack-sink
+history | grep jack
+pulseaudio 
+pulseaudio -l
+killall pulseaudio
+sudo nano /etc/pulse/default.pa 
+pulseaudio
+sudo alsa force-reload
+pulseaudio -k
+alsamixer
+sudo apt remove jack
+cd Descargas
+sudo dpkg -i kxstudio-repos_9.4.6-kxstudio1_all.deb 
+uupgrade
+cd Escritorio/regextools/
+sudo apt-get install libreoffice-dev*
+killall libreoffice
+killall soffice
+htop
+rm -rf Regextools
+rm -rf Regextools.oxt 
+cd /datos/Sync/Programacion/libreoffice/
+cd hidraulica/
+cd Escritorio
+cd regextools/
+./make.sh 
+sudo apt install ubuntu-gnome-desktop
+sudo apt install pavumeter pavucontrol paman paprefs ubuntu-sounds
+sudo /etc/init.d/pulseaudio restart
+sudo apt remove module-jack-sink
+history | grep jack
+pulseaudio 
+pulseaudio -l
+killall pulseaudio
+sudo nano /etc/pulse/default.pa 
+pulseaudio
+sudo alsa force-reload
+pulseaudio -k
+alsamixer
+sudo apt remove jack
+cd Descargas
+sudo dpkg -i kxstudio-repos_9.4.6-kxstudio1_all.deb 
+uupgrade
+cd Escritorio/regextools/
+sudo apt-get install libreoffice-dev*
+killall soffice
+rm -rf Regextools
+rm -rf Regextools.oxt 
+cd /datos/Sync/Programacion/libreoffice/
+cd hidraulica/
+cd .config/libreoffice/
+cd 4
+cd user/
+cd cache/
+killall libreoffice
+htop
+ps aux | grep office
+killall soffice.bin
+cd uno_packages/
+cd registry/
+cat uno_packages
+cat uno_packages.pmap 
+rm uno_packages.pmap 
+rm -rf *
+cd Escritorio
+cd casa/
+cd regextools/
+./make.sh 
+man stow
+cd dotfiles/
+cd bash-it/
+mv bash-it/ .bash_it
+nano .gitattributes 
+ls la
+cd .git/modules/bash-it/
+mv bash-it bash_it
+cd .bash_it
+nnano .git
+nano .git
+git pull
+cd .git/
+cd modules/
+cd bash_it/
+rm .git
+rm -rf .git
+cd .gimp-2.8/
+rm -rf .bash_it
+cd /datos/
+cd icons
+rm -rf applications
+ls -la
+cd applications/
+cd 
+cd
+cd .local/share/
+cd applications
+cd ..
+ls
+ssh pi@192.168.1.48
+cat uno_packages.pmap 
+rm uno_packages.pmap 
+rm -rf *
+cd Escritorio
+cd casa/
+cd regextools/
+./make.sh 
+man stow
+cd dotfiles/
+cd bash-it/
+mv bash-it/ .bash_it
+nano .gitattributes 
+ls la
+cd .git/modules/bash-it/
+mv bash-it bash_it
+cd .bash_it
+nnano .git
+nano .git
+git pull
+cd .git/
+cd modules/
+cd bash_it/
+rm .git
+rm -rf .git
+cd .gimp-2.8/
+rm -rf .bash_it
+cd /datos/
+cd icons
+rm -rf applications
+cd applications/
+cd 
+cd .local/share/
+cd applications
+ssh pi@192.168.1.48
+cd /datos/Sync/Programacion/Python/utext/bin/utext
+cd /datos/Sync/Programacion/Python/utext/bin/
+./utext
+killall python2.7
+killall python
+mem
+cd
+cd /datos/Sync/Programacion/Telegram/
+cd ..
+cd Python/telegram/
+ls
+ls -la
+./update.sh 
+fg 1
+dch -i
+dch -r
+mybuilder
+exit
+cd icons
+rm -rf applications
+cd applications/
+cd .local/share/
+cd applications
+ssh pi@192.168.1.48
+cd /datos/Sync/Programacion/Python/utext/bin/utext
+cd /datos/Sync/Programacion/Python/utext/bin/
+./utext
+killall python2.7
+killall python
+cd /datos/Sync/Programacion/Telegram/
+cd ..
+cd Python/telegram/
+./update.sh 
+fg 1
+dch -i
+dch -r
+mybuilder
+cd
+cd /
+ncdu
+ls usb
+lsusb
+sudo update-java-alternatives -s java-8-oracle
+sudo apt-get install libccid pcscd opensc
+sudo apt-get install pinentry-gtk2 pcsc-tools libpcsclite1 
+sudo apt install libpcsclite-dev libreadline6 libreadline-dev coolkey
+cd Des
+cd Descargas
+cab
+uncab
+cabextract ACRAIZ-SHA2.CAB 
+ls O*
+ls -la
+unrar Ocsp Responder AV DNIE-FNMT_SHA2.rar
+unrar e Ocsp Responder AV DNIE-FNMT_SHA2.rar
+unrar e "Ocsp Responder AV DNIE-FNMT_SHA2.rar"
+ls AV*
+ls 
+sudo dpkg -i Ubuntu_\(16.04_LTS_Xenial\ Xerus_15.10\ Wily\ Werewolf\)_libpkcs11-dnie_1.4.0_amd64.deb 
+pcsc_scan
+find /usr | grep opensc
+modutil -dbdir sql:$HOME/.pki/nssd -add "DNI-e" .libfile /usr/lib/opensc-pkcs11.so
+modutil -dbdir sql:$HOME/.pki/nssd -add "DNI-e" -libfile /usr/lib/opensc-pkcs11.so
+modutil -dbdir sql:$HOME/.pki/nssdb -add "DNI-e" -libfile /usr/lib/x86_64-linux-gnu/pkcs11/opensc-pkcs11.so
+ls ACRAIZ-*
+ls ACRAIZ-DNIE2.cab 
+cabextract ACRAIZ-DNIE2.cab 
+killall chromium-browser
+modutil -dbdir sql:$HOME/.pki/nssdb -add "DNI-e" -libfile /usr/lib/opensc-pkcs11.so
+~/.pki/nssdb$ modutil -list -dbdir .
+cd 
+cd .pki
+cd nssdb/
+ls
+modutil -list -dbdir
+modutil -list -dbdir .
+modutil -dbdir sql:/home/lorenzo/.pki/nssdb -add "DNIE" -libfile /usr/lib/opensc-pkcs11.so
+modutil -dbdir sql:/home/lorenzo/.pki/nssdb -add "DNI-E" -libfile /usr/lib/opensc-pkcs11.so
+modutil -dbdir sql:/home/lorenzo/.pki/nssdb -add "dnie" -libfile /usr/lib/opensc-pkcs11.so
+modutil -dbdir sql:/home/lorenzo/.pki/nssdb -add "dni-e" -libfile /usr/lib/opensc-pkcs11.so
+modutil -dbdir sql:/home/lorenzo/.pki/nssdb -add "DNI-e" -libfile /usr/lib/opensc-pkcs11.so
+killall gnome-software 
+killall python 
+killall telegram
+killall Telegram
+killall nautilus
+killall shutter
+mem
+killall evolution
+killall evolution*
+ls -la
+./update.sh 
+fg 1
+dch -i
+dch -r
+mybuilder
+clea
+clear
+sudo ncdu /
+ncdu /
+cd /ç
+cd /
+ncdu --esclude-caches
+cd
+ncdu --exclude-caches
+ncdu
+cd modules/
+cd bash_it/
+rm .git
+rm -rf .git
+cd .gimp-2.8/
+rm -rf .bash_it
+cd /datos/
+cd icons
+rm -rf applications
+cd applications/
+cd 
+cd .local/share/
+cd applications
+ssh pi@192.168.1.48
+cd /datos/Sync/Programacion/Python/utext/bin/utext
+cd /datos/Sync/Programacion/Python/utext/bin/
+./utext
+killall python2.7
+killall python
+mem
+cd
+cd /datos/Sync/Programacion/Telegram/
+cd Python/telegram/
+ls -la
+./update.sh 
+fg 1
+dch -r
+cd /datos/Sync/Programacion/Python/youtube-indicator/
+sudo apt install screen
+screen
+man screen
+sudo apt remove screen
+git commit -m "Sorted downloads"
+cd ../gqrcode/
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/gqrcode
+git commit -m "On none results"
+git push lauchpad
+dch -i
+mybuilder
+git ad ..
+git add .
+git commit -m "dch"
+git push
+git push all
+git push launchpad
+cd pulseeffects/
+./pulseeffects 
+cd jokosher/
+./jokosher 
+cat jokosher
+cd python-sounddevice/
+python sounddevice.py 
+sudo apt install python3-cffi
+python3 sounddevice.py 
+cd ..
+sudo add-apt-repository ppa:diesch/testing
+sudo apt update
+sudo apt install ppa-spy
+sudo apt upgrade
+cd yap
+cd bin/
+ls
+./yap 
+sudo apt install opensc-dnie
+sudo apt install opensc
+sudo apt autoremove
+s
+sudo apt install libnss3-tools
+cd /datos/
+cd icons
+rm -rf applications
+cd applications/
+cd 
+cd .local/share/
+cd applications
+cat uno_packages.pmap 
+rm uno_packages.pmap 
+rm -rf *
+cd Escritorio
+cd casa/
+cd regextools/
+./make.sh 
+man stow
+cd dotfiles/
+cd bash-it/
+mv bash-it/ .bash_it
+nano .gitattributes 
+ls la
+cd .git/modules/bash-it/
+mv bash-it bash_it
+cd .bash_it
+nnano .git
+nano .git
+cd modules/
+cd bash_it/
+rm .git
+rm -rf .git
+cd .gimp-2.8/
+rm -rf .bash_it
+cd /datos/
+cd icons
+rm -rf applications
+cd applications/
+cd 
+cd .local/share/
+cd applications
+cd /datos/Sync/Programacion/Python/utext/bin/utext
+cd /datos/Sync/Programacion/Python/utext/bin/
+./utext
+killall python2.7
+cd /datos/Sync/Programacion/Telegram/
+cd Python/telegram/
+./update.sh 
+fg 1
+dch -i
+dch -r
+mybuilder
+killall gnome-software
+killall telegram
+killall Telegram
+killall python
+killall chromium-browser
+mem
+killall nodej
+killall nodejs
+killall node
+cd
+cd temporal
+git clone https://github.com/atareao/ejemplo01.git
+cd ejemplo
+cd ejemplo01/
+git remote remove origin
+git remote add origin git@github.com:atareao/ejemplo01.git
+git clone git@github.com:atareao/my-weather-indicator.git
+cd my-weather-indicator/
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/my-weather-indicator
+git pull launchpad
+git pull launchpad master
+git push origin master
+git remove -v
+git remote -v
+gir remote show launchpad
+git fetch launchpad
+git fetch
+git show-branch -a
+git fectch origin
+git fetch origin
+cd .git/
+cd branches/
+ls -la
+cd refs/
+cd remotes/
+cd origin/
+cd ..
+cat test.txt
+git status launchpad
+git commit -m "nada"
+git show origin
+git show launchpad
+git pull origin
+cat test.txt 
+git merge origin
+git status
+git remote status origin
+git remote get-url --all
+git remote get-url --all origin
+git remote get-url --all launchpad
+git remote get-url --push --all launchpad
+sudo nano test.txt 
+nano test.txt 
+ls
+git add .
+git commit -m "Local"
+git push
+git push origin
+git remote show origin
+git pull
+git push launchpad
+git remote show launchpad
+git push launchpad master
+ssh pi@192.168.1.48
+cd 
+cd
+cd .local/share/
+cd applications
+cd ..
+ls
+ssh pi@192.168.1.48
+ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M status=progress | gzip -" | dd of=/home/lorenzo/cds_20170803.gz
+ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M | gzip -" | dd of=/home/lorenzo/cds_20170803.gz
+time | ls
+time;ls
+time ls
+time ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M [A" | dd of=/home/lorenzo/cds_20170803_1.gz
+time ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M | gzip -" | dd of=/home/lorenzo/cds_20170803_1.gz
+killall node
+killall gnome-software
+mem
+ncdu
+mem
+git push launchpad master
+ssh pi@192.168.1.48
+cd 
+cd .local/share/
+cd applications
+ssh pi@192.168.1.48
+ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M status=progress | gzip -" | dd of=/home/lorenzo/cds_20170803.gz
+ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M | gzip -" | dd of=/home/lorenzo/cds_20170803.gz
+time | ls
+time;ls
+time ls
+time ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M [A" | dd of=/home/lorenzo/cds_20170803_1.gz
+time ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M | gzip -" | dd of=/home/lorenzo/cds_20170803_1.gz
+killall node
+killall gnome-software
+mem
+ncdu
+mem
+cd temporal
+cat 2015-10-07-Ni-Aunque-Me-Lo-Pidas-de-Rodillas.markdown 
+cd ..
+cat podupdater.py 
+nano podupdater.py 
+cp podupdater.py ../../temporal2/Unionpod/_posts/
+cd
+cd temporal2
+cd temporal/temporal2
+cd Unionpod/
+ls
+cd _posts/
+git remote -v
+./podupdater.py 
+cat 2017-08-05-experimenta-con-jekyll.markdown 
+git add .
+ls -la
+git commit -m "added podupdater"
+git push
+killall node
+killall gnome-software
+mem
+ncdu
+mem
+cd
+cd .config/
+cd yap/
+ls
+rm yap.conf 
+cat yap.conf 
+screen
+man screen
+sudo apt remove screen
+git commit -m "Sorted downloads"
+cd ../gqrcode/
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/gqrcode
+git commit -m "On none results"
+git push lauchpad
+dch -i
+mybuilder
+git ad ..
+git add .
+git commit -m "dch"
+git push all
+git push launchpad
+cd pulseeffects/
+./pulseeffects 
+cd jokosher/
+./jokosher 
+cat jokosher
+cd python-sounddevice/
+python sounddevice.py 
+sudo apt install python3-cffi
+python3 sounddevice.py 
+sudo add-apt-repository ppa:diesch/testing
+sudo apt update
+sudo apt install ppa-spy
+sudo apt upgrade
+cd yap
+sudo apt install opensc-dnie
+sudo apt install opensc
+sudo apt autoremove
+s
+sudo apt install libnss3-tools
+cd /datos/
+cd icons
+rm -rf applications
+cd applications/
+cd .local/share/
+cd applications
+cat uno_packages.pmap 
+rm uno_packages.pmap 
+rm -rf *
+cd casa/
+cd regextools/
+./make.sh 
+man stow
+cd dotfiles/
+cd bash-it/
+mv bash-it/ .bash_it
+nano .gitattributes 
+ls la
+cd .git/modules/bash-it/
+mv bash-it bash_it
+cd .bash_it
+nnano .git
+nano .git
+cd modules/
+cd bash_it/
+rm .git
+rm -rf .git
+cd .gimp-2.8/
+rm -rf .bash_it
+cd /datos/
+cd icons
+rm -rf applications
+cd applications/
+cd .local/share/
+cd applications
+cd /datos/Sync/Programacion/Python/utext/bin/utext
+cd /datos/Sync/Programacion/Python/utext/bin/
+./utext
+killall python2.7
+cd /datos/Sync/Programacion/Telegram/
+cd Python/telegram/
+./update.sh 
+fg 1
+dch -i
+dch -r
+mybuilder
+killall gnome-software
+killall telegram
+killall Telegram
+killall chromium-browser
+killall nodej
+killall nodejs
+killall node
+git clone https://github.com/atareao/ejemplo01.git
+cd ejemplo
+cd ejemplo01/
+git remote remove origin
+git remote add origin git@github.com:atareao/ejemplo01.git
+git clone git@github.com:atareao/my-weather-indicator.git
+cd my-weather-indicator/
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/my-weather-indicator
+git pull launchpad
+git pull launchpad master
+git push origin master
+git remove -v
+git remote -v
+gir remote show launchpad
+git fetch launchpad
+git fetch
+git show-branch -a
+git fectch origin
+git fetch origin
+cd .git/
+cd branches/
+cd refs/
+cd remotes/
+cd origin/
+cat test.txt
+git status launchpad
+git commit -m "nada"
+git show origin
+git show launchpad
+git pull origin
+cat test.txt 
+git merge origin
+git status
+git remote status origin
+git remote get-url --all
+git remote get-url --all origin
+git remote get-url --all launchpad
+git remote get-url --push --all launchpad
+sudo nano test.txt 
+nano test.txt 
+git add .
+git commit -m "Local"
+git push origin
+git remote show origin
+git push launchpad
+git remote show launchpad
+git push launchpad master
+ssh pi@192.168.1.48
+cd .local/share/
+cd applications
+ssh pi@192.168.1.48
+ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M status=progress | gzip -" | dd of=/home/lorenzo/cds_20170803.gz
+ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M | gzip -" | dd of=/home/lorenzo/cds_20170803.gz
+time | ls
+time;ls
+time ls
+time ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M [A" | dd of=/home/lorenzo/cds_20170803_1.gz
+time ssh pi@192.168.1.48 "sudo dd if=/dev/mmcblk0 bs=1M | gzip -" | dd of=/home/lorenzo/cds_20170803_1.gz
+killall node
+killall gnome-software
+ncdu
+cd /datos/Sync/Programacion/Python/yap/bin/
+git clone git@github.com:lormez16/Unionpod.git
+nano 2015-10-07-Ni-Aunque-Me-Lo-Pidas-de-Rodillas.markdown 
+cd Escritorio
+nano test.html
+cd 
+killall sublime_text 
+git pull
+git checkout HEAD -- 2017-08-02-vacia-tu-bandeja.markdown
+nano 2017-08-02-vacia-tu-bandeja.markdown 
+chmod +x podupdater.py 
+./podupdater.py 
+nano 2017-08-05-experimenta-con-jekyll.markdown 
+killall geany 
+killall python
+mkdir temporal
+cp ../../../Unionpod/_posts/* ./
+nano 2017-08-06-union-podcastera.markdown 
+git commit -a -m "Added player and script"
+git push
+ls -la
+cd /datos/Sync/Programacion/Python/yap/
+mem
+[A
+./yap 
+history | grep git clone
+history | grep git
+cd temporal/
+mkdir temporal2
+cd temporal
+cd temporal2
+git clone git clone git@github.com:atareao/Unionpod.git
+git clone git@github.com:atareao/Unionpod.git
+cd Unionpod/
+cd _posts/
+cat 2015-10-07-Ni-Aunque-Me-Lo-Pidas-de-Rodillas.markdown 
+cd ..
+mkdir temporal3
+cd temporal3
+ls
+cd
+cd /datos/Sync/Programacion/Python/yap
+cd bin/
+./yap
+cd temporal3
+ls
+cd
+cd /datos/Sync/Programacion/Python/yap
+cd bin/
+./yap
+cd /datos/Sync/Programacion/Python/yap/bin/
+./yap 
+cd /datos/Sync/Programacion/Python/yap
+cd bin/
+./yap
+cd
+cd .config/yap/
+cat yap.conf 
+cd ..
+cd yap/
+cd audio/
+ls
+mv nwL_qI2DbJQ.m4a nwL_qI2DbJQ.m4a.old
+killall geany 
+killall python
+mkdir temporal
+cp ../../../Unionpod/_posts/* ./
+nano 2017-08-06-union-podcastera.markdown 
+git commit -a -m "Added player and script"
+git push
+ls -la
+cd /datos/Sync/Programacion/Python/yap/
+mem
+[A
+history | grep git clone
+history | grep git
+cd temporal/
+mkdir temporal2
+cd temporal
+cd temporal2
+git clone git clone git@github.com:atareao/Unionpod.git
+git clone git@github.com:atareao/Unionpod.git
+cd Unionpod/
+cd _posts/
+cat 2015-10-07-Ni-Aunque-Me-Lo-Pidas-de-Rodillas.markdown 
+cd ..
+mkdir temporal3
+cd temporal3
+ls
+cd
+cd /datos/Sync/Programacion/Python/yap
+cd bin/
+./yap
+cd temporal3
+ls
+cd
+cd /datos/Sync/Programacion/Python/yap
+cd bin/
+./yap
+cd /datos/Sync/Programacion/Python/yap
+cd bin/
+./yap
+cd
+cd .config/yap/
+cat yap.conf 
+cd ..
+cd yap/
+cd audio/
+ls
+mv nwL_qI2DbJQ.m4a nwL_qI2DbJQ.m4a.old
+cd /datos/Sync/Programacion/Python/yap/bin/
+./ya
+uupgrade
+./yap 
+mv nwL_qI2DbJQ.m4a nwL_qI2DbJQ.m4a.old
+mem
+uupgrade
+cd temporal3
+cd /datos/Sync/Programacion/Python/yap
+cd temporal3
+cd /datos/Sync/Programacion/Python/yap
+cd /datos/Sync/Programacion/Python/yap/bin/
+./yap 
+cd /datos/Sync/Programacion/Python/yap
+cd .config/yap/
+cat yap.conf 
+cd yap/
+cd audio/
+mv nwL_qI2DbJQ.m4a nwL_qI2DbJQ.m4a.old
+killall geany 
+killall python
+mkdir temporal
+cp ../../../Unionpod/_posts/* ./
+nano 2017-08-06-union-podcastera.markdown 
+git commit -a -m "Added player and script"
+git push
+ls -la
+mem
+[A
+history | grep git clone
+history | grep git
+cd temporal/
+mkdir temporal2
+cd temporal
+cd temporal2
+git clone git clone git@github.com:atareao/Unionpod.git
+git clone git@github.com:atareao/Unionpod.git
+cd Unionpod/
+cd _posts/
+cat 2015-10-07-Ni-Aunque-Me-Lo-Pidas-de-Rodillas.markdown 
+mkdir temporal3
+cd temporal3
+cd /datos/Sync/Programacion/Python/yap
+cd temporal3
+cd /datos/Sync/Programacion/Python/yap
+cd /datos/Sync/Programacion/Python/yap
+cd .config/yap/
+cat yap.conf 
+cd yap/
+cd audio/
+mv nwL_qI2DbJQ.m4a nwL_qI2DbJQ.m4a.old
+cd /datos/Sync/Programacion/Python/yap/bin/
+./ya
+./yap 
+mv nwL_qI2DbJQ.m4a nwL_qI2DbJQ.m4a.old
+mem
+cd /datos/Sync/Programacion/Python/yap/
+./yap
+cd yoaup/
+cd bin/
+nano yoaup 
+cd data/
+rm feeds.db 
+mv yap.desktop yoaup.desktop
+nano yoaup.desktop 
+cd src/
+mv yap yoaup
+git init
+git commit -m "First commit"
+git remote add origin git@github.com:atareao/yoaup.git
+git push -u origin master
+git remote add origin git+ssh://lorenzo-carbonell@git.launchpad.net/yoaup
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/yoaup
+got push launchpad master
+cd template1/
+cd ..
+./tools.py 
+git commit -m "Updated translations"
+cdh -r
+sudo apt install youtube-dl
+dch -r
+dch -i
+git add .
+git commit -m "Added dependencies"
+git push origin master
+git launchpad origin master
+git push launchpad master
+mybuilder
+uupdate
+uupgrade
+sudo apt install yoaup
+sudo apt install mps-youtube
+mpsyt 
+sudo apt remove mps-youtube
+sudo apt-get install jack-tools ant openjdk-6-jdk fftw3 qjackctl
+sudo apt-get install jack-tools qjackctl
+sudo apt autoremove
+cd
+nano jackd -r -d alsa -r 44100
+nano .jackdrc
+cd .config/jack/
+ls
+nano conf.xml 
+jack_control ds alsa
+jack_control start
+sudo apt install a2jmidid
+a2jmidid -e
+mv yap.desktop yoaup.desktop
+nano yoaup.desktop 
+cd src/
+mv yap yoaup
+git init
+git commit -m "First commit"
+git remote add origin git@github.com:atareao/yoaup.git
+git remote add origin git+ssh://lorenzo-carbonell@git.launchpad.net/yoaup
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/yoaup
+got push launchpad master
+cd template1/
+git commit -m "Updated translations"
+cdh -r
+sudo apt install youtube-dl
+git commit -m "Added dependencies"
+git launchpad origin master
+uupdate
+sudo apt install yoaup
+sudo apt install mps-youtube
+mpsyt 
+sudo apt remove mps-youtube
+sudo apt-get install jack-tools ant openjdk-6-jdk fftw3 qjackctl
+sudo apt-get install jack-tools qjackctl
+sudo apt autoremove
+cd
+nano jackd -r -d alsa -r 44100
+nano .jackdrc
+cd .config/jack/
+nano conf.xml 
+jack_control ds alsa
+jack_control start
+sudo apt install a2jmidid
+a2jmidid -e
+$ sudo apt-get install bucklespring
+sudo apt-get install bucklespring
+buckle 
+sudo add-apt-repository ppa:libreoffice/libreoffice-5-4
+uupgrade
+sudo apt install libreoffice
+cd .config/yoaup/
+cat yoaup.conf 
+cd /datos/Sync/Programacion/Python/yoaup/bin/
+./yoaup 
+libreoffice 
+git commit -m "Added preferences"
+git push origin master
+git push launchpad master
+git push --all
+cd ..
+cd pomodoro-indicator/
+dch -i
+git commit -m "Using gst"
+cp ../my-weather-indicator/.gitignore ./ç
+cp ../my-weather-indicator/.gitignore ./
+rm ç
+ls -la
+git commit -a -m "Using gst"
+git remote remove origin
+git remote add origin git@github.com:atareao/pomodoro-indicator.git
+git remote -v
+git push -u origin master
+./tools.py 
+ls
+git add .
+git commit -a -m "Updated builder"
+git push
+dch -r
+mybuilder
+ncdu
+git remote add origin git@github.com:atareao/yoaup.git
+git push -u origin master
+git remote add origin git+ssh://lorenzo-carbonell@git.launchpad.net/yoaup
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/yoaup
+got push launchpad master
+cd template1/
+git commit -m "Updated translations"
+cdh -r
+sudo apt install youtube-dl
+git commit -m "Added dependencies"
+git launchpad origin master
+uupdate
+sudo apt install yoaup
+sudo apt install mps-youtube
+mpsyt 
+sudo apt remove mps-youtube
+sudo apt-get install jack-tools ant openjdk-6-jdk fftw3 qjackctl
+sudo apt-get install jack-tools qjackctl
+sudo apt autoremove
+nano jackd -r -d alsa -r 44100
+nano .jackdrc
+cd .config/jack/
+nano conf.xml 
+jack_control ds alsa
+jack_control start
+sudo apt install a2jmidid
+a2jmidid -e
+mv yap.desktop yoaup.desktop
+nano yoaup.desktop 
+cd src/
+mv yap yoaup
+git init
+git commit -m "First commit"
+git remote add origin git@github.com:atareao/yoaup.git
+git remote add origin git+ssh://lorenzo-carbonell@git.launchpad.net/yoaup
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/yoaup
+got push launchpad master
+cd template1/
+git commit -m "Updated translations"
+cdh -r
+sudo apt install youtube-dl
+git commit -m "Added dependencies"
+git launchpad origin master
+uupdate
+sudo apt install yoaup
+sudo apt install mps-youtube
+mpsyt 
+sudo apt remove mps-youtube
+sudo apt-get install jack-tools ant openjdk-6-jdk fftw3 qjackctl
+sudo apt-get install jack-tools qjackctl
+sudo apt autoremove
+nano jackd -r -d alsa -r 44100
+nano .jackdrc
+cd .config/jack/
+nano conf.xml 
+jack_control ds alsa
+jack_control start
+sudo apt install a2jmidid
+a2jmidid -e
+$ sudo apt-get install bucklespring
+sudo apt-get install bucklespring
+buckle 
+sudo add-apt-repository ppa:libreoffice/libreoffice-5-4
+sudo apt install libreoffice
+cd .config/yoaup/
+cat yoaup.conf 
+cd /datos/Sync/Programacion/Python/yoaup/bin/
+./yoaup 
+libreoffice 
+git commit -m "Added preferences"
+git push --all
+cd pomodoro-indicator/
+git commit -m "Using gst"
+cp ../my-weather-indicator/.gitignore ./ç
+cp ../my-weather-indicator/.gitignore ./
+rm ç
+git commit -a -m "Using gst"
+git remote remove origin
+git remote add origin git@github.com:atareao/pomodoro-indicator.git
+git remote -v
+git push -u origin master
+git commit -a -m "Updated builder"
+cd /datos/Sync/Programacion/Python/pomodoro-indicator/
+git commit -a -m "Updated translations"
+uupgrade
+killall gnome-software
+killall python
+killall chromium-browser
+cd yoaup/
+dch -i
+git add .
+git commit -m "Added support to download youtube lists"
+git push
+cd ../gqrcode/
+dch -r
+./tools.py 
+git commit -a -m "Fixed bugs"
+git push origin master
+git push origin launchpad
+git push launchpad master
+mybuilder
+cd
+cd Escritorio
+nano whatsapp.sh
+chmod +x whatsapp.sh 
+./whatsapp.sh 
+mkdir bin
+mv Escritorio/whatsapp.sh bin/
+cd ../Escritorio
+mv WhatsApp.svg ../.local/share/icons/hicolor/scalable/
+cd bin/
+mb whatsapp.sh ../.local/bin/
+mv whatsapp.sh ../.local/bin/
+rm -rf bin
+cd .local/
+cd icons
+cd hicolor/
+cd scalable/
+mkdir apps
+mv WhatsApp.svg apps/
+cd ..
+cd share/
+cd applications
+cp telegramdesktop.desktop whatsapp.desktop
+cat whatsapp.desktop 
+cp whatsapp.desktop gmail.desktop
+cat chrome-aohghmighlieiainnegkcijnfilokake-Default.desktop 
+fg 1
+nano whatsapp.desktop 
+chmod 600 gmail.desktop 
+/usr/bin/chromium-browser --profile-directory=Default --app=https://mail.google.com/mail/u/0/
+nano mimeapps.list 
+nano google-docs.desktop 
+nano gmail.desktop 
+cat chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default.desktop 
+nano chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default.desktop sed -i -- 's/\/opt\/google\/chrome\/google-chrome/\/usr\/bin\/chromium-browser/g' *
+sed -i -- 's/\/opt\/google\/chrome\/google-chrome/\/usr\/bin\/chromium-browser/g' *
+nano android-studio.desktop 
+nano chrome-ao
+nano chrome-apdfllckaahabafndbhieahigkjlhalf-Default.desktop 
+nano chrome-bgjohebimpjdhhocbknplfelpmdhifhd-Default.desktop 
+nano chrome-bhmicilclplefnflapjmnngmkkkkpfad-Default.desktop 
+nano chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default.desktop 
+sed -i -- 's/#NoDisplay=true//g' *
+sed -i -- 's/NoDisplay=true/#NoDisplay=true/g' *
+nano chrome-aohghmighlieiainnegkcijnfilokake-Default.desktop 
+nano chrome-haiffjcadagjlijoggckpgfnoeiflnem-Default.desktop 
+nano chrome-gbchcmhmhahfdphkhkmpfmihenigjmpp-Default.desktop 
+ls -la
+nano chrome-bgkodfmeijboinjdegggmkbkjfiagaan-Default.desktop 
+mem
+sudo nano /etc/sysctl.conf 
+sudo nano /etc/cron.weekly/
+cd /etc/cron.weekly/
+ls
+nano fstrim 
+sudo nano /etc/default/grub 
+sudo update-grub
+sudo nano /etc/fstab 
+mybuilder
+cd /opt/
+cd 
+cd /usr/bin/
+ls
+ls chr*
+nano chrome-aohghmighlieiainnegkcijnfilokake-Default.desktop 
+nano chrome-haiffjcadagjlijoggckpgfnoeiflnem-Default.desktop 
+nano chrome-gbchcmhmhahfdphkhkmpfmihenigjmpp-Default.desktop 
+nano chrome-bgkodfmeijboinjdegggmkbkjfiagaan-Default.desktop 
+sudo nano /etc/sysctl.conf 
+sudo nano /etc/cron.weekly/
+cd /etc/cron.weekly/
+nano fstrim 
+sudo nano /etc/default/grub 
+sudo update-grub
+sudo nano /etc/fstab 
+cd /opt/
+cd 
+cd /usr/bin/
+ls chr*
+cd /tmp/
+mem
+ssh 192.168.1.48
+ssh pi@192.168.1.48
+cd mnt
+cd /mnt
+cd raspberry/
+cd ..
+mkdir pi
+sudo mkdir pi
+sshfs
+sudo apt install sshfs
+ls -la
+sudo chown lorenzo:lorenzo pi
+sshfs pi@192.168.1.48: pi
+cd pi
+range
+ranger
+cd
+uupgrade
+cd /datos/Sync/Programacion/Python/national-geographic-wallpaper/
+./tools.py
+ls
+dch -r
+dch -i
+git add .
+git commit "Added desktoppr"
+git commit -m "Added desktoppr"
+git push
+mybuilder
+cat whatsapp.desktop 
+cp whatsapp.desktop gmail.desktop
+cat chrome-aohghmighlieiainnegkcijnfilokake-Default.desktop 
+fg 1
+nano whatsapp.desktop 
+chmod 600 gmail.desktop 
+/usr/bin/chromium-browser --profile-directory=Default --app=https://mail.google.com/mail/u/0/
+nano mimeapps.list 
+nano google-docs.desktop 
+nano gmail.desktop 
+cat chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default.desktop 
+nano chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default.desktop sed -i -- 's/\/opt\/google\/chrome\/google-chrome/\/usr\/bin\/chromium-browser/g' *
+sed -i -- 's/\/opt\/google\/chrome\/google-chrome/\/usr\/bin\/chromium-browser/g' *
+nano android-studio.desktop 
+nano chrome-ao
+nano chrome-apdfllckaahabafndbhieahigkjlhalf-Default.desktop 
+nano chrome-bgjohebimpjdhhocbknplfelpmdhifhd-Default.desktop 
+nano chrome-bhmicilclplefnflapjmnngmkkkkpfad-Default.desktop 
+nano chrome-pjkljhegncpnkpknbcohdijeoejaedia-Default.desktop 
+sed -i -- 's/#NoDisplay=true//g' *
+sed -i -- 's/NoDisplay=true/#NoDisplay=true/g' *
+nano chrome-aohghmighlieiainnegkcijnfilokake-Default.desktop 
+nano chrome-haiffjcadagjlijoggckpgfnoeiflnem-Default.desktop 
+nano chrome-gbchcmhmhahfdphkhkmpfmihenigjmpp-Default.desktop 
+nano chrome-bgkodfmeijboinjdegggmkbkjfiagaan-Default.desktop 
+sudo nano /etc/sysctl.conf 
+sudo nano /etc/cron.weekly/
+cd /etc/cron.weekly/
+nano fstrim 
+sudo nano /etc/default/grub 
+sudo update-grub
+sudo nano /etc/fstab 
+cd /opt/
+cd 
+cd /usr/bin/
+ls chr*
+curl https://api.desktoppr.co/1/wallpapers/random
+cd /datos/Sync/Programacion/Python/pomodoro-indicator/
+dch -r
+mybuilder
+git commit -a -m "Fixing"
+history | grep ranger
+sudo apt install img2txt
+sudo apt install caca-utils
+img2txt 
+sudo apt install pdftotext
+range
+ranger
+cd Imágenes
+img2txt uPodcatcher_001.png 
+uupgrade
+mem
+sudo apt install gnome-builder
+cd /datos/Sync/Programacion/GNOME/
+man gnome-shell-extension-tool 
+gnome-shell-extension-tool -h
+cd /etc/skel/
+nano .bash_logout 
+sudo nano .bashrc 
+cd /
+cd home/
+cd chiquito
+nano .bashrc 
+cd
+gnome-shell-extension-tool -c
+cd /datos/Sync/Programacion/Python/utext
+git commit -m "To new interface"
+git remote -v
+git remote remove origin
+git remote add origin git@github.com:atareao/utext.git
+git remote push
+git push -u origin master
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/utext
+./tools.py 
+cd template1/
+ls -la
+nano es.po 
+git push 
+git commit -m "Updated translations"
+git push launchpad master
+ls
+cd ..
+git add .
+git commit -m "Updated README.md"
+git push
+time sudo apt remove libreoffice
+time sudo apt install libreoffice
+time sudo apt remove libreoffice*
+time sudo apt install gir1.2-lokdocview-0.1 liblibreofficekitgtk libreoffice libreoffice-avmedia-backend-gstreamer libreoffice-base libreoffice-base-core libreoffice-base-drivers libreoffice-calc libreoffice-common libreoffice-core libreoffice-dev libreoffice-dev-common libreoffice-dev-doc libreoffice-draw libreoffice-gnome libreoffice-gtk3 libreoffice-help-en-us libreoffice-help-es libreoffice-impress libreoffice-java-common libreoffice-l10n-es libreoffice-librelogo libreoffice-math libreoffice-nlpsolver libreoffice-ogltrans libreoffice-pdfimport libreoffice-report-builder libreoffice-report-builder-bin libreoffice-script-provider-bsh libreoffice-script-provider-js libreoffice-script-provider-python libreoffice-sdbc-hsqldb libreoffice-sdbc-postgresql libreoffice-style-breeze libreoffice-style-elementary libreoffice-style-galaxy libreoffice-style-sifr libreoffice-style-tango libreoffice-wiki-publisher libreoffice-writer libreofficekit-data python3-uno unoconv
+ls
+cd ..
+git add .
+git commit -m "Updated README.md"
+git push
+time sudo apt remove libreoffice
+time sudo apt install libreoffice
+time sudo apt remove libreoffice*
+time sudo apt install gir1.2-lokdocview-0.1 liblibreofficekitgtk libreoffice libreoffice-avmedia-backend-gstreamer libreoffice-base libreoffice-base-core libreoffice-base-drivers libreoffice-calc libreoffice-common libreoffice-core libreoffice-dev libreoffice-dev-common libreoffice-dev-doc libreoffice-draw libreoffice-gnome libreoffice-gtk3 libreoffice-help-en-us libreoffice-help-es libreoffice-impress libreoffice-java-common libreoffice-l10n-es libreoffice-librelogo libreoffice-math libreoffice-nlpsolver libreoffice-ogltrans libreoffice-pdfimport libreoffice-report-builder libreoffice-report-builder-bin libreoffice-script-provider-bsh libreoffice-script-provider-js libreoffice-script-provider-python libreoffice-sdbc-hsqldb libreoffice-sdbc-postgresql libreoffice-style-breeze libreoffice-style-elementary libreoffice-style-galaxy libreoffice-style-sifr libreoffice-style-tango libreoffice-wiki-publisher libreoffice-writer libreofficekit-data python3-uno unoconv
+uupgrade
+killal chromium-browser
+killall chromium-browser
+sudo firefox-locale-es
+sudo apt install firefox-locale-es
+sudo apt autoremove
+mem
+killall chromium-browser 
+git remote add origin git@github.com:atareao/utext.git
+git remote push
+git push -u origin master
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/utext
+cd template1/
+ls -la
+git push 
+git commit -m "Updated translations"
+git push launchpad master
+git commit -m "Updated README.md"
+time sudo apt remove libreoffice
+time sudo apt install libreoffice
+time sudo apt remove libreoffice*
+time sudo apt install gir1.2-lokdocview-0.1 liblibreofficekitgtk libreoffice libreoffice-avmedia-backend-gstreamer libreoffice-base libreoffice-base-core libreoffice-base-drivers libreoffice-calc libreoffice-common libreoffice-core libreoffice-dev libreoffice-dev-common libreoffice-dev-doc libreoffice-draw libreoffice-gnome libreoffice-gtk3 libreoffice-help-en-us libreoffice-help-es libreoffice-impress libreoffice-java-common libreoffice-l10n-es libreoffice-librelogo libreoffice-math libreoffice-nlpsolver libreoffice-ogltrans libreoffice-pdfimport libreoffice-report-builder libreoffice-report-builder-bin libreoffice-script-provider-bsh libreoffice-script-provider-js libreoffice-script-provider-python libreoffice-sdbc-hsqldb libreoffice-sdbc-postgresql libreoffice-style-breeze libreoffice-style-elementary libreoffice-style-galaxy libreoffice-style-sifr libreoffice-style-tango libreoffice-wiki-publisher libreoffice-writer libreofficekit-data python3-uno unoconv
+git commit -m "Updated README.md"
+time sudo apt remove libreoffice
+time sudo apt install libreoffice
+time sudo apt remove libreoffice*
+time sudo apt install gir1.2-lokdocview-0.1 liblibreofficekitgtk libreoffice libreoffice-avmedia-backend-gstreamer libreoffice-base libreoffice-base-core libreoffice-base-drivers libreoffice-calc libreoffice-common libreoffice-core libreoffice-dev libreoffice-dev-common libreoffice-dev-doc libreoffice-draw libreoffice-gnome libreoffice-gtk3 libreoffice-help-en-us libreoffice-help-es libreoffice-impress libreoffice-java-common libreoffice-l10n-es libreoffice-librelogo libreoffice-math libreoffice-nlpsolver libreoffice-ogltrans libreoffice-pdfimport libreoffice-report-builder libreoffice-report-builder-bin libreoffice-script-provider-bsh libreoffice-script-provider-js libreoffice-script-provider-python libreoffice-sdbc-hsqldb libreoffice-sdbc-postgresql libreoffice-style-breeze libreoffice-style-elementary libreoffice-style-galaxy libreoffice-style-sifr libreoffice-style-tango libreoffice-wiki-publisher libreoffice-writer libreofficekit-data python3-uno unoconv
+killal chromium-browser
+killall chromium-browser
+sudo firefox-locale-es
+sudo apt install firefox-locale-es
+sudo apt autoremove
+mem
+killall chromium-browser 
+cd /datos/Sync/Programacion/Python/
+cd pomodoro-indicator/
+cd national-geographic-wallpaper/
+./tools.py 
+cd po/
+nano es.po 
+dch -r
+dch -i
+git add .
+git commit -m "Added NASA source"
+git push
+mybuilder
+uupgrade
+ssh pi@192.168.1.48
+cd
+cd temporal
+cd mnt
+ks
+mkdir pi
+umount pi
+umount /home/lorenzo/temporal/mnt/pi
+sudo umount /home/lorenzo/temporal/mnt/pi
+sudo umount pi
+cd pi/
+cd ..
+sshfs pi@192.168.1.48: pi
+cd pi
+ls
+exit
+exit
+sudo umount pi
+cd pi/
+cd ..
+sshfs pi@192.168.1.48: pi
+cd pi
+exit
+exit
+ls
+killall chromium-browser 
+killall shutter
+killall gnome-software
+mem
+ssh pi@192.168.1.48
+ssh lorenzo@192.168.1.181
+cd ..
+sshfs pi@192.168.1.48: pi
+cd pi
+exit
+exit
+cd .bash_it
+cd aliases/
+cat custom.aliases.bash 
+mem
+sudo apt install vlc-plugin-*
+sudo apt-get install ubuntu-restricted-extras
+killall vlc
+sudo add-apt-repository ppa:pithos/ppa
+uupgrade
+sudo apt install pithos
+sudo apt remove pithos
+sudo apt  autoremove
+sudo add-apt-repository --remove ppa:pithos/ppa
+cd 
+cd temporal
+cd ulogme/
+ls
+python ulogme_serve.py 
+./ulogme.sh 
+exit
+exit
+ssh lorenzo@192.168.1.181
+ssh admin@192.168.1.181
+sudo apt install folder-color
+killall nautilus
+ssh pi@192.168.1.48
+uupgrade
+ssh pi@192.168.1.48
+cd temporal
+cd mnt
+ks
+mkdir pi
+umount pi
+umount /home/lorenzo/temporal/mnt/pi
+sudo umount /home/lorenzo/temporal/mnt/pi
+sudo umount pi
+cd pi/
+cd ..
+sshfs pi@192.168.1.48: pi
+cd pi
+exit
+exit
+rm ods_00_simple.pyc 
+rm datos.ods.bak 
+rm 2017-05-14-vacia-tu-bandeja.md 
+./post_creator.py 
+cd
+cd Sync
+cd Programacion/Python/
+cd scr
+cd scripts/
+ls
+chmod +x wordpress.sh 
+./wordpress.sh 
+cat test 
+mem
+killall firefox
+mem
+killall firefox
+sudo apt remove vocal
+sudo apt install currency
+cd Descargas
+sudo dpkg -i currency_0.2+r39-0-ubuntu14.04.1_amd64.deb 
+sudo dpkg -i vocal_2.0+r90-0-ubuntu15.10.1_amd64.deb 
+sudo dpkg -i footnote_0.1+r366+pkg12-daily-ubuntu0.3.2.1_amd64.deb 
+sudo apt install -f
+ls com*
+sudo dpkg -i com.github.parnold-x.nasc_0.4-0-38-ubuntu17.04.1_amd64.deb 
+sudo apt -f install
+sudo add-apt-repository sudo add-apt-repository ppa:nasc-team/daily
+sudo add-apt-repository ppa:nasc-team/daily
+uupgrade
+sudo apt install  com.github.parnold-x.nasc
+cd ..
+cd temporal
+mkdir frames
+ffmpeg -i nascInAction.mp4 -r 5 "frames/frame-%03d.jpg"
+cd frames/
+ls
+convert -delay 20 -loop 0 *.jpg nasc.gif
+ls -la
+killall vlc
+sudo add-apt-repository ppa:pithos/ppa
+sudo apt install pithos
+sudo apt remove pithos
+sudo apt  autoremove
+sudo add-apt-repository --remove ppa:pithos/ppa
+cd temporal
+cd ulogme/
+python ulogme_serve.py 
+./ulogme.sh 
+exit
+exit
+ssh lorenzo@192.168.1.181
+ssh admin@192.168.1.181
+sudo apt install folder-color
+killall nautilus
+cd temporal
+cd mnt
+ks
+mkdir pi
+umount pi
+umount /home/lorenzo/temporal/mnt/pi
+sudo umount /home/lorenzo/temporal/mnt/pi
+sudo umount pi
+cd pi/
+sshfs pi@192.168.1.48: pi
+cd pi
+exit
+exit
+rm ods_00_simple.pyc 
+rm datos.ods.bak 
+rm 2017-05-14-vacia-tu-bandeja.md 
+./post_creator.py 
+cd Sync
+cd Programacion/Python/
+cd scr
+cd scripts/
+chmod +x wordpress.sh 
+./wordpress.sh 
+cat test 
+mem
+killall firefox
+mem
+killall firefox
+sudo apt remove vocal
+sudo apt install currency
+sudo dpkg -i currency_0.2+r39-0-ubuntu14.04.1_amd64.deb 
+sudo dpkg -i vocal_2.0+r90-0-ubuntu15.10.1_amd64.deb 
+sudo dpkg -i footnote_0.1+r366+pkg12-daily-ubuntu0.3.2.1_amd64.deb 
+sudo apt install -f
+ls com*
+sudo dpkg -i com.github.parnold-x.nasc_0.4-0-38-ubuntu17.04.1_amd64.deb 
+sudo apt -f install
+sudo add-apt-repository sudo add-apt-repository ppa:nasc-team/daily
+sudo add-apt-repository ppa:nasc-team/daily
+sudo apt install  com.github.parnold-x.nasc
+cd temporal
+mkdir frames
+ffmpeg -i nascInAction.mp4 -r 5 "frames/frame-%03d.jpg"
+cd frames/
+convert -delay 20 -loop 0 *.jpg nasc.gif
+sudo nano /etc/bluetooth/audio.conf
+cd /etc/bluetooth/
+sudo nano audio.conf
+sudo service bluetooth restart
+sudo apt install d-feet
+sdptooll browse local
+sudo nano /etc/systemd/system/dbus-org.bluez.service
+sudo systemctl daemon-reload
+sudo systemctl restart bluetooth
+sudo chmod 777 /var/run/sdp 
+sdptool browse local
+sudo apt-get install rygel rygel-gst-launch rygel-tracker rygel-playbin rygel-preferences wavpack paprefs pavucontrol
+rygel
+sudo apt-get remove rygel rygel-gst-launch rygel-tracker rygel-playbin rygel-preferences
+ffplay 'rtsp://192.168.1.15:8080'
+miracled
+miraclectl
+sudo apt-get install python-coherence
+./setup.py 
+./setup.py babilon
+./setup.py --help
+cd data/
+rm hibernate.desktop kill.desktop lock.desktop logout.desktop restart.desktop screensaver-start.desktop shutdown.desktop suspend.desktop 
+rm -rf .bzr/
+cp ../my-weather-indicator/.gitignore ./
+ls -la
+git commit -m
+rit remote remove origin
+git remote remove origin
+git remote -v
+git remote add origin git@github.com:atareao/power-commands.git
+git commit -m "Zesty"
+git push -u origin master
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/power-commands
+sudo apt autoremove
+sudo apt install power-commands
+gnome-screensaver-command
+cd /
+cd /opt/extras.ubuntu.com/
+cd power-commands/
+cd bin/
+power kill
+./power kill
+cd ..
+cd /datos/Sync/Programacion/Python/power-commands/
+git commit -m "Added icons"
+dch -i
+git add .
+git commit -m "keywords"
+git commit -a -m "keywords"
+git push
+git push launchpad
+./setup.py translate
+dch -r
+mybuilder
+uupgrade
+xkill
+d
+cd
+cd Descargas
+sudo fdisk -l | grep /dev/mmcblk
+cd 
+cd /datos/Sync/RaspberryPi/
+ls
+tar xzOf cds_20170714.tar.gz | sudo dd of=/dev/mmcblk0 bs=1M status=progress; sync
+ssh pi@192.168.1.48
+ssh admin@192.168.1.181
+ssh pi@192.1681.48
+ssh pi@192.168.1.48
+ssh admin@192.168.1.181
+ssh pi@192.1681.48
+ssh pi@192.168.1.48
+upgrade
+uupgrade
+cd /usr/share/applications/
+ls pc-*
+cat pc-kill.desktop 
+cat pc-hibernate.desktop 
+cd 
+cd /datos/Sync/Programacion/Python/power-commands/
+ls
+dch -r
+dch -i
+git add .
+git commit -m "Updated translations"
+git push
+git push launchpad
+mybuilder
+sudo apt install python3-paramiko
+python3
+cd 
+cd /datos/Sync/Programacion/Python/power-commands/
+dch -r
+dch -i
+git add .
+git commit -m "Updated translations"
+git push
+git push launchpad
+mybuilder
+sudo apt install python3-paramiko
+python3
+ssh pi@192.168.1.48
+sudo apt install jq
+cd
+cd Escritorio
+mkdir test
+cd test/
+jq
+nano input.json
+inplace
+ls
+jq ...
+jq ... input.json > tmp.json
+jq ['alt-speed-down'] input.json > tmp.json
+jq . ['alt-speed-down'] input.json > tmp.json
+jq [.'alt-speed-down'] input.json > tmp.json
+jq input.json [."alt-speed-down"]
+man jq
+jq [."alt-speed-down"] input.json 
+jq ["alt-speed-down"] input.json 
+jq .["alt-speed-down"] input.json 
+jq .['alt-speed-down'] input.json 
+jq .['encryption'] input.json 
+jq ."alt-spped-down" input.json 
+jq ."alt\-spped\-down" input.json 
+jq ."alt-speed-down" input.json 
+jq ."alt-speed-enabled" input.json 
+jq ."alt\-speed\-enabled" input.json 
+jq ."encryption" input.json 
+jq . input.json 
+jq ."utp-enabled" input.json 
+jq .["utp-enabled"] input.json 
+jq '.["utp-enabled"]' input.json 
+jq '.["encryption"]' input.json 
+cp input.json temp.json
+jq '.["utp-enabled"]'=false input.json > tmp.json && mv tmp.json input.json
+jq '.["upload-limit"]'=true input.json > tmp.json && mv tmp.json input.json
+jq '.["utp-enabled"]'=true input.json > tmp.json && mv tmp.json input.json
+jq '.["upload-limit"]'=100 input.json > tmp.json && mv tmp.json input.json
+cat input.json 
+ls
+cd temporal
+cd ulogme/
+python ulogme_serve.py 
+./ulogme.sh 
+exit
+exit
+ssh lorenzo@192.168.1.181
+sudo apt install folder-color
+killall nautilus
+cd temporal
+cd mnt
+ks
+mkdir pi
+umount pi
+umount /home/lorenzo/temporal/mnt/pi
+sudo umount /home/lorenzo/temporal/mnt/pi
+sudo umount pi
+cd pi/
+sshfs pi@192.168.1.48: pi
+cd pi
+exit
+exit
+rm ods_00_simple.pyc 
+rm datos.ods.bak 
+rm 2017-05-14-vacia-tu-bandeja.md 
+./post_creator.py 
+cd Sync
+cd Programacion/Python/
+cd scr
+cd scripts/
+chmod +x wordpress.sh 
+./wordpress.sh 
+cat test 
+killall firefox
+killall firefox
+sudo apt remove vocal
+sudo apt install currency
+sudo dpkg -i currency_0.2+r39-0-ubuntu14.04.1_amd64.deb 
+sudo dpkg -i vocal_2.0+r90-0-ubuntu15.10.1_amd64.deb 
+sudo dpkg -i footnote_0.1+r366+pkg12-daily-ubuntu0.3.2.1_amd64.deb 
+ls com*
+sudo dpkg -i com.github.parnold-x.nasc_0.4-0-38-ubuntu17.04.1_amd64.deb 
+sudo apt -f install
+sudo add-apt-repository sudo add-apt-repository ppa:nasc-team/daily
+sudo add-apt-repository ppa:nasc-team/daily
+sudo apt install  com.github.parnold-x.nasc
+cd temporal
+mkdir frames
+ffmpeg -i nascInAction.mp4 -r 5 "frames/frame-%03d.jpg"
+cd frames/
+convert -delay 20 -loop 0 *.jpg nasc.gif
+sudo nano /etc/bluetooth/audio.conf
+cd /etc/bluetooth/
+sudo nano audio.conf
+sudo service bluetooth restart
+sudo apt install d-feet
+sdptooll browse local
+sudo nano /etc/systemd/system/dbus-org.bluez.service
+sudo systemctl daemon-reload
+sudo systemctl restart bluetooth
+sudo chmod 777 /var/run/sdp 
+sdptool browse local
+sudo apt-get install rygel rygel-gst-launch rygel-tracker rygel-playbin rygel-preferences wavpack paprefs pavucontrol
+rygel
+sudo apt-get remove rygel rygel-gst-launch rygel-tracker rygel-playbin rygel-preferences
+ffplay 'rtsp://192.168.1.15:8080'
+miracled
+miraclectl
+sudo apt-get install python-coherence
+./setup.py 
+./setup.py babilon
+./setup.py --help
+cd data/
+rm hibernate.desktop kill.desktop lock.desktop logout.desktop restart.desktop screensaver-start.desktop shutdown.desktop suspend.desktop 
+rm -rf .bzr/
+cp ../my-weather-indicator/.gitignore ./
+git commit -m
+rit remote remove origin
+git remote remove origin
+git remote add origin git@github.com:atareao/power-commands.git
+git commit -m "Zesty"
+git push -u origin master
+git remote add launchpad git+ssh://lorenzo-carbonell@git.launchpad.net/power-commands
+sudo apt autoremove
+sudo apt install power-commands
+gnome-screensaver-command
+cd /
+cd /opt/extras.ubuntu.com/
+cd power-commands/
+power kill
+./power kill
+cd /datos/Sync/Programacion/Python/power-commands/
+git commit -m "Added icons"
+dch -i
+git commit -m "keywords"
+git commit -a -m "keywords"
+./setup.py translate
+xkill
+d
+sudo fdisk -l | grep /dev/mmcblk
+cd /datos/Sync/RaspberryPi/
+tar xzOf cds_20170714.tar.gz | sudo dd of=/dev/mmcblk0 bs=1M status=progress; sync
+ssh pi@192.1681.48
+ssh pi@192.1681.48
+upgrade
+cd /usr/share/applications/
+ls pc-*
+cat pc-kill.desktop 
+cat pc-hibernate.desktop 
+cd /datos/Sync/Programacion/Python/power-commands/
+dch -i
+git commit -m "Updated translations"
+sudo apt install python3-paramiko
+python3
+cd /datos/Sync/Programacion/Python/power-commands/
+dch -i
+git commit -m "Updated translations"
+sudo apt install python3-paramiko
+python3
+sudo apt install jq
+mkdir test
+cd test/
+jq
+nano input.json
+inplace
+jq ...
+jq ... input.json > tmp.json
+jq ['alt-speed-down'] input.json > tmp.json
+jq . ['alt-speed-down'] input.json > tmp.json
+jq [.'alt-speed-down'] input.json > tmp.json
+jq input.json [."alt-speed-down"]
+man jq
+jq [."alt-speed-down"] input.json 
+jq ["alt-speed-down"] input.json 
+jq .["alt-speed-down"] input.json 
+jq .['alt-speed-down'] input.json 
+jq .['encryption'] input.json 
+jq ."alt-spped-down" input.json 
+jq ."alt\-spped\-down" input.json 
+jq ."alt-speed-down" input.json 
+jq ."alt-speed-enabled" input.json 
+jq ."alt\-speed\-enabled" input.json 
+jq ."encryption" input.json 
+jq . input.json 
+jq ."utp-enabled" input.json 
+jq .["utp-enabled"] input.json 
+jq '.["utp-enabled"]' input.json 
+jq '.["encryption"]' input.json 
+cp input.json temp.json
+jq '.["utp-enabled"]'=false input.json > tmp.json && mv tmp.json input.json
+jq '.["upload-limit"]'=true input.json > tmp.json && mv tmp.json input.json
+jq '.["utp-enabled"]'=true input.json > tmp.json && mv tmp.json input.json
+jq '.["upload-limit"]'=100 input.json > tmp.json && mv tmp.json input.json
+cat input.json 
+cd /datos/Sync/Programacion/Python/scripts/
+chmod +x install_telegram_cli.sh 
+git commit -m "Added install_telegram_cli.sh"
+sudo /etc/init.d/transmission-daemon stop
+ssh 192.168.1.15:2222
+ssh-keygen -f "/home/lorenzo/.ssh/known_hosts" -R [192.168.1.15]:2222
+ssh 192.168.1.15
+scp 192.168.1.15:SDCard/Pictures/Screenshots/Screenshot_20170624-1716* ./
+scp 192.168.1.15:SDCard/Pictures/Screenshots/Screenshot_20170824* ./
+wget https://raw.githubusercontent.com/transmission/transmission/master/gtk/icons/hicolor_apps_scalable_transmission.svg
+sudo sudo add-apt-repository ppa:atareao/yoaup
+sudo add-apt-repository ppa:atareao/yoaup
+uupgrade
+sudo apt install yoaup
+cd /datos/Sync/Programacion/
+mkdir screenshots
+cp ~/Imágenes/YOAUP* screenshots/
+cp ~/Imágenes/Acerca\ de\ YOAUP_074.png screenshots/
+cd screenshots/
+git commit -m "updated README"
+cp ~/Imágenes/Selección_075.png screenshots/
+git commit -m "Updated README"
+nano .nanorc 
+cd .nano
+git remote -v
+cd /usr/share/nano/
+cd Escritorio
+scp pi@192.168.1.48:/srv/torrents/Adele.Y.El.Misterio.De.La.Momia.DVD.XviD.[www.DivxTotaL.com].avi ./
+rm Adele.Y.El.Misterio.De.La.Momia.DVD.XviD.\[www.DivxTotaL.com\].avi 
+cd /datos/Sync/Programacion/Python/
+cd Telegram/
+git pull
+git checkout staging
+git merge -X 
+git merge -X ours
+git clone git@github.com:python-telegram-bot/python-telegram-bot.git
+rm -rf canalatareaobot
+mkdir canalatareaobot
+mkdir src
+cd canalatareaobot/
+cd python-telegram-bot/
+cd telegram/
+rm python-telegram-bot/
+ln ../python-telegram-bot/telegram/ telegram
+ln -s ../python-telegram-bot/telegram/ telegram
+nano test.py
+rm -rf python-telegram-bot/
+rm -rf .git
+git init
+git submodule add git@github.com:python-telegram-bot/python-telegram-bot.git --recursive
+git submodule add git@github.com:python-telegram-bot/python-telegram-bot.git --recursive -f
+git submodule add git@github.com:python-telegram-bot/python-telegram-bot.git
+git submodule update --init --recursive
+cd src/
+fg 1
+mv ~/Descargas/feedly-5357cfb9-36ad-449e-bed6-6a043b323935-2017-08-25.opml ./
+mv feedly-5357cfb9-36ad-449e-bed6-6a043b323935-2017-08-25.opml  feeds.opml
+cat feeds.opml 
+ls -la
+sudo apt install python3-listparser
+ln -s ../listparser listparser
+nano test.py 
+python3 test.py 
+ssh admin@192.168.1.181
+cd Python/
+cd yoaup/
+git commit -m "Improved README"
+git push
+git push launchpad
+cd .local/
+share
+cd lib/
+cd bin/
+cd share/
+cd gnome-shell/
+cd extensions/
+rm -rf drive-menu@gnome-shell-extensions.gcampax.github.com/
+cd /datos/Sync/Programacion/Python/yoaup/
+cd debian/
+touch preinst
+chmod +x preinst 
+nano preinst 
+cd 
+cd -
+cd /datos/Sync/Programacion/Python/yoaup/debian/
+dch -r
+git add .
+y
+cd ..
+mybuilder
+nano
+sudo apt-add-repository ppa:philip.scott/projects && sudo apt-get update
+sudo apt install notes-up
+sudo apt-add-repository --remove ppa:philip.scott/projects
+cd
+cd Descargas
+sudo apt install -g
+sudo add-apt-repository ppa:elementary-os/stable
+sudo apt update
+sudo add-apt-repository --remove ppa:elementary-os/stable
+ls
+sudo dpkg -i notes-up_0.1-0-20+r1-ubuntu0.4.1_amd64.deb 
+sudo dpkg -i libgranite3_0.4.1+r1068+pkg87-ubuntu0.4.1_amd64.deb 
+sudo dpkg -i libgranite-common_0.4.1+r1068+pkg87-ubuntu0.4.1_all.deb 
+notes-up 
+sudo dpkg -r notes-up
+sudo dpkg -r libgranite3
+sudo dpkg -r libgranite-common
+sudo dpkg -r currency
+sudo dpkg -r bookworm 
+sudo dpkg -r vocal
+sudo dpkg -r libgranite2
+ssh pi@192.168.1.48
+sudo snap install buka
+sudo snap remove buka
+sudo apt install gtypist
+gtypist
+ls airtime-easy-setup.deb 
+sudo dpkg -i airtime-easy-setup.deb 
+sudo apt remove airtime-easy-setup
+sudo apt install -f
+sudo apt instal gitg
+sudo apt install gitg
+sudo sudo apt install gitg
+top
+htop
+mem
+killall gnome-software
+history|awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r
+bastet
+s-tui
+sudo apt install vokoscreen
+./tools.py 
+cd po/
+nano es.po 
+dch -r
+dch -i
+git commit -m "Added NASA source"
+git push
+mybuilder
+uupgrade
+cd temporal
+cd mnt
+ks
+mkdir pi
+umount pi
+umount /home/lorenzo/temporal/mnt/pi
+sudo umount /home/lorenzo/temporal/mnt/pi
+sudo umount pi
+cd pi/
+sshfs pi@192.168.1.48: pi
+cd pi
+exit
+exit
+sudo umount pi
+cd pi/
+sshfs pi@192.168.1.48: pi
+cd pi
+exit
+exit
+killall chromium-browser 
+killall shutter
+killall gnome-software
+mem
+ssh lorenzo@192.168.1.181
+sshfs pi@192.168.1.48: pi
+cd pi
+exit
+exit
+cd .bash_it
+cd aliases/
+cat custom.aliases.bash 
+mem
+sudo apt install vlc-plugin-*
+sudo apt-get install ubuntu-restricted-extras
+killall vlc
+sudo add-apt-repository ppa:pithos/ppa
+uupgrade
+sudo apt install pithos
+sudo apt remove pithos
+sudo apt  autoremove
+sudo add-apt-repository --remove ppa:pithos/ppa
+cd 
+cd temporal
+cd ulogme/
+python ulogme_serve.py 
+./ulogme.sh 
+exit
+exit
+ssh lorenzo@192.168.1.181
+ssh admin@192.168.1.181
+sudo apt install folder-color
+killall nautilus
+uupgrade
+cd temporal
+cd mnt
+ks
+mkdir pi
+umount pi
+umount /home/lorenzo/temporal/mnt/pi
+sudo umount /home/lorenzo/temporal/mnt/pi
+sudo umount pi
+cd pi/
+sshfs pi@192.168.1.48: pi
+cd pi
+exit
+exit
+rm ods_00_simple.pyc 
+rm datos.ods.bak 
+rm 2017-05-14-vacia-tu-bandeja.md 
+cd Sync
+cd Programacion/Python/
+cd scr
+cd scripts/
+chmod +x wordpress.sh 
+./wordpress.sh 
+cat test 
+mem
+killall firefox
+mem
+killall firefox
+sudo apt remove vocal
+sudo apt install currency
+cd Descargas
+sudo dpkg -i currency_0.2+r39-0-ubuntu14.04.1_amd64.deb 
+sudo dpkg -i vocal_2.0+r90-0-ubuntu15.10.1_amd64.deb 
+sudo dpkg -i footnote_0.1+r366+pkg12-daily-ubuntu0.3.2.1_amd64.deb 
+sudo apt install -f
+ls com*
+sudo dpkg -i com.github.parnold-x.nasc_0.4-0-38-ubuntu17.04.1_amd64.deb 
+sudo apt -f install
+sudo add-apt-repository sudo add-apt-repository ppa:nasc-team/daily
+sudo add-apt-repository ppa:nasc-team/daily
+uupgrade
+sudo apt install  com.github.parnold-x.nasc
+cd temporal
+mkdir frames
+ffmpeg -i nascInAction.mp4 -r 5 "frames/frame-%03d.jpg"
+cd frames/
+convert -delay 20 -loop 0 *.jpg nasc.gif
+tar xzOf cds_20170714.tar.gz | sudo dd of=/dev/mmcblk0 bs=1M status=progress; sync
+cd Programacion/Python/scripts/
+chmod +x install_
+chmod +x install_wordpress.sh 
+./install_wordpress.sh 
+sudo ./install_wordpress.sh 
+sudo ./install_wordpress.sh casa
+cd wordpress/
+cd wp-admin/
+cd casa/
+cd ..
+find casa -type d -print
+sudo ./install_wordpress.sh cASA
+cd casa
+cd /
+rm -rf casa
+sudo rm -rf casa
+rm test 
+git init
+git add .
+git commit -m "First commit"
+git remote add origin git@github.com:atareao/raspberry-scritps.git
+git push -u origin master
+cd Escritorio
+cd postcreator/
+nano post_creator.py 
+./post_creator.py 
+ls -ka
+./post_creator.py
+ls -la
+cd
+cd /datos/Sync/Programacion/Python/scripts/
+ls
+git pull
+ssh pi@192.168.1.48
+git pull
+ssh pi@192.168.1.48
+cd .local/share/gnome-shell/
+cd extensions/
+cd my_weather_indicator@atareao.es/
+ls
+cat extension.js 
