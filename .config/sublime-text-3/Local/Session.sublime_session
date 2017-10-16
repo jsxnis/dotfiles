@@ -1,18 +1,39 @@
 {
 	"folder_history":
 	[
+		"/datos/Sync/Programacion/Wordpress/WEB_201709",
+		"/datos/Sync/Programacion/Ubuntu/unicono-python",
+		"/datos/Sync/Programacion/Ubuntu/unicono-vala",
+		"/datos/Sync/Programacion/Python/my-weather-indicator",
+		"/datos/Sync/Programacion/Wordpress/post-series",
+		"/datos/Sync/Programacion/Ubuntu/unicono",
+		"/datos/Sync/Programacion/Python/pushbullet-indicator",
+		"/datos/Sync/WEB_201709",
+		"/datos/Sync/Programacion/Python/cryptfolder-indicator",
+		"/datos/Sync/Programacion/Telegram/senderbot",
+		"/datos/Sync/Programacion/Telegram/monitorrss/src",
+		"/datos/Sync/Programacion/Python/podcastgetter",
+		"/run/user/1000/gvfs/sftp:host=rpi/var/www/html/atareao",
+		"/datos/Sync/WEB_201701",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao",
+		"/datos/Sync/Programacion/Python/utext",
 		"/datos/Sync/Programacion/Python/yoaup",
+		"/datos/Sync/Programacion/Nautilus/nautilus-crusher",
+		"/datos/Sync/Programacion/Python/gqrcode",
+		"/datos/Sync/Programacion/Python/wps-dictionary-installer",
+		"/datos/Sync/Programacion/maratonlinuxero/maratonlinuxero.github.io",
+		"/datos/Sync/Programacion/Python/scripts",
+		"/datos/Sync/Programacion/Telegram/canalatareaobot",
+		"/datos/Sync/Programacion/Python/power-commands",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao",
+		"/datos/Sync/Programacion/Python/xpander",
+		"/datos/Sync/Programacion/Python/national-geographic-wallpaper",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709",
 		"/datos/Sync/Programacion/Python/wps-dictionary-installer/policykit/actions",
 		"/home/lorenzo/Escritorio/postcreator",
-		"/datos/Sync/Programacion/Python/scripts",
-		"/datos/Sync/Programacion/Python/power-commands",
 		"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/default/public/wordpress01/wp-content/themes/WEB_201709",
-		"/datos/Sync/Programacion/Python/utext",
 		"/home/lorenzo/Escritorio/ezodf-0.3.2",
-		"/datos/Sync/Programacion/Python/national-geographic-wallpaper",
 		"/datos/Sync/Programacion/Python/pomodoro-indicator",
-		"/datos/Sync/Programacion/Python/gqrcode",
-		"/datos/Sync/Programacion/Python/my-weather-indicator",
 		"/datos/Sync/Programacion/Python/yoaup/src/yoaup",
 		"/datos/Sync/Programacion/Python/youtube-indicator",
 		"/home/lorenzo/.config",
@@ -20,23 +41,153 @@
 		"/datos/Sync/Programacion/Python/yap",
 		"/home/lorenzo/temporal/Unionpod/_posts",
 		"/datos/Sync/Programacion/Python/upodcatcher",
-		"/datos/Sync/Programacion/Nautilus/nautilus-crusher",
 		"/datos/Sync/Programacion/Python/imagedownloader",
-		"/datos/Sync/WEB_201709",
 		"/datos/Sync/Programacion/Python/utext2"
 	],
-	"last_version": 3126,
-	"last_window_id": 53,
+	"last_version": 3143,
+	"last_window_id": 115,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 480.0,
+		"new_window_height": 1019.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"numero",
+						"numero-capitulo"
+					],
+					[
+						"per_",
+						"per_message\tparam"
+					],
+					[
+						"m",
+						"message_id"
+					],
+					[
+						"me",
+						"message"
+					],
+					[
+						"mess",
+						"message_id"
+					],
+					[
+						"callba",
+						"callback_data\tparam"
+					],
+					[
+						"quer",
+						"query_handler\tstatement"
+					],
+					[
+						"base",
+						"base64_handler\tstatement"
+					],
+					[
+						"to",
+						"tobase64"
+					],
+					[
+						"std",
+						"stdout"
+					],
+					[
+						"tem",
+						"temperatura\tstatement"
+					],
+					[
+						"else",
+						"elseif\telseif …"
+					],
+					[
+						"marg",
+						"margin-left"
+					],
+					[
+						"co",
+						"cover"
+					],
+					[
+						"ba",
+						"background-size"
+					],
+					[
+						"back",
+						"background-image"
+					],
+					[
+						"margi",
+						"margin"
+					],
+					[
+						"pa",
+						"padding"
+					],
+					[
+						"font",
+						"font-weight"
+					],
+					[
+						"pdding",
+						"padding-top"
+					],
+					[
+						"en",
+						"endif"
+					],
+					[
+						"mar",
+						"margin-top"
+					],
+					[
+						"margin",
+						"margin-top"
+					],
+					[
+						"audio",
+						"audio_file\tparam"
+					],
+					[
+						"op",
+						"options\tstatement"
+					],
+					[
+						"au",
+						"audio_file"
+					],
+					[
+						"chann",
+						"channel_id\tstatement"
+					],
+					[
+						"channe",
+						"channel_id"
+					],
+					[
+						"feed",
+						"feed_url\tparam"
+					],
+					[
+						"add",
+						"add_feed\tfunction"
+					],
+					[
+						"opm",
+						"opml_file"
+					],
+					[
+						"confi",
+						"Configuration\tstatement"
+					],
+					[
+						"fee",
+						"feed"
+					],
 					[
 						"get",
 						"get_value_as_int"
@@ -129,12 +280,24 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 0.0,
-				"last_filter": "",
+				"height": 392.0,
+				"last_filter": "tab",
 				"selected_items":
 				[
+					[
+						"tab",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"git",
+						"GitGutter: Enable/Disable"
+					],
+					[
+						"space",
+						"Indentation: Convert to Spaces"
+					]
 				],
-				"width": 0.0
+				"width": 497.0
 			},
 			"console":
 			{
@@ -154,10 +317,18 @@
 			},
 			"file_history":
 			[
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao/wp-blog-header.php",
+				"/datos/Sync/Programacion/Telegram/senderbot/README.md",
+				"/datos/Sync/Programacion/Telegram/senderbot/debian/install",
+				"/datos/Sync/Programacion/Python/pomodoro-indicator/debian/copyright",
+				"/datos/Sync/Programacion/Ubuntu/unicono/debian/copyright",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/sidebar.php",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/index.php",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/header.php"
 			],
 			"find":
 			{
-				"height": 38.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -171,59 +342,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"create-table",
-					"insert-table",
-					"on_show_table_editor",
-					"inserttabledialog",
-					"preview",
-					"self.active_row",
-					"prep",
-					"_sound_menu_next",
-					"preview",
-					"hide_preview",
-					"hide",
-					"preview",
-					"self.indicators[index].set_label",
-					"set_label",
-					"set_icon",
-					"on_pomodoro_restart",
-					"list_src",
-					"babilon",
-					"po",
-					"template1",
-					"self.player.set_filename",
-					"self.player",
-					"b64encode",
-					"on_iconview_actived",
-					"trackview",
-					"focus()",
-					"self.writer.grab_focus()",
-					"foc",
-					"popover",
-					"self.scrolledwindow1",
-					"scrolledwindow1",
-					"is_saving",
-					"contador",
-					"key_counter",
-					"load_styles",
-					"self.worker",
-					"file-saved",
-					"on_file_saved",
-					"self.writer.get_buffer().set_modified",
-					"file-saved",
-					"set_win_ti",
-					"close",
-					"file_saved",
-					"close",
-					"file_saved",
-					"is_saving",
-					"launched",
-					"is_closing",
-					"set_win_title",
-					"work_with_file",
-					"set_win_title",
-					"save_current_file",
-					"file-modified"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -240,11 +358,11 @@
 			},
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"input":
 			{
-				"height": 38.0
+				"height": 44.0
 			},
 			"menu_visible": true,
 			"output.exec":
@@ -258,7 +376,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 82.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -292,13 +410,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 277.0,
+			"side_bar_width": 652.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 640.0
+		"new_window_width": 960.0
 	},
 	"windows":
 	[
@@ -307,6 +425,138 @@
 			{
 				"selected_items":
 				[
+					[
+						"numero",
+						"numero-capitulo"
+					],
+					[
+						"per_",
+						"per_message\tparam"
+					],
+					[
+						"m",
+						"message_id"
+					],
+					[
+						"me",
+						"message"
+					],
+					[
+						"mess",
+						"message_id"
+					],
+					[
+						"callba",
+						"callback_data\tparam"
+					],
+					[
+						"quer",
+						"query_handler\tstatement"
+					],
+					[
+						"base",
+						"base64_handler\tstatement"
+					],
+					[
+						"to",
+						"tobase64"
+					],
+					[
+						"std",
+						"stdout"
+					],
+					[
+						"tem",
+						"temperatura\tstatement"
+					],
+					[
+						"else",
+						"elseif\telseif …"
+					],
+					[
+						"marg",
+						"margin-left"
+					],
+					[
+						"co",
+						"cover"
+					],
+					[
+						"ba",
+						"background-size"
+					],
+					[
+						"back",
+						"background-image"
+					],
+					[
+						"margi",
+						"margin"
+					],
+					[
+						"pa",
+						"padding"
+					],
+					[
+						"font",
+						"font-weight"
+					],
+					[
+						"pdding",
+						"padding-top"
+					],
+					[
+						"en",
+						"endif"
+					],
+					[
+						"mar",
+						"margin-top"
+					],
+					[
+						"margin",
+						"margin-top"
+					],
+					[
+						"audio",
+						"audio_file\tparam"
+					],
+					[
+						"op",
+						"options\tstatement"
+					],
+					[
+						"au",
+						"audio_file"
+					],
+					[
+						"chann",
+						"channel_id\tstatement"
+					],
+					[
+						"channe",
+						"channel_id"
+					],
+					[
+						"feed",
+						"feed_url\tparam"
+					],
+					[
+						"add",
+						"add_feed\tfunction"
+					],
+					[
+						"opm",
+						"opml_file"
+					],
+					[
+						"confi",
+						"Configuration\tstatement"
+					],
+					[
+						"fee",
+						"feed"
+					],
 					[
 						"get",
 						"get_value_as_int"
@@ -372,11 +622,10 @@
 			"buffers":
 			[
 				{
-					"file": "/datos/Sync/Programacion/Python/yoaup/README.md",
+					"file": "/datos/Sync/Programacion/Ubuntu/unicono-python/debian/changelog",
 					"settings":
 					{
-						"buffer_size": 1837,
-						"encoding": "UTF-8",
+						"buffer_size": 169,
 						"line_ending": "Unix"
 					}
 				}
@@ -412,12 +661,24 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 0.0,
-				"last_filter": "",
+				"height": 392.0,
+				"last_filter": "tab",
 				"selected_items":
 				[
+					[
+						"tab",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"git",
+						"GitGutter: Enable/Disable"
+					],
+					[
+						"space",
+						"Indentation: Convert to Spaces"
+					]
 				],
-				"width": 0.0
+				"width": 497.0
 			},
 			"console":
 			{
@@ -437,15 +698,24 @@
 			},
 			"expanded_folders":
 			[
-				"/datos/Sync/Programacion/Python/yoaup",
-				"/datos/Sync/Programacion/Python/yoaup/screenshots"
+				"/datos/Sync/Programacion/Ubuntu/unicono-python",
+				"/datos/Sync/Programacion/Ubuntu/unicono-python/data",
+				"/datos/Sync/Programacion/Ubuntu/unicono-python/debian"
 			],
 			"file_history":
 			[
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao/wp-blog-header.php",
+				"/datos/Sync/Programacion/Telegram/senderbot/README.md",
+				"/datos/Sync/Programacion/Telegram/senderbot/debian/install",
+				"/datos/Sync/Programacion/Python/pomodoro-indicator/debian/copyright",
+				"/datos/Sync/Programacion/Ubuntu/unicono/debian/copyright",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/sidebar.php",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/index.php",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/header.php"
 			],
 			"find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"find_in_files":
 			{
@@ -459,59 +729,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"create-table",
-					"insert-table",
-					"on_show_table_editor",
-					"inserttabledialog",
-					"preview",
-					"self.active_row",
-					"prep",
-					"_sound_menu_next",
-					"preview",
-					"hide_preview",
-					"hide",
-					"preview",
-					"self.indicators[index].set_label",
-					"set_label",
-					"set_icon",
-					"on_pomodoro_restart",
-					"list_src",
-					"babilon",
-					"po",
-					"template1",
-					"self.player.set_filename",
-					"self.player",
-					"b64encode",
-					"on_iconview_actived",
-					"trackview",
-					"focus()",
-					"self.writer.grab_focus()",
-					"foc",
-					"popover",
-					"self.scrolledwindow1",
-					"scrolledwindow1",
-					"is_saving",
-					"contador",
-					"key_counter",
-					"load_styles",
-					"self.worker",
-					"file-saved",
-					"on_file_saved",
-					"self.writer.get_buffer().set_modified",
-					"file-saved",
-					"set_win_ti",
-					"close",
-					"file_saved",
-					"close",
-					"file_saved",
-					"is_saving",
-					"launched",
-					"is_closing",
-					"set_win_title",
-					"work_with_file",
-					"set_win_title",
-					"save_current_file",
-					"file-modified"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -529,7 +746,7 @@
 			"folders":
 			[
 				{
-					"path": "/datos/Sync/Programacion/Python/yoaup"
+					"path": "/datos/Sync/Programacion/Ubuntu/unicono-python"
 				}
 			],
 			"groups":
@@ -540,51 +757,43 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/datos/Sync/Programacion/Python/yoaup/README.md",
-							"semi_transient": false,
+							"file": "/datos/Sync/Programacion/Ubuntu/unicono-python/debian/changelog",
+							"semi_transient": true,
 							"settings":
 							{
-								"buffer_size": 1837,
+								"buffer_size": 169,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1461,
-										1461
+										0,
+										169
 									]
 								],
 								"settings":
 								{
 									"git_gutter_is_enabled": true,
-									"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 990.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
 							"type": "text"
-						},
-						{
-							"file": "/datos/Sync/Programacion/Python/yoaup/screenshots/YOAUP | Preferencias_073.png",
-							"semi_transient": true,
-							"stack_index": 1,
-							"type": "image"
 						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 30.0
+				"height": 32.0
 			},
 			"input":
 			{
-				"height": 38.0
+				"height": 44.0
 			},
 			"layout":
 			{
@@ -618,11 +827,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,1920,1080",
+			"position": "0,0,0,0,0,960,27,1920,1046,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 56.0
+				"height": 82.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -660,12 +869,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 277.0,
+			"side_bar_width": 652.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 53,
+			"window_id": 114,
 			"workspace_name": ""
 		}
 	],

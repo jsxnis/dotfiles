@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Anaconda",
+		"Git",
 		"GitGutter",
 		"Glue",
 		"Indent XML",
@@ -13,6 +14,7 @@
 		"MarkdownEditing",
 		"Package Control",
 		"Pandoc",
+		"rsub",
 		"SideBarEnhancements"
 	]
 }

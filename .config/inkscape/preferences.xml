@@ -132,10 +132,10 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="3.78807"
-         height="14.3947"
-         rx="2"
-         ry="2" />
+         width="46.3178"
+         height="51.0122"
+         rx="1.88976"
+         ry="0.802201" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -335,10 +335,11 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        style="fill:black;fill-opacity:1;stroke:none;font-family:FontAwesome;font-style:normal;font-weight:normal;font-size:106.66666667px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:FontAwesome;font-stretch:normal;font-variant:normal"
-       selcue="1">
+       selcue="1"
+       align_mode="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -424,12 +425,12 @@
        offset="0"
        offsetunits="cm" />
     <group
-       id="measure"
-       fontsize="10"
-       precision="2"
-       scale="100"
+       unit="px"
        offset="5"
-       unit="mm" />
+       scale="100"
+       precision="2"
+       fontsize="10"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -576,8 +577,8 @@
        page="0"
        x="0"
        y="0"
-       w="481"
-       h="527"
+       w="468"
+       h="519"
        visible="1"
        state="2"
        placement="5" />
@@ -596,8 +597,8 @@
        rotateCounterClockwise="1"
        x="0"
        y="0"
-       w="481"
-       h="527"
+       w="468"
+       h="519"
        visible="1"
        state="2"
        placement="5" />
@@ -611,8 +612,8 @@
        align-to="4"
        x="0"
        y="0"
-       w="481"
-       h="527"
+       w="468"
+       h="519"
        visible="1"
        state="2"
        placement="5" />
@@ -627,8 +628,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="481"
-       h="527"
+       w="468"
+       h="519"
        visible="1"
        state="2"
        placement="5" />
@@ -668,7 +669,16 @@
     <group
        id="gradienteditor" />
     <group
-       id="object" />
+       id="object"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="470"
+       h="300" />
     <group
        id="export"
        default=""
@@ -681,8 +691,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="481"
-       h="527"
+       w="468"
+       h="519"
        visible="1"
        state="2"
        placement="5">
@@ -691,14 +701,14 @@
          value="drawing" />
       <group
          id="defaultxdpi"
-         value="521" />
+         value="96" />
     </group>
     <group
        id="save_as"
-       default="org.inkscape.output.svg.inkscape"
+       default="org.inkscape.output.svg.plain"
        append_extension="0"
        enable_preview="1"
-       path="/datos/Sync/Programacion/Python/power-commands/data/icons"
+       path="/home/lorenzo/Descargas"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -709,7 +719,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/datos/Sync/Programacion/Python/yoaup/data/icons/" />
+       path="/home/lorenzo/Descargas/" />
     <group
        id="import"
        enable_preview="1"
@@ -754,8 +764,8 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="622"
-       y="311"
+       x="1245"
+       y="0"
        w="671"
        h="426"
        visible="0"
@@ -773,6 +783,17 @@
        on-focus="1.0"
        on-blur="0.50"
        animate-time="100" />
+    <group
+       h="305"
+       w="470"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="pixelart" />
   </group>
   <group
      id="printing">
@@ -1063,13 +1084,18 @@
      id="extensions"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.resolution="96"
-     org.inkscape.output.pdf.cairorenderer.bleed="0" />
+     org.inkscape.output.pdf.cairorenderer.bleed="0"
+     org.inkscape.effect.filter.ColorDropShadow.blur="4"
+     org.inkscape.effect.filter.ColorDropShadow.xoffset="15"
+     org.inkscape.effect.filter.ColorDropShadow.yoffset="-15"
+     org.inkscape.effect.filter.ColorDropShadow.type="outer"
+     org.inkscape.effect.filter.ColorDropShadow.__live_effect__="0" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#ffffff;fill-opacity:1;font-size:16px;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;-inkscape-font-specification:fontawesome;font-family:fontawesome;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1">
+     style="line-height:1.25;fill:#ffffff;fill-opacity:1;font-size:66.66666667px;stroke-width:11.33858268;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;-inkscape-font-specification:fontawesome;font-family:fontawesome;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1;text-anchor:middle;text-align:center">
     <group
-       width="960"
-       height="1019"
+       width="920"
+       height="480"
        x="0"
        y="27"
        fullscreen="0"
