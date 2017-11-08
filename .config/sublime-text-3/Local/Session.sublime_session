@@ -1,33 +1,44 @@
 {
 	"folder_history":
 	[
+		"/datos/Sync/Programacion/Python/national-geographic-wallpaper",
+		"/datos/Sync/Programacion/Python/acpilight",
+		"/datos/Sync/Programacion/Python/gaptin",
+		"/datos/Sync/Programacion/Python/ppaurl",
+		"/datos/Sync/Programacion/Wordpress/post-series",
+		"/datos/Sync/Programacion/Python/iris-floss-wayland",
+		"/datos/Sync/Programacion/Python/python3-v4l2capture",
+		"/datos/Sync/Programacion/Telegram/senderbot",
+		"/datos/Sync/Programacion/Telegram/canalatareaobot",
+		"/datos/Sync/Programacion/Wordpress/WEB_201701",
 		"/datos/Sync/Programacion/Wordpress/WEB_201709",
+		"/datos/Sync/Articulos",
+		"/datos/Sync/Programacion/Python/halloween-2017",
+		"/datos/Sync/Programacion/Python/define-me/src",
+		"/datos/Sync/Programacion/libreoffice/funciones",
+		"/datos/Sync/Programacion/Python/utext",
+		"/datos/Sync/Programacion/Telegram/senderbot/src",
+		"/datos/Sync/WEB_201709",
 		"/datos/Sync/Programacion/Ubuntu/unicono-python",
 		"/datos/Sync/Programacion/Ubuntu/unicono-vala",
 		"/datos/Sync/Programacion/Python/my-weather-indicator",
-		"/datos/Sync/Programacion/Wordpress/post-series",
 		"/datos/Sync/Programacion/Ubuntu/unicono",
 		"/datos/Sync/Programacion/Python/pushbullet-indicator",
-		"/datos/Sync/WEB_201709",
 		"/datos/Sync/Programacion/Python/cryptfolder-indicator",
-		"/datos/Sync/Programacion/Telegram/senderbot",
 		"/datos/Sync/Programacion/Telegram/monitorrss/src",
 		"/datos/Sync/Programacion/Python/podcastgetter",
 		"/run/user/1000/gvfs/sftp:host=rpi/var/www/html/atareao",
 		"/datos/Sync/WEB_201701",
 		"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao",
-		"/datos/Sync/Programacion/Python/utext",
 		"/datos/Sync/Programacion/Python/yoaup",
 		"/datos/Sync/Programacion/Nautilus/nautilus-crusher",
 		"/datos/Sync/Programacion/Python/gqrcode",
 		"/datos/Sync/Programacion/Python/wps-dictionary-installer",
 		"/datos/Sync/Programacion/maratonlinuxero/maratonlinuxero.github.io",
 		"/datos/Sync/Programacion/Python/scripts",
-		"/datos/Sync/Programacion/Telegram/canalatareaobot",
 		"/datos/Sync/Programacion/Python/power-commands",
 		"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao",
 		"/datos/Sync/Programacion/Python/xpander",
-		"/datos/Sync/Programacion/Python/national-geographic-wallpaper",
 		"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709",
 		"/datos/Sync/Programacion/Python/wps-dictionary-installer/policykit/actions",
 		"/home/lorenzo/Escritorio/postcreator",
@@ -45,17 +56,73 @@
 		"/datos/Sync/Programacion/Python/utext2"
 	],
 	"last_version": 3143,
-	"last_window_id": 115,
+	"last_window_id": 162,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 1019.0,
+		"new_window_height": 1023.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"have",
+						"have_posts\tWP Function"
+					],
+					[
+						"catego",
+						"categoria_id"
+					],
+					[
+						"get_post_t",
+						"get_post_type\tWP Function"
+					],
+					[
+						"marg",
+						"margin"
+					],
+					[
+						"re",
+						"result\tstatement"
+					],
+					[
+						"sea",
+						"search_id\tfunction"
+					],
+					[
+						"par",
+						"parent_id"
+					],
+					[
+						"tut",
+						"tutorial_id"
+					],
+					[
+						"get_t",
+						"get_the_ID"
+					],
+					[
+						"pass",
+						"password"
+					],
+					[
+						"no",
+						"nombre_y_apellidos"
+					],
+					[
+						"fin",
+						"find_email"
+					],
+					[
+						"conf",
+						"confirm_email"
+					],
+					[
+						"Artícu",
+						"Artículo"
+					],
 					[
 						"numero",
 						"numero-capitulo"
@@ -103,10 +170,6 @@
 					[
 						"else",
 						"elseif\telseif …"
-					],
-					[
-						"marg",
-						"margin-left"
 					],
 					[
 						"co",
@@ -317,6 +380,41 @@
 			},
 			"file_history":
 			[
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin",
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin-pkexec",
+				"/datos/Sync/Programacion/Python/gaptin/data/extras-gaptin.desktop",
+				"/datos/Sync/Programacion/Python/gaptin/debian/changelog",
+				"/datos/Sync/Programacion/Python/gaptin/debian/control",
+				"/datos/Sync/Programacion/Python/gaptin/debian/copyright",
+				"/datos/Sync/Programacion/Python/gaptin/debian/install",
+				"/datos/Sync/Programacion/Python/gaptin/policykit/actions/com.ubuntu.pkexec.gaptin.policy",
+				"/datos/Sync/Programacion/Python/gaptin/README",
+				"/datos/Sync/Programacion/Python/gaptin/src/comun.py",
+				"/datos/Sync/Programacion/Python/gaptin/src/doitinbackground.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-podcasts.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-lecciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-capitulos.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-aplicaciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/templates.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/single.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-functions.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-post-types.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/post-series.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/page-templater.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/admin-page.php",
+				"/tmp/fz3temp-2/suscribir.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive-tutorial.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/portada.php",
+				"/datos/Sync/Programacion/Wordpress/WEB_201709/suscribir.php",
+				"/datos/Sync/Programacion/Telegram/senderbot/src/rae.py",
+				"/datos/Sync/Programacion/Telegram/senderbot/raebot.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/functions.php",
+				"/tmp/fz3temp-2/.htaccess",
+				"/tmp/fz3temp-2/.htaccess 2",
+				"/tmp/fz3temp-2/contactar.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/sync_plugin.sh",
 				"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao/wp-blog-header.php",
 				"/datos/Sync/Programacion/Telegram/senderbot/README.md",
 				"/datos/Sync/Programacion/Telegram/senderbot/debian/install",
@@ -328,7 +426,7 @@
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 44.0
 			},
 			"find_in_files":
 			{
@@ -342,6 +440,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"app",
+					"reposi"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -358,7 +458,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 31.0
 			},
 			"input":
 			{
@@ -367,16 +467,20 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 324.0
+				"height": 239.0
 			},
 			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 82.0
+				"height": 58.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -410,13 +514,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 652.0,
+			"side_bar_width": 331.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 960.0
+		"new_window_width": 1166.0
 	},
 	"windows":
 	[
@@ -425,6 +529,66 @@
 			{
 				"selected_items":
 				[
+					[
+						"p",
+						"phrase\tstatement"
+					],
+					[
+						"have",
+						"have_posts\tWP Function"
+					],
+					[
+						"catego",
+						"categoria_id"
+					],
+					[
+						"get_post_t",
+						"get_post_type\tWP Function"
+					],
+					[
+						"marg",
+						"margin"
+					],
+					[
+						"re",
+						"result\tstatement"
+					],
+					[
+						"sea",
+						"search_id\tfunction"
+					],
+					[
+						"par",
+						"parent_id"
+					],
+					[
+						"tut",
+						"tutorial_id"
+					],
+					[
+						"get_t",
+						"get_the_ID"
+					],
+					[
+						"pass",
+						"password"
+					],
+					[
+						"no",
+						"nombre_y_apellidos"
+					],
+					[
+						"fin",
+						"find_email"
+					],
+					[
+						"conf",
+						"confirm_email"
+					],
+					[
+						"Artícu",
+						"Artículo"
+					],
 					[
 						"numero",
 						"numero-capitulo"
@@ -472,10 +636,6 @@
 					[
 						"else",
 						"elseif\telseif …"
-					],
-					[
-						"marg",
-						"margin-left"
 					],
 					[
 						"co",
@@ -622,15 +782,16 @@
 			"buffers":
 			[
 				{
-					"file": "/datos/Sync/Programacion/Ubuntu/unicono-python/debian/changelog",
+					"file": "/datos/Sync/Programacion/Python/national-geographic-wallpaper/src/ngdownloader.py",
 					"settings":
 					{
-						"buffer_size": 169,
+						"buffer_size": 11539,
+						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				}
 			],
-			"build_system": "",
+			"build_system": "Packages/User/python3.sublime-build",
 			"build_system_choices":
 			[
 				[
@@ -698,12 +859,46 @@
 			},
 			"expanded_folders":
 			[
-				"/datos/Sync/Programacion/Ubuntu/unicono-python",
-				"/datos/Sync/Programacion/Ubuntu/unicono-python/data",
-				"/datos/Sync/Programacion/Ubuntu/unicono-python/debian"
+				"/datos/Sync/Programacion/Python/national-geographic-wallpaper",
+				"/datos/Sync/Programacion/Python/national-geographic-wallpaper/src"
 			],
 			"file_history":
 			[
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin",
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin-pkexec",
+				"/datos/Sync/Programacion/Python/gaptin/data/extras-gaptin.desktop",
+				"/datos/Sync/Programacion/Python/gaptin/debian/changelog",
+				"/datos/Sync/Programacion/Python/gaptin/debian/control",
+				"/datos/Sync/Programacion/Python/gaptin/debian/copyright",
+				"/datos/Sync/Programacion/Python/gaptin/debian/install",
+				"/datos/Sync/Programacion/Python/gaptin/policykit/actions/com.ubuntu.pkexec.gaptin.policy",
+				"/datos/Sync/Programacion/Python/gaptin/README",
+				"/datos/Sync/Programacion/Python/gaptin/src/comun.py",
+				"/datos/Sync/Programacion/Python/gaptin/src/doitinbackground.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-podcasts.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-lecciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-capitulos.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-aplicaciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/templates.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/single.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-functions.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-post-types.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/post-series.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/page-templater.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/admin-page.php",
+				"/tmp/fz3temp-2/suscribir.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive-tutorial.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/portada.php",
+				"/datos/Sync/Programacion/Wordpress/WEB_201709/suscribir.php",
+				"/datos/Sync/Programacion/Telegram/senderbot/src/rae.py",
+				"/datos/Sync/Programacion/Telegram/senderbot/raebot.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/functions.php",
+				"/tmp/fz3temp-2/.htaccess",
+				"/tmp/fz3temp-2/.htaccess 2",
+				"/tmp/fz3temp-2/contactar.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/sync_plugin.sh",
 				"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao/wp-blog-header.php",
 				"/datos/Sync/Programacion/Telegram/senderbot/README.md",
 				"/datos/Sync/Programacion/Telegram/senderbot/debian/install",
@@ -715,7 +910,7 @@
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 44.0
 			},
 			"find_in_files":
 			{
@@ -729,6 +924,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"notify_photo_caption",
+					"get_national_geographic_data"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -746,7 +943,7 @@
 			"folders":
 			[
 				{
-					"path": "/datos/Sync/Programacion/Ubuntu/unicono-python"
+					"path": "/datos/Sync/Programacion/Python/national-geographic-wallpaper"
 				}
 			],
 			"groups":
@@ -757,28 +954,41 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/datos/Sync/Programacion/Ubuntu/unicono-python/debian/changelog",
-							"semi_transient": true,
+							"file": "/datos/Sync/Programacion/Python/national-geographic-wallpaper/src/ngdownloader.py",
+							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 169,
+								"buffer_size": 11539,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										169
+										11508,
+										11508
 									]
 								],
 								"settings":
 								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": ".",
+											"selector": "source.python - string - comment - constant.numeric"
+										},
+										{
+											"characters": ".",
+											"selector": "source.python - string - constant.numeric"
+										}
+									],
 									"git_gutter_is_enabled": true,
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 7096.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -789,7 +999,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 31.0
 			},
 			"input":
 			{
@@ -820,18 +1030,22 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 324.0
+				"height": 239.0
 			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,960,27,1920,1046,1920,1080",
+			"position": "0,0,0,0,0,50,27,1744,1050,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 82.0
+				"height": 58.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -869,12 +1083,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 652.0,
+			"side_bar_width": 331.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 114,
+			"window_id": 162,
 			"workspace_name": ""
 		}
 	],

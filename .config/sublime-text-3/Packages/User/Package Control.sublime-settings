@@ -11,10 +11,23 @@
 		"Glue",
 		"Indent XML",
 		"IndentX",
+		"Libsass Build",
 		"MarkdownEditing",
 		"Package Control",
 		"Pandoc",
 		"rsub",
-		"SideBarEnhancements"
+		"Sass",
+		"SASS Build",
+		"SASS Snippets",
+		"SassBeautify",
+		"SassBuilder",
+		"SassSolution",
+		"SideBarEnhancements",
+		"Syntax Highlighting for Sass",
+		"WordPress Completions"
+	],
+	"repositories":
+	[
+		"https://github.com/bnlucas/SassBuilder"
 	]
 }

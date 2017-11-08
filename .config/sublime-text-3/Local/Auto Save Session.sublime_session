@@ -1,13 +1,29 @@
 {
 	"folder_history":
 	[
+		"/home/lorenzo/temporal/skeleton-framework",
+		"/home/lorenzo/temporal/Skeleton-Sass",
 		"/datos/Sync/Programacion/Wordpress/WEB_201709",
-		"/datos/Sync/Programacion/Telegram/senderbot",
+		"/datos/Sync/Programacion/Python/my-weather-indicator",
+		"/datos/Sync/Programacion/Python/gaptin",
+		"/datos/Sync/Programacion/Python/ppaurl",
+		"/datos/Sync/Programacion/Python/national-geographic-wallpaper",
+		"/datos/Sync/Programacion/Python/acpilight",
 		"/datos/Sync/Programacion/Wordpress/post-series",
+		"/datos/Sync/Programacion/Python/iris-floss-wayland",
+		"/datos/Sync/Programacion/Python/python3-v4l2capture",
+		"/datos/Sync/Programacion/Telegram/senderbot",
+		"/datos/Sync/Programacion/Telegram/canalatareaobot",
+		"/datos/Sync/Programacion/Wordpress/WEB_201701",
+		"/datos/Sync/Articulos",
+		"/datos/Sync/Programacion/Python/halloween-2017",
+		"/datos/Sync/Programacion/Python/define-me/src",
+		"/datos/Sync/Programacion/libreoffice/funciones",
+		"/datos/Sync/Programacion/Python/utext",
+		"/datos/Sync/Programacion/Telegram/senderbot/src",
 		"/datos/Sync/WEB_201709",
 		"/datos/Sync/Programacion/Ubuntu/unicono-python",
 		"/datos/Sync/Programacion/Ubuntu/unicono-vala",
-		"/datos/Sync/Programacion/Python/my-weather-indicator",
 		"/datos/Sync/Programacion/Ubuntu/unicono",
 		"/datos/Sync/Programacion/Python/pushbullet-indicator",
 		"/datos/Sync/Programacion/Python/cryptfolder-indicator",
@@ -16,18 +32,15 @@
 		"/run/user/1000/gvfs/sftp:host=rpi/var/www/html/atareao",
 		"/datos/Sync/WEB_201701",
 		"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao",
-		"/datos/Sync/Programacion/Python/utext",
 		"/datos/Sync/Programacion/Python/yoaup",
 		"/datos/Sync/Programacion/Nautilus/nautilus-crusher",
 		"/datos/Sync/Programacion/Python/gqrcode",
 		"/datos/Sync/Programacion/Python/wps-dictionary-installer",
 		"/datos/Sync/Programacion/maratonlinuxero/maratonlinuxero.github.io",
 		"/datos/Sync/Programacion/Python/scripts",
-		"/datos/Sync/Programacion/Telegram/canalatareaobot",
 		"/datos/Sync/Programacion/Python/power-commands",
 		"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao",
 		"/datos/Sync/Programacion/Python/xpander",
-		"/datos/Sync/Programacion/Python/national-geographic-wallpaper",
 		"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709",
 		"/datos/Sync/Programacion/Python/wps-dictionary-installer/policykit/actions",
 		"/home/lorenzo/Escritorio/postcreator",
@@ -45,17 +58,73 @@
 		"/datos/Sync/Programacion/Python/utext2"
 	],
 	"last_version": 3143,
-	"last_window_id": 120,
+	"last_window_id": 170,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 1019.0,
+		"new_window_height": 1025.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"p",
+						"phrase\tstatement"
+					],
+					[
+						"have",
+						"have_posts\tWP Function"
+					],
+					[
+						"catego",
+						"categoria_id"
+					],
+					[
+						"get_post_t",
+						"get_post_type\tWP Function"
+					],
+					[
+						"marg",
+						"margin"
+					],
+					[
+						"re",
+						"result\tstatement"
+					],
+					[
+						"sea",
+						"search_id\tfunction"
+					],
+					[
+						"par",
+						"parent_id"
+					],
+					[
+						"tut",
+						"tutorial_id"
+					],
+					[
+						"get_t",
+						"get_the_ID"
+					],
+					[
+						"pass",
+						"password"
+					],
+					[
+						"no",
+						"nombre_y_apellidos"
+					],
+					[
+						"fin",
+						"find_email"
+					],
+					[
+						"conf",
+						"confirm_email"
+					],
 					[
 						"Artícu",
 						"Artículo"
@@ -107,10 +176,6 @@
 					[
 						"else",
 						"elseif\telseif …"
-					],
-					[
-						"marg",
-						"margin-left"
 					],
 					[
 						"co",
@@ -279,15 +344,59 @@
 						"Packages/User/python3.sublime-build",
 						""
 					]
+				],
+				[
+					[
+						[
+							"Packages/Libsass Build/Sass (libsass).sublime-build",
+							""
+						],
+						[
+							"Packages/SASS Build/SASS - Compressed.sublime-build",
+							""
+						],
+						[
+							"Packages/SASS Build/SASS.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/SASS Build/SASS.sublime-build",
+						""
+					]
 				]
 			],
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 392.0,
-				"last_filter": "tab",
+				"height": 159.0,
+				"last_filter": "install ",
 				"selected_items":
 				[
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"add re",
+						"Package Control: Add Repository"
+					],
+					[
+						"sass",
+						"SassBeautify"
+					],
+					[
+						"install pac",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
 					[
 						"tab",
 						"Indentation: Convert to Tabs"
@@ -321,6 +430,42 @@
 			},
 			"file_history":
 			[
+				"/datos/temporal/Skeleton-Sass/.libsass.json",
+				"/home/lorenzo/temporal/Skeleton-Sass/.libsass.json",
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin",
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin-pkexec",
+				"/datos/Sync/Programacion/Python/gaptin/data/extras-gaptin.desktop",
+				"/datos/Sync/Programacion/Python/gaptin/debian/changelog",
+				"/datos/Sync/Programacion/Python/gaptin/debian/control",
+				"/datos/Sync/Programacion/Python/gaptin/debian/copyright",
+				"/datos/Sync/Programacion/Python/gaptin/debian/install",
+				"/datos/Sync/Programacion/Python/gaptin/policykit/actions/com.ubuntu.pkexec.gaptin.policy",
+				"/datos/Sync/Programacion/Python/gaptin/README",
+				"/datos/Sync/Programacion/Python/gaptin/src/comun.py",
+				"/datos/Sync/Programacion/Python/gaptin/src/doitinbackground.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-podcasts.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-lecciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-capitulos.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-aplicaciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/templates.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/single.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-functions.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-post-types.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/post-series.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/page-templater.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/admin-page.php",
+				"/tmp/fz3temp-2/suscribir.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive-tutorial.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/portada.php",
+				"/datos/Sync/Programacion/Wordpress/WEB_201709/suscribir.php",
+				"/datos/Sync/Programacion/Telegram/senderbot/src/rae.py",
+				"/datos/Sync/Programacion/Telegram/senderbot/raebot.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/functions.php",
+				"/tmp/fz3temp-2/.htaccess",
+				"/tmp/fz3temp-2/.htaccess 2",
+				"/tmp/fz3temp-2/contactar.php",
 				"/datos/Sync/Programacion/Wordpress/post-series/sync_plugin.sh",
 				"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao/wp-blog-header.php",
 				"/datos/Sync/Programacion/Telegram/senderbot/README.md",
@@ -333,7 +478,7 @@
 			],
 			"find":
 			{
-				"height": 32.0
+				"height": 44.0
 			},
 			"find_in_files":
 			{
@@ -344,9 +489,10 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
+					"row"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -358,12 +504,12 @@
 				"reverse": false,
 				"show_context": true,
 				"use_buffer2": true,
-				"whole_word": false,
+				"whole_word": true,
 				"wrap": true
 			},
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 31.0
 			},
 			"input":
 			{
@@ -372,16 +518,20 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 324.0
+				"height": 239.0
 			},
 			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
 			{
 				"height": 0.0
 			},
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 82.0
+				"height": 58.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -415,7 +565,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 309.0,
+			"side_bar_width": 218.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -431,6 +581,62 @@
 				"selected_items":
 				[
 					[
+						"p",
+						"phrase\tstatement"
+					],
+					[
+						"have",
+						"have_posts\tWP Function"
+					],
+					[
+						"catego",
+						"categoria_id"
+					],
+					[
+						"get_post_t",
+						"get_post_type\tWP Function"
+					],
+					[
+						"marg",
+						"margin"
+					],
+					[
+						"re",
+						"result\tstatement"
+					],
+					[
+						"sea",
+						"search_id\tfunction"
+					],
+					[
+						"par",
+						"parent_id"
+					],
+					[
+						"tut",
+						"tutorial_id"
+					],
+					[
+						"get_t",
+						"get_the_ID"
+					],
+					[
+						"pass",
+						"password"
+					],
+					[
+						"no",
+						"nombre_y_apellidos"
+					],
+					[
+						"fin",
+						"find_email"
+					],
+					[
+						"conf",
+						"confirm_email"
+					],
+					[
 						"Artícu",
 						"Artículo"
 					],
@@ -481,10 +687,6 @@
 					[
 						"else",
 						"elseif\telseif …"
-					],
-					[
-						"marg",
-						"margin-left"
 					],
 					[
 						"co",
@@ -631,15 +833,51 @@
 			"buffers":
 			[
 				{
-					"file": "/datos/Sync/Programacion/Wordpress/WEB_201709/template-parts/content.php",
+					"file": "/home/lorenzo/temporal/Skeleton-Sass/scss/base/_normalize.scss",
 					"settings":
 					{
-						"buffer_size": 2556,
+						"buffer_size": 7718,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/lorenzo/temporal/Skeleton-Sass/scss/base/_typography.scss",
+					"settings":
+					{
+						"buffer_size": 832,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/lorenzo/temporal/Skeleton-Sass/scss/modules/_buttons.scss",
+					"settings":
+					{
+						"buffer_size": 3077,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/lorenzo/temporal/Skeleton-Sass/scss/atareao.scss",
+					"settings":
+					{
+						"buffer_size": 399,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/lorenzo/temporal/Skeleton-Sass/scss/atareao.css",
+					"settings":
+					{
+						"buffer_size": 3387,
 						"line_ending": "Unix"
 					}
 				}
 			],
-			"build_system": "",
+			"build_system": "Packages/SASS Build/SASS.sublime-build",
 			"build_system_choices":
 			[
 				[
@@ -665,15 +903,59 @@
 						"Packages/User/python3.sublime-build",
 						""
 					]
+				],
+				[
+					[
+						[
+							"Packages/Libsass Build/Sass (libsass).sublime-build",
+							""
+						],
+						[
+							"Packages/SASS Build/SASS - Compressed.sublime-build",
+							""
+						],
+						[
+							"Packages/SASS Build/SASS.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/SASS Build/SASS.sublime-build",
+						""
+					]
 				]
 			],
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 392.0,
-				"last_filter": "tab",
+				"height": 159.0,
+				"last_filter": "install ",
 				"selected_items":
 				[
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"add re",
+						"Package Control: Add Repository"
+					],
+					[
+						"sass",
+						"SassBeautify"
+					],
+					[
+						"install pac",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
 					[
 						"tab",
 						"Indentation: Convert to Tabs"
@@ -707,11 +989,50 @@
 			},
 			"expanded_folders":
 			[
-				"/datos/Sync/Programacion/Wordpress/WEB_201709",
-				"/datos/Sync/Programacion/Wordpress/WEB_201709/template-parts"
+				"/home/lorenzo/temporal/Skeleton-Sass",
+				"/home/lorenzo/temporal/Skeleton-Sass/css",
+				"/home/lorenzo/temporal/Skeleton-Sass/scss",
+				"/home/lorenzo/temporal/Skeleton-Sass/scss/base",
+				"/home/lorenzo/temporal/Skeleton-Sass/scss/modules"
 			],
 			"file_history":
 			[
+				"/datos/temporal/Skeleton-Sass/.libsass.json",
+				"/home/lorenzo/temporal/Skeleton-Sass/.libsass.json",
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin",
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin-pkexec",
+				"/datos/Sync/Programacion/Python/gaptin/data/extras-gaptin.desktop",
+				"/datos/Sync/Programacion/Python/gaptin/debian/changelog",
+				"/datos/Sync/Programacion/Python/gaptin/debian/control",
+				"/datos/Sync/Programacion/Python/gaptin/debian/copyright",
+				"/datos/Sync/Programacion/Python/gaptin/debian/install",
+				"/datos/Sync/Programacion/Python/gaptin/policykit/actions/com.ubuntu.pkexec.gaptin.policy",
+				"/datos/Sync/Programacion/Python/gaptin/README",
+				"/datos/Sync/Programacion/Python/gaptin/src/comun.py",
+				"/datos/Sync/Programacion/Python/gaptin/src/doitinbackground.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-podcasts.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-lecciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-capitulos.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-aplicaciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/templates.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/single.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-functions.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-post-types.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/post-series.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/page-templater.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/admin-page.php",
+				"/tmp/fz3temp-2/suscribir.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive-tutorial.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/portada.php",
+				"/datos/Sync/Programacion/Wordpress/WEB_201709/suscribir.php",
+				"/datos/Sync/Programacion/Telegram/senderbot/src/rae.py",
+				"/datos/Sync/Programacion/Telegram/senderbot/raebot.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/functions.php",
+				"/tmp/fz3temp-2/.htaccess",
+				"/tmp/fz3temp-2/.htaccess 2",
+				"/tmp/fz3temp-2/contactar.php",
 				"/datos/Sync/Programacion/Wordpress/post-series/sync_plugin.sh",
 				"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao/wp-blog-header.php",
 				"/datos/Sync/Programacion/Telegram/senderbot/README.md",
@@ -723,514 +1044,9 @@
 				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/header.php"
 			],
 			"find":
-			{
-				"height": 32.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"folders":
-			[
-				{
-					"path": "/datos/Sync/Programacion/Wordpress/WEB_201709"
-				}
-			],
-			"groups":
-			[
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/datos/Sync/Programacion/Wordpress/WEB_201709/template-parts/content.php",
-							"semi_transient": true,
-							"settings":
-							{
-								"buffer_size": 2556,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										152,
-										2555
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 2592.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 32.0
-			},
-			"input":
 			{
 				"height": 44.0
 			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"output.exec":
-			{
-				"height": 324.0
-			},
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"pinned_build_system": "",
-			"position": "0,0,0,0,0,50,27,1010,1046,1920,1080",
-			"project": "",
-			"replace":
-			{
-				"height": 82.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"selected_group": 0,
-			"settings":
-			{
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 309.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			},
-			"window_id": 120,
-			"workspace_name": ""
-		},
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"te",
-						"template_name"
-					],
-					[
-						"order",
-						"orderby"
-					],
-					[
-						"Artícu",
-						"Artículo"
-					],
-					[
-						"numero",
-						"numero-capitulo"
-					],
-					[
-						"per_",
-						"per_message\tparam"
-					],
-					[
-						"m",
-						"message_id"
-					],
-					[
-						"me",
-						"message"
-					],
-					[
-						"mess",
-						"message_id"
-					],
-					[
-						"callba",
-						"callback_data\tparam"
-					],
-					[
-						"quer",
-						"query_handler\tstatement"
-					],
-					[
-						"base",
-						"base64_handler\tstatement"
-					],
-					[
-						"to",
-						"tobase64"
-					],
-					[
-						"std",
-						"stdout"
-					],
-					[
-						"tem",
-						"temperatura\tstatement"
-					],
-					[
-						"else",
-						"elseif\telseif …"
-					],
-					[
-						"marg",
-						"margin-left"
-					],
-					[
-						"co",
-						"cover"
-					],
-					[
-						"ba",
-						"background-size"
-					],
-					[
-						"back",
-						"background-image"
-					],
-					[
-						"margi",
-						"margin"
-					],
-					[
-						"pa",
-						"padding"
-					],
-					[
-						"font",
-						"font-weight"
-					],
-					[
-						"pdding",
-						"padding-top"
-					],
-					[
-						"en",
-						"endif"
-					],
-					[
-						"mar",
-						"margin-top"
-					],
-					[
-						"margin",
-						"margin-top"
-					],
-					[
-						"audio",
-						"audio_file\tparam"
-					],
-					[
-						"op",
-						"options\tstatement"
-					],
-					[
-						"au",
-						"audio_file"
-					],
-					[
-						"chann",
-						"channel_id\tstatement"
-					],
-					[
-						"channe",
-						"channel_id"
-					],
-					[
-						"feed",
-						"feed_url\tparam"
-					],
-					[
-						"add",
-						"add_feed\tfunction"
-					],
-					[
-						"opm",
-						"opml_file"
-					],
-					[
-						"confi",
-						"Configuration\tstatement"
-					],
-					[
-						"fee",
-						"feed"
-					],
-					[
-						"get",
-						"get_value_as_int"
-					],
-					[
-						"col",
-						"columns\tstatement"
-					],
-					[
-						"sh",
-						"sheet_model\tstatement"
-					],
-					[
-						"create",
-						"create_sheet_model\tfunction"
-					],
-					[
-						"s",
-						"sheet_view"
-					],
-					[
-						"track",
-						"trackview\tstatement"
-					],
-					[
-						"select",
-						"select_row"
-					],
-					[
-						"langu",
-						"languages_dir"
-					],
-					[
-						"src",
-						"src_dir\tparam"
-					],
-					[
-						"langua",
-						"languages_dir\tparam"
-					],
-					[
-						"lang",
-						"languages_dir"
-					],
-					[
-						"tools_",
-						"tools_popover\tstatement"
-					],
-					[
-						"sho",
-						"show_all"
-					],
-					[
-						"on_fi",
-						"on_file_saved\tfunction"
-					],
-					[
-						"save",
-						"save_as\tfunction"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/post-series/post-series.php",
-					"settings":
-					{
-						"buffer_size": 31335,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/post-series/archive-tutorial.php",
-					"settings":
-					{
-						"buffer_size": 288,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/post-series/single-tutorial.php",
-					"settings":
-					{
-						"buffer_size": 1849,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/post-series/single-capitulo.php",
-					"settings":
-					{
-						"buffer_size": 2068,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/post-series/readme.txt",
-					"settings":
-					{
-						"buffer_size": 1015,
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
-			"build_system_choices":
-			[
-				[
-					[
-						[
-							"Anaconda Python Builder",
-							""
-						],
-						[
-							"Packages/Python/Python.sublime-build",
-							""
-						],
-						[
-							"Packages/Python/Python.sublime-build",
-							"Syntax Check"
-						],
-						[
-							"Packages/User/python3.sublime-build",
-							""
-						]
-					],
-					[
-						"Packages/User/python3.sublime-build",
-						""
-					]
-				]
-			],
-			"build_varint": "",
-			"command_palette":
-			{
-				"height": 392.0,
-				"last_filter": "tab",
-				"selected_items":
-				[
-					[
-						"tab",
-						"Indentation: Convert to Tabs"
-					],
-					[
-						"git",
-						"GitGutter: Enable/Disable"
-					],
-					[
-						"space",
-						"Indentation: Convert to Spaces"
-					]
-				],
-				"width": 497.0
-			},
-			"console":
-			{
-				"height": 0.0,
-				"history":
-				[
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"expanded_folders":
-			[
-				"/datos/Sync/Programacion/Wordpress/post-series"
-			],
-			"file_history":
-			[
-				"/datos/Sync/Programacion/Wordpress/post-series/sync_plugin.sh",
-				"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao/wp-blog-header.php",
-				"/datos/Sync/Programacion/Telegram/senderbot/README.md",
-				"/datos/Sync/Programacion/Telegram/senderbot/debian/install",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/debian/copyright",
-				"/datos/Sync/Programacion/Ubuntu/unicono/debian/copyright",
-				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/sidebar.php",
-				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/index.php",
-				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/header.php"
-			],
-			"find":
-			{
-				"height": 45.0
-			},
 			"find_in_files":
 			{
 				"height": 0.0,
@@ -1240,10 +1056,10 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
-					"orde"
+					"row"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1255,155 +1071,28 @@
 				"reverse": false,
 				"show_context": true,
 				"use_buffer2": true,
-				"whole_word": false,
+				"whole_word": true,
 				"wrap": true
 			},
 			"folders":
 			[
 				{
-					"path": "/datos/Sync/Programacion/Wordpress/post-series"
+					"path": "/home/lorenzo/temporal/Skeleton-Sass"
 				}
 			],
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/datos/Sync/Programacion/Wordpress/post-series/post-series.php",
+							"file": "/home/lorenzo/temporal/Skeleton-Sass/scss/base/_normalize.scss",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 31335,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										29072,
-										29072
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": false,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 13994.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/datos/Sync/Programacion/Wordpress/post-series/archive-tutorial.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 288,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										58,
-										58
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": false,
-									"open_with_edit": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/datos/Sync/Programacion/Wordpress/post-series/single-tutorial.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1849,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1301,
-										1301
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": false,
-									"open_with_edit": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 144.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/datos/Sync/Programacion/Wordpress/post-series/single-capitulo.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2068,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1502,
-										1502
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": false,
-									"open_with_edit": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 74.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/datos/Sync/Programacion/Wordpress/post-series/readme.txt",
-							"semi_transient": true,
-							"settings":
-							{
-								"buffer_size": 1015,
+								"buffer_size": 7718,
 								"regions":
 								{
 								},
@@ -1416,14 +1105,139 @@
 								],
 								"settings":
 								{
-									"git_gutter_is_enabled": false,
-									"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2622.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/lorenzo/temporal/Skeleton-Sass/scss/base/_typography.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 832,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										832
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/lorenzo/temporal/Skeleton-Sass/scss/modules/_buttons.scss",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 3077,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2691.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/lorenzo/temporal/Skeleton-Sass/scss/atareao.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 399,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										352,
+										352
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"open_with_edit": true,
+									"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/lorenzo/temporal/Skeleton-Sass/scss/atareao.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3387,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1945,
+										1945
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1157.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -1431,7 +1245,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 31.0
 			},
 			"input":
 			{
@@ -1462,18 +1276,22 @@
 			"menu_visible": true,
 			"output.exec":
 			{
-				"height": 324.0
+				"height": 239.0
 			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,960,27,1920,1046,1920,1080",
+			"position": "0,0,0,0,0,0,27,960,1052,1920,1080",
 			"project": "",
 			"replace":
 			{
-				"height": 60.0
+				"height": 58.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1511,12 +1329,1296 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 244.0,
+			"side_bar_width": 218.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 117,
+			"window_id": 167,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"p",
+						"phrase\tstatement"
+					],
+					[
+						"have",
+						"have_posts\tWP Function"
+					],
+					[
+						"catego",
+						"categoria_id"
+					],
+					[
+						"get_post_t",
+						"get_post_type\tWP Function"
+					],
+					[
+						"marg",
+						"margin"
+					],
+					[
+						"re",
+						"result\tstatement"
+					],
+					[
+						"sea",
+						"search_id\tfunction"
+					],
+					[
+						"par",
+						"parent_id"
+					],
+					[
+						"tut",
+						"tutorial_id"
+					],
+					[
+						"get_t",
+						"get_the_ID"
+					],
+					[
+						"pass",
+						"password"
+					],
+					[
+						"no",
+						"nombre_y_apellidos"
+					],
+					[
+						"fin",
+						"find_email"
+					],
+					[
+						"conf",
+						"confirm_email"
+					],
+					[
+						"Artícu",
+						"Artículo"
+					],
+					[
+						"numero",
+						"numero-capitulo"
+					],
+					[
+						"per_",
+						"per_message\tparam"
+					],
+					[
+						"m",
+						"message_id"
+					],
+					[
+						"me",
+						"message"
+					],
+					[
+						"mess",
+						"message_id"
+					],
+					[
+						"callba",
+						"callback_data\tparam"
+					],
+					[
+						"quer",
+						"query_handler\tstatement"
+					],
+					[
+						"base",
+						"base64_handler\tstatement"
+					],
+					[
+						"to",
+						"tobase64"
+					],
+					[
+						"std",
+						"stdout"
+					],
+					[
+						"tem",
+						"temperatura\tstatement"
+					],
+					[
+						"else",
+						"elseif\telseif …"
+					],
+					[
+						"co",
+						"cover"
+					],
+					[
+						"ba",
+						"background-size"
+					],
+					[
+						"back",
+						"background-image"
+					],
+					[
+						"margi",
+						"margin"
+					],
+					[
+						"pa",
+						"padding"
+					],
+					[
+						"font",
+						"font-weight"
+					],
+					[
+						"pdding",
+						"padding-top"
+					],
+					[
+						"en",
+						"endif"
+					],
+					[
+						"mar",
+						"margin-top"
+					],
+					[
+						"margin",
+						"margin-top"
+					],
+					[
+						"audio",
+						"audio_file\tparam"
+					],
+					[
+						"op",
+						"options\tstatement"
+					],
+					[
+						"au",
+						"audio_file"
+					],
+					[
+						"chann",
+						"channel_id\tstatement"
+					],
+					[
+						"channe",
+						"channel_id"
+					],
+					[
+						"feed",
+						"feed_url\tparam"
+					],
+					[
+						"add",
+						"add_feed\tfunction"
+					],
+					[
+						"opm",
+						"opml_file"
+					],
+					[
+						"confi",
+						"Configuration\tstatement"
+					],
+					[
+						"fee",
+						"feed"
+					],
+					[
+						"get",
+						"get_value_as_int"
+					],
+					[
+						"col",
+						"columns\tstatement"
+					],
+					[
+						"sh",
+						"sheet_model\tstatement"
+					],
+					[
+						"create",
+						"create_sheet_model\tfunction"
+					],
+					[
+						"s",
+						"sheet_view"
+					],
+					[
+						"track",
+						"trackview\tstatement"
+					],
+					[
+						"select",
+						"select_row"
+					],
+					[
+						"langu",
+						"languages_dir"
+					],
+					[
+						"src",
+						"src_dir\tparam"
+					],
+					[
+						"langua",
+						"languages_dir\tparam"
+					],
+					[
+						"lang",
+						"languages_dir"
+					],
+					[
+						"tools_",
+						"tools_popover\tstatement"
+					],
+					[
+						"sho",
+						"show_all"
+					],
+					[
+						"on_fi",
+						"on_file_saved\tfunction"
+					],
+					[
+						"save",
+						"save_as\tfunction"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/lorenzo/temporal/skeleton-framework/src/core/_buttons.css",
+					"settings":
+					{
+						"buffer_size": 7075,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Anaconda Python Builder",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/User/python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/python3.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Libsass Build/Sass (libsass).sublime-build",
+							""
+						],
+						[
+							"Packages/SASS Build/SASS - Compressed.sublime-build",
+							""
+						],
+						[
+							"Packages/SASS Build/SASS.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/SASS Build/SASS.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 159.0,
+				"last_filter": "install ",
+				"selected_items":
+				[
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"add re",
+						"Package Control: Add Repository"
+					],
+					[
+						"sass",
+						"SassBeautify"
+					],
+					[
+						"install pac",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"tab",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"git",
+						"GitGutter: Enable/Disable"
+					],
+					[
+						"space",
+						"Indentation: Convert to Spaces"
+					]
+				],
+				"width": 497.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/lorenzo/temporal/skeleton-framework",
+				"/home/lorenzo/temporal/skeleton-framework/dist",
+				"/home/lorenzo/temporal/skeleton-framework/scss",
+				"/home/lorenzo/temporal/skeleton-framework/src",
+				"/home/lorenzo/temporal/skeleton-framework/src/core"
+			],
+			"file_history":
+			[
+				"/datos/temporal/Skeleton-Sass/.libsass.json",
+				"/home/lorenzo/temporal/Skeleton-Sass/.libsass.json",
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin",
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin-pkexec",
+				"/datos/Sync/Programacion/Python/gaptin/data/extras-gaptin.desktop",
+				"/datos/Sync/Programacion/Python/gaptin/debian/changelog",
+				"/datos/Sync/Programacion/Python/gaptin/debian/control",
+				"/datos/Sync/Programacion/Python/gaptin/debian/copyright",
+				"/datos/Sync/Programacion/Python/gaptin/debian/install",
+				"/datos/Sync/Programacion/Python/gaptin/policykit/actions/com.ubuntu.pkexec.gaptin.policy",
+				"/datos/Sync/Programacion/Python/gaptin/README",
+				"/datos/Sync/Programacion/Python/gaptin/src/comun.py",
+				"/datos/Sync/Programacion/Python/gaptin/src/doitinbackground.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-podcasts.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-lecciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-capitulos.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-aplicaciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/templates.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/single.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-functions.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-post-types.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/post-series.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/page-templater.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/admin-page.php",
+				"/tmp/fz3temp-2/suscribir.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive-tutorial.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/portada.php",
+				"/datos/Sync/Programacion/Wordpress/WEB_201709/suscribir.php",
+				"/datos/Sync/Programacion/Telegram/senderbot/src/rae.py",
+				"/datos/Sync/Programacion/Telegram/senderbot/raebot.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/functions.php",
+				"/tmp/fz3temp-2/.htaccess",
+				"/tmp/fz3temp-2/.htaccess 2",
+				"/tmp/fz3temp-2/contactar.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/sync_plugin.sh",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao/wp-blog-header.php",
+				"/datos/Sync/Programacion/Telegram/senderbot/README.md",
+				"/datos/Sync/Programacion/Telegram/senderbot/debian/install",
+				"/datos/Sync/Programacion/Python/pomodoro-indicator/debian/copyright",
+				"/datos/Sync/Programacion/Ubuntu/unicono/debian/copyright",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/sidebar.php",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/index.php",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/header.php"
+			],
+			"find":
+			{
+				"height": 31.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": true,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/lorenzo/temporal/skeleton-framework"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/lorenzo/temporal/skeleton-framework/src/core/_buttons.css",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 7075,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										513,
+										668
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 44.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 239.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,27,960,1052,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 218.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 170,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"bac",
+						"background-color: "
+					],
+					[
+						"fo",
+						"font-family"
+					],
+					[
+						"p",
+						"phrase\tstatement"
+					],
+					[
+						"have",
+						"have_posts\tWP Function"
+					],
+					[
+						"catego",
+						"categoria_id"
+					],
+					[
+						"get_post_t",
+						"get_post_type\tWP Function"
+					],
+					[
+						"marg",
+						"margin"
+					],
+					[
+						"re",
+						"result\tstatement"
+					],
+					[
+						"sea",
+						"search_id\tfunction"
+					],
+					[
+						"par",
+						"parent_id"
+					],
+					[
+						"tut",
+						"tutorial_id"
+					],
+					[
+						"get_t",
+						"get_the_ID"
+					],
+					[
+						"pass",
+						"password"
+					],
+					[
+						"no",
+						"nombre_y_apellidos"
+					],
+					[
+						"fin",
+						"find_email"
+					],
+					[
+						"conf",
+						"confirm_email"
+					],
+					[
+						"Artícu",
+						"Artículo"
+					],
+					[
+						"numero",
+						"numero-capitulo"
+					],
+					[
+						"per_",
+						"per_message\tparam"
+					],
+					[
+						"m",
+						"message_id"
+					],
+					[
+						"me",
+						"message"
+					],
+					[
+						"mess",
+						"message_id"
+					],
+					[
+						"callba",
+						"callback_data\tparam"
+					],
+					[
+						"quer",
+						"query_handler\tstatement"
+					],
+					[
+						"base",
+						"base64_handler\tstatement"
+					],
+					[
+						"to",
+						"tobase64"
+					],
+					[
+						"std",
+						"stdout"
+					],
+					[
+						"tem",
+						"temperatura\tstatement"
+					],
+					[
+						"else",
+						"elseif\telseif …"
+					],
+					[
+						"co",
+						"cover"
+					],
+					[
+						"ba",
+						"background-size"
+					],
+					[
+						"back",
+						"background-image"
+					],
+					[
+						"margi",
+						"margin"
+					],
+					[
+						"pa",
+						"padding"
+					],
+					[
+						"font",
+						"font-weight"
+					],
+					[
+						"pdding",
+						"padding-top"
+					],
+					[
+						"en",
+						"endif"
+					],
+					[
+						"mar",
+						"margin-top"
+					],
+					[
+						"margin",
+						"margin-top"
+					],
+					[
+						"audio",
+						"audio_file\tparam"
+					],
+					[
+						"op",
+						"options\tstatement"
+					],
+					[
+						"au",
+						"audio_file"
+					],
+					[
+						"chann",
+						"channel_id\tstatement"
+					],
+					[
+						"channe",
+						"channel_id"
+					],
+					[
+						"feed",
+						"feed_url\tparam"
+					],
+					[
+						"add",
+						"add_feed\tfunction"
+					],
+					[
+						"opm",
+						"opml_file"
+					],
+					[
+						"confi",
+						"Configuration\tstatement"
+					],
+					[
+						"fee",
+						"feed"
+					],
+					[
+						"get",
+						"get_value_as_int"
+					],
+					[
+						"col",
+						"columns\tstatement"
+					],
+					[
+						"sh",
+						"sheet_model\tstatement"
+					],
+					[
+						"create",
+						"create_sheet_model\tfunction"
+					],
+					[
+						"s",
+						"sheet_view"
+					],
+					[
+						"track",
+						"trackview\tstatement"
+					],
+					[
+						"select",
+						"select_row"
+					],
+					[
+						"langu",
+						"languages_dir"
+					],
+					[
+						"src",
+						"src_dir\tparam"
+					],
+					[
+						"langua",
+						"languages_dir\tparam"
+					],
+					[
+						"lang",
+						"languages_dir"
+					],
+					[
+						"tools_",
+						"tools_popover\tstatement"
+					],
+					[
+						"sho",
+						"show_all"
+					],
+					[
+						"on_fi",
+						"on_file_saved\tfunction"
+					],
+					[
+						"save",
+						"save_as\tfunction"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/lorenzo/temporal/skeleton-framework/scss/modules/_buttons.scss",
+					"settings":
+					{
+						"buffer_size": 646,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "// Variables\n//––––––––––––––––––––––––––––––––––––––––––––––––––\n\n// Breakpoints\n$bp-larger-than-mobile    : \"min-width: 400px\" !default;\n$bp-larger-than-phablet   : \"min-width: 550px\" !default;\n$bp-larger-than-tablet    : \"min-width: 750px\" !default;\n$bp-larger-than-desktop   : \"min-width: 1000px\" !default;\n$bp-larger-than-desktophd : \"min-width: 1200px\" !default;\n\n// Colors\n$light-grey: #e1e1e1 !default;\n$dark-grey: #333 !default;\n$primary-color: #33c3f0 !default;\n$secondary-color: lighten($dark-grey, 13.5%) !default;\n$border-color: #bbb !default;\n$link-color: #1eaedb !default;\n$link-color-hover: #aa0000 !default;\n$font-color: #222 !default;\n$background-color: #aaa !default;\n$button-font-color: #555;\n$button-font-color-enter: #333;\n$button-font-color-active: #222;\n$button-font-color-disabled: #888;\n$button-border-color-enter: #888;\n$button-border-color-active: #222;\n$button-background-color: transparent;\n// Typography\n$font-family: \"Raleway\", \"HelveticaNeue\", \"Helvetica Neue\", Helvetica, Arial, sans-serif !default;\n\n//Grid Variables\n$container-width: 1200px !default;\n$container-width-larger-than-mobile: 85% !default;\n$container-width-larger-than-phablet: 80% !default;\n$total-columns: 12 !default;\n$column-width: 100% / $total-columns !default; // calculates individual column width based off of # of columns\n$column-margin: 4% !default; // space between columns\n$gutter: 1rem !default;\n\n// Misc\n$global-radius: 4px !default;\n\n// Borders\n$button-border: 1px solid #BBB;\n$button-border-disabled: 1px solid #E3E3E3;",
+					"file": "/home/lorenzo/temporal/skeleton-framework/scss/base/_variables.scss",
+					"file_size": 1633,
+					"file_write_time": 131545530830298456,
+					"settings":
+					{
+						"buffer_size": 1534,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/SASS Build/SASS.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Anaconda Python Builder",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/User/python3.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/python3.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Libsass Build/Sass (libsass).sublime-build",
+							""
+						],
+						[
+							"Packages/SASS Build/SASS - Compressed.sublime-build",
+							""
+						],
+						[
+							"Packages/SASS Build/SASS.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/SASS Build/SASS.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 159.0,
+				"last_filter": "install ",
+				"selected_items":
+				[
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"add re",
+						"Package Control: Add Repository"
+					],
+					[
+						"sass",
+						"SassBeautify"
+					],
+					[
+						"install pac",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"tab",
+						"Indentation: Convert to Tabs"
+					],
+					[
+						"git",
+						"GitGutter: Enable/Disable"
+					],
+					[
+						"space",
+						"Indentation: Convert to Spaces"
+					]
+				],
+				"width": 497.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/lorenzo/temporal/skeleton-framework",
+				"/home/lorenzo/temporal/skeleton-framework/dist",
+				"/home/lorenzo/temporal/skeleton-framework/scss",
+				"/home/lorenzo/temporal/skeleton-framework/scss/base",
+				"/home/lorenzo/temporal/skeleton-framework/scss/modules",
+				"/home/lorenzo/temporal/skeleton-framework/src",
+				"/home/lorenzo/temporal/skeleton-framework/src/core"
+			],
+			"file_history":
+			[
+				"/home/lorenzo/temporal/skeleton-framework/scss/base/_base-styles.scss",
+				"/home/lorenzo/temporal/skeleton-framework/scss/base/_misc.scss",
+				"/home/lorenzo/temporal/skeleton-framework/src/core/_grid.css",
+				"/home/lorenzo/temporal/skeleton-framework/scss/skeleton.scss",
+				"/home/lorenzo/temporal/skeleton-framework/scss/atareao.scss",
+				"/home/lorenzo/temporal/skeleton-framework/scss/modules/_spacing.scss",
+				"/home/lorenzo/temporal/skeleton-framework/index.html",
+				"/home/lorenzo/temporal/skeleton-framework/scss/base/_variables.scss",
+				"/home/lorenzo/temporal/skeleton-framework/scss/modules/_media-queries.scss",
+				"/home/lorenzo/temporal/skeleton-framework/scss/modules/_grid.scss",
+				"/home/lorenzo/temporal/skeleton-framework/scss/atareao.css",
+				"/home/lorenzo/temporal/skeleton-framework/src/skeleton.scss",
+				"/home/lorenzo/temporal/skeleton-framework/scss/base/_typography.scss",
+				"/datos/temporal/Skeleton-Sass/.libsass.json",
+				"/home/lorenzo/temporal/Skeleton-Sass/.libsass.json",
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin",
+				"/datos/Sync/Programacion/Python/gaptin/bin/gaptin-pkexec",
+				"/datos/Sync/Programacion/Python/gaptin/data/extras-gaptin.desktop",
+				"/datos/Sync/Programacion/Python/gaptin/debian/changelog",
+				"/datos/Sync/Programacion/Python/gaptin/debian/control",
+				"/datos/Sync/Programacion/Python/gaptin/debian/copyright",
+				"/datos/Sync/Programacion/Python/gaptin/debian/install",
+				"/datos/Sync/Programacion/Python/gaptin/policykit/actions/com.ubuntu.pkexec.gaptin.policy",
+				"/datos/Sync/Programacion/Python/gaptin/README",
+				"/datos/Sync/Programacion/Python/gaptin/src/comun.py",
+				"/datos/Sync/Programacion/Python/gaptin/src/doitinbackground.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-podcasts.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-lecciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-capitulos.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content-aplicaciones.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/templates.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/single.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-functions.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/custom-post-types.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/post-series.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/page-templater.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/template-parts/content.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/inc/admin-page.php",
+				"/tmp/fz3temp-2/suscribir.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/archive-tutorial.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/templates/portada.php",
+				"/datos/Sync/Programacion/Wordpress/WEB_201709/suscribir.php",
+				"/datos/Sync/Programacion/Telegram/senderbot/src/rae.py",
+				"/datos/Sync/Programacion/Telegram/senderbot/raebot.py",
+				"/datos/Sync/Programacion/Wordpress/post-series/functions.php",
+				"/tmp/fz3temp-2/.htaccess",
+				"/tmp/fz3temp-2/.htaccess 2",
+				"/tmp/fz3temp-2/contactar.php",
+				"/datos/Sync/Programacion/Wordpress/post-series/sync_plugin.sh",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48/var/www/html/atareao/wp-blog-header.php",
+				"/datos/Sync/Programacion/Telegram/senderbot/README.md",
+				"/datos/Sync/Programacion/Telegram/senderbot/debian/install",
+				"/datos/Sync/Programacion/Python/pomodoro-indicator/debian/copyright",
+				"/datos/Sync/Programacion/Ubuntu/unicono/debian/copyright",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/sidebar.php",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/index.php",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.48,user=pi/var/www/html/atareao/wp-content/themes/atareao_201709/header.php"
+			],
+			"find":
+			{
+				"height": 44.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"media",
+					"@media",
+					".column",
+					"[class*='column']",
+					"));",
+					"calc((var(--column-width)",
+					"));",
+					"calc((var(--column-width)"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"[class*='column']",
+					".column",
+					";",
+					"$column-width",
+					";",
+					"$column-width"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/lorenzo/temporal/skeleton-framework"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/lorenzo/temporal/skeleton-framework/scss/modules/_buttons.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 646,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										645,
+										645
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"open_with_edit": true,
+									"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/lorenzo/temporal/skeleton-framework/scss/base/_variables.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1534,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1409,
+										1409
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 345.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 44.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 239.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,960,27,1920,1052,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 80.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 352.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 168,
 			"workspace_name": ""
 		}
 	],
