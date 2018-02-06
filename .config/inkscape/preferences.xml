@@ -34,7 +34,7 @@
        state="1" />
     <group
        id="scrollbars"
-       state="1" />
+       state="0" />
   </group>
   <group
      id="fullscreen">
@@ -122,7 +122,8 @@
   </group>
   <group
      id="tools"
-     bounding_box="0">
+     bounding_box="0"
+     style="fill:none;stroke:black;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;">
     <group
        id="shapes"
        style="fill-rule:evenodd;"
@@ -132,8 +133,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="1500"
-         height="354"
+         width="552.679"
+         height="1010.77"
          rx="0"
          ry="0" />
       <eventcontext
@@ -184,8 +185,8 @@
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
-         expansion="1"
          usecurrent="0"
+         expansion="1"
          revolution="3"
          t0="0" />
     </group>
@@ -334,7 +335,7 @@
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:'Halloween Logo';font-style:normal;font-weight:normal;font-size:106.66666667px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Halloween Logo';font-stretch:normal;font-variant:normal"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:Ubuntu;font-style:normal;font-weight:normal;font-size:50px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Ubuntu;font-stretch:normal;font-variant:normal"
        selcue="1"
        align_mode="1">
       <group
@@ -357,8 +358,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="2996.82"
+       y="1135.24"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -405,8 +406,9 @@
        id="dropper"
        selcue="1"
        gradientdrag="1"
-       pick="1"
-       setalpha="1" />
+       pick="0"
+       setalpha="0"
+       onetimepick="0" />
     <eventcontext
        id="select"
        selcue="1"
@@ -466,9 +468,6 @@
       <dash
          id="dash-1-48"
          style="stroke-dasharray:1,48" />
-      <dash
-         id="dash-empty"
-         style="stroke-dasharray:0 11" />
       <dash
          id="dash-2-1"
          style="stroke-dasharray:2,1" />
@@ -547,11 +546,14 @@
       <dash
          id="dash-0110-0110"
          style="stroke-dasharray:0.1,0.1" />
+      <dash
+         id="dash-empty"
+         style="stroke-dasharray:0 11" />
     </group>
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="1" />
   <group
      id="embedded">
     <group
@@ -574,11 +576,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="0"
+       page="1"
        x="0"
        y="0"
-       w="457"
-       h="427"
+       w="404"
+       h="340"
        visible="1"
        state="2"
        placement="5" />
@@ -588,17 +590,17 @@
        id="textandfont" />
     <group
        id="transformation"
-       applyseparately="1"
+       applyseparately="0"
        panel_size="1"
        panel_ratio="100"
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       rotateCounterClockwise="1"
+       rotateCounterClockwise="0"
        x="0"
        y="0"
-       w="457"
-       h="427"
+       w="404"
+       h="340"
        visible="1"
        state="2"
        placement="5" />
@@ -609,11 +611,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       align-to="4"
+       align-to="0"
        x="0"
        y="0"
-       w="457"
-       h="427"
+       w="404"
+       h="448"
        visible="1"
        state="2"
        placement="5" />
@@ -628,11 +630,11 @@
        panel_border="0"
        x="0"
        y="0"
-       w="457"
-       h="427"
-       visible="1"
+       w="417"
+       h="234"
+       visible="0"
        state="2"
-       placement="5" />
+       placement="1" />
     <group
        id="spellcheck"
        w="200"
@@ -647,25 +649,25 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1253"
+       x="1426"
        y="0"
-       w="661"
-       h="770"
+       w="490"
+       h="698"
        visible="0"
        placement="1" />
     <group
        id="preferences"
        state="1"
-       page="15"
+       page="1"
        panel_size="1"
        panel_ratio="100"
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="781"
-       y="486"
-       w="358"
-       h="108" />
+       x="326"
+       y="203"
+       w="1268"
+       h="701" />
     <group
        id="gradienteditor" />
     <group
@@ -677,8 +679,11 @@
        panel_border="0"
        x="0"
        y="0"
-       w="470"
-       h="300" />
+       w="1"
+       h="1"
+       visible="1"
+       state="3"
+       placement="1" />
     <group
        id="export"
        default=""
@@ -691,35 +696,35 @@
        panel_border="0"
        x="0"
        y="0"
-       w="457"
-       h="427"
+       w="404"
+       h="448"
        visible="1"
        state="2"
        placement="5">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
-         value="96" />
+         value="150" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="0"
        enable_preview="1"
-       path="/datos/Sync/LOGO"
+       path="/datos/Sync/Programacion/Android/Arte/calcelec"
        use_current_dir="1" />
     <group
        id="save_copy"
-       default=""
+       default="org.inkscape.output.svg.plain"
        append_extension="1"
        enable_preview="1"
-       path="" />
+       path="/home/lorenzo/Escritorio/jole" />
     <group
        id="open"
        enable_preview="1"
-       path="/home/lorenzo/Descargas/" />
+       path="/datos/Sync/Programacion/Android/Arte/jole/" />
     <group
        id="import"
        enable_preview="1"
@@ -776,10 +781,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1268"
-       y="68"
-       w="646"
-       h="360"
+       x="1325"
+       y="19"
+       w="591"
+       h="372"
        visible="0"
        placement="1" />
     <group
@@ -790,6 +795,8 @@
        id="colorpickerwindow" />
     <group
        id="undo-history" />
+    <group
+       id="filtereffects" />
     <group
        id="transparency"
        on-focus="1.0"
@@ -859,7 +866,7 @@
        value="1" />
     <group
        id="nudgedistance"
-       value="2px" />
+       value="20px" />
     <group
        id="rotationsnapsperpi"
        value="12" />
@@ -892,29 +899,29 @@
        value="1" />
     <group
        id="defaultoffsetwidth"
-       value="2px" />
+       value="20px" />
     <group
        id="defaultscale"
-       value="2px" />
+       value="20px" />
     <group
        id="maxrecentdocuments"
        value="36" />
     <group
        id="zoomincrement"
-       value="1.414213562" />
+       value="1.5" />
     <group
        id="zoomcorrection"
        value="1.0"
        unit="mm" />
     <group
        id="keyscroll"
-       value="15" />
+       value="20" />
     <group
        id="wheelscroll"
-       value="40" />
+       value="20" />
     <group
-       id="spacebarpans"
-       value="1" />
+       id="spacepans"
+       value="0" />
     <group
        id="wheelzooms"
        value="0" />
@@ -923,10 +930,10 @@
        value="1" />
     <group
        id="scrollingacceleration"
-       value="0.4" />
+       value="0" />
     <group
        id="snapdelay"
-       value="150" />
+       value="100" />
     <group
        id="snapweight"
        value="0.5" />
@@ -938,7 +945,7 @@
        value="1" />
     <group
        id="autoscrollspeed"
-       value="0.7" />
+       value="1" />
     <group
        id="autoscrolldistance"
        value="-10" />
@@ -1082,11 +1089,11 @@
          units="px"
          origin_x="0.0"
          origin_y="0.0"
-         spacing_x="1.0"
-         spacing_y="1.0"
+         spacing_x="20"
+         spacing_y="20"
          color="1061158688"
          empcolor="1061158720"
-         empspacing="5"
+         empspacing="40"
          dotted="0" />
       <group
          id="axonom"
@@ -1105,6 +1112,9 @@
        colorsontop="0"
        partialdynamic="0" />
     <group
+       id="spacebarpans"
+       value="1" />
+    <group
        id="rendering" />
   </group>
   <group
@@ -1112,19 +1122,39 @@
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.resolution="96"
      org.inkscape.output.pdf.cairorenderer.bleed="0"
-     org.inkscape.effect.filter.ColorDropShadow.blur="4"
-     org.inkscape.effect.filter.ColorDropShadow.xoffset="15"
-     org.inkscape.effect.filter.ColorDropShadow.yoffset="-15"
+     org.inkscape.effect.filter.ColorDropShadow.blur="6"
+     org.inkscape.effect.filter.ColorDropShadow.xoffset="6"
+     org.inkscape.effect.filter.ColorDropShadow.yoffset="-6"
      org.inkscape.effect.filter.ColorDropShadow.type="outer"
-     org.inkscape.effect.filter.ColorDropShadow.__live_effect__="0" />
+     org.inkscape.effect.filter.ColorDropShadow.__live_effect__="0"
+     org.inkscape.effect.filter.Blur.hblur="2"
+     org.inkscape.effect.filter.Blur.vblur="2"
+     org.inkscape.print.latex.destination="/tmp/inkscape-clipboard-export"
+     org.inkscape.print.emf.FixPPTCharPos="0"
+     org.inkscape.print.emf.FixPPTDashLine="0"
+     org.inkscape.print.emf.FixPPTGrad2Polys="0"
+     org.inkscape.print.emf.FixPPTLinGrad="0"
+     org.inkscape.print.emf.FixPPTPatternAsHatch="0"
+     org.inkscape.print.emf.FixImageRot="0"
+     org.inkscape.print.emf.textToPath="1"
+     org.inkscape.print.emf.destination="/tmp/inkscape-clipboard-export"
+     org.inkscape.print.wmf.FixPPTCharPos="0"
+     org.inkscape.print.wmf.FixPPTDashLine="0"
+     org.inkscape.print.wmf.FixPPTGrad2Polys="0"
+     org.inkscape.print.wmf.FixPPTPatternAsHatch="0"
+     org.inkscape.print.wmf.textToPath="1"
+     org.inkscape.print.wmf.destination="/tmp/inkscape-clipboard-export"
+     org.inkscape.print.ps.cairo.PSlevel="PS3"
+     org.inkscape.print.ps.cairo.resolution="90"
+     org.inkscape.print.ps.cairo.bleed="0" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#00ff00;fill-opacity:1;font-size:533.33333333px;stroke-width:1.51181102;stroke-miterlimit:2.70000005;stroke-dasharray:none;stroke:none;-inkscape-font-specification:'ubuntu Medium';font-family:ubuntu;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1;text-anchor:middle;text-align:center;fill-rule:nonzero">
+     style="line-height:1.25;fill:#969696;fill-opacity:1;font-size:75px;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke:#969696;-inkscape-font-specification:Roboto;font-family:Roboto;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1;text-anchor:middle;text-align:center;fill-rule:nonzero;stroke-linecap:round;stroke-dashoffset:0">
     <group
-       width="920"
-       height="480"
-       x="0"
-       y="27"
+       width="1763"
+       height="593"
+       x="19"
+       y="173"
        fullscreen="0"
        id="geometry"
        maximized="1" />

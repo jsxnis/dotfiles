@@ -1,28 +1,9 @@
-La extensión «DXF Output» no se ha cargado porque no se cumplió una dependencia.
+La extensión «Win32 Vector Print» no se ha cargado porque the extension is designed for Windows only.  La causa de esto es un archivo .inx incorrecto para esta extensión. Un archivo inx incorrecto puede ser el resultado de una instalación defectuosa de Inkscape.
+La extensión «XFIG Input» no se ha cargado porque no se cumplió una dependencia.
 Dependencia:
   tipo: executable
   localización: trayecto
-  cadena: pstoedit
-  descripción: pstoedit debe estar instalado, infórmese en: http://www.pstoedit.net/pstoedit
-
-La extensión «Win32 Vector Print» no se ha cargado porque la extensión está diseñada solo para Windows.  La causa de esto es un archivo .inx incorrecto para esta extensión. Un archivo inx incorrecto puede ser el resultado de una instalación defectuosa de Inkscape.
-La extensión «LaTeX» no se ha cargado porque no se cumplió una dependencia.
-Dependencia:
-  tipo: executable
-  localización: trayecto
-  cadena: latex
-
-La extensión «LaTeX» no se ha cargado porque no se cumplió una dependencia.
-Dependencia:
-  tipo: executable
-  localización: trayecto
-  cadena: dvips
-
-La extensión «LaTeX» no se ha cargado porque no se cumplió una dependencia.
-Dependencia:
-  tipo: executable
-  localización: trayecto
-  cadena: pstoedit
+  cadena: fig2dev
 
 La extensión «Sketch Input» no se ha cargado porque no se cumplió una dependencia.
 Dependencia:

@@ -5,6 +5,8 @@ schema
 scheme
 colorscheme
 EnableUser
+DATA_DIR
+hub
 
 caquita
 
