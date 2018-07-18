@@ -10,6 +10,7 @@ set showcursor
 set smarthome
 set smooth
 set softwrap
+set tabstospaces
 set tabsize 4
 set whitespace ">·"
 

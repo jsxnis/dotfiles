@@ -3,9 +3,10 @@
 	"dictionary": "Packages/Language - Spanish/Spanish.dic",
 	"draw_white_space": "all",
 	"font_face": "Hack",
-	"font_size": 15,
+	"font_size": 13,
 	"ignored_packages":
 	[
+		"JavaScript",
 		"SublimeTextGitX",
 		"Vintage"
 	],

@@ -13,6 +13,9 @@
 		"GitGutter",
 		"Indent XML",
 		"IndentX",
+		"JavaScript Console",
+		"JavaScript Snippets",
+		"JavaScript Ultimate",
 		"MarkdownEditing",
 		"Minifier",
 		"Package Control",
@@ -26,6 +29,10 @@
 		"SassSolution",
 		"SideBarEnhancements",
 		"Terminal",
+		"TerminalView",
+		"TypeScript",
+		"TypeScript Syntax",
+		"TypescriptCompletion",
 		"WordPress Completions"
 	],
 	"repositories":
