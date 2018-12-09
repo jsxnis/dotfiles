@@ -133,9 +133,9 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="17.1603"
-         height="46.1798"
-         rx="0.690623"
+         width="781.905"
+         height="805.568"
+         rx="0"
          ry="0" />
       <eventcontext
          id="3dbox"
@@ -174,8 +174,8 @@
          start="0"
          usecurrent="1"
          open="0"
-         rx="477.453"
-         ry="477.453" />
+         rx="45"
+         ry="45" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -341,8 +341,8 @@
        selcue="1"
        align_mode="1">
       <group
-         display_unit="9"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="9" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -429,12 +429,12 @@
        offset="0"
        offsetunits="cm" />
     <group
-       unit="px"
-       offset="5"
-       scale="100"
-       precision="2"
+       id="measure"
        fontsize="10"
-       id="measure" />
+       precision="2"
+       scale="100"
+       offset="5"
+       unit="px" />
   </group>
   <group
      id="palette">
@@ -555,7 +555,7 @@
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="1" />
   <group
      id="embedded">
     <group
@@ -578,14 +578,14 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="0"
+       page="1"
        x="0"
        y="0"
-       w="461"
-       h="427"
+       w="1"
+       h="1"
        visible="1"
-       state="2"
-       placement="5" />
+       state="3"
+       placement="1" />
     <group
        id="filtereffects" />
     <group
@@ -601,8 +601,8 @@
        rotateCounterClockwise="1"
        x="0"
        y="0"
-       w="461"
-       h="427"
+       w="470"
+       h="499"
        visible="1"
        state="2"
        placement="5" />
@@ -616,8 +616,8 @@
        align-to="4"
        x="0"
        y="0"
-       w="461"
-       h="427"
+       w="470"
+       h="499"
        visible="1"
        state="2"
        placement="5" />
@@ -632,10 +632,10 @@
        panel_border="0"
        x="0"
        y="0"
-       w="417"
-       h="234"
-       visible="0"
-       state="2"
+       w="1"
+       h="1"
+       visible="1"
+       state="3"
        placement="1" />
     <group
        id="spellcheck"
@@ -651,10 +651,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1491"
-       y="274"
-       w="656"
-       h="744"
+       x="1906"
+       y="216"
+       w="675"
+       h="786"
        visible="0"
        placement="1" />
     <group
@@ -698,8 +698,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="461"
-       h="427"
+       w="470"
+       h="499"
        visible="1"
        state="2"
        placement="5">
@@ -726,11 +726,11 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/lorenzo/Imágenes/" />
+       path="/home/lorenzo/Escritorio/" />
     <group
        id="import"
        enable_preview="1"
-       path=""
+       path="/home/lorenzo/Descargas/"
        ask="1"
        link="embed"
        scale="auto"
@@ -783,10 +783,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1260"
+       x="1266"
        y="0"
-       w="654"
-       h="360"
+       w="650"
+       h="386"
        visible="0"
        placement="1" />
     <group
@@ -803,30 +803,30 @@
        on-blur="0.50"
        animate-time="100" />
     <group
-       h="245"
+       id="pixelart"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
        w="450"
-       y="0"
-       x="0"
-       panel_border="0"
-       panel_wrap="0"
-       panel_mode="1"
-       panel_ratio="100"
-       panel_size="1"
-       id="pixelart" />
+       h="245" />
     <group
-       id="livepatheffect"
-       panel_size="1"
-       panel_ratio="100"
-       panel_mode="1"
-       panel_wrap="0"
-       panel_border="0"
-       x="0"
-       y="0"
-       w="459"
-       h="154"
-       visible="0"
+       placement="1"
        state="2"
-       placement="1" />
+       visible="0"
+       h="154"
+       w="459"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="livepatheffect" />
   </group>
   <group
      id="printing">
@@ -1112,8 +1112,8 @@
        colorsontop="0"
        partialdynamic="0" />
     <group
-       value="0"
-       id="spacepans" />
+       id="spacepans"
+       value="0" />
     <group
        id="rendering" />
   </group>
@@ -1149,10 +1149,10 @@
      org.inkscape.print.ps.cairo.bleed="0" />
   <group
      id="desktop"
-     style="line-height:125%;fill:#ffffff;fill-opacity:1;font-size:75px;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;-inkscape-font-specification:Roboto;font-family:Roboto;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1;text-anchor:middle;text-align:center;fill-rule:nonzero;stroke-linecap:round;stroke-dashoffset:0">
+     style="line-height:125%;fill:#000000;fill-opacity:1;font-size:10.66666667px;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;-inkscape-font-specification:ubuntu;font-family:ubuntu;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1;text-anchor:middle;text-align:center;fill-rule:nonzero;stroke-linecap:round;stroke-dashoffset:0">
     <group
-       width="1636"
-       height="997"
+       width="812"
+       height="480"
        x="0"
        y="27"
        fullscreen="0"

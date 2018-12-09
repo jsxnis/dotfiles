@@ -1,2926 +1,2909 @@
-alsamixer
-sudo apt install paprefs
-pactl load-module module-loopback latency_msec=1
-pactl unload-module module-loopback
-cd .local/share/gnome-shell/
-ks
-cd extensions/
-cd microphone-loopback@atareao.es/
-./helper
-./helper.sh 
-./helper.sh
-./helper.sh -c
-./helper.sh -t
-git remote add origin git@github.com:atareao/microphone-loopback.git
-cd disk-space-usage@atareao.es/
-git remote -v
-gjs dsu.js 
-cd .ssh
-cat atareao_id.pub 
-cat config 
-cat id_rsa.pub
-ssh  165.227.238.5
-ssh  root@165.227.238.5
-ssh-copy-id lorenzo@165.227.238.5
-ssh root@165.227.238.5
-ssh atareao@165.227.238.5
-ssh lorenzo@165.227.238.5
-mosh lorenzo@165.227.238.5
-nano config
-mosh do1
-cd /datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/
-git ftp
-git ftp pull
-cat .git/config 
-ls -la
-cd ../gnulinuxvalencia
-git init
-git add .
-git commit -m "First commit"
-git remote add origin git@gitlab.com:atareao/gnulinuxvalencia.org.git
-git push -u origin master
-git config git.ftp.url "ftp://ftp.jmoyano.com/public_html/gnulinuxvalencia.org/wp-content/themes/gnulinuxvalencia"
-git config git.ftp.user "atareao@jmoyano.com"
-git config git-ftp.password "me-fio-tanto-de-ti-que-te-dejo-todo-el-ftp-atareao"
-git config git-ftp.user "atareao@jmoyano.com"
-git config git-ftp.url "ftp://ftp.jmoyano.com/public_html/gnulinuxvalencia.org/wp-content/themes/gnulinuxvalencia"
-cd .git
-nano config 
-git ftp init
-cd Wordpress/
-cd montana/
-rm -rf gnulinuxvalencia.org/
-mv gnulinuxvalencia gnulinuxvalencia.org
-wget http://www.ivoox.com/podcast-marketing-online_fg_f1133401_filtro_1.xml
-cd audio
-cd Música
-cd Audio/[A
-cd 
-cd /datos/
-mkdir efectos
-youtube-dl
-sudo apt install youtube-dl
-youtube-dl https://www.youtube.com/watch?v=ferfRClQKgY
-rm Sonido\ de\ bateria\ para\ un\ Chiste\ Malo\ \(Ba\ Dum\ Tss\!\)-ferfRClQKgY.mkv 
-youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=ferfRClQKgY
-cd .local/share/gnome-shell/extensions/sound-effects@atareao.es/
-gjs
-mem
-gjs player.js 
+ls *.mp3
+cp  "T01E02. Linux para seres humanos o tu elijes.mp3" T01E02.mp3
+./audiowave.sh -t "Atareao versión podcast" -s "Linux para seres humanos o tu elijes" -b tu-elijes.jpg -a T01E02.mp3
+cd Descargas
+rm *.deb
+cd Telegram\ Desktop/
+for i in *.mp4;do echo "$i" "${i/.@CineNcasa//}";done
+for i in *.mp4;do echo "$i" "${i/.@CineNcasa/}";done
+for i in *.mp4;do mv "$i" "${i/.@CineNcasa/}";done
+ks *.mp4
+ls *.mp4
+scp *.mp4 synology:/volume4/media/peliculas/
+ssh synology 
 cd
-cd /datos/Sync/Programacion/Python/efectos/
+ls -la
+cd temporal
+chmod +x duckdns.sh 
+nano duckdns.sh
+./duckdns.sh 
+ls
+cat duck.log 
+mosh do1
+adb
+adb devices
+adb shell
+mosh doq
+mosh do1
+exit
+gitfp
+crontab -e
+sudo reboot now
+exit
+crontab -e
+crontab -e
+sudo reboot now
+exit
+crontab -e
 cd src/
-cd efectos/
-python3 ./efectos.py 
-c ..
-cd bin
+ls
+python3 ipaddress.py 
+dch -r
+dch -i
 cd ..
-cd bin/
-ls
-./efectos 
-pkill -KILL ssh
-ps aux | grep ssh
-mount 192.168.1.48:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-history | grep sshfs
-sshfs  192.168.1.48:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-sshfs rpi:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-sshfs pi@192.168.1.48:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-mosh rpi
-wget http://blogs.publico.es/strambotic/files/2018/03/HUHA-1.jpg
-mosh rpi
-wget http://blogs.publico.es/strambotic/files/2018/03/HUHA-1.jpg
-ssh synology 
-history | grep loop
-history | grep pactl
-pactl load-module module-null-sink sink_name=mix
-alsamixer
-pactl load-module module-loopback latency_msec=1
-pactl load-module module-loopback latency_msec=1
-sudo apt install paprefs
-killall python3
-alsamixer
-pactl load-module module-loopback latency_msec=1
-sudo apt install paprefs
-pactl load-module module-loopback latency_msec=1
-ls
-for i in *.wav; do echo $i; done
-for i in *.wav; do echo "${i/.wav/.ogg}"; done
-for i in *.wav; do ffmpg -i "$i" -acodec libvorbis "${i/.wav/.ogg}"; done
-for i in *.mp3; do ffmpeg -i "$i" -acodec libvorbis "${i/.wav/.ogg}"; done
-for i in *.mp3; do echo -i "$i" -acodec libvorbis "${i/.wav/.ogg}"; done
-for i in *.mp3; do echo -i "$i" -acodec libvorbis "${i/.mp3/.ogg}"; done
-cd temporal/
-for i in *.mp3; do ffmpeg -i "$i" -acodec libvorbis "${i/.mp3/.ogg}"; done
-rm *.mp3
-for i in *.wav; do ffmpeg -i "$i" -acodec libvorbis "${i/.wav/.ogg}"; done
-rm *.wav
-for i in *.aiff; do ffmpeg -i "$i" -acodec libvorbis "${i/.aiff/.ogg}"; done
-rm *.aiff
-history | grep sshfs
-sshfs  192.168.1.48:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-sshfs rpi:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-sshfs pi@192.168.1.48:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-wget http://blogs.publico.es/strambotic/files/2018/03/HUHA-1.jpg
-wget http://blogs.publico.es/strambotic/files/2018/03/HUHA-1.jpg
-history | grep loop
-history | grep pactl
-pactl load-module module-null-sink sink_name=mix
-alsamixer
-sudo apt install paprefs
-pactl load-module module-loopback latency_msec=1
-pactl unload-module module-loopback
-cd .local/share/gnome-shell/
-ks
-cd extensions/
-./helper
-./helper.sh
-git remote add origin git@github.com:atareao/microphone-loopback.git
-cd disk-space-usage@atareao.es/
-gjs dsu.js 
-cd .ssh
-cat atareao_id.pub 
-cat config 
-cat id_rsa.pub
-ssh  165.227.238.5
-ssh  root@165.227.238.5
-ssh-copy-id lorenzo@165.227.238.5
-ssh root@165.227.238.5
-ssh atareao@165.227.238.5
-ssh lorenzo@165.227.238.5
-mosh lorenzo@165.227.238.5
-nano config
-mosh do1
-cd /datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/
-git ftp
-git ftp pull
-cat .git/config 
-cd ../gnulinuxvalencia
-git init
-git commit -m "First commit"
-git remote add origin git@gitlab.com:atareao/gnulinuxvalencia.org.git
-git push -u origin master
-git config git.ftp.url "ftp://ftp.jmoyano.com/public_html/gnulinuxvalencia.org/wp-content/themes/gnulinuxvalencia"
-git config git.ftp.user "atareao@jmoyano.com"
-git config git-ftp.password "me-fio-tanto-de-ti-que-te-dejo-todo-el-ftp-atareao"
-git config git-ftp.user "atareao@jmoyano.com"
-git config git-ftp.url "ftp://ftp.jmoyano.com/public_html/gnulinuxvalencia.org/wp-content/themes/gnulinuxvalencia"
-cd .git
-nano config 
-git ftp init
-cd Wordpress/
-cd montana/
-rm -rf gnulinuxvalencia.org/
-mv gnulinuxvalencia gnulinuxvalencia.org
-wget http://www.ivoox.com/podcast-marketing-online_fg_f1133401_filtro_1.xml
-cd audio
-cd Música
-cd Audio/[A
-cd 
-cd /datos/
-mkdir efectos
-youtube-dl
-sudo apt install youtube-dl
-youtube-dl https://www.youtube.com/watch?v=ferfRClQKgY
-rm Sonido\ de\ bateria\ para\ un\ Chiste\ Malo\ \(Ba\ Dum\ Tss\!\)-ferfRClQKgY.mkv 
-youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=ferfRClQKgY
-cd .local/share/gnome-shell/extensions/sound-effects@atareao.es/
-gjs player.js 
+ls -la
+sudo apt install python-configparser
+mybuilder
+gitp
+ls -la
+sudo apt install python-configparser
 cd src/
-cd efectos/
-python3 ./efectos.py 
-c ..
-cd bin
-pkill -KILL ssh
-ps aux | grep ssh
-mount 192.168.1.48:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-history | grep sshfs
-sshfs  192.168.1.48:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-sshfs rpi:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-sshfs pi@192.168.1.48:/home/pi/pruebas_sshfs /home/lorenzo/pruebas_sshfs
-wget http://blogs.publico.es/strambotic/files/2018/03/HUHA-1.jpg
-wget http://blogs.publico.es/strambotic/files/2018/03/HUHA-1.jpg
-history | grep loop
-history | grep pactl
-pactl load-module module-null-sink sink_name=mix
-alsamixer
-pactl load-module module-loopback latency_msec=1
-pactl load-module module-loopback latency_msec=1
-sudo apt install paprefs
-killall python3
-alsamixer
-pactl load-module module-loopback latency_msec=1
-sudo apt install paprefs
-pactl load-module module-loopback latency_msec=1
-for i in *.wav; do echo $i; done
-for i in *.wav; do echo "${i/.wav/.ogg}"; done
-for i in *.wav; do ffmpg -i "$i" -acodec libvorbis "${i/.wav/.ogg}"; done
-for i in *.mp3; do ffmpeg -i "$i" -acodec libvorbis "${i/.wav/.ogg}"; done
-for i in *.mp3; do echo -i "$i" -acodec libvorbis "${i/.wav/.ogg}"; done
-for i in *.mp3; do echo -i "$i" -acodec libvorbis "${i/.mp3/.ogg}"; done
-cd temporal/
-for i in *.mp3; do ffmpeg -i "$i" -acodec libvorbis "${i/.mp3/.ogg}"; done
-rm *.mp3
-for i in *.wav; do ffmpeg -i "$i" -acodec libvorbis "${i/.wav/.ogg}"; done
-rm *.wav
-for i in *.aiff; do ffmpeg -i "$i" -acodec libvorbis "${i/.aiff/.ogg}"; done
-rm *.aiff
-cd /datos/Sync/Programacion/Python/efectos/
-sudo apt install jokosher
-cd Python/
-cd jokosher/
-git pull
-cd bin/
-./jokosher 
-cat jokosher
-python jokosher 
-sudo apt install python-pygst
-cd .local/
-cd share/gnome-shell/extensions/wordreference-search-provider@atareao.es/
-./helper.sh -t
-git commit -m "Version 2"
-./helper.sh c
-rm wordreference-search-provider@atareao.es
-rm wordreference-search-provider@atareao.es.zip 
-cd microphone-loopback@atareao.es/
-cd /datos/Sync/Programacion/Python/efectos/bin/
-sudo apt-get install sox
-sox
-pactl list short sources
-sox -t pulseaudio combined.monitor -t ogg prueba.ogg
-mem
-351+374+439+871
-pactl unload-module 42
-pactl unload-module 43
-pactl unload-module 44
-pactl unload-module 45
-pactl unload-module 46
-pactl unload-module 47
-pactl unload-module 48
-pactl unload-module 49
-pactl load-module module-null-sink sink_name=inputs
-pactl load-module module-loopback sink=inputs
-./efectos 
-let [res, out, err, status] = GLib.spawn_command_line_sync(
-gjs
-pactl unload-module 50
-pactl unload-module 51
-pactl unload-module 52
-pactl unload-module 53
-pactl unload-module 54
-pactl unload-module 55
-pactl unload-module 56
-pactl unload-module 57
-pactk
-pactl
-pactl list
-pactl list sources
-man pactl 
-pactl list modules
-pacmd
-pacmd list-sources | grep -e device.string -e 'name:'
-pacmd list-sinks
-pacmd list-sinks | grep -e 'name:' -e 'index'
-sudo apt install pulseaudio-equalizer
-sudo apt remove pulseaudio-equalizer
-sudo apt autoremove
-apt search pavucontrol
-apt search pavucontrol | grep instalado
-cd .local/share/gnome-shell/extensions/microphone-loopback@atareao.es/
-git commit -m "saved module"
-git remote -v
-mosh rpi
-cat /proc/bus/input/devices
-cd Descargas
-cd Telegram\ Desktop/
-ssh synology 
-ls -la
-for i in S*.mkv;do echo $i; done
-for i in *Sobrenatural.mkv;do echo $i; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:7}; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:8}"; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:7}"; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:7} - S0${i:0:3}"; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:7} - S0${i:0:34"; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:7} - S0${i:0:4}"; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:7} - S01${i:2:4}"; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:7} - S01E${i:2:4}"; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:7} - S01E${i:2:2}"; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:7:-4} - S01E${i:2:2}"; done
-for i in *Sobrenatural.mkv;do echo "$i" "${i:7:-4} - S01E${i:2:2}.mkv"; done
-for i in *Sobrenatural.mkv;do mv "$i" "${i:7:-4} - S01E${i:2:2}.mkv"; done
-ls *.mkv
-scp Sobrenatural\ -\ S01E0* synology:/volume4/media/series/Sobrenatural/
-cd ~/.local/share/gnome-shell/extensions/wordreference-search-provider@atareao.es/
-nano helper.sh 
-./helper.sh 
-cd ..
-cd wordreference-search-provider@atareao.es/
-cp helper.sh ../microphone-loopback@atareao.es
-./helper.sh -c
-./helper.sh -z
-git add .
-git commit -m "helper and wordreferences"
-git push
-cd /usr/share/touchpad-indicator/
-xinput
-cd /datos/Sync/Programacion/Python/telegram/
-./update.sh 
+ls
+python3 national-geographic-wallpaper.py 
 dch -r
 dch -i
-mybuilder 
-cd
-cd Escritorio
-ls
-[A
-gjs test.js
-cd Escritorio
-[A
-gjs test.js
-load-module module-null-sink sink_name=rmd
-pactl load-module module-null-sink sink_name=rmd
-cd /datos/Sync/Programacion/Python/efectos/
-cd bin/
-ls
-pactl load-module module-loopback sink=rmd
-./efectos 
-cd /datos/Sync/Programacion/Python/efectos/
-cd bin/
-ls
-./efectos 
-pactl load-module module-null-sink sink_name=rmd
-pactl load-module module-loopback sink=rmd
-load-module module-null-sink sink_name=rmd
-cd /datos/Sync/Programacion/Python/efectos/
-cd bin/
-./efectos 
-cd /datos/Sync/Programacion/Python/efectos/
-cd bin/
-./efectos 
-pactl load-module module-null-sink sink_name=rmd
-pactl load-module module-loopback sink=rmd
-killall gnome-software
-killall Telegram
-ls
-mem
-sudo mv /usr/lib/evolution-data-server /usr/lib/evolution-data-server-disabled
-sudo mv /usr/lib/evolution /usr/lib/evolution-disabled
-sudo chmod -x /usr/lib/evolution/evolution-calendar-factory
-sudo apt remove gnome-software
-sudo apt remove cups
-sudo apt remove avahi-daemon
-sudo apt remove snap
-sudo apt autoremove
-sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
-sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
-mem
-wine
-sudo apt install wine-stable
-winefile
-sudo apt install wine
-clear
-sudo apt install fonts-wine
-wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-chmod +x winetricks 
-./winetricks 
-sudo apt install playonlinux
-cd temporal
-sudo wget https://www.playonlinux.com/script_files/PlayOnLinux/4.2.12/PlayOnLinux_4.2.12.deb
-sudo dpkg -i PlayOnLinux_4.2.12.deb 
-sudo apt install -f
-cd 
-cd Escritorio
-optimiza_imagen ejecutar-windows-en-linux.jpg 
-ls
-mosh rpi
-gst-launch udpsrc port=5000 caps="application/x-rtp, media=(string)audio, clock-rate=(int)8000, encoding-name=(string)PCMA" ! rtppcmadepay ! audio/x-alaw, rate=8000, channels=1 ! alawdec ! alsasink buffer-time=80000
-gst-launch-1.0 udpsrc port=5000 caps="application/x-rtp, media=(string)audio, clock-rate=(int)8000, encoding-name=(string)PCMA" ! rtppcmadepay ! audio/x-alaw, rate=8000, channels=1 ! alawdec ! alsasink buffer-time=80000
-mybuilder 
-cd Escritorio
-[A
-gjs test.js
-cd Escritorio
-[A
-gjs test.js
-load-module module-null-sink sink_name=rmd
-pactl load-module module-null-sink sink_name=rmd
-cd bin/
-pactl load-module module-loopback sink=rmd
-./efectos 
-cd bin/
-./efectos 
-pactl load-module module-null-sink sink_name=rmd
-pactl load-module module-loopback sink=rmd
-load-module module-null-sink sink_name=rmd
-cd bin/
-./efectos 
-cd bin/
-./efectos 
-pactl load-module module-null-sink sink_name=rmd
-pactl load-module module-loopback sink=rmd
-killall gnome-software
-killall Telegram
-mem
-sudo mv /usr/lib/evolution-data-server /usr/lib/evolution-data-server-disabled
-sudo mv /usr/lib/evolution /usr/lib/evolution-disabled
-sudo chmod -x /usr/lib/evolution/evolution-calendar-factory
-sudo apt remove gnome-software
-sudo apt remove cups
-sudo apt remove avahi-daemon
-sudo apt remove snap
-sudo apt autoremove
-sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
-sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
-mem
-wine
-sudo apt install wine-stable
-winefile
-sudo apt install wine
-sudo apt install fonts-wine
-wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-chmod +x winetricks 
-./winetricks 
-sudo apt install playonlinux
-cd temporal
-sudo wget https://www.playonlinux.com/script_files/PlayOnLinux/4.2.12/PlayOnLinux_4.2.12.deb
-sudo dpkg -i PlayOnLinux_4.2.12.deb 
-sudo apt install -f
-cd 
-cd Escritorio
-optimiza_imagen ejecutar-windows-en-linux.jpg 
-mosh rpi
-pactl unload
-pactl unload-module 32 
-pactl unload-module 29
-pactl unload-module 28
-pactl unload-module 27
-pactl load-module module-null-sink sink_name="micro_sink" sink_properties=device.description="micro_stream"
-pactl load-module module-loopback source=micro_sink.monitor sink=alsa_output.plataform-snd_aloop.0.analog-stereo
-pactl load-module module-loopback source=webstream_sink.monitor sink=alsa_output.pci-0000_00_1b.0.analog-stereo
-cd /datos/Sync/Programacion/Python/efectos/
-cd data/
-cd efectos/
-cp /datos/Sync/Podcasts/*.mp3 .
-cp /datos/Sync/Podcasts/*.ogg .
-ffmpeg -i "This is Sparta.WAV" this_is_sparta.ogg
-ffmpeg -i sintonia.mp3 sintonia.ogg
-rm sintonia.mp3 
-rm sintonia.wav
-ls *.WAV
-rm *.WAV
+cd ..
+mybuilder
+gitp
+exit
+exit
+crontab -e
+sudo apt update && sudo apt upgrade
+sudo apt upgrade
+crontab -l
+crontab -l
+mosh do1
+mosh do1
+sudo apt update && sudo apt upgrade
+sudo apt upgrade
+crontab -l
+crontab -l
+mosh do1
+pip3 install cheroot wsgidav
+wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/+
+wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/
+sudo wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/
+wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/temporal/
+sudo pip3 install cheroot wsgidav
+wsgidav --host=127.0.0.1 --port=81 --root=/home/lorenzo/temporal/
+wsgidav --host=127.0.0.1 --port=85 --root=/home/lorenzo/temporal/
+wsgidav --host=0.0.0.0 --port=8081 --root=/home/lorenzo/temporal/
 ls
 cd ..
-bin/efectos 
-cd
-clear
-pactl load-module module-null-sink sink_name="micro_sink" sink_properties=device.description="micro_stream"pactl
-pactl unload-module 38
-pactl unload-module 37
-pactl unload-module 36
-pactl unload-module 35
-pactl unload-module 34
-pactl unload-module 33
-pactl unload-module 32
-pactl unload-module 31
-pactl unload-module 30
-pactl load-module module-null-sink sink_name="webstream_sink" sink_properties=device.description="web_stream"
-pactl list
-pactl list shot
-pactl list shot sources
-pactk load-module module-loopback source=webstream_sink.monitor sink=alsa_output.plataform-snd_aloop.0.analog-stereo
-pactl load-module module-loopback source=alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono sink=alsa_output.plataform-snd_aloop.0.analog-stereo
-pactl unload-module 10
-pactl load-module module-loopback source=webstream_sink.monitor sink=alsa_output.plataform-snd_aloop.0.analog-stereo
-pactl load-module module-loopback source=webstream_sink.monitor sink=alsa_output.plataform-snd_al
-pactl list short
-pactl list 
-pactl short
-pactl short list
-pactl list short 
-pactl list short sink
-pactl unload-module 7
-pactl list short sinks
-pactl unload-module sink_name=webstream_sink.2
-pactl unload-module sink_name=webstream_sink
-pactl load-module 4
-pactl unload-module sink_name=todo_sink
-pactl load-module module-null sink_name=todo_sink
-pactl load-module module-null-sink sink_name=todo_sink
-pactl list short sources
-/datos/Sync/Programacion/Python/efectos/bin/efectos 
-sudo apt remove gnome-software
-sudo apt remove cups
-sudo apt remove avahi-daemon
-sudo apt remove snap
-sudo apt autoremove
-sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
-sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
-wine
-sudo apt install wine-stable
-winefile
-sudo apt install wine
-clear
-sudo apt install fonts-wine
-wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-chmod +x winetricks 
-./winetricks 
-sudo apt install playonlinux
 cd temporal
-sudo wget https://www.playonlinux.com/script_files/PlayOnLinux/4.2.12/PlayOnLinux_4.2.12.deb
-sudo dpkg -i PlayOnLinux_4.2.12.deb 
-sudo apt install -f
-cd 
-cd Escritorio
-optimiza_imagen ejecutar-windows-en-linux.jpg 
-mem
-mosh rpi
-gst-launch-0.10 alsasrc ! alsasink
-gst-launch-1.0 alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono ! alsaink
-gst-launch-1.0 alsasrc ! alsasink
-gst-launch-1.0 pulsesrc ! alsasink
-gst-launch-1.0 pulsesrc ! pulsesink
-gst-launch-1.0 -v alsasrc buffer-time=35000 !  pulsesink
-gst-launch-1.0 -v alsasrc buffer-time=50000 !  pulsesink
-gst-launch alsasrc name=mic provide-clock=true actual-buffer-time=20000 do-timestamp=true buffer-time=20000 mic. ! alawenc ! rtppcmapay max-ptime=20000000 ! udpsink host=192.168.1.2 port=5000
-gst-launch-1.0 -v alsasrc buffer-time=10000 !  pulsesink
-gst-launch-1.0 alsasrc name=mic provide-clock=true actual-buffer-time=20000 do-timestamp=true buffer-time=20000 mic. ! alawenc ! rtppcmapay max-ptime=20000000 ! udpsink host=192.168.1.2 port=5000
-gst-launch-1.0 -v alsasrc buffer-time=10000 !  filesink location="test.mp3"
-gst-launch-1.0 -v alsasrc buffer-time=10000 !  vorbisenc ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc buffer-time=10000 !  wavparse ! audioconvert ! vorbisenc ! oggmix ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc buffer-time=10000 !  wavparse ! audioconvert ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc buffer-time=10000 !  audioconvert ! vorbisenc ! oggmux ! filesink location="test.ogg"
-ls
-gst-launch-1.0 -v alsasrc ! audioconvert ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc  !  pulsesink
-gst-launch-1.0 -v alsasrc ! pulsesink ! tee name=t ! audioconvert t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! decodebin ! tee name=t ! pulsesink ! audioconvert t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! decodebin ! tee name=t ! pulsesink ! queue ! audioconvert t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! pulsesink ! queue ! audioconvert t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! pulsesink ! tee name=t ! queue ! audioconvert t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! tee name=t ! queue ! audioconvert t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! queue ! audioconvert t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! audioconvert t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! audioconvert t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! pulsesink t. ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! pulsesink ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! pulsesink ! tee name=t ! queue ! vorbisenc t. ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! queue ! vorbisenc t. ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t t. ! pulsesink ! vorbisenc ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t t. ! pulsesink ! vorbisenc t. ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! vorbisenc t. ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! vorbisenc t. ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! vorbisenc ! oggmux t, ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t.
-gst-launch-1.0 -v alsasrc ! pulsesink
-gst-launch-1.0 -v alsasrc ! tee name=t ! t. pulsesink
-gst-launch-1.0 -v alsasrc ! tee name=t ! t. | pulsesink
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! vorbisenc ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! t. vorbisenc ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! t. vorbisenc ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! vorbisenc ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! queue t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! queue ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! pulsesink
-gst-launch-1.0 -v alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" ! t. ! pulsesink
-gst-launch-1.0 -v tee name=t ! alsasrc t. pulseink ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! pulsesink
-gst-launch-1.0 -v tee name=t ! alsasrc t. ! pulseink ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! pulsesink
-gst-launch-1.0 -v tee name=t ! alsasrc t. ! pulsesink ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! pulsesink
-gst-launch-1.0 alsasrc ! tee name=t ! pulsesink t. ! queue ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 alsasrc ! tee name=t ! pulsesink t. 
-gst-launch-1.0 alsasrc ! tee name=t ! pulsesink 
-gst-launch-1.0 alsasrc ! tee name=t ! pulsesink t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 alsasrc ! tee name=t ! pulsesink
-gst-launch-1.0 alsasrc ! queue ! tee name=t ! pulsesink t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" ! audioconvert ! autoaudiosink
-gst-launch-1.0 alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! audioconvert ! autoaudiosink
-gst-launch-1.0 alsasrc ! tee name=t ! vorbisenc ! filesink location="test.ogg"
-gst-launch-1.0 alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-inspect-1.0
-gst-inspect-1.0 | grep alsasrc
-gst-inspect-1.0 | grep alsa
-gst-inspect-1.0 alsasrc
-gst-inspect-1.0 pulsesrc
-gst-inspect-1.0 | grep pulse
-gst-inspect-1.0 | grep src
-gst-launch-1.0 alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-pactl
-pactl list
-gst-launch-1.0 alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsa-src devive=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsa-src device=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulse-src device=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device= alsa_card! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device=alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00 ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device="alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device="alsa_card.usb-C-Media_Electronics_Inc" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-lscpi
-lspci
-lsusb
-gst-launch-1.0 pulsesrc device="alsa_card.usb-C-Media_Electronics_Inc" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulsesrc device="alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix mix. | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix x | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix | mix. ! pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix mix. ! pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-pactl list short sources
-gst-launch-1.0 pulsesrc device="alsa_output.pci-0000_00_1b.0.analog-stereo.monitor" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-mem
-sudo apt remove docker
-sudo apt autoremove
-mem
-pactl
-pactl list
-gst-launch-1.0 alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsa-src devive=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsa-src device=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulse-src device=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device= alsa_card! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device=alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00 ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device="alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device="alsa_card.usb-C-Media_Electronics_Inc" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-lscpi
-lspci
-lsusb
-gst-launch-1.0 pulsesrc device="alsa_card.usb-C-Media_Electronics_Inc" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulsesrc device="alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix mix. | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix x | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix | mix. ! pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix mix. ! pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-pactl list short sources
-gst-launch-1.0 pulsesrc device="alsa_output.pci-0000_00_1b.0.analog-stereo.monitor" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-mem
-sudo apt remove docker
-sudo apt autoremove
-cd Escritorio
-gjs test.
-gjs test.js
-cd 
-cd .local/share/gnome-shell/extensions/disk-space-usage@atareao.es/
-gjs dsu.js 
-./helper.sh c
-cd schemas/
-ls
-cd ..
-rm gschemas.compiled 
-glib-compile-schemas schemas/
-glib-compile-schemas schemas
-nano helper.sh 
-./helper.sh -c
-./helper.sh -t
-./helper.sh -t
-sudo apt remove dockerd
-sudo apt remove docker
-sudo apt remove docker*
-autoremove
-mem
-mem
-cd Escritorio
-ls
-gjs test.js
-cd .local/share/gnome-shell/extensions/disk-space-usage@atareao.es/
-ls
-mv extension.js extension.js.olf
-./helper.sh -t
-sudo apt remove dockerd
-sudo apt remove docker
-sudo apt remove docker*
-autoremove
-mem
-cd .local/share/gnome-shell/extensions/disk-space-usage@atareao.es/
-ls
-mv customwidgets.js customwidgets.js.old
-gst-launch-1.0 -v alsasrc ! pulsesink t. ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! pulsesink ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! pulsesink ! tee name=t ! queue ! vorbisenc t. ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! queue ! vorbisenc t. ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t t. ! pulsesink ! vorbisenc ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t t. ! pulsesink ! vorbisenc t. ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! vorbisenc t. ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! vorbisenc t. ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! vorbisenc ! oggmux t, ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t.
-gst-launch-1.0 -v alsasrc ! pulsesink
-gst-launch-1.0 -v alsasrc ! tee name=t ! t. pulsesink
-gst-launch-1.0 -v alsasrc ! tee name=t ! t. | pulsesink
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! vorbisenc ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! t. vorbisenc ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! t. vorbisenc ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! vorbisenc ! oggmux t. ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink ! queue t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! pulsesink t. ! queue ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 -v alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! pulsesink
-gst-launch-1.0 -v alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" ! t. ! pulsesink
-gst-launch-1.0 -v tee name=t ! alsasrc t. pulseink ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! pulsesink
-gst-launch-1.0 -v tee name=t ! alsasrc t. ! pulseink ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! pulsesink
-gst-launch-1.0 -v tee name=t ! alsasrc t. ! pulsesink ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! pulsesink
-gst-launch-1.0 alsasrc ! tee name=t ! pulsesink t. ! queue ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 alsasrc ! tee name=t ! pulsesink t. 
-gst-launch-1.0 alsasrc ! tee name=t ! pulsesink 
-gst-launch-1.0 alsasrc ! tee name=t ! pulsesink t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 alsasrc ! tee name=t ! pulsesink
-gst-launch-1.0 alsasrc ! queue ! tee name=t ! pulsesink t. ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-launch-1.0 alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" ! audioconvert ! autoaudiosink
-gst-launch-1.0 alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! audioconvert ! autoaudiosink
-gst-launch-1.0 alsasrc ! tee name=t ! vorbisenc ! filesink location="test.ogg"
-gst-launch-1.0 alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg"
-gst-inspect-1.0
-gst-inspect-1.0 | grep alsasrc
-gst-inspect-1.0 | grep alsa
-gst-inspect-1.0 alsasrc
-gst-inspect-1.0 pulsesrc
-gst-inspect-1.0 | grep pulse
-gst-inspect-1.0 | grep src
-gst-launch-1.0 alsasrc ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-pactl
-pactl list
-gst-launch-1.0 alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsa-src devive=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsa-src device=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulse-src device=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device= alsa_card! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device=alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00 ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device="alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device="alsa_card.usb-C-Media_Electronics_Inc" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-lscpi
-lspci
-lsusb
-gst-launch-1.0 pulsesrc device="alsa_card.usb-C-Media_Electronics_Inc" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulsesrc device="alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix mix. | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix x | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix | mix. ! pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix mix. ! pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-pactl list short sources
-gst-launch-1.0 pulsesrc device="alsa_output.pci-0000_00_1b.0.analog-stereo.monitor" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-mem
-sudo apt remove docker
-sudo apt autoremove
-mem
-pactl
-pactl list
-gst-launch-1.0 alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsa-src devive=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsa-src device=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulse-src device=alsa_card-usb-C ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device= alsa_card! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device=alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00 ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device="alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 alsasrc device="alsa_card.usb-C-Media_Electronics_Inc" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-lscpi
-lspci
-lsusb
-gst-launch-1.0 pulsesrc device="alsa_card.usb-C-Media_Electronics_Inc" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulsesrc device="alsa_card.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix mix. | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix x | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix | mix. ! pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix mix. ! pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-pactl list short sources
-gst-launch-1.0 pulsesrc device="alsa_output.pci-0000_00_1b.0.analog-stereo.monitor" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-mem
-sudo apt remove docker
-sudo apt autoremove
-gjs test.
-./helper.sh c
-cd schemas/
-cd ..
-rm gschemas.compiled 
-glib-compile-schemas schemas/
-glib-compile-schemas schemas
-nano helper.sh 
-./helper.sh -c
-./helper.sh -t
-./helper.sh -t
-sudo apt remove dockerd
-sudo apt remove docker
-sudo apt remove docker*
-autoremove
-mem
-mem
-mv extension.js extension.js.olf
-./helper.sh -t
-sudo apt remove dockerd
-sudo apt remove docker
-sudo apt remove docker*
-autoremove
-mem
-mv customwidgets.js customwidgets.js.old
-./test.js 
-/usr/bin/env gjs
-cp test.js ~/Escritorio/test_ventana.js
-cd ~/Escritorio
-nano test_ventana.js 
-gjs test_ventana.js 
-cd 
-cd .local/share/gnome-shell/extensions/disk-space-usage@atareao.es/
-gjs test.js 
-d
-cd
-cd Escritorio
-gjs test
-[A
-gjs test.js
-Sr
-cd ~/.local/share/gnome-shell/extensions/disk-space-usage@atareao.es/
-ls
-gjs dsu.js 
-gjs dsu.js 
-cd /datos/Sync/Programacion/Python/efectos/
+mkdir caca
+wsgidav --host=0.0.0.0 --port=8081 --root=/home/lorenzo/temporal/caca/
+wsgidav --host=0.0.0.0 --port=8080 --root=/home/lorenzo/temporal/caca
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
+sudo nano /etc/apt/sources.list.d/insync.list
+sudo apt update
+$ sudo apt install insync
+sudo apt install insync
+mosh do1
+lterm
+cat /etc/os-release 
+wsgidav --host=0.0.0.0 --port=8081 --root=/home/lorenzo/temporal/caca/
+wsgidav --host=0.0.0.0 --port=8080 --root=/home/lorenzo/temporal/caca
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
+sudo nano /etc/apt/sources.list.d/insync.list
+sudo apt update
+$ sudo apt install insync
+sudo apt install insync
+mosh do1
+lterm
+cat /etc/os-release 
 cd bin/
-./efectos 
-m3m
-mem
-./efectos 
-m3m
-mem
-cd .local/share/gnome-shell/extensions/
-cd disk-space-usage@atareao.es/
+ls -la
+python3 my-weather-indicator
 ls
-./helper.sh -c
-mem
-cd .local/share/gnome-shell/extensions/
-cd disk-space-usage@atareao.es/
+cd ..
+dch -i
+dch -r
+mybuilder
+cd src/
+python3 ipaddress.py 
+gitp
+cd temporal
+mkdir caca
+wsgidav --host=0.0.0.0 --port=8081 --root=/home/lorenzo/temporal/caca/
+wsgidav --host=0.0.0.0 --port=8080 --root=/home/lorenzo/temporal/caca
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
+sudo nano /etc/apt/sources.list.d/insync.list
+sudo apt update
+$ sudo apt install insync
+sudo apt install insync
+mosh do1
+lterm
+cat /etc/os-release 
+cd /usr/share/vim/vimcurrent/spell
+cd /usr/share/vim/vimfiles/
+cd registry/
+cd addons/
+cd 
+cd .vim
+cd spell/
+wget http://ftp.vim.org/vim/runtime/spell/es.latin1.spl
+wget http://ftp.vim.org/vim/runtime/spell/es.latin1.sug
+wget http://ftp.vim.org/vim/runtime/spell/es.utf-8.spl
+wget http://ftp.vim.org/vim/runtime/spell/es.utf-8.sug                        
+wget http://ftp.vim.org/vim/runtime/spell/ca.latin1.spl
+wget http://ftp.vim.org/vim/runtime/spell/ca.latin1.sug
+wget http://ftp.vim.org/vim/runtime/spell/ca.utf-8.spl
+wget http://ftp.vim.org/vim/runtime/spell/ca.utf-8.sug
+rm ca*
+sudo chown lorenzo:lorenzo *
+cd ..
+cd
 ls
-./helper.sh -c
-mem
-cd .local/share/gnome-shell/extensions/
-cd disk-space-usage@atareao.es/
-mem
-cd .local/share/gnome-shell/extensions/
-cd disk-space-usage@atareao.es/
-cd .local/share/gnome-shell/extensions/disk-space-usage@atareao.es/
-gjs dsu.js 
-./helper c
-./helper -c
+vim .vimrc
+sudo apt remove nano
+sudo apt install autokey
+sudo apt install autokey-gtk
+;t1 ;T3
+sudo apt install gir1.2-gtop-2.0 lm-sensors
+sudo apt upgrade
+crontab -l
+crontab -l
+pip3 install cheroot wsgidav
+wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/+
+wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/
+sudo wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/
+wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/temporal/
+sudo pip3 install cheroot wsgidav
+wsgidav --host=127.0.0.1 --port=81 --root=/home/lorenzo/temporal/
+wsgidav --host=127.0.0.1 --port=85 --root=/home/lorenzo/temporal/
+wsgidav --host=0.0.0.0 --port=8081 --root=/home/lorenzo/temporal/
+cd temporal
+mkdir caca
+wsgidav --host=0.0.0.0 --port=8081 --root=/home/lorenzo/temporal/caca/
+wsgidav --host=0.0.0.0 --port=8080 --root=/home/lorenzo/temporal/caca
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
+sudo nano /etc/apt/sources.list.d/insync.list
+sudo apt update
+$ sudo apt install insync
+sudo apt install insync
+lterm
+cat /etc/os-release 
+mosh do1
+cd /datos/Sync/Programacion/Python/my-weather-indicator/
+cd bin/
+sudo apt install python3-requests
+sudo apt install my-weather-indicator
+python3 my-weather-indicator
+cd touchpad-indicator
+git pull
+dch -i
+lazygit 
+dch -r
+giitp
+gitp
+mybuilder
+cd 
+nano .vim
+cd .vim
+cd ..
+nano .vimrc
+vim +'PluginInstall! vim-markdown' +qall
+vim +PluginUpdate
+cd
+cd /datos/Sync/
+cd atareao.es/
+cd articulos/
 l
-./helper.sh
-./helper.sh -c
-./helper.sh -t
-git remote -v
-git remote add origin https://github.com/atareao/disk-usage-space.git
-git add .
-git commit -m "First commit"
-git remote remove origin
-git remote add origin git@github.com:atareao/disk-usage-space.git
-git push -u origin master
-./helper.sh -z
-cd ..
+cd 2018/
+cd 201819
+cd 201810
 ls
-cd ..
-cd Escritorio
-ls cairo.jpg 
-optimiza_imagen cairo.jpg 
-ls
-mem
-ls cairo.jpg 
-optimiza_imagen cairo.jpg 
-df -a
-df -hT /home
-df -hT /opt
-df -hT
-df -.hT /
-df -hT /
-df -ha
-df -h
-df -hT /datos
-df -hT /boot/efi/
-df -i
-df -t ext4
-df -tg ext4
-df -th ext4
-df -h -t ext4
-cd Escritorio
-optimiza_imagen disc-space-usage.jpg 
-ls
-wget https://extensions.gnome.org/extension-data/screenshots/screenshot_1447.png
-mem
-df -tg ext4
-df -th ext4
-df -h -t ext4
-cd Escritorio
-optimiza_imagen disc-space-usage.jpg 
-ls
-wget https://extensions.gnome.org/extension-data/screenshots/screenshot_1447.png
-mem
-sudo add-apt-repository ppa:elementary-os/daily
-gst-launch-1.0 pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix mix. | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix x | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix | mix. ! pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix mix. ! pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-gst-launch-1.0 audiomixer name=mix | pulsesrc device="alsa_input.usb-C-Media_Electronics_Inc._USB_PnP_Audio_Device-00.analog-mono" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-pactl list short sources
-gst-launch-1.0 pulsesrc device="alsa_output.pci-0000_00_1b.0.analog-stereo.monitor" ! tee name=t ! vorbisenc ! oggmux ! filesink location="test.ogg" t. ! queue ! audioconvert ! pulsesink
-sudo apt remove docker
-sudo apt autoremove
-gjs test.
-./helper.sh c
-cd schemas/
-cd ..
-rm gschemas.compiled 
-glib-compile-schemas schemas/
-glib-compile-schemas schemas
-nano helper.sh 
-sudo apt remove dockerd
-sudo apt remove docker
-sudo apt remove docker*
-autoremove
-mv extension.js extension.js.olf
-sudo apt remove dockerd
-sudo apt remove docker
-sudo apt remove docker*
-autoremove
-mv customwidgets.js customwidgets.js.old
-./test.js 
-/usr/bin/env gjs
-cp test.js ~/Escritorio/test_ventana.js
-cd ~/Escritorio
-nano test_ventana.js 
-gjs test_ventana.js 
-cd .local/share/gnome-shell/extensions/disk-space-usage@atareao.es/
-d
-gjs test
-gjs test.js
-Sr
-cd ~/.local/share/gnome-shell/extensions/disk-space-usage@atareao.es/
-gjs dsu.js 
-gjs dsu.js 
-cd /datos/Sync/Programacion/Python/efectos/
-cd bin/
-./efectos 
-m3m
-./efectos 
-m3m
-cd .local/share/gnome-shell/extensions/
-cd disk-space-usage@atareao.es/
-cd .local/share/gnome-shell/extensions/
-cd disk-space-usage@atareao.es/
-cd .local/share/gnome-shell/extensions/
-cd disk-space-usage@atareao.es/
-cd .local/share/gnome-shell/extensions/
-cd disk-space-usage@atareao.es/
-cd .local/share/gnome-shell/extensions/disk-space-usage@atareao.es/
-gjs dsu.js 
-./helper c
-./helper -c
-l
-./helper.sh
-git remote -v
-git remote add origin https://github.com/atareao/disk-usage-space.git
-git add .
-git commit -m "First commit"
-git remote remove origin
-git remote add origin git@github.com:atareao/disk-usage-space.git
-git push -u origin master
-./helper.sh -z
-cd ..
-cd ..
-ls cairo.jpg 
-optimiza_imagen cairo.jpg 
-ls cairo.jpg 
-optimiza_imagen cairo.jpg 
-df -a
-df -hT /home
-df -hT /opt
-df -hT
-df -.hT /
-df -hT /
-df -ha
-df -h
-df -hT /datos
-df -hT /boot/efi/
-df -i
-df -t ext4
-df -tg ext4
-df -th ext4
-df -h -t ext4
-optimiza_imagen disc-space-usage.jpg 
-wget https://extensions.gnome.org/extension-data/screenshots/screenshot_1447.png
-df -tg ext4
-df -th ext4
-df -h -t ext4
-optimiza_imagen disc-space-usage.jpg 
-wget https://extensions.gnome.org/extension-data/screenshots/screenshot_1447.png
-sudo add-apt-repository ppa:elementary-os/daily
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! audioconvert ! alsasink audiotestsrc freq=500 ! mix.
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! audiotestsrc freq=500 ! mix.
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! alsasink audiotestsrc freq=500 ! mix.
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! 
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! alsasink
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! audiotestsrc freq=500 ! mix.! alsasink
-gst-launch espeak text="Hello world" pitch=-50 rate=-50 voice=default ! autoaudiosink
-gst-launch-1.0 
-sudo apt install gst-launch-espeak
-sudo apt install gstreamer-plugins-espeak
-sudo apt install gst-plugins-espeak
-sudo apt install gstreamer1.0-espeak
-gst-launch-1.0 espeak text="Hello world" pitch=-50 rate=-50 voice=default ! autoaudiosink
-gst-launch-1.0 espeak text="Hello world. I am very busy" pitch=-50 rate=-50 voice=default ! autoaudiosink
-cd Escritorio
-[A
-gjs test.js 
-mem
-cd 
-cd Escritorio/world-cup-indicator/
-cd icons/
-wget https://upload.wikimedia.org/wikipedia/en/6/67/2018_FIFA_World_Cup.svg
-cd
-cd .log
-cd .local/share/gnome-shell
-cd extensions/
-cd world-cup-indicator-gs@atareao.es/
-gjs wcapi.js 
-ls
-./helper.sh -c
-./helper.sh -t
-cd 
-cd Escritorio/world-cup-indicator/
-cd icons/
-wget https://upload.wikimedia.org/wikipedia/en/6/67/2018_FIFA_World_Cup.svg
-cd .log
-cd .local/share/gnome-shell
-cd extensions/
-cd world-cup-indicator-gs@atareao.es/
-gjs wcapi.js 
-gjs
-cd .local/share/gnome-shell/extensions/world-cup-indicator-gs@atareao.es/
-git remote remove
-git remote remove origin
-git remote add origin git@github.com:atareao/world-cup-indicator-gs.git
-git remote -v
-git add ,
-./helper
-./help
-./helper.sh 
-./helper.sh -c
-./helper.sh -t
-git add .
-git commit -m "First release"
-git push -u origin master
-cd
-cd Descargas
-cd Telegram\ Desktop/
-ls
-for i in *Wrecked.mkv;do echo "$i"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:6}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:5}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:8}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7} - S0${i:0:1}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7} - S0${i:0:1}E0${i:2:2}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7} - S0${i:0:1}E${i:2:2}"; done
-for i in *Wrecked.mkv;do mv "$i" "${i:7} - S0${i:0:1}E${i:2:2}"; done
-ls Wrecked.mkv\ -\ S0*
-for i in *Wrecked.mkv;do echo "$i" "${i/.mkv}"; done
-for i in Wrecked*;do echo "$i" "${i/.mkv}"; done
-for i in Wrecked*;do echo "$i" "${i/.mkv}.mkv"; done
-for i in Wrecked*;do mv "$i" "${i/.mkv}.mkv"; done
-ls *.mkv
-ssh synology
-scp Wrecked\ -\ S0* synology:/volume4/media/series/Wrecked/
-cd Descargas/Telegram\ Desktop/
-ls Wrecked\ -\ S0*
-scp Wrecked\ -\ S0* synology:/volume4/media/series/Wrecked/
-exit
-ls cairo.jpg 
-optimiza_imagen cairo.jpg 
-ls cairo.jpg 
-optimiza_imagen cairo.jpg 
-df -a
-df -hT /home
-df -hT /opt
-df -hT
-df -.hT /
-df -hT /
-df -ha
-df -h
-df -hT /datos
-df -hT /boot/efi/
-df -i
-df -t ext4
-df -tg ext4
-df -th ext4
-df -h -t ext4
-optimiza_imagen disc-space-usage.jpg 
-wget https://extensions.gnome.org/extension-data/screenshots/screenshot_1447.png
-df -tg ext4
-df -th ext4
-df -h -t ext4
-optimiza_imagen disc-space-usage.jpg 
-wget https://extensions.gnome.org/extension-data/screenshots/screenshot_1447.png
-sudo add-apt-repository ppa:elementary-os/daily
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! audioconvert ! alsasink audiotestsrc freq=500 ! mix.
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! audiotestsrc freq=500 ! mix.
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! alsasink audiotestsrc freq=500 ! mix.
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! 
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! alsasink
-gst-launch-1.0 audiotestsrc freq=100 ! audiomixer name=mix ! audiotestsrc freq=500 ! mix.! alsasink
-gst-launch espeak text="Hello world" pitch=-50 rate=-50 voice=default ! autoaudiosink
-gst-launch-1.0 
-sudo apt install gst-launch-espeak
-sudo apt install gstreamer-plugins-espeak
-sudo apt install gst-plugins-espeak
-sudo apt install gstreamer1.0-espeak
-gst-launch-1.0 espeak text="Hello world" pitch=-50 rate=-50 voice=default ! autoaudiosink
-gst-launch-1.0 espeak text="Hello world. I am very busy" pitch=-50 rate=-50 voice=default ! autoaudiosink
-gjs test.js 
-mem
-cd Escritorio/world-cup-indicator/
-wget https://upload.wikimedia.org/wikipedia/en/6/67/2018_FIFA_World_Cup.svg
-cd .log
-cd .local/share/gnome-shell
-cd extensions/
-cd Escritorio/world-cup-indicator/
-wget https://upload.wikimedia.org/wikipedia/en/6/67/2018_FIFA_World_Cup.svg
-cd .log
-cd .local/share/gnome-shell
-cd extensions/
-cd .local/share/gnome-shell/extensions/world-cup-indicator-gs@atareao.es/
-git remote remove
-git remote remove origin
-git remote add origin git@github.com:atareao/world-cup-indicator-gs.git
-git remote -v
-git add ,
-./helper
-./help
-./helper.sh 
-git commit -m "First release"
-git push -u origin master
-cd Descargas
-cd Telegram\ Desktop/
-for i in *Wrecked.mkv;do echo "$i"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:6}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:5}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:8}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7} - S0${i:0:1}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7} - S0${i:0:1}E0${i:2:2}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7} - S0${i:0:1}E${i:2:2}"; done
-for i in *Wrecked.mkv;do mv "$i" "${i:7} - S0${i:0:1}E${i:2:2}"; done
-ls Wrecked.mkv\ -\ S0*
-for i in *Wrecked.mkv;do echo "$i" "${i/.mkv}"; done
-for i in Wrecked*;do echo "$i" "${i/.mkv}"; done
-for i in Wrecked*;do echo "$i" "${i/.mkv}.mkv"; done
-for i in Wrecked*;do mv "$i" "${i/.mkv}.mkv"; done
-ls *.mkv
-ssh synology
-scp Wrecked\ -\ S0* synology:/volume4/media/series/Wrecked/
-ssh synology 
-[A
-gjs test.js
-cd 
-cd .local/share/gnome-shell/extensions/
-cd pomodoro-indicator-gs@atareao.es/
-cd icons/
-sed -i -- 's/width="22"/width="48"/g' pomodoro-indicato-light*.svg
-sed -i -- 's/width="22"/width="48"/g' pomodoro-indicator-light*.svg
-sed -i -- 's/height="22"/height="48"/g' pomodoro-indicator-light*.svg
-sed -i -- 's/height="48"/height="22"/g' pomodoro-indicator-light*.svg
-sed -i -- 's/width="48"/width="22"/g' pomodoro-indicator-light*.svg
-for i in pomodoro-indicator-light-*; do echo $i; done
-for i in pomodoro-indicator-light-*; do echo $i ${i/-light/}; done
-for i in pomodoro-indicator-light-*; do mv $i ${i/-light/}; done
-cd --
-cd -
-./helper.sh -t
-./helper.sh -c
-rm world-cup-indicator-gs@atareao.es.zip 
-cd temporal/
-rm -rf temporal/
-s
-cd ..
-sudo apt remove pomodoro-indicator
-sudo apt upgrade
-cd world-cup-indicator-gs@atareao.es/
-git commit -m "times to update"
-gjs
-gjs wcapi.js 
-git add .
-git commit -m "date"
-git push
-rm ../world-cup-indicator-gs@atareao.es.zip 
-./helper.sh -z
-cd
-cd Escritorio
-optimiza_imagen mundial-de-futbol-en-ubuntu.jpg 
-mv photo_2018-06-24_14-38-07.jpg world-cup-indicator-gs.jpg
-optimiza_imagen world-cup-indicator-gs.jpg 
-ls
-cat /etc/fstab 
-optimiza_imagen world-cup-indicator-gs.jpg 
-cat /etc/fstab 
-mosh dgo
-mosh do
-cat .ssh/config 
-mosh do1
-sudo apt install mumble
-cat .ssh/config
-cd /datos/Sync/Programacion/Python/telegram/
-ls
-./update.sh 
+vim ~/.vimrc
+vim lets.md 
+sudo -s
+sudo -s
 dch -r
-dch -i
 mybuilder
-cd .local/share/gnome-shell/
-cd extensions/
-ls
-cd pomodoro-indicator-gs@atareao.es/
-mv extension.js extension.js.old
-sudo modprobe -r uvcvideo
-ubuntu-report
-cat /home/lorenzo/.cache/ubuntu-report/ubuntu.18.04 
-popularity-contest 
-man popularity-contest 
-nano /etc/popularity-contest.conf 
-man popcon-largest-unused 
-popularity-contest | less
-nano /etc/popularity-contest.conf 
-sudo nano crontab
-sudo nano crontab -l
-sudo nano crontab -e
-cd /etc/cron*
-ls /etc/cron*
-cd /etc/cron.daily/
-ls
-cat ubuntu-advantage-tools 
-/usr/bin/ubuntu-advantage 
-cat popularity-contest 
-popularity-contest 
-popularity-contest | more
-popdn
-popn
-pon
-lpstat 
-sudo dpkg-reconfigure popularity-contest
-cat /etc/popularity-contest.conf 
-lpstat 
-sudo dpkg-reconfigure popularity-contest
-cat /etc/popularity-contest.conf 
-apport
-em
-ubuntu-report shwo
-ubuntu-report interactive
-ubuntu-report
-ubuntu-report -f
-ubuntu-report service -v
-mem
-ubuntu-report show
-cd Escritorio
-wget https://admin.insights.ubuntu.com/wp-content/uploads/e649/diskpart.png?_ga=2.129676878.357502194.1530131063-124447048.1512727527
-wget https://admin.insights.ubuntu.com/wp-content/uploads/9aa3/install_time.png?_ga=2.171629282.357502194.1530131063-124447048.1512727527
-wget https://popcon.ubuntu.com/stat/submission.png
-optimiza_imagen privacidad-ubuntu.jpg 
-ls
-optimiza_imagen particionado.png 
-optimiza_imagen submission.png 
-optimiza_imagen duracion-instalacion.png 
-ls
-optimiza_imagen particionado.png 
-optimiza_imagen submission.png 
-optimiza_imagen duracion-instalacion.png 
-cd /datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/
-git add .;git commit -m "kk"; git push; git ftp push
-gst-launch-1.0 espeak text="Hello world" pitch=-50 rate=-50 voice=default ! autoaudiosink
-gst-launch-1.0 espeak text="Hello world. I am very busy" pitch=-50 rate=-50 voice=default ! autoaudiosink
-gjs test.js 
-cd Escritorio/world-cup-indicator/
-wget https://upload.wikimedia.org/wikipedia/en/6/67/2018_FIFA_World_Cup.svg
-cd .log
-cd .local/share/gnome-shell
-cd extensions/
-cd Escritorio/world-cup-indicator/
-wget https://upload.wikimedia.org/wikipedia/en/6/67/2018_FIFA_World_Cup.svg
-cd .log
-cd .local/share/gnome-shell
-cd extensions/
-cd .local/share/gnome-shell/extensions/world-cup-indicator-gs@atareao.es/
-git remote remove
-git remote remove origin
-git remote add origin git@github.com:atareao/world-cup-indicator-gs.git
-git remote -v
-git add ,
-./helper
-./help
-./helper.sh 
-git commit -m "First release"
-git push -u origin master
-cd Descargas
-cd Telegram\ Desktop/
-for i in *Wrecked.mkv;do echo "$i"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:6}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:5}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:8}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7} - S0${i:0:1}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7} - S0${i:0:1}E0${i:2:2}"; done
-for i in *Wrecked.mkv;do echo "$i" "${i:7} - S0${i:0:1}E${i:2:2}"; done
-for i in *Wrecked.mkv;do mv "$i" "${i:7} - S0${i:0:1}E${i:2:2}"; done
-ls Wrecked.mkv\ -\ S0*
-for i in *Wrecked.mkv;do echo "$i" "${i/.mkv}"; done
-for i in Wrecked*;do echo "$i" "${i/.mkv}"; done
-for i in Wrecked*;do echo "$i" "${i/.mkv}.mkv"; done
-for i in Wrecked*;do mv "$i" "${i/.mkv}.mkv"; done
-ssh synology
-scp Wrecked\ -\ S0* synology:/volume4/media/series/Wrecked/
-[A
-gjs test.js
-cd .local/share/gnome-shell/extensions/
-cd pomodoro-indicator-gs@atareao.es/
-cd icons/
-sed -i -- 's/width="22"/width="48"/g' pomodoro-indicato-light*.svg
-sed -i -- 's/width="22"/width="48"/g' pomodoro-indicator-light*.svg
-sed -i -- 's/height="22"/height="48"/g' pomodoro-indicator-light*.svg
-sed -i -- 's/height="48"/height="22"/g' pomodoro-indicator-light*.svg
-sed -i -- 's/width="48"/width="22"/g' pomodoro-indicator-light*.svg
-for i in pomodoro-indicator-light-*; do echo $i; done
-for i in pomodoro-indicator-light-*; do echo $i ${i/-light/}; done
-for i in pomodoro-indicator-light-*; do mv $i ${i/-light/}; done
-cd --
-cd -
-./helper.sh -t
-./helper.sh -c
-rm world-cup-indicator-gs@atareao.es.zip 
-cd temporal/
-rm -rf temporal/
-s
-sudo apt remove pomodoro-indicator
+wget http://ftp.vim.org/vim/runtime/spell/es.utf-8.sug                        
+wget http://ftp.vim.org/vim/runtime/spell/ca.latin1.spl
+wget http://ftp.vim.org/vim/runtime/spell/ca.latin1.sug
+wget http://ftp.vim.org/vim/runtime/spell/ca.utf-8.spl
+wget http://ftp.vim.org/vim/runtime/spell/ca.utf-8.sug
+rm ca*
+sudo chown lorenzo:lorenzo *
+cd
+vim .vimrc
+sudo apt remove nano
+sudo apt install autokey
+sudo apt install autokey-gtk
+;t1 ;T3
+sudo apt install gir1.2-gtop-2.0 lm-sensors
 sudo apt upgrade
-cd world-cup-indicator-gs@atareao.es/
-git commit -m "times to update"
-gjs
-gjs wcapi.js 
-git commit -m "date"
-rm ../world-cup-indicator-gs@atareao.es.zip 
-./helper.sh -z
-cd Escritorio
-optimiza_imagen mundial-de-futbol-en-ubuntu.jpg 
-mv photo_2018-06-24_14-38-07.jpg world-cup-indicator-gs.jpg
-optimiza_imagen world-cup-indicator-gs.jpg 
-cat /etc/fstab 
-optimiza_imagen world-cup-indicator-gs.jpg 
-cat /etc/fstab 
-mosh dgo
-mosh do
-cat .ssh/config 
-mosh do1
-sudo apt install mumble
-cat .ssh/config
-dch -r
-cd .local/share/gnome-shell/
-cd extensions/
-cd pomodoro-indicator-gs@atareao.es/
-mv extension.js extension.js.old
-sudo modprobe -r uvcvideo
-ubuntu-report
-cat /home/lorenzo/.cache/ubuntu-report/ubuntu.18.04 
-popularity-contest 
-man popularity-contest 
-nano /etc/popularity-contest.conf 
-man popcon-largest-unused 
-popularity-contest | less
-nano /etc/popularity-contest.conf 
-sudo nano crontab
-sudo nano crontab -l
-sudo nano crontab -e
-cd /etc/cron*
-ls /etc/cron*
-cd /etc/cron.daily/
-cat ubuntu-advantage-tools 
-/usr/bin/ubuntu-advantage 
-cat popularity-contest 
-popularity-contest 
-popularity-contest | more
-popdn
-popn
-pon
-lpstat 
-sudo dpkg-reconfigure popularity-contest
-cat /etc/popularity-contest.conf 
-lpstat 
-sudo dpkg-reconfigure popularity-contest
-cat /etc/popularity-contest.conf 
-apport
-em
-ubuntu-report shwo
-ubuntu-report interactive
-ubuntu-report
-ubuntu-report -f
-ubuntu-report service -v
-ubuntu-report show
-cd Escritorio
-wget https://admin.insights.ubuntu.com/wp-content/uploads/e649/diskpart.png?_ga=2.129676878.357502194.1530131063-124447048.1512727527
-wget https://admin.insights.ubuntu.com/wp-content/uploads/9aa3/install_time.png?_ga=2.171629282.357502194.1530131063-124447048.1512727527
-wget https://popcon.ubuntu.com/stat/submission.png
-optimiza_imagen privacidad-ubuntu.jpg 
-optimiza_imagen particionado.png 
-optimiza_imagen submission.png 
-optimiza_imagen duracion-instalacion.png 
-mem
-cd /datos/Sync/Programacion/Python/
-cd Wordpress/
-cd gnulinuxvalencia.org/
-git commit -m "cpt"
-git commit -m "update types"
-git push
-git ftp push
-git add .
-cd 
-cd /datos/Sync/Programacion/Python/telegram/
-./update.sh 
-dch -i
-mybuilder
-echo "tocame \n las pelotas"
-echo 'tocame \n las pelotas'
-printf 'tocame \n las pelotas'
-printf "tocame \n las pelotas"
-echo -e 'tocame \n las pelotas'
-cd /datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/
-git add .; git commit -m "kk"; git push; git ftp push
-ssh synology 
-cd Descargas/Telegram\ Desktop/
-*.mkv
-ls*.mkv
-ls *.mkv
-mv 1x13\ -\ Cuerpo\ De\ Élite.mkv "Cuerpo de Élite - S01E13.mkv"
-ls Cuerpo\ de\ Élite\ -\ S01E13.mkv 
-scp Cuerpo\ de\ Élite\ -\ S01E13.mkv synology:/volume4/media/series/Cuerpo\\\ de\\\ élite/
-cd
-cd /datos/Sync/Programacion/Python/gqrcode/
-cd bin/
-./gqrcode 
-cd debian/
-ls
-cat control 
-sudo apt install gir1.2-osmgpsmap-1.0
-sudo apt install zbar-tools
-cd ..
-bin/gqrcode 
-cd .local/share/gnome-shell/extensions/
-cd pomodoro-indicator-gs@atareao.es/
-cd icons/
-sed -i -- 's/width="22"/width="48"/g' pomodoro-indicato-light*.svg
-sed -i -- 's/width="22"/width="48"/g' pomodoro-indicator-light*.svg
-sed -i -- 's/height="22"/height="48"/g' pomodoro-indicator-light*.svg
-sed -i -- 's/height="48"/height="22"/g' pomodoro-indicator-light*.svg
-sed -i -- 's/width="48"/width="22"/g' pomodoro-indicator-light*.svg
-for i in pomodoro-indicator-light-*; do echo $i; done
-for i in pomodoro-indicator-light-*; do echo $i ${i/-light/}; done
-for i in pomodoro-indicator-light-*; do mv $i ${i/-light/}; done
-cd --
-cd -
-cd temporal/
-rm -rf temporal/
-s
-sudo apt remove pomodoro-indicator
-sudo apt upgrade
-git commit -m "times to update"
-gjs
-gjs wcapi.js 
-git commit -m "date"
-rm ../world-cup-indicator-gs@atareao.es.zip 
-cd Escritorio
-optimiza_imagen mundial-de-futbol-en-ubuntu.jpg 
-mv photo_2018-06-24_14-38-07.jpg world-cup-indicator-gs.jpg
-optimiza_imagen world-cup-indicator-gs.jpg 
-cat /etc/fstab 
-optimiza_imagen world-cup-indicator-gs.jpg 
-cat /etc/fstab 
-mosh dgo
-mosh do
-cat .ssh/config 
-mosh do1
-sudo apt install mumble
-cat .ssh/config
-cd .local/share/gnome-shell/
-cd pomodoro-indicator-gs@atareao.es/
-mv extension.js extension.js.old
-sudo modprobe -r uvcvideo
-ubuntu-report
-cat /home/lorenzo/.cache/ubuntu-report/ubuntu.18.04 
-popularity-contest 
-man popularity-contest 
-nano /etc/popularity-contest.conf 
-man popcon-largest-unused 
-popularity-contest | less
-nano /etc/popularity-contest.conf 
-sudo nano crontab
-sudo nano crontab -l
-sudo nano crontab -e
-cd /etc/cron*
-ls /etc/cron*
-cd /etc/cron.daily/
-cat ubuntu-advantage-tools 
-/usr/bin/ubuntu-advantage 
-cat popularity-contest 
-popularity-contest 
-popularity-contest | more
-popdn
-popn
-pon
-lpstat 
-sudo dpkg-reconfigure popularity-contest
-cat /etc/popularity-contest.conf 
-lpstat 
-sudo dpkg-reconfigure popularity-contest
-cat /etc/popularity-contest.conf 
-apport
-em
-ubuntu-report shwo
-ubuntu-report interactive
-ubuntu-report
-ubuntu-report -f
-ubuntu-report service -v
-ubuntu-report show
-cd Escritorio
-wget https://admin.insights.ubuntu.com/wp-content/uploads/e649/diskpart.png?_ga=2.129676878.357502194.1530131063-124447048.1512727527
-wget https://admin.insights.ubuntu.com/wp-content/uploads/9aa3/install_time.png?_ga=2.171629282.357502194.1530131063-124447048.1512727527
-wget https://popcon.ubuntu.com/stat/submission.png
-optimiza_imagen privacidad-ubuntu.jpg 
-optimiza_imagen particionado.png 
-optimiza_imagen submission.png 
-optimiza_imagen duracion-instalacion.png 
-mem
-cd Wordpress/
-git commit -m "cpt"
-git commit -m "update types"
-git ftp push
-cd /datos/Sync/Programacion/Python/telegram/
-./update.sh 
-mybuilder
-echo "tocame \n las pelotas"
-echo 'tocame \n las pelotas'
-printf 'tocame \n las pelotas'
-printf "tocame \n las pelotas"
-echo -e 'tocame \n las pelotas'
-cd /datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/
-ssh synology 
-cd Descargas/Telegram\ Desktop/
-*.mkv
-ls*.mkv
-ls *.mkv
-mv 1x13\ -\ Cuerpo\ De\ Élite.mkv "Cuerpo de Élite - S01E13.mkv"
-ls Cuerpo\ de\ Élite\ -\ S01E13.mkv 
-scp Cuerpo\ de\ Élite\ -\ S01E13.mkv synology:/volume4/media/series/Cuerpo\\\ de\\\ élite/
-cd /datos/Sync/Programacion/Python/gqrcode/
-cd bin/
-./gqrcode 
-cd debian/
-cat control 
-sudo apt install gir1.2-osmgpsmap-1.0
-sudo apt install zbar-tools
-bin/gqrcode 
-cd /datos/Sync/Programacion/Python/
-cd Nautilus/
-cd nautilus-telegram-uploader/
-dch -i
-dch -r
-git commit -m "Fixed bugs"
-compile_extension 
-cd nautilus-image-tools/
-cd 
-cd .local/share/
-cd gnome-shell/
-cd extensions/
-rm world-cup-indicator-gs@atareao.es
-rm world-cup-indicator-gs@atareao.es.zip 
-cd world-cup-indicator-gs@atareao.es/
-git pull
-git -t
-[A
-git commit -m "Hide when no matches"
-d ..
-cd ..
-cd ./microphone-loopback@atareao.es/
-./helper.sh -c
-./helper.sh -t
-git add .
-git commit -m "notifications option"
-git push
-cp ../world-cup-indicator-gs@atareao.es/helper.sh ./
-./helper.sh -z
-c
-cd Descargas
-hsdw
-fdisk -l
-sudo dd if=linuxmint-19-cinnamon-64bit.iso of=/dev/sdb conv=sync status=progress
-cd
-cd /datos/Sync/Programacion/Wordpress/
-cd gnulinuxvalencia.org/
-ls
-git add .; git commit -m "kk"; git push; git ftp push
-cd /datos/Sync/Programacion/Wordpress/
-cd gnulinuxvalencia.org/
-ls
-git add .; git commit -m "kk"; git push; git ftp push
-cd .local/share/gnome-shell/extensions/
-git clone git@github.com:KivApple/gnome-shell-extension-backlight-control.git
-sudo apt install xbacklight
-xbacklight 
-xbacklight -h
-xbacklight -help
-xbacklight -d
-xbacklight -d 1
-xbacklight -d 0
-ssh sinology
-sudo apt install restic
-sudo apt autoremove
-restic -r sftp:lorenzo@synology:/volume2/homes/lorenzo/backup init
-restic -r sftp:synology:/volume2/homes/lorenzo/backup init
-ssh synology:/volume2/homes/lorenzo/backup
-ssh synology
-sftp synology 
-ssh synology 
-history | ssh
-history | grep ssh
-ssh 165.227.238.5
-restic -r sftp:165.227.238.5:/home/lorenzo/backup init
-restic -r sftp:165.227.238.5:/home/lorenzo/backup --verbose backup /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup --verbose /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup /datos/dotfiles/
-sudo apt install webcamoid
-sudo apt update; sudo apt upgrade
-rlg
-gjs
-ssh synology 
-history | ssh
-history | grep ssh
-ssh 165.227.238.5
-restic -r sftp:165.227.238.5:/home/lorenzo/backup init
-restic -r sftp:165.227.238.5:/home/lorenzo/backup --verbose backup /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup --verbose /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup /datos/dotfiles/
-sudo apt install webcamoid
-sudo apt update; sudo apt upgrade
-rlg
-gjs
-cd /datos/Sync/Programacion/Wordpress/
-cd gnulinuxvalencia.org/
-ls
-git add .; git commit -m "kk"; git push; git ftp push
-sudo apt update; sudo apt upgrade
-rlg
-cd .local/share/gnome-shell/
-cd extensions/
-cd pomodoro-indicator-gs@atareao.es/
-ls
-nano extension.js 
-ssh synology 
-history | ssh
-history | grep ssh
-ssh 165.227.238.5
-restic -r sftp:165.227.238.5:/home/lorenzo/backup init
-restic -r sftp:165.227.238.5:/home/lorenzo/backup --verbose backup /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup --verbose /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup /datos/dotfiles/
-sudo apt install webcamoid
-sudo apt update; sudo apt upgrade
-rlg
-gjs
-sudo apt update; sudo apt upgrade
-rlg
-cd .local/share/gnome-shell/
-cd extensions/
-cd pomodoro-indicator-gs@atareao.es/
-nano extension.js 
-cd /datos/Sync/Programacion/Wordpress/
-cd gnulinuxvalencia.org/
-ls
-git add .; git commit -m "kk"; git push; git ftp push
-cd .local/share/gnome-shell/
-cd extensions/
-cd pomodoro-indicator-gs@atareao.es/
-ls
-nano extension.js 
-ssh synology 
-history | ssh
-history | grep ssh
-ssh 165.227.238.5
-restic -r sftp:165.227.238.5:/home/lorenzo/backup init
-restic -r sftp:165.227.238.5:/home/lorenzo/backup --verbose backup /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup --verbose /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup /datos/dotfiles/
-sudo apt install webcamoid
-sudo apt update; sudo apt upgrade
-rlg
-gjs
-sudo apt update; sudo apt upgrade
-rlg
-cd .local/share/gnome-shell/
-cd extensions/
-cd pomodoro-indicator-gs@atareao.es/
-nano extension.js 
-ls
-cd /datos/Sync/Programacion/Wordpress/
-cd gnulinuxvalencia.org/
-git add .; git commit -m "kk"; git push; git ftp push
-systemd-analize blame
-systemd-analyze blame
-systemd-analize blame
-systemd-analyze blame
-sudo systemctl edit apt-daily.timer
-exit
-git ftp push
-cd /datos/Sync/Programacion/Python/telegram/
-./update.sh 
-mybuilder
-echo "tocame \n las pelotas"
-echo 'tocame \n las pelotas'
-printf 'tocame \n las pelotas'
-printf "tocame \n las pelotas"
-echo -e 'tocame \n las pelotas'
-cd /datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/
-ssh synology 
-cd Descargas/Telegram\ Desktop/
-*.mkv
-ls*.mkv
-ls *.mkv
-mv 1x13\ -\ Cuerpo\ De\ Élite.mkv "Cuerpo de Élite - S01E13.mkv"
-ls Cuerpo\ de\ Élite\ -\ S01E13.mkv 
-scp Cuerpo\ de\ Élite\ -\ S01E13.mkv synology:/volume4/media/series/Cuerpo\\\ de\\\ élite/
-cd /datos/Sync/Programacion/Python/gqrcode/
-cd bin/
-./gqrcode 
-cd debian/
-cat control 
-sudo apt install gir1.2-osmgpsmap-1.0
-sudo apt install zbar-tools
-bin/gqrcode 
-cd /datos/Sync/Programacion/Python/
-cd Nautilus/
-cd nautilus-telegram-uploader/
-dch -i
-dch -r
-git commit -m "Fixed bugs"
-compile_extension 
-cd nautilus-image-tools/
-cd .local/share/
-cd gnome-shell/
-cd extensions/
-rm world-cup-indicator-gs@atareao.es
-rm world-cup-indicator-gs@atareao.es.zip 
-cd world-cup-indicator-gs@atareao.es/
-git pull
-git -t
-[A
-git commit -m "Hide when no matches"
-d ..
-cd ..
-cd ./microphone-loopback@atareao.es/
-./helper.sh -c
-./helper.sh -t
-git add .
-git commit -m "notifications option"
-git push
-cp ../world-cup-indicator-gs@atareao.es/helper.sh ./
-./helper.sh -z
-c
-hsdw
-fdisk -l
-sudo dd if=linuxmint-19-cinnamon-64bit.iso of=/dev/sdb conv=sync status=progress
-cd .local/share/gnome-shell/extensions/
-git clone git@github.com:KivApple/gnome-shell-extension-backlight-control.git
-sudo apt install xbacklight
-xbacklight 
-xbacklight -h
-xbacklight -help
-xbacklight -d
-xbacklight -d 1
-xbacklight -d 0
-ssh sinology
-sudo apt install restic
-restic -r sftp:lorenzo@synology:/volume2/homes/lorenzo/backup init
-restic -r sftp:synology:/volume2/homes/lorenzo/backup init
-ssh synology:/volume2/homes/lorenzo/backup
-ssh synology
-sftp synology 
-ssh synology 
-history | ssh
-history | grep ssh
-ssh 165.227.238.5
-restic -r sftp:165.227.238.5:/home/lorenzo/backup init
-restic -r sftp:165.227.238.5:/home/lorenzo/backup --verbose backup /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup --verbose /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup /datos/dotfiles/
-sudo apt install webcamoid
-sudo apt update; sudo apt upgrade
-rlg
-gjs
-ssh synology 
-history | ssh
-history | grep ssh
-ssh 165.227.238.5
-restic -r sftp:165.227.238.5:/home/lorenzo/backup init
-restic -r sftp:165.227.238.5:/home/lorenzo/backup --verbose backup /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup --verbose /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup /datos/dotfiles/
-sudo apt install webcamoid
-sudo apt update; sudo apt upgrade
-rlg
-gjs
-sudo apt update; sudo apt upgrade
-rlg
-cd .local/share/gnome-shell/
-cd extensions/
-cd pomodoro-indicator-gs@atareao.es/
-nano extension.js 
-ssh synology 
-history | ssh
-history | grep ssh
-ssh 165.227.238.5
-restic -r sftp:165.227.238.5:/home/lorenzo/backup init
-restic -r sftp:165.227.238.5:/home/lorenzo/backup --verbose backup /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup --verbose /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup /datos/dotfiles/
-sudo apt install webcamoid
-sudo apt update; sudo apt upgrade
-rlg
-gjs
-sudo apt update; sudo apt upgrade
-rlg
-cd .local/share/gnome-shell/
-cd extensions/
-cd pomodoro-indicator-gs@atareao.es/
-nano extension.js 
-cd .local/share/gnome-shell/
-cd extensions/
-cd pomodoro-indicator-gs@atareao.es/
-nano extension.js 
-ssh synology 
-history | ssh
-history | grep ssh
-ssh 165.227.238.5
-restic -r sftp:165.227.238.5:/home/lorenzo/backup init
-restic -r sftp:165.227.238.5:/home/lorenzo/backup --verbose backup /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup --verbose /datos/dotfiles/
-restic -r sftp:165.227.238.5:/home/lorenzo/backup backup /datos/dotfiles/
-sudo apt install webcamoid
-sudo apt update; sudo apt upgrade
-rlg
-gjs
-sudo apt update; sudo apt upgrade
-rlg
-cd .local/share/gnome-shell/
-cd extensions/
-cd pomodoro-indicator-gs@atareao.es/
-nano extension.js 
-systemd-analize blame
-systemd-analyze blame
-systemd-analize blame
-systemd-analyze blame
-sudo systemctl edit apt-daily.timer
-exit
-upgrade
-ls gimp_2.10.2+omg-0ubu18.04.1~ppa_amd64.deb 
-sudo dpkg -i gimp_2.10.2+omg-0ubu18.04.1~ppa_amd64.deb 
-sudo apt remove gimp-plugin-registry
-sudo add-apt-repository ppa:otto-kesselgulasch/gimp --remove
-sudo apt remove gimp
-sudo apt --fix-broken install
-sudo add-apt-repository ppa:otto-kesselgulasch/gimp
-sudo apt install gimp
-sudo apt install gmic
-sudo apt install gimp-resynthesizer
-gimp-plugin-registry
-sudo apt install gimp-plugin-registry
-sudo dpkg -i gimp-resynthesizer_0.16-1.1_ia64.deb 
-sudo dpkg -i gimp-resynthesizer_0.16-1.1_amd64.deb 
-sudo apt install libpango
-sudo apt install libpango1
-sudo apt install libpango1.0-0
-sudo apt install -f
-cd Documentos
-optimiza_imagen gimp210.png 
-optimiza_imagen gimp210.
-optimiza_imagen gimp210.jpg 
-sudo dpkg -r gimp-resynthesizer
-sudo apt remove libpango1.0-0
-sudo apt autoremove
-cd Escritorio
-optimiza_imagen gimp-210*
-mosh rpi
-cd Des
-cd 
-cd Descargas
-cd Telegram\ Desktop/
-ls *Sobre*
-mv 1x04\ -\ Sobrenatural.mkv Sobrenatural\ -\ S01E04.mkv
-mv 1x05\ -\ Sobrenatural.mkv Sobrenatural\ -\ S01E05.mkv
-mv 1x06\ -\ Sobrenatural.mkv Sobrenatural\ -\ S01E06.mkv
-mv 1x07\ -\ Sobrenatural.mkv Sobrenatural\ -\ S01E07.mkv
-mv 1x08\ -\ Sobrenatural.mkv Sobrenatural\ -\ S01E08.mkv
-mv 1x09\ -\ Sobrenatural.mkv Sobrenatural\ -\ S01E09.mkv
-rm Sobrenatural\ -\ S01E01.mkv 
-rm Sobrenatural\ -\ S01E02.mkv 
-rm Sobrenatural\ -\ S01E03.mkv 
-ls Sobrenatural\ -\ S01E0
-ls Sobrenatural\ -\ S01E0*
-scp Sobrenatural\ -\ S01E0* synology:/volume4/media/series/Sobrenatural/
-cd
-cd /datos/Sync/Programacion/Wordpress/
-cd gnulinuxvalencia.org/
-ls
-git add .; git commit -m "kk"; git push; git ftp push
-ls Sobrenatural\ -\ S01E0
-ls Sobrenatural\ -\ S01E0*
-scp Sobrenatural\ -\ S01E0* synology:/volume4/media/series/Sobrenatural/
-cd
-cd /datos/Sync/Programacion/Wordpress/
-cd gnulinuxvalencia.org/
-ls
-git add .; git commit -m "kk"; git push; git ftp push
-sudo dpkg --configure -a
-sudo apt upgrade
-mintupgrade
-sudo apt mintupgrade
-aptik
-aptik --list-repos
-sudo aptik --list-repos
-sudo apt-add-repository -y ppa:teejee2008/ppa
-sudo apt update; sudo apt upgrade
-sudo apt autoremove
-sudo apt install aptik-gui
-sudo apt install aptik-gtk
-sudo apt install mintupgrade
-mintupgrade check
-sudo apt remove mesa
-sudo apt-get --reinstall install libegl1-mesa
-sudo add-apt-repository ppa:ubuntu-x-swat/updates
-sudo apt update
-sudo apt remove libegl1-mesa
-sudo apt install libegl1-mesa
-sudo apt install libegl1-mesa 17.3.3
-sudo apt install mesa=17.3.3
-sudo apt install mesa=17.1.8
-sudo apt install libegl1-mesa=17.1.8
-sudo apt install libegl1-mesa=17.3.3
-sudo apt install libegl1-mesa=17.3.3-0ubuntu1
-sudo apt install libegl1-mesa=17.3.3-0ubuntu1~16.04.1
-sudo apt install libegl1-mesa=17.3.3-0ubuntu1~16.04.1
+crontab -l
+crontab -l
+pip3 install cheroot wsgidav
+wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/+
+wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/
+sudo wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/
+wsgidav --host=0.0.0.0 --port=81 --root=/home/lorenzo/temporal/
+sudo pip3 install cheroot wsgidav
+wsgidav --host=127.0.0.1 --port=81 --root=/home/lorenzo/temporal/
+wsgidav --host=127.0.0.1 --port=85 --root=/home/lorenzo/temporal/
+wsgidav --host=0.0.0.0 --port=8081 --root=/home/lorenzo/temporal/
 cd temporal
-mintupgrade download
-cd
-cd Descargas
-ls
-lshw
-sudo fdisk -l
-sudo dd if=linuxmint-19-cinnamon-64bit.iso of=/dev/sdb bs=4M status=progress conv=fdatasync
-cd /datos/
-ls
-cd dotfiles/
-ls
-ls -la
-cd .bash_it/
-ls
-cd custom/
-ls
-cd ..
-cd lib/
-ls
-ls -la
-./linker.py 
-mem
-exit
-mem
-mem
-exit
-mem
+mkdir caca
+wsgidav --host=0.0.0.0 --port=8081 --root=/home/lorenzo/temporal/caca/
+wsgidav --host=0.0.0.0 --port=8080 --root=/home/lorenzo/temporal/caca
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
+sudo nano /etc/apt/sources.list.d/insync.list
+sudo apt update
+$ sudo apt install insync
+sudo apt install insync
+lterm
+cat /etc/os-release 
 mosh do1
-cd /datos/
-cd dotfiles/
-ls -la
-cd .bash_it/
-cd custom/
-cd ..
-cd lib/
-ls -la
-./linker.py 
-mem
-exit
-mem
-cd .gimp-2.8/scripts/
-wget http://registry.gimp.org/files/arrow.scm
-nano arrow
-nano arrow.scm 
-ver=$(lsb_release -sr); if [ $ver != "18.04" -a $ver != "17.10" -a $ver != "17.04" -a $ver != "16.04" ]; then ver=18.04; fi
-echo $ver
-echo "deb http://download.opensuse.org/repositories/home:/strycore/xUbuntu_$ver/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
-wget -q http://download.opensuse.org/repositories/home:/strycore/xUbuntu_$ver/Release.key -O- | sudo apt-key add -
-sudo apt update
-sudo apt install lutris
-man srandr
-man xrandr
-xrandr --gamma
-xrandr --output --gamma
-xrandr
-xrandr --output HDMI-1 --brightness 0
-xrandr --output HDMI-1 --brightness 3
-xrandr --output HDMI-1 --brightness 2
-xrandr --output HDMI-1 --brightness 1.5
-xrandr --output HDMI-1 --brightness 1.1
-xrandr --output HDMI-1 --brightness 0.7
-xrandr --output HDMI-1 --brightness 0.6
-xrandr --output HDMI-1 --brightness 1
-xrandr --output HDMI-1 --gamma
-xrandr --verbose | grep -i brightness
-xrandr --verbose | grep -i gamma
-xrandr --output HDMI-1 --gamma 0.5:1:0.5
-cd /datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/
-xrandr --output HDMI-1 --gamma 1:1:1
-git add .; git commit -m "kk"; git push; git ftp push
-netstat -pta
+cd /datos/Sync/Programacion/Python/my-weather-indicator/
+cd bin/
+sudo apt install python3-requests
+sudo apt install my-weather-indicator
+python3 my-weather-indicator
+cd touchpad-indicator
+dch -i
+lazygit 
+dch -r
+giitp
+gitp
+mybuilder
+cd 
+nano .vim
+cd .vim
+nano .vimrc
+vim +'PluginInstall! vim-markdown' +qall
+vim +PluginUpdate
 cd
-cd Escritorio
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=128x96:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a copy output.mpg
-ls
-sudo apt remove pavucontrol
-sudo apt remove pulse-effects
-sudo apt remove pulseeffects
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a copy output.mpg
-man gnome-shell
-gnome-shell -r
-ps aux | grep gnome-shell
-kill -9 26605
-ps aux | grep gnome-shell
-kill -9 26605
-cd Escritorio
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill white text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 0, 600 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 0, 380 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 10, 450 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 10, 400 'Presentación de'" fondo1.jpg
-convert fondo1.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 10, 450 'GNU/Linux Valencia'" fondo1.jpg
-chmod +x audio_to_video.sh 
-./audio_to_video.sh 
-./audio_to_video.sh "hola"
-./audio_to_video.sh "Presentación de" "GNU/Linux Valencia" fondo.jpg audio.m4a
-systemd-analyze blame
-systemd-analyze plot > plot.svg
-sudo systemctl edit apt-daily.timer
-sudo nano /etc/systemd/system.conf 
-kill -9 26605
-cd Escritorio
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a copy output.mpg
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a libmp3lame output.mpg
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 output.mpg
-youtube-dl https://www.youtube.com/watch?v=32_qkVOKKYU&t=38s
-ps aux
-ps aux | grep youtube
-youtube-dl -F https://www.youtube.com/watch?v=32_qkVOKKYU&t=38s
-youtube-dl -f 140 https://www.youtube.com/watch?v=32_qkVOKKYU&t=38s
-ffmpeg -loop 1 -i fondo.jpg -i audio.m4a -c:v libx264 -tune stillimage -c:a libmp3lame -b:a 192k -pix_fmt yuv420p -shortest out.mp4
-ls
-ffmpeg -i audio.m4a -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 onda.mpg
-ffmpeg -i onda.mpg -i out.mp4 -filter_complex " \
-  [0:v]setpts=PTS-STARTPTS, scale=480x360[top]; \
-        [1:v]setpts=PTS-STARTPTS, scale=480x360, \
-             format=yuva420p,colorchannelmixer=aa=0.5[bottom]; \
-        [top][bottom]overlay=shortest=1" -acodec libmp3lame -vcodec libx264 final.mp4
-ffmpeg -i audio.m4a -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -an onda.mpg
-convert fondo.jpg -font Ubuntu -weifht 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-        [top][bottom]overlay=shortest=1" -acodec libmp3lame -vcodec libx264 final.mp4
-ffmpeg -i audio.m4a -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -an onda.mpg
-convert fondo.jpg -font Ubuntu -weifht 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-sudo nano /etc/rc.local
-sudo rkfill list
-rfkill unblock bluetooth 
-sudo rfkill unblock bluetooth 
-sudo rfkill list
-systemctl status bluetooth
-lsusb
-nano /etc/apt/sources.list
-sudo nano /etc/apt/sources.list
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove
-hciconfig hci0 up
-sudo hciconfig hci0 up
-rfkill list
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove
-hciconfig hci0 up
-sudo hciconfig hci0 up
-rfkill list
-cd /etc/udev/rules.d/
-cat 70-snap.core.rules 
-cat 51-android.rules 
-cd /etc/rc.d
-cd /etc/
-cd rc0.d/
-cd ../init.d/
-ls
-cat bluetooth 
-rfkill unblock all
-rfkill list all
-sudo systemctl restart bluetooth
-systemctl status bluetooth
-sudo apt install blueman
-sudo apt remove blueman
-ps aux | grep gnome-shell
-kill -9 26605
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill white text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 0, 600 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 0, 380 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 10, 450 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 10, 400 'Presentación de'" fondo1.jpg
-convert fondo1.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 10, 450 'GNU/Linux Valencia'" fondo1.jpg
-chmod +x audio_to_video.sh 
-./audio_to_video.sh 
-./audio_to_video.sh "hola"
-./audio_to_video.sh "Presentación de" "GNU/Linux Valencia" fondo.jpg audio.m4a
-systemd-analyze blame
-systemd-analyze plot > plot.svg
-sudo systemctl edit apt-daily.timer
-sudo nano /etc/systemd/system.conf 
-kill -9 26605
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a copy output.mpg
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a libmp3lame output.mpg
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 output.mpg
-youtube-dl https://www.youtube.com/watch?v=32_qkVOKKYU&t=38s
-ps aux
-ps aux | grep youtube
-youtube-dl -F https://www.youtube.com/watch?v=32_qkVOKKYU&t=38s
-youtube-dl -f 140 https://www.youtube.com/watch?v=32_qkVOKKYU&t=38s
-ffmpeg -loop 1 -i fondo.jpg -i audio.m4a -c:v libx264 -tune stillimage -c:a libmp3lame -b:a 192k -pix_fmt yuv420p -shortest out.mp4
-ffmpeg -i audio.m4a -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 onda.mpg
-ffmpeg -i onda.mpg -i out.mp4 -filter_complex " \
-  [0:v]setpts=PTS-STARTPTS, scale=480x360[top]; \
-        [1:v]setpts=PTS-STARTPTS, scale=480x360, \
-             format=yuva420p,colorchannelmixer=aa=0.5[bottom]; \
-        [top][bottom]overlay=shortest=1" -acodec libmp3lame -vcodec libx264 final.mp4
-ffmpeg -i audio.m4a -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -an onda.mpg
-convert fondo.jpg -font Ubuntu -weifht 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-        [top][bottom]overlay=shortest=1" -acodec libmp3lame -vcodec libx264 final.mp4
-ffmpeg -i audio.m4a -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -an onda.mpg
-convert fondo.jpg -font Ubuntu -weifht 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-sudo nano /etc/rc.local
-sudo rkfill list
-rfkill unblock bluetooth 
-sudo rfkill unblock bluetooth 
-sudo rfkill list
-systemctl status bluetooth
-lsusb
-nano /etc/apt/sources.list
-sudo nano /etc/apt/sources.list
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove
-hciconfig hci0 up
-sudo hciconfig hci0 up
-rfkill list
-sudo apt update
-sudo apt upgrade
-sudo apt autoremove
-hciconfig hci0 up
-sudo hciconfig hci0 up
-rfkill list
-cd /etc/udev/rules.d/
-cat 70-snap.core.rules 
-cat 51-android.rules 
-cd /etc/rc.d
-cd /etc/
-cd rc0.d/
-cd ../init.d/
-cat bluetooth 
-rfkill unblock all
-rfkill list all
-sudo systemctl restart bluetooth
-systemctl status bluetooth
-sudo apt install blueman
-sudo apt remove blueman
-cd /datos/Sync/Programacion/Wordpress/
-cd gnulinuxvalencia.org/
-history | grep git
-git add .; git commit -m "kk"; git push; git ftp push
-cd
-cd Escritorio
-ls audio_wave.sh 
-chmod +x audio_wave.sh 
-./audio_wave.sh 
-./audio_wave.sh -t "Esto es un ejemplo"
-./audio_wave.sh -t "Esto es un ejemplo" -w 320
-./audio_wave.sh -t 1
-./audio_wave.sh -t 1 -e 4
-./audio_wave.sh
-./audio_wave.sh caca
-help
-man history
-history -h
-cd ..
+cd /datos/Sync/
+cd atareao.es/
+cd articulos/
+l
+cd 2018/
+cd 201819
+cd 201810
+vim ~/.vimrc
+vim lets.md 
+sudo -s
 cd /datos/Sync/Programacion/
-cd Otros/
-mkdir audiowave
-cd audiowave/
+cd Wordpress/
+lss
+cd segobrig-cp5024.wordpresstemporal.com/
+cd lorenzo/
+cd .
+cd segobrigarural.com/
+rm -rf segobrig-cp5024.wordpresstemporal.com/
+rm .git
+rm -rf .git/
+rm -rf .htaccess 
+rm -rf .well-known/
+rm -rf wp-admin/
+rm -rf wp-includes/
+rm index.php 
+rm -rf languages plugins upgrade uploads/
 git init
-git add README.md
-touch README.md
-git remote add origin git@github.com:atareao/audiowave.git
-git commit -m "first commit"
-cp ~/Escritorio/audio_wave.sh ./
-mv audio_wave.sh audiowave.sh 
-ls
-ls -la
-git add .
-git commit -m "First version of audiowave for terminal only"
-git push
-git push -u origin master
+git remote -v
+git remote add origin git@gitlab.com:atareao/segobrigarural.com.git
+git pull origin master
+git branch --set-upstream-to=origin/master master
 git pull
-netstat -pta
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=128x96:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a copy output.mpg
-sudo apt remove pavucontrol
-sudo apt remove pulse-effects
-sudo apt remove pulseeffects
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a copy output.mpg
-man gnome-shell
-gnome-shell -r
-ps aux | grep gnome-shell
-kill -9 26605
-ps aux | grep gnome-shell
-kill -9 26605
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill white text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 0, 600 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 0, 380 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 10, 450 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 10, 400 'Presentación de'" fondo1.jpg
-convert fondo1.jpg -font Ubuntu -weight 700 -pointsize 48 -draw "fill yellow text 10, 450 'GNU/Linux Valencia'" fondo1.jpg
-chmod +x audio_to_video.sh 
-./audio_to_video.sh 
-./audio_to_video.sh "hola"
-./audio_to_video.sh "Presentación de" "GNU/Linux Valencia" fondo.jpg audio.m4a
-systemd-analyze blame
-systemd-analyze plot > plot.svg
-sudo systemctl edit apt-daily.timer
-sudo nano /etc/systemd/system.conf 
-kill -9 26605
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a copy output.mpg
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -c:a libmp3lame output.mpg
-ffmpeg -i lorenzo_audio_20180630.flac -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 output.mpg
-youtube-dl https://www.youtube.com/watch?v=32_qkVOKKYU&t=38s
-ps aux
-ps aux | grep youtube
-youtube-dl -F https://www.youtube.com/watch?v=32_qkVOKKYU&t=38s
-youtube-dl -f 140 https://www.youtube.com/watch?v=32_qkVOKKYU&t=38s
-ffmpeg -loop 1 -i fondo.jpg -i audio.m4a -c:v libx264 -tune stillimage -c:a libmp3lame -b:a 192k -pix_fmt yuv420p -shortest out.mp4
-ffmpeg -i audio.m4a -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 onda.mpg
-ffmpeg -i onda.mpg -i out.mp4 -filter_complex " \
-  [0:v]setpts=PTS-STARTPTS, scale=480x360[top]; \
-        [1:v]setpts=PTS-STARTPTS, scale=480x360, \
-             format=yuva420p,colorchannelmixer=aa=0.5[bottom]; \
-        [top][bottom]overlay=shortest=1" -acodec libmp3lame -vcodec libx264 final.mp4
-ffmpeg -i audio.m4a -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -an onda.mpg
-convert fondo.jpg -font Ubuntu -weifht 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-        [top][bottom]overlay=shortest=1" -acodec libmp3lame -vcodec libx264 final.mp4
-ffmpeg -i audio.m4a -filter_complex "[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]" -map "[v]" -map 0:a -c:v libx264 -an onda.mpg
-convert fondo.jpg -font Ubuntu -weifht 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-convert fondo.jpg -font Ubuntu -weight 700 -pointsize 200 -draw "fill black text 0, 100 'GNU/Linux Valencia'" fondo1.jpg
-sudo nano /etc/rc.local
-sudo rkfill list
-rfkill unblock bluetooth 
-sudo rfkill unblock bluetooth 
-sudo rfkill list
-lsusb
-nano /etc/apt/sources.list
-sudo nano /etc/apt/sources.list
+git push
+sudo rm -rf *
+rm rf *
+rm - rf *
+rm -rf *
+rm -rf .git .sassbuilder-config.json 
+mv segobrigarural.com segobrigarural.com2
+git clone git@gitlab.com:atareao/segobrigarural.com.git
+cd segobrigarural.com
+rm *
+rm .htaccess 
+rm -ef segobrig-cp5024.wordpresstemporal.com/ wp-admin/ wp-includes/
+rm -rf segobrig-cp5024.wordpresstemporal.com/ wp-admin/ wp-includes/
+cd wp-content/
+cd themes/
+cd montana/
+mv * ../../../
+mv .sassbuilder-config.json ../../../
+cd ..
+rm -rf wp-content/
+git commit -m "Only theme"
+git push -u origin master
+git config git-ftp url "ftp://segobrigarural.com/public_html/wp-content/themes/segogrigarural.com"
+git config git-ftp.url "ftp://segobrigarural.com/public_html/wp-content/themes/segogrigarural.com"
+git config git-ftp.user "segobrig
+git config git-ftp.user "segobrig"
+git config git-ftp.password "raXN0x99b0"
+git commit -m "una prueba"
+nano .git/config 
+vim .git/config 
+rm prueba.txt 
+git commit -m "fr"
+git ftp catchup
+echo "probando, probando..." >> prueba.txt
+git commit -m "test"
+git gtp push
+git ftp push
+rm -rf prueba.txt 
+ls
+git add .
+git commit -m "updated"
+gitfp
+exit
+rm -rf prueba.txt 
+git add .
+git commit -m "updated"
+gitfp
+ls
+sudo apt install openssh
 sudo apt update
-sudo apt upgrade
-sudo apt autoremove
-hciconfig hci0 up
-sudo hciconfig hci0 up
-rfkill list
+sudo apt install openssh-server
+sudo systemctl start ssh
+sudo systemctl status ssh
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub > temporal.txt
+gitfp
+mosh do1
+rm -rf prueba.txt 
+git add .
+git commit -m "updated"
+gitfp
+rm -rf prueba.txt 
+git add .
+git commit -m "updated"
+gitfp
+sudo apt install openssh
 sudo apt update
+sudo apt install openssh-server
+sudo systemctl start ssh
+sudo systemctl status ssh
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub > temporal.txt
+gitfp
+mosh do1
+cd /datos/Sync/Programacion/GNOME/
+rm -rf GNOME/
+cd gnome-shell/
+cd meneame-search-provider@atareao.es/
+cd ..
+ls
+exit
+git gtp push
+git ftp push
+rm -rf prueba.txt 
+git add .
+git commit -m "updated"
+gitfp
+rm -rf prueba.txt 
+git add .
+git commit -m "updated"
+gitfp
+sudo apt install openssh
+sudo apt update
+sudo apt install openssh-server
+sudo systemctl start ssh
+sudo systemctl status ssh
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub > temporal.txt
+gitfp
+mosh do1
+cd ~/.local/share/gnome-shell/extensions/
+rm -rf Vitals@CoreCoding.com/
+mv clipman@atareao.es /datos/Sync/Programacion/gnome-shell/
+mv filmaffinity-search-provider@atareao.es /datos/Sync/Programacion/gnome-shell/
+mv gnome-shell-extension-backlight-control /datos/Sync/Programacion/gnome-shell/
+mv meneame-search-provider@atareao.es /datos/Sync/Programacion/gnome-shell/
+mv moon-calendar@atareao.es /datos/Sync/Programacion/gnome-shell/
+mv pomodoro-indicator-gs@atareao.es /datos/Sync/Programacion/gnome-shell/
+mv touchpad-manager@atareao.es /datos/Sync/Programacion/gnome-shell/
+mv webcam-manager@atareao.es /datos/Sync/Programacion/gnome-shell/
+rm *.zip
+rm -rf meneame-search-provider@atareao.es/
+rm -rf moon-calendar@atareao.es/
+rm -rf pomodoro-indicator-gs@atareao.es/
+rm -rf screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com/
+cd /datos/
+cd dotfiles/
+cd
+ls -la
+mutt
+cd .local/share/gnome-shell/extensions/
+cd ..
+ls
+killall vim
+kill -9 4687
+ps -ef | grep vim
+php
+exit
+gitfp
+sudo apt install openssh
+sudo apt update
+sudo apt install openssh-server
+sudo systemctl start ssh
+sudo systemctl status ssh
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa.pub > temporal.txt
+gitfp
+mosh do1
+cd /datos/Sync/Programacion/GNOME/
+rm -rf GNOME/
+cd gnome-shell/
+cd meneame-search-provider@atareao.es/
+cd .bash_it
+cd custom/
+cd ..
+cd lib/
+cd /datos/Sync/Programacion/Python/linker/src/
+nano linker.py 
+vim linker.py 
+rm .linker.py.swp 
+python3 linker.py 
+fdisk -l
+sudo fdisk -l
+cd
+cd Descargas
+rm entrada_0*
+rm squirrel-sql-3.8.1-standard.jar 
+rm test*
+rm video-solid*
+rm ubuntu-18.10-desktop-amd64.iso*
+rm rss*
+rm micro*
+rm AF*
+rm antennapod-feeds.opml
+rm AutoFirma_*
+rm bag-1565402_1280.jpg *
+ls
+minify 
+php
+exit
+exit
+exit
+php
+sudo apt install tilda
+sudo fdisk -l
+cd meneame-search-provider@atareao.es/
+cd ..
+exit
+sudo apt remove terminator
+sudo apt install tmux
+tmix
+fg 1
+tmux
+cd Descargas
+ls
+sudo fdisk -l
+sudo dd if=ubuntu-18.10-desktop-amd64.iso of=/dev/sdb bs=4M status=progress conv=fdatasync
+sudo apt install tilda tmux
+ls
+cd /datos/Sync/Programacion/Python/linker/
+ls
+cd src/
+ls
+./linker.py 
+exit
+nano .bashrc
+exit
+nano .bashrc
+exit
+sudo fdisk -l
+sudo dd if=ubuntu-18.10-desktop-amd64.iso of=/dev/sdb bs=4M status=progress conv=fdatasync
+sudo apt install tilda tmux
+cd /datos/Sync/Programacion/Python/linker/
+cd src/
+./linker.py 
+exit
+sudo apt install code-fonts
+ls 
+cd .vim/
+rm -rf bundle 
+sudo apt install git
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+cd ..
+ls
+nano .vimrc
+vim
+exit
+nano .bashrc
+sudo apt install mutt
+sudo apt install gnome-tweaks
+cd Descargas
+sudo fdisk -l
+sudo dd if=ubuntu-18.10-desktop-amd64.iso of=/dev/sdb bs=4M status=progress conv=fdatasync
+sudo apt install tilda tmux
+cd /datos/Sync/Programacion/Python/linker/
+cd src/
+./linker.py 
+exit
+ls
+sudo apt install vim
+vim
+mem
+nano .vimrc
+exit
+nano .bashrc
+sudo apt install mutt
+sudo apt install gnome-tweaks
+sudo fdisk -l
+sudo dd if=ubuntu-18.10-desktop-amd64.iso of=/dev/sdb bs=4M status=progress conv=fdatasync
+sudo apt install tilda tmux
+cd /datos/Sync/Programacion/Python/linker/
+cd src/
+./linker.py 
+exit
+sudo apt install vim
+cd Descargas
+rm -rf ubuntu-18.10-desktop-amd64.iso 
+rm -rf appgrid/
+sudo dpkg -i code_1.28.2-1539735992_amd64.deb 
+sudo apt install -f
+sudo apt update && sudo apt upgrade
 sudo apt upgrade
-sudo apt autoremove
-hciconfig hci0 up
-sudo hciconfig hci0 up
-rfkill list
+snap
+snap list
+vim
+cd /datos/Sync/
+cd GNULinuxValencia/
+cd atareao.es/
+cd articulos/
+cd 2018
+cd 201810
+vim duckdns.md 
+cd ..
+git-ftp
+sudo apt install git-ftp
+gitp
+sudo apt install mosh
+mosh do1
+ls
+mem
+cp /usr/share/applications/tilda.desktop ~/.config/autostart/
+exit
+exit
+cp /usr/share/applications/tilda.desktop ~/.config/autostart/
+ssh -p 8082 192.168.1.252
+ssh -p 8022 192.168.1.252
+exit
+cp /usr/share/applications/tilda.desktop ~/.config/autostart/
+exit
+exit
+vim .vimrc
+vim .ssh/config 
+cd ssh
+cd .ssh
+cat id_rsa
+ls
+cat id_rsa.pub
+sudo apt install mosh
+mosh do1
+mem
+cp /usr/share/applications/tilda.desktop ~/.config/autostart/
+exit
+exit
+sudo apt install discover
+discover --vendor-id --model-id usb
+adb shell
+ls
+ssh 192.168.1.252
+ssh -p 8022 192.168.1.252
+nano .vimrc
+exit
+nano .bashrc
+sudo apt install mutt
+sudo apt install gnome-tweaks
+sudo fdisk -l
+sudo dd if=ubuntu-18.10-desktop-amd64.iso of=/dev/sdb bs=4M status=progress conv=fdatasync
+sudo apt install tilda tmux
+cd /datos/Sync/Programacion/Python/linker/
+cd src/
+./linker.py 
+exit
+sudo apt install vim
+cd Descargas
+rm -rf ubuntu-18.10-desktop-amd64.iso 
+rm -rf appgrid/
+sudo dpkg -i code_1.28.2-1539735992_amd64.deb 
+sudo apt install -f
+sudo apt update && sudo apt upgrade
+sudo apt upgrade
+snap
+snap list
+vim
+cd /datos/Sync/
+cd GNULinuxValencia/
+cd atareao.es/
+cd articulos/
+cd 2018
+cd 201810
+vim duckdns.md 
+cd ..
+git-ftp
+sudo apt install git-ftp
+gitp
+sudo apt install mosh
+sudo apt install gimp
+sudo apt install telegram-desktop
+apt-clone
+sudo apt install apt-clone
+man apt-clone
+killall gnome-software
+sudo apt install chrome-gnome-shell
+sudo apt install gs-connect
+sudo apt install gsconnect
+sudo apt install gnome-shell-extension-gsconnect
+sudo apt remove chrome-gnome-shell
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+sudo apt clearn
+sudo apt clean
+sudo apt clern
+sudo du -sh /var/cache/apt/archives
+mem
+9m3no5NU6ve0
+ssh 192.168.1.252
+ssh 192.168.1.252:8081
+ssh -p 8081 192.168.1.252
+cat .ssh/id_rsa.pub
+ssh -p 8022 user@192.168.1.252
+ssh -p 8022 u0_a158@192.168.1.252
+crontab -l
+ssh
+sudo apt install openssh-server
+sshd
+sudo systemctl start ssh
+sudo systemctl status ssh
+cd .ssh
+cat authorized_keys 
+sudo systemctl stop ssh
+mosh do1
+ssh -p 8022 192.168.1.252
+sudo apt install adb
+adb
+adb devices -l
+cd
+git clone https://github.com/M0Rf30/android-udev-rules.git
+sudo cp -v 51-android.rules /etc/udev/rules.d/51-android.rules
 cd /etc/udev/rules.d/
-cat 70-snap.core.rules 
-cat 51-android.rules 
-cd /etc/rc.d
-cd /etc/
-cd rc0.d/
-cd ../init.d/
-cat bluetooth 
-rfkill unblock all
-rfkill list all
-systemctl status bluetooth
+groupadd
+grouplist
+group
+man group
+groupadd adbusers
+sudo groupadd adbusers
+group -l
+sudo groups
+groups
+cat /etc/group
+cat /etc/group | grep adbusers
+cd 
+cd temporal
+cd android-udev-rules/
+ls
+sudo mkdir -p /usr/lib/sysusers.d/ && sudo cp android-udev.conf /usr/lib/sysusers.d/
+sudo systemd-sysusers
+sudo usermod -a -G adbusers $(whoami)
+sudo udevadm control --reload-rules
+sudo service udev restart
+adb  devices
+adb kill-server
+adb shell
+lsusb
+tmux
+mem
+cp /usr/share/applications/tilda.desktop ~/.config/autostart/
+exit
+exit
+vim /etc/udev/rules.d/51-android.rulesD
+vim /etc/udev/rules.d/51-android.rules
+nano ~/.bashrc 
+cd
+ls
+cat vimrc
+cat .vimrc
+vim ejemplo
+vim .vimrc
+sudo apt install audacity
+python3 utext
+sudo apt install easytag
+sudo apt install fonts-font-awesome
+sudo service udev restart
+adb  devices
+adb kill-server
+adb shell
+lsusb
+tmux
+mem
+cp /usr/share/applications/tilda.desktop ~/.config/autostart/
+exit
+exit
+vim /etc/udev/rules.d/51-android.rulesD
+vim /etc/udev/rules.d/51-android.rules
+nano ~/.bashrc 
+cat vimrc
+cat .vimrc
+vim ejemplo
+vim .vimrc
+sudo apt install audacity
+python3 utext
+sudo apt install easytag
+sudo apt install fonts-font-awesome
+mkdir atajos-de-teclado
+mv ~/Escritorio/atajos_teclado_ubuntu.* ./
+mv atajos_teclado_ubuntu.* atajos-de-teclado/
+git init
+git remote add origin git@gitlab.com:atareao/atajos-de-teclado-en-ubuntu.git
+git commit -m "Initial commit"
+cd
+cd /datos/Sync/Programacion/
+cd Ubuntu/
+cd ata
+cd atajos-de-teclado/
+cp ../../Python/my-weather-indicator/LICENSE ./
+cp ../../Python/my-weather-indicator/README ./
+vim README 
+mv README README.md
+cp ../../Python/my-weather-indicator/AUTHORS ./
+nano AUTHORS 
+vim AUTHORS 
+ls
+git add .
+git commit -m "Added images and other files"
+git push -u origin master
+sudo rfkill list
+sudo apt install blueman
 sudo apt-get install bluetooth bluez bluez-tools rfkill
-sudo rfkill unblock bluetootj
-sudo rfkill unblock bluetooth
-sudo apt install tlp
-tlp
-tlp start
-/etc/init.d/bluetooth status
-modprobe -r btusb;
-sudo modprobe -r btusb;
-sudo modprobe btusb;
-sudo systemctl restart bluetooth
-sudo systemctl status bluetooth
-rfkill block bluetooth; rfkill list; /etc/init.d/bluetooth restart;/etc/init.d/bluetooth status;modprobe -r btusb; modprobe btusb;/etc/init.d/bluetooth restart; /etc/init.d/bluetooth status
-rfkill unblock bluetooth; rfkill list; sudo systemctl restart bluetooth;systemctl status bluetooth;modprobe -r btusb; modprobe btusb;sudo systemctl restart bluetooth; systemctl status bluetooth
-rfkill unblock bluetooth; rfkill list; sudo systemctl restart bluetooth;systemctl status bluetooth;sudo modprobe -r btusb; sudo modprobe btusb;sudo systemctl restart bluetooth; systemctl status bluetooth
-sudo apt install blueman
-sudo apt remove blueman
-wget -q -O- "https://anchor.fm/s/106db04/podcast/rss"
-wget -q -O- "https://anchor.fm/s/106db04/podcast/rss" | grep 'title' | sed -n 3p
-echo ${wget -q -O- "https://anchor.fm/s/106db04/podcast/rss" | grep 'title' | sed -n 3p}
-echo "${wget -q -O- "https://anchor.fm/s/106db04/podcast/rss" | grep 'title' | sed -n 3p}"
-echo ${`wget -q -O- "https://anchor.fm/s/106db04/podcast/rss" | grep 'title' | sed -n 3p`}
-ans=wget -q -O- "https://anchor.fm/s/106db04/podcast/rss" | grep 'title' | sed -n 3p
-echo ${ans\<title\}
-echo ${ans/<title/}
-echo ${ans/<title>/}
-echo ${ans/<title><\!/}
-echo ${ans/<title><\![CDATA/}
-echo ${ans/<title><\![CDATA[/}
-ans=${ans/<title><\![CDATA[/}
-ans=${ans/]]><\/title>}
-ans=`wget -q -O- "https://anchor.fm/s/106db04/podcast/rss" | grep 'title' | sed -n 3p`
-echo $ans | grep "<title><\![CDATA[(.*)"
-echo $ans | grep "<title><\![CDATA[(.*)]]"
-$ans | grep "<title><\![CDATA[(.*)]]"
-echo $ans | gawk "<title><\![CDATA[(.*)]]"
-echo $ans | gawk "/<title><\![CDATA[(.*)]]/"
-echo $ans | gawk "/<title><\![CDATA[(.*)]]</title>/"
-echo $ans | gawk "/<title><\![CDATA[(.*)]]<\/title>/"
-grep "/<title><\![CDATA[(.*)]]<\/title>/" $ans
-echo $ans
-$ans | grep "/<title><\![CDATA[(.*)]]<\/title>/" $ans
-echo $ans | grep "/<title><\![CDATA[(.*)]]<\/title>/" $ans
-echo $ans | grep "/<title><\![CDATA[.*]]<\/title>/"
-echo $ans | grep "><\![CDATA[(.*)]]<\/title>/"
-echo $ans | grep "\<title><\![CDATA[.*]]<\/title>\"
-echo $ans '\<title>.*<\/title>'
-echo $ans '/\<title>.*<\/title>/'
-echo $ans '\<title>.*<\'
-echo $ans | grep '\<title>.*<\'
-echo $ans | grep '/<title>.*</'
-echo $ans | grep '<title>.*<'
-echo $ans | grep '<title>.*<'
-echo $ans | grep "<title><\![CDATA[.*]]<\/title>"
-echo $ans | grep "<title><\!\[CDATA\[.*\]\]<\/title>"
-echo $ans | grep "<title>.*<\/title>"
-mkdir gimp
-cd gimp/
-wget --recursive https://docs.gimp.org/2.10/es/
-rm -rf docs.gimp.org/
-wget --recursive --no-parent https://docs.gimp.org/2.10/es/
-cd temporal
-wget https://gnulinuxvalencia.org/podcasts-feed/
-echo $ans | grep "<title>(.*)<\/title>"
-cd 
-cd DEs
-cp sintonia-atareao-ivoox21878023.mp3 ../Escritorio
-mv sintonia-atareao-ivoox21878023.mp3 sintonia.mp3
-mv sintonia.mp3 ../Escritorio
-cd ..
-cd Escritorio 
-PWD
-$PWD
-ls sintonia.mp3 
-./audio_wave.sh -a sintonia.mp3
-./audio_wave.sh
-./audio_wave.sh -t Ubuntu -s 18.04 -b fondo2.jpg -a sintonia.mp3
-cd
-cd Descargas
-cd Telegram\ Desktop/
-ls
-ls 1x10\ -\ Sobrenatural.mkv 
-mv 1x10\ -\ Sobrenatural.mkv "Sobrenatural - S01E10.mkv"
-mv 1x11\ -\ Sobrenatural.mkv "Sobrenatural - S01E11.mkv"
-mv 1x12\ -\ Sobrenatural.mkv "Sobrenatural - S01E12.mkv"
-mv 1x13\ -\ Sobrenatural.mkv "Sobrenatural - S01E13.mkv"
-mv 1x14\ -\ Sobrenatural.mkv "Sobrenatural - S01E14.mkv"
-mv 1x15\ -\ Sobrenatural.mkv "Sobrenatural - S01E15.mkv"
-mv 1x16\ -\ Sobrenatural.mkv "Sobrenatural - S01E16.mkv"
-mv 1x17\ -\ Sobrenatural.mkv "Sobrenatural - S01E17.mkv"
-mv 1x18\ -\ Sobrenatural.mkv "Sobrenatural - S01E18.mkv"
-ls Sobrenatural\ -\ S01E1*
-scp Sobrenatural\ -\ S01E1* synology:/volume4/media/series/Sobrenatural/
-sudo apt install telegram-desktop
-sudo apt upgrade
-lsus
-lsub
-lsusb
-cd Descargas
-ls
-sudo cp BCM20702A1-0a5c-216f.hcd /lib/firmware/brcm
-sudo reboot now
-wget https://github.com/hg8/bluetooth-firmware-XPS13-9343/raw/master/BCM20702A0-0a5c-216f.hcd 
-sudo cp BCM20702A0-0a5c-216f.hcd /lib/firmware/brcm/
-sudo modprobe -r btusb
-sudo modprobe btusb
-cd /lib/firmware/brcm/
-ls
-sudo rm BCM20702A1-0a5c-216f.hcd 
-sudo apt install traverso
-sudo apt remove traverso
-sudo modprobe -r btusb
-sudo modprobe btusb
-cd /lib/firmware/brcm/
-sudo rm BCM20702A1-0a5c-216f.hcd 
-sudo apt install traverso
-sudo apt remove traverso
-sudo systemctl restart bluetooth
-systemctl status bluetooth
-mosh rpi
-cd /datos/Sync/Programacion/Python/telegram/
-ls
-dch -r
-mybuilde
-mem
-./update.sh 
-dch -i
-echo $ans | gawk "/<title><\![CDATA[(.*)]]<\/title>/"
-grep "/<title><\![CDATA[(.*)]]<\/title>/" $ans
-echo $ans
-$ans | grep "/<title><\![CDATA[(.*)]]<\/title>/" $ans
-echo $ans | grep "/<title><\![CDATA[(.*)]]<\/title>/" $ans
-echo $ans | grep "/<title><\![CDATA[.*]]<\/title>/"
-echo $ans | grep "><\![CDATA[(.*)]]<\/title>/"
-echo $ans | grep "\<title><\![CDATA[.*]]<\/title>\"
-echo $ans '\<title>.*<\/title>'
-echo $ans '/\<title>.*<\/title>/'
-echo $ans '\<title>.*<\'
-echo $ans | grep '\<title>.*<\'
-echo $ans | grep '/<title>.*</'
-echo $ans | grep '<title>.*<'
-echo $ans | grep '<title>.*<'
-echo $ans | grep "<title><\![CDATA[.*]]<\/title>"
-echo $ans | grep "<title><\!\[CDATA\[.*\]\]<\/title>"
-echo $ans | grep "<title>.*<\/title>"
-mkdir gimp
-cd gimp/
-wget --recursive https://docs.gimp.org/2.10/es/
-rm -rf docs.gimp.org/
-wget --recursive --no-parent https://docs.gimp.org/2.10/es/
-cd temporal
-wget https://gnulinuxvalencia.org/podcasts-feed/
-echo $ans | grep "<title>(.*)<\/title>"
-cd 
-cd DEs
-cp sintonia-atareao-ivoox21878023.mp3 ../Escritorio
-mv sintonia-atareao-ivoox21878023.mp3 sintonia.mp3
-mv sintonia.mp3 ../Escritorio
-cd ..
-cd Escritorio 
-PWD
-$PWD
-ls sintonia.mp3 
-./audio_wave.sh -a sintonia.mp3
-./audio_wave.sh
-./audio_wave.sh -t Ubuntu -s 18.04 -b fondo2.jpg -a sintonia.mp3
-cd Descargas
-cd Telegram\ Desktop/
-ls 1x10\ -\ Sobrenatural.mkv 
-mv 1x10\ -\ Sobrenatural.mkv "Sobrenatural - S01E10.mkv"
-mv 1x11\ -\ Sobrenatural.mkv "Sobrenatural - S01E11.mkv"
-mv 1x12\ -\ Sobrenatural.mkv "Sobrenatural - S01E12.mkv"
-mv 1x13\ -\ Sobrenatural.mkv "Sobrenatural - S01E13.mkv"
-mv 1x14\ -\ Sobrenatural.mkv "Sobrenatural - S01E14.mkv"
-mv 1x15\ -\ Sobrenatural.mkv "Sobrenatural - S01E15.mkv"
-mv 1x16\ -\ Sobrenatural.mkv "Sobrenatural - S01E16.mkv"
-mv 1x17\ -\ Sobrenatural.mkv "Sobrenatural - S01E17.mkv"
-mv 1x18\ -\ Sobrenatural.mkv "Sobrenatural - S01E18.mkv"
-ls Sobrenatural\ -\ S01E1*
-scp Sobrenatural\ -\ S01E1* synology:/volume4/media/series/Sobrenatural/
-sudo apt install telegram-desktop
-sudo apt upgrade
-lsus
-lsub
-lsusb
-cd Descargas
-sudo cp BCM20702A1-0a5c-216f.hcd /lib/firmware/brcm
-sudo reboot now
-wget https://github.com/hg8/bluetooth-firmware-XPS13-9343/raw/master/BCM20702A0-0a5c-216f.hcd 
-sudo cp BCM20702A0-0a5c-216f.hcd /lib/firmware/brcm/
-sudo modprobe -r btusb
-sudo modprobe btusb
-cd /lib/firmware/brcm/
-sudo rm BCM20702A1-0a5c-216f.hcd 
-sudo apt install traverso
-sudo apt remove traverso
-mem
-cd /datos/Sync/Programacion/Otros/audiowave/
-cp audiowave.sh ~/Escritorio
-./audiowave.sh 
-cd
-cd Escritorio
-./audiowave.sh
-ls
-./audiowave.sh -a sintonia.mp3
-./audiowave.sh -a sintonia.mp3 -b fondo.jpg
-./audiowave.sh -a test.mp3 -b fondo.jpg
-./audiowave.sh -a sintonia.mp3 -b fondo.jpg -m line
-./audiowave.sh -a test.mp3 -b fondo.jpg -m line
-./audiowave.sh -a test.mp3 -b fondo.jpg -m point
-./audiowave.sh -a test.mp3 -b fondo.jpg -m cline
-sudo apt install tilda
-sudo cp BCM20702A0-0a5c-216f.hcd /lib/firmware/brcm/
-sudo modprobe -r btusb
-sudo modprobe btusb
-sudo rm BCM20702A1-0a5c-216f.hcd 
-sudo apt install traverso
-sudo apt remove traverso
-cd /datos/Sync/Programacion/Python/snapstore/
-cd src/
-python3 snapcli.py 
-python3 snapapi.py 
-cd
-cd Escritorio
-./audiowave.sh -a test.mp3 -b fondo.jpg -m point
-./audiowave.sh -a test.mp3 -m point
-dmesh
-dmesg
-cd /lib/firmware/brcm/
-ls
-ls BCM20702A0-0a5c-216f.hcd 
-sudo cp BCM20702A0-0a5c-216f.hcd BCM20702A1-0a5c-216f.hcd 
-sudo service bluetooth restart
-sudo service bluetooth status
-dmesg | grep bluetooth
-lsusb
-dch -r
-mybuilde
-mem
-./update.sh 
-dch -i
-echo $ans | gawk "/<title><\![CDATA[(.*)]]<\/title>/"
-grep "/<title><\![CDATA[(.*)]]<\/title>/" $ans
-echo $ans
-$ans | grep "/<title><\![CDATA[(.*)]]<\/title>/" $ans
-echo $ans | grep "/<title><\![CDATA[(.*)]]<\/title>/" $ans
-echo $ans | grep "/<title><\![CDATA[.*]]<\/title>/"
-echo $ans | grep "><\![CDATA[(.*)]]<\/title>/"
-echo $ans | grep "\<title><\![CDATA[.*]]<\/title>\"
-echo $ans '\<title>.*<\/title>'
-echo $ans '/\<title>.*<\/title>/'
-echo $ans '\<title>.*<\'
-echo $ans | grep '\<title>.*<\'
-echo $ans | grep '/<title>.*</'
-echo $ans | grep '<title>.*<'
-echo $ans | grep '<title>.*<'
-echo $ans | grep "<title><\![CDATA[.*]]<\/title>"
-echo $ans | grep "<title><\!\[CDATA\[.*\]\]<\/title>"
-echo $ans | grep "<title>.*<\/title>"
-mkdir gimp
-cd gimp/
-wget --recursive https://docs.gimp.org/2.10/es/
-rm -rf docs.gimp.org/
-wget --recursive --no-parent https://docs.gimp.org/2.10/es/
-cd temporal
-wget https://gnulinuxvalencia.org/podcasts-feed/
-echo $ans | grep "<title>(.*)<\/title>"
-cd 
-cd DEs
-cp sintonia-atareao-ivoox21878023.mp3 ../Escritorio
-mv sintonia-atareao-ivoox21878023.mp3 sintonia.mp3
-mv sintonia.mp3 ../Escritorio
-cd ..
-cd Escritorio 
-PWD
-$PWD
-ls sintonia.mp3 
-./audio_wave.sh -a sintonia.mp3
-./audio_wave.sh
-./audio_wave.sh -t Ubuntu -s 18.04 -b fondo2.jpg -a sintonia.mp3
-cd Descargas
-cd Telegram\ Desktop/
-ls 1x10\ -\ Sobrenatural.mkv 
-mv 1x10\ -\ Sobrenatural.mkv "Sobrenatural - S01E10.mkv"
-mv 1x11\ -\ Sobrenatural.mkv "Sobrenatural - S01E11.mkv"
-mv 1x12\ -\ Sobrenatural.mkv "Sobrenatural - S01E12.mkv"
-mv 1x13\ -\ Sobrenatural.mkv "Sobrenatural - S01E13.mkv"
-mv 1x14\ -\ Sobrenatural.mkv "Sobrenatural - S01E14.mkv"
-mv 1x15\ -\ Sobrenatural.mkv "Sobrenatural - S01E15.mkv"
-mv 1x16\ -\ Sobrenatural.mkv "Sobrenatural - S01E16.mkv"
-mv 1x17\ -\ Sobrenatural.mkv "Sobrenatural - S01E17.mkv"
-mv 1x18\ -\ Sobrenatural.mkv "Sobrenatural - S01E18.mkv"
-ls Sobrenatural\ -\ S01E1*
-scp Sobrenatural\ -\ S01E1* synology:/volume4/media/series/Sobrenatural/
-sudo apt install telegram-desktop
-sudo apt upgrade
-lsus
-lsub
-lsusb
-cd Descargas
-sudo cp BCM20702A1-0a5c-216f.hcd /lib/firmware/brcm
-sudo reboot now
-wget https://github.com/hg8/bluetooth-firmware-XPS13-9343/raw/master/BCM20702A0-0a5c-216f.hcd 
-sudo cp BCM20702A0-0a5c-216f.hcd /lib/firmware/brcm/
-sudo modprobe -r btusb
-sudo modprobe btusb
-cd /lib/firmware/brcm/
-sudo rm BCM20702A1-0a5c-216f.hcd 
-sudo apt install traverso
-sudo apt remove traverso
-mem
-cp audiowave.sh ~/Escritorio
-./audiowave.sh 
-cd
-./audiowave.sh
-./audiowave.sh -a sintonia.mp3
-./audiowave.sh -a sintonia.mp3 -b fondo.jpg
-./audiowave.sh -a test.mp3 -b fondo.jpg
-./audiowave.sh -a sintonia.mp3 -b fondo.jpg -m line
-./audiowave.sh -a test.mp3 -b fondo.jpg -m line
-./audiowave.sh -a test.mp3 -b fondo.jpg -m point
-./audiowave.sh -a test.mp3 -b fondo.jpg -m cline
-sudo apt install tilda
-sudo cp BCM20702A0-0a5c-216f.hcd /lib/firmware/brcm/
-sudo modprobe -r btusb
-sudo modprobe btusb
-sudo rm BCM20702A1-0a5c-216f.hcd 
-sudo apt install traverso
-sudo apt remove traverso
-cd /datos/Sync/Programacion/Python/snapstore/
-cd src/
-python3 snapcli.py 
-python3 snapapi.py 
-cd
-./audiowave.sh -a test.mp3 -b fondo.jpg -m point
-./audiowave.sh -a test.mp3 -m point
-dmesh
-cd /lib/firmware/brcm/
-ls BCM20702A0-0a5c-216f.hcd 
-sudo cp BCM20702A0-0a5c-216f.hcd BCM20702A1-0a5c-216f.hcd 
-lsusb
-dmesg | grep bluetooth
-dmesg
-dmesg | grep Bluetooth
-sudo service status bluetooth
-service status bluetoot
-sudo service bluetooth restart
-sudo service bluetooth status
-sudo nano /etc/bluetooth/main.conf 
-bluetoothctl 
-man bluetoothctl 
-bluetoothd
-sudo usermod -a -G lp lorenzo
-sudo usermod -a -G lp root
-sudo service /etc/init.d/bluetooth restart
-sudo systemctl bluetooth restart
-sudo systemctl restart bluetooth
-sudo systemctl status bluetooth
-bt-device 
-bt-device --list
-bt-device -s
-bt-device -s P
-bt-device -s P*
-bt-device -l
-hciconfig
-hciconfig scan
-sudo apt install bluez-tools
-man bluemoon 
-man bluetooth
-bluetooth
-man bluetoothctl
-man bluetoothd
+mosh do1
+cd Imágenes
+convert Captura\ de\ pantalla\ de\ 2018-10-23\ 07-56-40.png Captura\ de\ pantalla\ de\ 2018-10-23\ 07-56-40.jpg
+convert Captura\ de\ pantalla\ de\ 2018-10-23\ 07-57-36.png Captura\ de\ pantalla\ de\ 2018-10-23\ 07-57-36.jpg
+optimiza_imagen *.jpg
+git commit -m "Added images and other files"
+git push -u origin master
 sudo rfkill list
 sudo apt install blueman
-cd Escritorio
-sh ./audiowave.sh 
-bash ./audiowave.sh 
-./audiowave.sh -a test.mp3 -ca blue
-ls fondo.jpg 
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg
-/audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo"
-/audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo" -tx 50 -ty 50
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo" -tx 50 -ty 50
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo" -tx 250 -ty 50
-/audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo" -tx 250 -ty 250
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo" -tx 250 -ty 250
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t Título -s Subtítulo -tx 250 -ty 250
-/audiowave.sh -a test.mp3 -tc blue -b fondo.jpg -ww 300 -wh 150 -t Título -s Subtítulo -tx 250 -ty 250 -wc green
-./audiowave.sh -a test.mp3 -tc blue -b fondo.jpg -ww 300 -wh 150 -t Título -s Subtítulo -tx 250 -ty 250 -wc green
-./audiowave.sh -a test.mp3 -tc blue -b fondo.jpg -ww 300 -wh 150 -t Título -s Subtítulo -tx 250 -ty 250 -wc green -m l
-./audiowave.sh -a test.mp3 -tc blue -b fondo.jpg -ww 300 -wh 150 -t Título -s Subtítulo -tx 250 -ty 250 -wc green -m line
-cp audiowave.sh /datos/Sync/Programacion/Otros/audiowave/
-cd /datos/Sync/Programacion/Otros/audiowave/
-ls
-git add .
-git commit -m "Improved"
-git push
-sudo pip3 install goslate
-pip3
-ssh rpi
-mosh rpi
-cat .ssh/config 
-cd temporal
-wget https://gnulinuxvalencia.org/podcasts-feed/
-echo $ans | grep "<title>(.*)<\/title>"
-cp sintonia-atareao-ivoox21878023.mp3 ../Escritorio
-mv sintonia-atareao-ivoox21878023.mp3 sintonia.mp3
-mv sintonia.mp3 ../Escritorio
-cd Escritorio 
-PWD
-$PWD
-ls sintonia.mp3 
-./audio_wave.sh -a sintonia.mp3
-./audio_wave.sh
-./audio_wave.sh -t Ubuntu -s 18.04 -b fondo2.jpg -a sintonia.mp3
-ls 1x10\ -\ Sobrenatural.mkv 
-mv 1x10\ -\ Sobrenatural.mkv "Sobrenatural - S01E10.mkv"
-mv 1x11\ -\ Sobrenatural.mkv "Sobrenatural - S01E11.mkv"
-mv 1x12\ -\ Sobrenatural.mkv "Sobrenatural - S01E12.mkv"
-mv 1x13\ -\ Sobrenatural.mkv "Sobrenatural - S01E13.mkv"
-mv 1x14\ -\ Sobrenatural.mkv "Sobrenatural - S01E14.mkv"
-mv 1x15\ -\ Sobrenatural.mkv "Sobrenatural - S01E15.mkv"
-mv 1x16\ -\ Sobrenatural.mkv "Sobrenatural - S01E16.mkv"
-mv 1x17\ -\ Sobrenatural.mkv "Sobrenatural - S01E17.mkv"
-mv 1x18\ -\ Sobrenatural.mkv "Sobrenatural - S01E18.mkv"
-ls Sobrenatural\ -\ S01E1*
-scp Sobrenatural\ -\ S01E1* synology:/volume4/media/series/Sobrenatural/
-sudo apt install telegram-desktop
+sudo apt-get install bluetooth bluez bluez-tools rfkill
+sudo apt update 
 sudo apt upgrade
-lsus
-lsub
-lsusb
-sudo cp BCM20702A1-0a5c-216f.hcd /lib/firmware/brcm
-sudo reboot now
-wget https://github.com/hg8/bluetooth-firmware-XPS13-9343/raw/master/BCM20702A0-0a5c-216f.hcd 
-sudo cp BCM20702A0-0a5c-216f.hcd /lib/firmware/brcm/
-sudo modprobe -r btusb
-sudo modprobe btusb
-cd /lib/firmware/brcm/
-sudo rm BCM20702A1-0a5c-216f.hcd 
-sudo apt install traverso
-sudo apt remove traverso
-mem
-cp audiowave.sh ~/Escritorio
-./audiowave.sh 
-./audiowave.sh
-./audiowave.sh -a sintonia.mp3
-./audiowave.sh -a sintonia.mp3 -b fondo.jpg
-./audiowave.sh -a test.mp3 -b fondo.jpg
-./audiowave.sh -a sintonia.mp3 -b fondo.jpg -m line
-./audiowave.sh -a test.mp3 -b fondo.jpg -m line
-./audiowave.sh -a test.mp3 -b fondo.jpg -m point
-./audiowave.sh -a test.mp3 -b fondo.jpg -m cline
-sudo apt install tilda
-sudo cp BCM20702A0-0a5c-216f.hcd /lib/firmware/brcm/
-sudo modprobe -r btusb
-sudo modprobe btusb
-sudo rm BCM20702A1-0a5c-216f.hcd 
-sudo apt install traverso
-sudo apt remove traverso
-cd /datos/Sync/Programacion/Python/snapstore/
-cd src/
-python3 snapcli.py 
-python3 snapapi.py 
-./audiowave.sh -a test.mp3 -b fondo.jpg -m point
-./audiowave.sh -a test.mp3 -m point
-dmesh
-cd /lib/firmware/brcm/
-ls BCM20702A0-0a5c-216f.hcd 
-sudo cp BCM20702A0-0a5c-216f.hcd BCM20702A1-0a5c-216f.hcd 
-lsusb
-dmesg | grep bluetooth
-dmesg
-dmesg | grep Bluetooth
-sudo service status bluetooth
-service status bluetoot
-sudo service bluetooth restart
-sudo service bluetooth status
-sudo nano /etc/bluetooth/main.conf 
-bluetoothctl 
-man bluetoothctl 
-bluetoothd
-sudo usermod -a -G lp lorenzo
-sudo usermod -a -G lp root
-sudo service /etc/init.d/bluetooth restart
-sudo systemctl bluetooth restart
-sudo systemctl restart bluetooth
-sudo systemctl status bluetooth
-bt-device 
-bt-device --list
-bt-device -s
-bt-device -s P
-bt-device -s P*
-bt-device -l
-hciconfig
-hciconfig scan
-sudo apt install bluez-tools
-man bluemoon 
-man bluetooth
-bluetooth
-man bluetoothctl
-man bluetoothd
-sudo rfkill list
-sudo apt install blueman
-sh ./audiowave.sh 
-bash ./audiowave.sh 
-./audiowave.sh -a test.mp3 -ca blue
-ls fondo.jpg 
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg
-/audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo"
-/audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo" -tx 50 -ty 50
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo" -tx 50 -ty 50
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo" -tx 250 -ty 50
-/audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo" -tx 250 -ty 250
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t "Título" -s "Subtítulo" -tx 250 -ty 250
-./audiowave.sh -a test.mp3 -ca blue -b fondo.jpg -ww 300 -wh 150 -t Título -s Subtítulo -tx 250 -ty 250
-/audiowave.sh -a test.mp3 -tc blue -b fondo.jpg -ww 300 -wh 150 -t Título -s Subtítulo -tx 250 -ty 250 -wc green
-./audiowave.sh -a test.mp3 -tc blue -b fondo.jpg -ww 300 -wh 150 -t Título -s Subtítulo -tx 250 -ty 250 -wc green
-./audiowave.sh -a test.mp3 -tc blue -b fondo.jpg -ww 300 -wh 150 -t Título -s Subtítulo -tx 250 -ty 250 -wc green -m l
-./audiowave.sh -a test.mp3 -tc blue -b fondo.jpg -ww 300 -wh 150 -t Título -s Subtítulo -tx 250 -ty 250 -wc green -m line
-cp audiowave.sh /datos/Sync/Programacion/Otros/audiowave/
-cd /datos/Sync/Programacion/Otros/audiowave/
-git add .
-git commit -m "Improved"
-git push
-sudo pip3 install goslate
-pip3
-ssh rpi
-mosh rpi
-cd /datos/Sync/Programacion/Wordpress/
-gnulinuxvalencia.org/
-cd gnulinuxvalencia.org/
-sudo apt install php7.2-cli hhvm
-wget https://raw.githubusercontent.com/composer/getcomposer.org/1b137f8bf6db3e79a38a5bc45324414a6b1f9df2/web/installer -O - -q | php -- --quiet
-sudo apt install composer
-rm composer.phar 
-composer
-php --version
-sudo apt install php7.2-curl
-sudo apt install php7.2-mbstring
-composer require longman/telegram-bot
-cd vendor/
-cd ..
-rm composer.*
-rm -rf vendor/
-composer require guzzlehttp/guzzle
-cd inc/
-php telegram.php 
-umake --list
-umake --help
-umake android
-umake games -h
-umake android -h
-umake dart -h
-umake go -h
-umake ide -h
-umake kotlin -h
-umake nodejs -h
-umake rust -h
-umake scala -h
-umake swift -h
-umake web -h
-umake go go-lang
-umake go go-lang remove
-umake
-umake android android-studio -v
-cd
-cd DEs
 cd Descargas
-cd Telegram\ Desktop/l
-cd Telegram\ Desktop/
-ssh synology
-ls  *Another*
-ls  *Another\ Period*
-scp  *Another\ Period* synology:/volume4/media/series/Another\\\ Period/
-do1
+rm code_1.28.2-1539735992_amd64.deb 
+rm keyboard-162134*
+sudo dpkg -i Simplenote-linux-1.2.1-amd64.deb 
+sudo apt install -f
+cd /opt/
+cd Simplenote/
+ls
+mosh do1
+mem
+mem
+mosh dp1
 mosh do1
 cd Escritorio
-optimiza_imagen ubuntu-make.jpg 
 ls
-cd 
-cp /datos/Sync/Programacion/gnome-shell/world-cup-indicator-gs@atareao.es/helper.sh /datos/dotfiles/.bash_it/lib/
-exit
-cd 
-cp /datos/Sync/Programacion/gnome-shell/world-cup-indicator-gs@atareao.es/helper.sh /datos/dotfiles/.bash_it/lib/
-cd /datos/dotfiles/
-cd .bash_it/lib/
+chmod +x a2dp.py 
+vim a2dp.py 
+./a2dp.py 
+./a2dp.py -h
+rfkill
+man rfkill
+sudo rfkill bluetootj
+sudo rfkill bluetooth
+sudo rfkill block bluetooth
+sudo rfkill unblock bluetooth
+sudo apt install mumble
+man rfkill
+sudo rfkill bluetootj
+sudo rfkill bluetooth
+sudo rfkill block bluetooth
+sudo rfkill unblock bluetooth
+sudo apt install mumble
+mosh do1
+cd /datos/Sync/Programacion/
+cd ..
+cd atareao.es/
+cd podcasts/
+cd 2018/09
+cd 2018
+cd 201809
 ls
-./helper.sh 
+history | grep audio
+echo ./audiowave.sh -t "Atareao versión podcast" -s "Linux para seres humanos o tu elijes" -b tu-elijes.jpg -a T01E02.mp3
+echo ./audiowave.sh -t "Atareao versión podcast" -s "Sobre conservadores y revolucionarios" -b sobre-conservadores-y-revolucionarios.jpg -a T01E03.mp3
+cp T01E03.\ Sobre\ conservadores\ y\ revolucionarios.mp3 T01E03.mp3
+./audiowave.sh -t "Atareao versión podcast" -s "Sobre conservadores y revolucionarios" -b sobre-conservadores-y-revolucionarios.jpg -a T01E03.mp3
+sudo apt install ffmpeg
+vim .bash_logout 
 exit
+sudo apt install ffmpeg
+vm .vimrc 
+vim .vimrc 
+ls
+vim .bash_logout 
+vim .viminfo
+sudo apt-get install fonts-crosextra-carlito fonts-crosextra-caladea
+exit
+sudo apt install ffmpeg
+vm .vimrc 
+vim .vimrc 
+vim .bash_logout 
+vim .viminfo
+sudo apt-get install fonts-crosextra-carlito fonts-crosextra-caladea
+sudo apt install mutt
+mutt
+apt-vim
+ls
+vim .vimrc
+cd temporal
+touch sample.md
+vim sample.md 
+sudo apt install ffmpeg
+vm .vimrc 
+vim .vimrc 
+ls
+vim .bash_logout 
+vim .viminfo
+sudo apt-get install fonts-crosextra-carlito fonts-crosextra-caladea
+killall vim
+kill -9 4526
+ps aux | grep vim
+ps aux | grep vi
+cd Simplenote/
+mosh do1
+mem
+mem
+mosh dp1
+mosh do1
+cd Escritorio
+chmod +x a2dp.py 
+vim a2dp.py 
+./a2dp.py 
+./a2dp.py -h
+rfkill
+man rfkill
+sudo rfkill bluetootj
+sudo rfkill bluetooth
+sudo rfkill block bluetooth
+sudo rfkill unblock bluetooth
+sudo apt install mumble
+man rfkill
+sudo rfkill bluetootj
+sudo rfkill bluetooth
+sudo rfkill block bluetooth
+sudo rfkill unblock bluetooth
+sudo apt install mumble
+mosh do1
+cd /datos/Sync/Programacion/
+cd ..
+cd atareao.es/
+cd podcasts/
+cd 2018/09
+cd 2018
+cd 201809
+history | grep audio
+echo ./audiowave.sh -t "Atareao versión podcast" -s "Linux para seres humanos o tu elijes" -b tu-elijes.jpg -a T01E02.mp3
+echo ./audiowave.sh -t "Atareao versión podcast" -s "Sobre conservadores y revolucionarios" -b sobre-conservadores-y-revolucionarios.jpg -a T01E03.mp3
+cp T01E03.\ Sobre\ conservadores\ y\ revolucionarios.mp3 T01E03.mp3
+./audiowave.sh -t "Atareao versión podcast" -s "Sobre conservadores y revolucionarios" -b sobre-conservadores-y-revolucionarios.jpg -a T01E03.mp3
+sudo apt install ffmpeg
+vim .bash_logout 
+exit
+sudo apt install ffmpeg
+vm .vimrc 
+vim .vimrc 
+vim .bash_logout 
+vim .viminfo
+sudo apt-get install fonts-crosextra-carlito fonts-crosextra-caladea
+exit
+sudo apt install ffmpeg
+vm .vimrc 
+vim .vimrc 
+vim .bash_logout 
+vim .viminfo
+sudo apt-get install fonts-crosextra-carlito fonts-crosextra-caladea
+sudo apt install mutt
+apt-vim
+touch sample.md
+vim sample.md 
+sudo apt install ffmpeg
+vm .vimrc 
+vim .vimrc 
+vim .bash_logout 
+vim .viminfo
+sudo apt-get install fonts-crosextra-carlito fonts-crosextra-caladea
+killall vim
+kill -9 4526
+ps aux | grep vim
+ps aux | grep vi
+vim
+vim .vimrc
+vim .mutt/muttrc 
+vim .mutt/bindings 
+cd .mutt/
+vim cuenta.atareaodefecto 
+vim bindings 
+fg 1
+vim ~/.bashrc 
+vim cuenta.atareao
+mv cuenta.atareao cuenta.correo_atareao
+mv cuenta.atareaodefecto cuenta.atareao_atareao
+vim muttrc
+ocker
+sudo apt install docker.io
+docker
+cd temporal
+docker run -i -t ubuntu /bin/echo Prueba contenedor
+udo groupadd docker
+sudo groupadd docker
+sudo usermod -aG docker $USER
+docker run hello-world
+sudo apt install passwordsafe
+pwsafe
+man pwsafe
+sudo apt remove passwordsafe
+passwords
+sudo apt install passwords
+cd
+cd .mutt
+cat cuenta.atareao_atareao 
+cat cuenta.correo_atareao 
+vim pwd.correo_atareao
+gpg -r correo@atareao.es -e pwd.correo_atareao 
+source "gpg -d pwd.correo_atareao.gpg |"
+ls pwd.correo_atareao.gpg 
+gpg
+gpg -d ~/.mutt/pwd._atareao.gpg 
+gpg -d ~/.mutt/pwd.correo_atareao.gpg |
+source "gpg -d ~/.mutt/pwd.correo_atareao.gpg |"
+mv pwd.correo_atareao pwd.atareao_atareao
+gpg -r atareao@atareao.es -e pwd.atareao_atareao 
+vim 
+sudo apt update
+upgrade
+sudo apt install gkeyring
+gkeyring
+ls
+vim cuenta.atareao_atareao 
+vim cuenta.correo_atareao 
+mutt
+vim muttrc 
+kill -9 4526
+ps aux | grep vim
+ps aux | grep vi
+gkeyring
+gkeyring -s -k cuenta.correo_atareao -p 9m3no5NU6ve0
+gkeyring -s -k cuenta.atareao_atareao -p 9m3no5NU6ve0
+gkeyring -g -k cuenta.correo_atareao
+gkeyring -s -k cuenta.atareao_gmail -p C0m9rA1FinKa_gmail
+mutt
+gkeyring -g -k cuenta.correo_atareao
+gkeyring -s -k cuenta.atareao_gmail -p C0m9rA1FinKa_gmail
+mutt
+ls
+sudo apt install minify
+gitfp
+docker run -i -t ubuntu /bin/echo Prueba contenedor
+udo groupadd docker
+sudo groupadd docker
+sudo usermod -aG docker $USER
+docker run hello-world
+sudo apt install passwordsafe
+pwsafe
+man pwsafe
+sudo apt remove passwordsafe
+passwords
+sudo apt install passwords
+cd .mutt
+cat cuenta.atareao_atareao 
+cat cuenta.correo_atareao 
+vim pwd.correo_atareao
+gpg -r correo@atareao.es -e pwd.correo_atareao 
+source "gpg -d pwd.correo_atareao.gpg |"
+ls pwd.correo_atareao.gpg 
+gpg
+gpg -d ~/.mutt/pwd._atareao.gpg 
+gpg -d ~/.mutt/pwd.correo_atareao.gpg |
+source "gpg -d ~/.mutt/pwd.correo_atareao.gpg |"
+mv pwd.correo_atareao pwd.atareao_atareao
+gpg -r atareao@atareao.es -e pwd.atareao_atareao 
+vim 
+sudo apt update
+upgrade
+sudo apt install gkeyring
+gkeyring
+vim cuenta.atareao_atareao 
+vim cuenta.correo_atareao 
+mutt
+vim muttrc 
+kill -9 4526
+ps aux | grep vim
+ps aux | grep vi
+gkeyring
+gkeyring -s -k cuenta.correo_atareao -p 9m3no5NU6ve0
+gkeyring -s -k cuenta.atareao_atareao -p 9m3no5NU6ve0
+gkeyring -g -k cuenta.correo_atareao
+gkeyring -s -k cuenta.atareao_gmail -p C0m9rA1FinKa_gmail
+mutt
+scp do1 installer.php 
+scp installer.php do1:
+ls -la
+scp 20181027_lorenzocarbonell_0bf8fced6c029c0a1887_20181027143513_archive.zip do1:
+wget http://lorenzocarbonell.com
+wget http://lorenzocarbonell.es
+ssh rpi1
+cd temporal
+git clone --depth 1 https://github.com/cjbassi/gotop /tmp/gotop
+cd /tmp/
+cd gotop/scripts/
+./download.sh 
+./gotop 
+bashit 
+bashit enable alias git
+bashit enable alias apt
+bashit show alia
+bashit enable alias tmux
+bashit enable alias docker
+sudo apt install docker
+cd Descargas
+chmod +x up
+./up
+echo hello world | up
+echo hello world | ./up 
+top
+sudo apt install htop
+htop
+mem
+mosh do
+sudo apt install ansible
+vim /etc/ansible/hosts 
+ansible vps -m ping
+ssh rpi
+cd 
+cd Sync
+mkdir Ansible
+cd Ansible/
+mkdir playbooks
+cd playbooks/
+first.yaml
+vim first.yaml
+ansible-playbook first.yaml 
+mv first.yaml 
+mv first.yaml first.yml 
+ansible-playbook first.yml 
+cp first.yml stop_mumble_server.yml
+vim stop_mumble_server.yml
+ansible-playbook stop_mumble_server.yml 
+mosh do1
+cd
+ls .ansible/
+ansible-config 
+ansible-config  view
+cp /etc/ansible/ansible.cfg ./ansible.cfg
+ls
+cp /etc/ansible/ansible.cfg .ansible.cfg
+ls .ansible
+ls .ansible.cfg 
+ansible
+cp /etc/ansible/hosts ~/.ansible/
+sudo vim /etc/ansible/hosts 
+ansible all -m ping
+vim .ansible.cfg 
+vim .ansible/hosts 
+sudo apt-add-repostory ppa:ansible/ansible
+exit
+mutt
+sudo apt install minify
+gitfp
+cd podcasts/
+cd 2018/201809
+cd ../201810
+rm *.html
+ls
+sudo apt-get install fonts-crosextra-carlito fonts-crosextra-caladea
+killall vim
+kill -9 4526
+ps aux | grep vim
+ps aux | grep vi
+vim
+vim .vimrc
+vim .mutt/bindings 
+cd .mutt/
+vim cuenta.atareaodefecto 
+vim bindings 
+fg 1
+vim ~/.bashrc 
+vim cuenta.atareao
+mv cuenta.atareao cuenta.correo_atareao
+mv cuenta.atareaodefecto cuenta.atareao_atareao
+vim muttrc
+ocker
+sudo apt install docker.io
+docker
+cd temporal
+docker run -i -t ubuntu /bin/echo Prueba contenedor
+udo groupadd docker
+sudo groupadd docker
+sudo usermod -aG docker $USER
+docker run hello-world
+sudo apt install passwordsafe
+pwsafe
+man pwsafe
+sudo apt remove passwordsafe
+passwords
+sudo apt install passwords
+cat cuenta.atareao_atareao 
+cat cuenta.correo_atareao 
+vim pwd.correo_atareao
+gpg -r correo@atareao.es -e pwd.correo_atareao 
+source "gpg -d pwd.correo_atareao.gpg |"
+ls pwd.correo_atareao.gpg 
+gpg
+gpg -d ~/.mutt/pwd._atareao.gpg 
+gpg -d ~/.mutt/pwd.correo_atareao.gpg |
+source "gpg -d ~/.mutt/pwd.correo_atareao.gpg |"
+mv pwd.correo_atareao pwd.atareao_atareao
+gpg -r atareao@atareao.es -e pwd.atareao_atareao 
+vim 
+sudo apt update
+upgrade
+sudo apt install gkeyring
+gkeyring
+vim cuenta.correo_atareao 
+kill -9 4526
+ps aux | grep vim
+ps aux | grep vi
+gkeyring
+gkeyring -s -k cuenta.correo_atareao -p 9m3no5NU6ve0
+gkeyring -s -k cuenta.atareao_atareao -p 9m3no5NU6ve0
+gkeyring -g -k cuenta.correo_atareao
+gkeyring -s -k cuenta.atareao_gmail -p C0m9rA1FinKa_gmail
+mutt .mutt/muttrc 
+vim .mutt/muttrc 
+cd .mutt
+vim muttrc 
+rm .cuenta.atareao_atareao.swp 
+vim cuenta.atareao_atareao 
+mutt
+wget https://www.atareao.es/wp-cron.php?doing_wp_cron
+sudo apt install filezilla
+cd /datos/Sync/Programacion/Wordpress/
+cd www.atareao.es/
+cd .git/
+cat config 
+sudo apt install gftp
+install mc
+vim ~/.netrc
+wget -q -O - http://yourdomain.com/wp-cron.php?doing_wp_cron
+mc
+curl -s https://www.atareao.es/wp-cron.php?doing_wp_cron
+wget -q -O - http://www.atareao.es/wp-cron.php?doing_wp_cron
+gedit 
+wget  -O - http://www.atareao.es/wp-cron.php?doing_wp_cron
+cd /opt/
+cd /datos/Sync/Programacion/
+cd ..
+cd atareao.es/
+cd podcasts/2018/201809
+history | grep audiowave
+./audiowave.sh -t "Atareao versión podcast" -s "Sobre conservadores y revolucionarios" -b sobre-conservadores-y-revolucionarios.jpg -a T01E03.mp3
+cat ~/.ssh/config 
+cd
+cd ansible/
+ls
+viim ansible.cfg 
+vim ansible.cfg 
+vim hosts
+ansible-playbook 
+vim playbooks/stop_mumble_server.
+mosh do1a
+vim playbooks/stop_mumble_server.yml 
+ansible-playbook playbooks/stop_mumble_server.yml 
+vim playbooks/first.yml 
+ansible-playbook playbooks/first.yml 
+cp playbooks/first.yml playbooks/start_mumble_server.yml 
+vim playbooks/start_mumble_server.yml 
+ansible-playbook playbooks/start_mumble_server.yml 
+mosh do1
+mem
+sudo apt update
+upgrade
+sudo apt install gkeyring
+gkeyring
+vim cuenta.atareao_atareao 
+vim cuenta.correo_atareao 
+mutt
+vim muttrc 
+kill -9 4526
+ps aux | grep vim
+ps aux | grep vi
+gkeyring
+gkeyring -s -k cuenta.correo_atareao -p 9m3no5NU6ve0
+gkeyring -s -k cuenta.atareao_atareao -p 9m3no5NU6ve0
+gkeyring -g -k cuenta.correo_atareao
+gkeyring -s -k cuenta.atareao_gmail -p C0m9rA1FinKa_gmail
+mutt
+mc
+scp installer.php do1:
+scp 20181027_lorenzocarbonell_0bf8fced6c029c0a1887_20181027143513_archive.zip do1:
+sudo vim custom-cron.php
+sudo chown lorenzo:lorenzo custom-cron.php 
+wget https://www.atareao.es/custom-cron.php?doing_wp_cron
+curl https://www.atareao.es/custom-cron.php?doing_wp_cron
+curl --user-agent cPanel-Cron https://www.atareao.es/custom-cron.php?doing_wp_cron
+curl --user-agent cPanel-Cron https://www.atareao.es/custom-cron.php?doing_wp_cron=1
+curl --user-agent cPanel-Cron https://www.atareao.es/custom-cron.php?doing_wp_cron=0
+curl --user-agent cPanel-Cron https://www.atareao.es/wp-cron.php?doing_wp_cron
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt upgrade
+ansible vps -m ping
+vim .ansible.cfg 
+mkdir ansible
+vim ansible.cfg
+cp ~/.ansible/hosts ./
+cd
+rm .ansible/hosts 
+cd ansible/
+rm .ansible.cfg 
+cp /etc/ansible/ansible.cfg ./
+ansible all -m ping
+mkdir playbooks
+cd playbooks/
+cp /datos/Sync/Ansible/
+cp /datos/Sync/Ansible/playbooks/* ./
+ls
+ansible-playbook first.yml 
+cd ..
+vim ansible.cfg 
+ansible-playbook first.yml
+ansible-playbook playbooks/first.yml
+ssh ansible@do1
+ssh ansible@do1 -i ~/.ssh/id_rsa
+ssh ansible@ -i ~/.ssh/id_rsa.pub
+cat ~/.ssh/config 
+vim ~/.ssh/config
+ssh do1a
+mosh do1
+mosh do1
+bash-it alias
+bash-it aliases
+bash-it enable aliases
+bash-it show aliases 
+bash-it show completion
+bash-it show plugin
+cat /proc/sys/fs/inotify/max_user_watches
+sudo vim /etc/sysctl.
+sudo vim /etc/sysctl.conf 
+vim
+mem
+exit
+sudo vim /etc/sysctl.conf 
+vim
+exit
+mosh do1
+mem
+cd Descargas
+sudo dpkg -i Simplenote-linux-1.2.1-amd64.deb 
+cd /datos/Sync/Programacion/Ubuntu/atajos-de-teclado/
+vim atajos_teclado_ubuntu.
+vim atajos_teclado_ubuntu.svg 
+ls
+convert atajos_teclado_ubuntu.svg atajos_teclado_ubuntu.pdf
+convert atajos_teclado_ubuntu.svg atajos_teclado_ubuntu.jpg
+convert atajos_teclado_ubuntu.svg atajos_teclado_ubuntu.png
+sudo apt install nvpy
+gitp
+sudo apt remove nvpy
+cat ~/.ssh/config 
+vim ~/.ssh/config
+ssh do1a
+mosh do1
+vim
+fg 1
+ls -la
+l
+ls
+cd
+xit
+exit
+ls -la
+exit
+exit
+tmux
+vim
+vim
+exit
+fg 1
+ls -la
+l
+xit
+exit
+ls -la
+exit
+exit
+tmux
+vim
+cd /datos/Sync/atareao.es/
+cd articulos/
+cd 2018/201811
+cd
+mv identificando-canales-en-telegram.md /datos/Sync/atareao.es/articulos/2018/201811/
+cd /datos/Sync/atareao.es/articulos/2018/201811/
+cd ..
+cd podcasts/
+cd 2018/201810
+ls
+vim 017_T01E17_20181030.md 
+cat config 
+sudo apt install gftp
+install mc
+vim ~/.netrc
+wget -q -O - http://yourdomain.com/wp-cron.php?doing_wp_cron
+mc
+curl -s https://www.atareao.es/wp-cron.php?doing_wp_cron
+wget -q -O - http://www.atareao.es/wp-cron.php?doing_wp_cron
+gedit 
+wget  -O - http://www.atareao.es/wp-cron.php?doing_wp_cron
+cd /opt/
+cd /datos/Sync/Programacion/
+cd podcasts/2018/201809
+history | grep audiowave
+./audiowave.sh -t "Atareao versión podcast" -s "Sobre conservadores y revolucionarios" -b sobre-conservadores-y-revolucionarios.jpg -a T01E03.mp3
+cat ~/.ssh/config 
+cd ansible/
+viim ansible.cfg 
+vim ansible.cfg 
+vim hosts
+ansible-playbook 
+vim playbooks/stop_mumble_server.
+mosh do1a
+vim playbooks/stop_mumble_server.yml 
+ansible-playbook playbooks/stop_mumble_server.yml 
+vim playbooks/first.yml 
+ansible-playbook playbooks/first.yml 
+cp playbooks/first.yml playbooks/start_mumble_server.yml 
+vim playbooks/start_mumble_server.yml 
+ansible-playbook playbooks/start_mumble_server.yml 
+sudo apt update
+upgrade
+sudo apt install gkeyring
+gkeyring
+vim cuenta.atareao_atareao 
+vim cuenta.correo_atareao 
+mutt
+vim muttrc 
+kill -9 4526
+ps aux | grep vim
+ps aux | grep vi
+gkeyring
+gkeyring -s -k cuenta.correo_atareao -p 9m3no5NU6ve0
+gkeyring -s -k cuenta.atareao_atareao -p 9m3no5NU6ve0
+gkeyring -g -k cuenta.correo_atareao
+gkeyring -s -k cuenta.atareao_gmail -p C0m9rA1FinKa_gmail
+mutt
+mc
+scp installer.php do1:
+scp 20181027_lorenzocarbonell_0bf8fced6c029c0a1887_20181027143513_archive.zip do1:
+sudo vim custom-cron.php
+sudo chown lorenzo:lorenzo custom-cron.php 
+wget https://www.atareao.es/custom-cron.php?doing_wp_cron
+curl https://www.atareao.es/custom-cron.php?doing_wp_cron
+curl --user-agent cPanel-Cron https://www.atareao.es/custom-cron.php?doing_wp_cron
+curl --user-agent cPanel-Cron https://www.atareao.es/custom-cron.php?doing_wp_cron=1
+curl --user-agent cPanel-Cron https://www.atareao.es/custom-cron.php?doing_wp_cron=0
+curl --user-agent cPanel-Cron https://www.atareao.es/wp-cron.php?doing_wp_cron
+sudo apt-add-repository ppa:ansible/ansible
+ansible vps -m ping
+vim .ansible.cfg 
+mkdir ansible
+vim ansible.cfg
+cp ~/.ansible/hosts ./
+rm .ansible/hosts 
+cd ansible/
+rm .ansible.cfg 
+cp /etc/ansible/ansible.cfg ./
+ansible all -m ping
+mkdir playbooks
+cd playbooks/
+cp /datos/Sync/Ansible/
+cp /datos/Sync/Ansible/playbooks/* ./
+ansible-playbook first.yml 
+vim ansible.cfg 
+ansible-playbook first.yml
+ansible-playbook playbooks/first.yml
+ssh ansible@do1
+ssh ansible@do1 -i ~/.ssh/id_rsa
+ssh ansible@ -i ~/.ssh/id_rsa.pub
+cat ~/.ssh/config 
+vim ~/.ssh/config
+ssh do1a
+bash-it alias
+bash-it aliases
+bash-it enable aliases
+bash-it show aliases 
+bash-it show completion
+bash-it show plugin
+cat /proc/sys/fs/inotify/max_user_watches
+sudo vim /etc/sysctl.
+sudo vim /etc/sysctl.conf 
+vim
+sudo vim /etc/sysctl.conf 
+vim
+cd Descargas
+sudo dpkg -i Simplenote-linux-1.2.1-amd64.deb 
+cd /datos/Sync/Programacion/Ubuntu/atajos-de-teclado/
+vim atajos_teclado_ubuntu.
+vim atajos_teclado_ubuntu.svg 
+convert atajos_teclado_ubuntu.svg atajos_teclado_ubuntu.pdf
+convert atajos_teclado_ubuntu.svg atajos_teclado_ubuntu.jpg
+convert atajos_teclado_ubuntu.svg atajos_teclado_ubuntu.png
+sudo apt install nvpy
+sudo apt remove nvpy
+cat ~/.ssh/config 
+vim ~/.ssh/config
+ssh do1a
+vim
+fg 1
+cd /datos/Sync/
+cd 2018
+mkdir 201811
+cd lorenzocarbonell/
+mv lorenzocarbonell/ ../../
+cat git/
+cd git/
+mv lorenzocarbonell lorenzocarbonell.com
+cd TRABAJO/
+cd articulos/
+cd atareao.es/
+gitp
+sudo apt upgrade
+sudo apt autoremove
+do apt install gmic
+sudo apt install gmic gimp-help gimp-plugin registry
+sudo apt install gmic gimp-help-es gimp-plugin registry
+sudo apt install gmic gimp-help-es gimp-plugin-registry
+sudo apt install gmic gimp-help-es
+lssudo apt install gimp-plugin-registry
+sudo apt install gimp-gmic
+gimp-ufraw gimp-gap
+sudo gimp-ufraw gimp-gap
+sudo apt install gimp-ufraw gimp-gap
+sudo apt install icc-profiles create-resources
+sudo apt-get install libgimp2.0-dev libpcre3-dev
+make && sudo make install-admin
+rm gimp-plugin-bimp-master/
+rm -rf gimp-plugin-bimp-master/
+cd Des
+cd ~/Descargas
+sudo apt install libtiff-tools
+sudo dpkg -i gimp-plugin-registry_9.20180625_amd64.deb 
+sudo apt install -f
+d 
+git clone https://github.com/auris/gimp-save-for-web.git
+cd gimp-save-for-web/
+sudo apt-get install libtool automake intltool libgimp2.0-dev
+nano README 
+vim INSTALL 
+cd src/
+./install-sh 
+cat INSTALL 
+configure
+cat TODO 
+/.configure
+sudo apt install automake
+sudo apt install intltool
+cat autogen.sh 
+automake
+automake -v
+man automake
+vim autogen.sh 
+sudo rm -rf gimp-save-for-web/
+sudo apt install gimp-plugin-registry
+sudo apt install gimp-save-for-web
+get https://github.com/alessandrofrancesconi/gimp-plugin-bimp/archive/master.zip
+wget https://github.com/alessandrofrancesconi/gimp-plugin-bimp/archive/master.zip
+unzip master.zip
+cd gimp-plugin-bimp-master/
+make
+sudo apt-get install libgtk2.0-dev
+./configure
+sudo apt install ufraw
+sudo apt install darktable
+sudo add-apt-repository ppa:atareao/gimp
+sudo apt install gimp-plugin*
+gimp
+git clone https://github.com/bootchk/resynthesizer.git 
+cd resynthesizer/
+vim README.md 
+./autogen.sh 
+sudo apt install pip-python
+sudo apt install python-pip
+sudo pip install sendtokindle
+cd temporal
+git clone https://github.com/kparal/sendKindle.git
+cd sendKindle/
+./sendKindle.py 
+cp ~/Descargas/9781785288326.mobi ./
+python3 sendKindle.py 9781785288326.mobi
+vimo ~/.config/sendKindle/sendKindle.cfg 
+vim ~/.config/sendKindle/sendKindle.cfg 
+lsusb
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys ACCAF35C
+sudo touch /etc/apt/sources.list.d/insync.list
+echo deb http://apt.insynchq.com/ubuntu cosmic non-free contrib  | sudo tee -a /etc/apt/sources.list.d/insync.list
+update
+install insync
+killall thunderbird 
+killall telegram-desktop
+killall gnome-software
+nsync
+cd lorenzo.carbonell.cerezo@gmail.com/
+mem
+mosh do1
+cd disk/
+cd /etc/
+cd wpa_supplicant/
+nano action_wpa.sh 
+cd
+cd lorenzo/
+cd /media/lorenzo/
+cd hassos-data/
+cd cli/
+cd docker/
+cd supervisor/
+cat homeassistant
+cat homeassistant.json 
+cat config.json 
+ls -la
+cd homeassistant/
+cat configuration.yaml 
+cd ..
+cd hassos-overlay/
+cd etc/
+cat hostname 
+cat hosts
+cd NetworkManager/
+cd system-connections/
+cat my-network 
+sudo cat my-network 
+sudo vim my-network 
+ls
+exit
+cd src/
+./install-sh 
+cat INSTALL 
+configure
+cat TODO 
+/.configure
+sudo apt install automake
+sudo apt install intltool
+cat autogen.sh 
+automake
+automake -v
+man automake
+vim autogen.sh 
+sudo rm -rf gimp-save-for-web/
+sudo apt install gimp-plugin-registry
+sudo apt install gimp-save-for-web
+get https://github.com/alessandrofrancesconi/gimp-plugin-bimp/archive/master.zip
+wget https://github.com/alessandrofrancesconi/gimp-plugin-bimp/archive/master.zip
+unzip master.zip
+cd gimp-plugin-bimp-master/
+make
+sudo apt-get install libgtk2.0-dev
+./configure
+sudo apt install ufraw
+sudo apt install darktable
+sudo add-apt-repository ppa:atareao/gimp
+sudo apt install gimp-plugin*
+gimp
+git clone https://github.com/bootchk/resynthesizer.git 
+cd resynthesizer/
+vim README.md 
+./autogen.sh 
+sudo apt install pip-python
+sudo apt install python-pip
+sudo pip install sendtokindle
+cd temporal
+git clone https://github.com/kparal/sendKindle.git
+cd sendKindle/
+./sendKindle.py 
+cp ~/Descargas/9781785288326.mobi ./
+python3 sendKindle.py 9781785288326.mobi
+vimo ~/.config/sendKindle/sendKindle.cfg 
+vim ~/.config/sendKindle/sendKindle.cfg 
+lsusb
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys ACCAF35C
+sudo touch /etc/apt/sources.list.d/insync.list
+echo deb http://apt.insynchq.com/ubuntu cosmic non-free contrib  | sudo tee -a /etc/apt/sources.list.d/insync.list
+update
+install insync
+killall thunderbird 
+killall telegram-desktop
+killall gnome-software
+nsync
+cd lorenzo.carbonell.cerezo@gmail.com/
+mem
+cd wpa_supplicant/
+nano action_wpa.sh 
+cd lorenzo/
+cd cli/
+cd supervisor/
+cat homeassistant
+cat homeassistant.json 
+cat config.json 
+ls -la
+cd homeassistant/
+cat configuration.yaml 
+cat hostname 
+cat hosts
+cd hassos-
+cd hassos-overlay/
+cd var/
+cat my-network 
+sudo vim my-network 
+cd
+mosh do1
+ssh rpi
+cd /media/lorenzo/hassos-overlay/etc/NetworkManager/system-connections/
+sudo cat my-network 
+cd docker/
+cd /etc/
+cd NetworkManager/
+cd system-connections/
+cat ONOF473 
+sudo cat ONOF473 
+cd /media/lorenzo/
+cd hassos-data/
+sudo cd docker
+cd cli
+cd hassos-kernel/
+cd disk/
+cd etc/
+cd NetworkManager/system-connections/
+cd ..
+cd usr/share/system-connections/
+ls
+sudo cat default 
+nmcli
+exit
+exit
+cd 2018/201811
+cd
+mv identificando-canales-en-telegram.md /datos/Sync/atareao.es/articulos/2018/201811/
+cd /datos/Sync/atareao.es/articulos/2018/201811/
+cd podcasts/
+cd 2018/201810
+vim 017_T01E17_20181030.md 
+cd ..
+cd articulos/
+cd 2018
+cd 201811
+vim atajos-de-teclado-vim.md
+touch atajos-de-teclado-en-vim.md
+ls
+vim atajos-de-teclado-en-vim.md 
+exit
+cd 2018/201810
+cd ..
+mkdir 201811
+cd 201810
+cp 017_T01E17_20181030.md ../201811
+cd ../201811
+ls
+vim 017_T01E17_20181030.md 
+mosh do1
+exit
+l
+xit
+tmux
+vim
+vim
+fg 1
+l
+xit
+tmux
+vim
+cd 2018/201811
+mv identificando-canales-en-telegram.md /datos/Sync/atareao.es/articulos/2018/201811/
+cd /datos/Sync/atareao.es/articulos/2018/201811/
+cd podcasts/
+cd 2018/201810
+cd /datos/Sync/atareao.es/
+cd articulos/
+cd 2018
+cd 201811
+cd
+cd /datos/Sync/atareao.es/podcasts/201811
+cd /datos/Sync/atareao.es/podcasts/2018
+/201811
+cd 201810
+vim 017_T01E17_20181030.md 
+rm untitled.mp3 
+cd ..
+cd 201809
+ls *.mp3
+rm T01E02.mp3 T01E03.mp3 
+cp T01E04.\ Sobre\ lo\ grande\ y\ lo\ pequeño.mp3 T01E04.mp3
+rm daniel*
+rm -rf daniel*
+history | grep audiowave
+echo ./audiowave.sh -t "Atareao versión podcast" -s "Sobre conservadores y revolucionarios" -b sobre-conservadores-y-revolucionarios.jpg -a T01E03.mp3
+./audiowave.sh -t "Atareao versión podcast" -s "Sobre lo grande y lo pequeño" -b sobre-lo-grande-y-lo-pequeño-kodi.jpg -a T01E04.mp3
+mv output.mp4 "T01E04. Sobre lo grande y lo pequeño.mp4" 
+rm "T01E03. Sobre conservadores y revolucionarios.mp4" 
+vim audiowave.sh 
+ls
+rm "T01E04. Sobre lo grande y lo pequeño.mp4"
+cp "T01E05. Sobre los complementos.mp3" T01E05.mp3
+./audiowave.sh -t "Atareao versión podcast" -s "Sobre los complementos" -b sobre-los-complementos.jpg -a T01E05.mp3
+mv output.mp4 "T01E05. Sobre los complementos.mp4" 
+ls -la
+exit
+cd supervisor/
+cat homeassistant
+cat homeassistant.json 
+cat config.json 
+cd homeassistant/
+cat configuration.yaml 
+cat hostname 
+cat hosts
+cd hassos-
+cd var/
+sudo vim my-network 
+cd /media/lorenzo/hassos-overlay/etc/NetworkManager/system-connections/
+cd docker/
+cd /etc/
+cat ONOF473 
+sudo cat ONOF473 
+cd hassos-data/
+sudo cd docker
+cd cli
+cd hassos-kernel/
+cd disk/
+cd NetworkManager/system-connections/
+cd ..
+cd usr/share/system-connections/
+sudo cat default 
+nmcli
+exit
+cd hassos-overlay/
+cd etc/
+cd NetworkManager/
+cd system-connections/
+nano my-network 
+sudo cat my-network 
+sudo rm -rf my-network 
+ls -la
+cd /media/lorenzo/
+cd CONFIG/
+cd network/
+ls
+cat my-network 
+cd
+ssh rpi
+mem
+killall insync
+killall gimp-2.10 
+mosh do1
+mem
+killall insync
+killall gimp-2.10 
+mosh do1
+cd /datos/Sync/atareao.es/
+cd articulos/
+cd 2018
+cd 201811
+rm linux-center.html identificando-canales-en-telegram.html 
+ls
+touch failban.md
+vim failban.md 
+exit
+killall gimp-2.10 
+mosh do1
+killall insync
+killall gimp-2.10 
+mem
+killall insync
+killall gimp-2.10 
+cd /datos/Sync/atareao.es/
+cd articulos/
+cd 2018
+cd 201811
+rm linux-center.html identificando-canales-en-telegram.html 
+touch failban.md
+vim failban.md 
+exit
+killall gimp-2.10 
+mosh do1
+timedatectl
+date +%Z
+date +%z
+ocker run --name mi-nginx -d -p 8080:80 nginx
+docker run --name mi-nginx -d -p 8080:80 nginx
+docker list
+docker rm
+docker stop
+docker stop 406aac09ea72
+docker rmi nginx
+docker images
+docker rm 406aac09ea72
+docker rmi dbfc48660aeb
+docker ps
+cd /datos/Sync/Programacion/Python/
+cd Telegram/
+cd senderbot/
+cd debian/
+vim control 
+cd src/
+ls
+vim senderbot
+cd ..
+cat debian/changelog 
+vim senderbot
+cd ..
+cat debian/changelog 
+cd /datos/Sync/atareao.es/articulos/2018/201811/
+menos-es-mas.md
+touch menos-es-mas.md
+ls
+nano ~/.bashrc 
+nano ~/.vimrc 
+vim menos-es-mas.md 
+exit
+mosh do1
+touch menos-es-mas.md
+nano ~/.bashrc 
+nano ~/.vimrc 
+vim menos-es-mas.md 
+mosh do1
+s
+cd /datos/Sync/atareao.es/articulos/
+cd 2018/201811/
+ls
+less linux-center.md menos-es-mas.md 
+exit
+mosh do1
+ls
+cd temporal
+vim ejemplo
+less ejemplo
+cd 2018/201811/
+less linux-center.md menos-es-mas.md 
+exit
+less
+cd temporal
+ls
+less sample.md 
+less test.py 
+less test.py 
+mosh do1
+exit
+mosh do1
+cd temporal
+vim ejemplo
+less ejemplo
+cd 2018/201811/
+less linux-center.md menos-es-mas.md 
+exit
+less
+cd temporal
+less sample.md 
+less test.py 
+less test.py 
+mosh do1
+ls
+gitfp
+gitfp
+less test.py 
+less test.py 
+mosh do1
+ls
+gitfp
+exit
+cd senderbot/
+cd debian/
+vim control 
+cd src/
+vim senderbot
+cat debian/changelog 
+vim senderbot
+cat debian/changelog 
+cd /datos/Sync/atareao.es/articulos/2018/201811/
+menos-es-mas.md
+touch menos-es-mas.md
+nano ~/.bashrc 
+nano ~/.vimrc 
+vim menos-es-mas.md 
+exit
+mosh do1
+touch menos-es-mas.md
+nano ~/.bashrc 
+nano ~/.vimrc 
+vim menos-es-mas.md 
+mosh do1
+s
+cd /datos/Sync/atareao.es/articulos/
+cd 2018/201811/
+less linux-center.md menos-es-mas.md 
+exit
+mosh do1
+cd temporal
+vim ejemplo
+less ejemplo
+cd 2018/201811/
+less linux-center.md menos-es-mas.md 
+exit
+less
+cd temporal
+less sample.md 
+less test.py 
+less test.py 
+mosh do1
+exit
+mosh do1
+cd temporal
+vim ejemplo
+less ejemplo
+cd 2018/201811/
+less linux-center.md menos-es-mas.md 
+exit
+less
+cd temporal
+less sample.md 
+less test.py 
+less test.py 
+mosh do1
+less test.py 
+less test.py 
+mosh do1
+
+cd .git/
+cat config 
+mkdir fonts
+cd fonts
+cp ~/Escritorio/apartamento.ttf ./
+ls
+cd ..
+gitfp
+killall gimp-2.10 
+timedatectl
+date +%Z
+date +%z
+ocker run --name mi-nginx -d -p 8080:80 nginx
+docker run --name mi-nginx -d -p 8080:80 nginx
+docker list
+docker rm
+docker stop
+docker stop 406aac09ea72
+docker rmi nginx
+docker images
+docker rm 406aac09ea72
+docker rmi dbfc48660aeb
+docker ps
+cd /datos/Sync/Programacion/Python/
+cd Telegram/
+cd senderbot/
+cd debian/
+vim control 
+cd src/
+vim senderbot
+cat debian/changelog 
+vim senderbot
+cat debian/changelog 
+cd /datos/Sync/atareao.es/articulos/2018/201811/
+menos-es-mas.md
+touch menos-es-mas.md
+nano ~/.bashrc 
+nano ~/.vimrc 
+vim menos-es-mas.md 
+exit
+touch menos-es-mas.md
+nano ~/.bashrc 
+nano ~/.vimrc 
+vim menos-es-mas.md 
+s
+cd /datos/Sync/atareao.es/articulos/
+cd 2018/201811/
+less linux-center.md menos-es-mas.md 
+exit
+cd temporal
+vim ejemplo
+less ejemplo
+cd 2018/201811/
+less linux-center.md menos-es-mas.md 
+exit
+less
+cd temporal
+less sample.md 
+less test.py 
+less test.py 
+cd /datos/Sync/
+cd Programacion/Wordpress/
+cd www.atareao.es/
+cd GNULinuxValencia/
+cd documentacion/
+cd reuniones/
+gitp
+cp reunion_20181123.md reunion_20181123_borrador.md 
+vim reunion_20181123.md 
+less 9781785288326.mobi 
+sudo iptables -Ñ
+sudo iptables -L
+sudo ufw status verbose
+sudo apt install unrar-free
+cd 
+cd Es
+cd Escritorio
+unrar
+ls Audrey
+cd /datos/Sync/Programacion/Wordpress/
+cd gnulinuxvalencia.org/
+gitfp
+git clone git@gitlab.com:atareao/lorenzocarbonell_201711.git
+mv lorenzocarbonell_201711/ lorenzocarbonell.com
+mkdir  plugins
+mv AtAdmin plugins/
+mv estadisticas-web/ plugins/
+ks
+rm temp.bash 
+rm WEB_BACKUP/
+rm -rf WEB_BACKUP/
+mkdir antiguo
+mv WEB* antiguo/
+cd WEB
+cd antiguo/
+cd ..
+cd Descargas
+sudo dpkg -i draftSight.deb 
+cd /usr/share/applications/
+ls 
+cd
+cd /opt/dassault-systemes/
+cd DraftSight/
+cd Li
+cd Linux/
+ls
+./DraftSight 
+mosh do1
+sudo apt install chromium-browser
+mosh do1
+./DraftSight 
+mosh do1
+sudo apt install chromium-browser
+mosh do1
+sudo su -
+cd /datos/temporal/
+rm -rf *
+rm -rf .*
+cd ..
+ls
+ls
+gitp
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+mosh do1
+mosh do1
+sudo su -
+cd /datos/temporal/
+rm -rf *
+rm -rf .*
+cd ..
+ls
+ls
+gitp
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+mosh do1
+gitfp
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+mosh do1
+cd /datos/temporal/
+rm -rf *
+rm -rf .*
+cd ..
+gitp
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+gitfp
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+ls
+mariadb
+sudo apt install mariadb-cliente-core-10.1
+sudo apt install mariadb-client-core-10.1
+mysql -u root -p 165.227.238.5:
+mysql -u root -p 165.227.238.5:8527
+mysql -u root -p 165.227.238.5 -P 8527
+mysql -u root -p -h 165.227.238.5 -P 8527
+mosh do1
+exit
+mosh do1
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+mosh do1
+gitfp
+mosh do1
+exit
+mosh do1
+exit
+mosh do1
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+mosh do1
+gitfp
+mysql -u root -p 165.227.238.5:8527
+mysql -u root -p 165.227.238.5 -P 8527
+mysql -u root -p -h 165.227.238.5 -P 8527
+exit
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+gitfp
+exit
+mosh do1
+mysql -u usr_phpmyadmin -p -h 185.166.214.40 -P 3306
+mysql -u usr_phpmyadmin -p -h 185.166.214.40
+mysql -u lorenzo -p -h 185.166.214.40
+telnet 185.166.214.40 3306
+mosh do1
+ssh xalfoxsudo@185.166.214.40
+mosh do1
+mem
+exit
+mosh do1
+mysql -u usr_phpmyadmin -p -h 185.166.214.40 -P 3306
+mysql -u usr_phpmyadmin -p -h 185.166.214.40
+mysql -u lorenzo -p -h 185.166.214.40
+telnet 185.166.214.40 3306
+mosh do1
+ssh xalfoxsudo@185.166.214.40
+mosh do1
+mem
+gitfp
+gitfp
+mosh do1
+mysql -u root -p 165.227.238.5:8527
+mysql -u root -p 165.227.238.5 -P 8527
+mysql -u root -p -h 165.227.238.5 -P 8527
+exit
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+exit
+mosh do1
+mysql -u usr_phpmyadmin -p -h 185.166.214.40 -P 3306
+mysql -u usr_phpmyadmin -p -h 185.166.214.40
+mysql -u lorenzo -p -h 185.166.214.40
+telnet 185.166.214.40 3306
+mosh do1
+ssh xalfoxsudo@185.166.214.40
+mosh do1
+mem
+exit
+mosh do1
+mysql -u usr_phpmyadmin -p -h 185.166.214.40 -P 3306
+mysql -u usr_phpmyadmin -p -h 185.166.214.40
+mysql -u lorenzo -p -h 185.166.214.40
+telnet 185.166.214.40 3306
+mosh do1
+ssh xalfoxsudo@185.166.214.40
+mosh do1
+mem
+gitfp
+mosh do1
+mem
+gitfp
+gitp
+gitfp
+gitfp
+cd /datos/Sync/atareao.es/articulos/2018/201811/
+menos-es-mas.md
+touch menos-es-mas.md
+nano ~/.bashrc 
+nano ~/.vimrc 
+vim menos-es-mas.md 
+exit
+touch menos-es-mas.md
+nano ~/.bashrc 
+nano ~/.vimrc 
+vim menos-es-mas.md 
+s
+cd /datos/Sync/atareao.es/articulos/
+cd 2018/201811/
+less linux-center.md menos-es-mas.md 
+exit
+cd temporal
+vim ejemplo
+less ejemplo
+cd 2018/201811/
+less linux-center.md menos-es-mas.md 
+exit
+less
+cd temporal
+less sample.md 
+less test.py 
+less test.py 
+cd /datos/Sync/
+cd Programacion/Wordpress/
+cd www.atareao.es/
+cd GNULinuxValencia/
+cd documentacion/
+cd reuniones/
+gitp
+cp reunion_20181123.md reunion_20181123_borrador.md 
+vim reunion_20181123.md 
+less 9781785288326.mobi 
+sudo iptables -Ñ
+sudo iptables -L
+sudo ufw status verbose
+sudo apt install unrar-free
+cd Es
+cd Escritorio
+unrar
+ls Audrey
+cd /datos/Sync/Programacion/Wordpress/
+cd gnulinuxvalencia.org/
+gitfp
+git clone git@gitlab.com:atareao/lorenzocarbonell_201711.git
+mv lorenzocarbonell_201711/ lorenzocarbonell.com
+mkdir  plugins
+mv AtAdmin plugins/
+mv estadisticas-web/ plugins/
+ks
+rm temp.bash 
+rm WEB_BACKUP/
+rm -rf WEB_BACKUP/
+mkdir antiguo
+mv WEB* antiguo/
+cd WEB
+cd antiguo/
+sudo dpkg -i draftSight.deb 
+cd /usr/share/applications/
+ls 
+cd /opt/dassault-systemes/
+cd DraftSight/
+cd Li
+cd Linux/
+./DraftSight 
+sudo apt install chromium-browser
+./DraftSight 
+sudo apt install chromium-browser
+sudo su -
+cd /datos/temporal/
+rm -rf *
+rm -rf .*
+gitp
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+sudo su -
+cd /datos/temporal/
+rm -rf *
+rm -rf .*
+gitp
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+gitfp
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+cd /datos/temporal/
+rm -rf *
+rm -rf .*
+gitp
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+gitfp
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+mariadb
+sudo apt install mariadb-cliente-core-10.1
+sudo apt install mariadb-client-core-10.1
+mysql -u root -p 165.227.238.5:
+mysql -u root -p 165.227.238.5:8527
+mysql -u root -p 165.227.238.5 -P 8527
+mysql -u root -p -h 165.227.238.5 -P 8527
+exit
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+gitfp
+exit
+exit
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+gitfp
+mysql -u root -p 165.227.238.5:8527
+mysql -u root -p 165.227.238.5 -P 8527
+mysql -u root -p -h 165.227.238.5 -P 8527
+exit
+curl https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/getWebhookInfo
+gitfp
+exit
+mysql -u usr_phpmyadmin -p -h 185.166.214.40 -P 3306
+mysql -u usr_phpmyadmin -p -h 185.166.214.40
+mysql -u lorenzo -p -h 185.166.214.40
+telnet 185.166.214.40 3306
+ssh xalfoxsudo@185.166.214.40
+mem
+exit
+mysql -u usr_phpmyadmin -p -h 185.166.214.40 -P 3306
+mysql -u usr_phpmyadmin -p -h 185.166.214.40
+mysql -u lorenzo -p -h 185.166.214.40
+telnet 185.166.214.40 3306
+ssh xalfoxsudo@185.166.214.40
+mem
+gitfp
+md5sum NextCloudPi_RPi_11-04-18.img 
+cat md5sum 
+md5sum NextCloudPi_RPi_11-04-18.tar.bz2 
+rm NextCloudPi_RPi_11-04-18.img 
+bzip2
+bzip2 -d NextCloudPi_RPi_11-04-18.tar.bz2 
+tar -xjvf NextCloudPi_RPi_11-04-18.tar.bz2 
+ls -la
+sudo apt install gparted
+sudo dd if=NextCloudPi_RPi_11-04-18.img of=/dev/mmcblk0 bs=4M status=progress conv=fdatasync
+/media/lorenzo/boot/
+cd /media/lorenzo/boot/
+cd etc/
+sudo wpa_passphrase "ONOF473"
+sudo ncp-update
+ncpconfig
+ncp-config
+sudo nc-update
+cd 
+history grep 1 dd
+history | grep  dd
+echo sudo dd if=NextCloudPi_RPi_11-04-18.img of=/dev/mmcblk0 bs=4M status=progress conv=fdatasync
+cd NextCloudPi_RPi_11-04-18/
+sudo dd if=NextCloudPi_RPi_11-04-18.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+cd /boot
+cd /media/
+cd lorenzo/
+cd bot
+touch ssd
+cd rootfs/
+cd /etc/
+cd wpa_supplicant/
+cd /media/lorenzo/rootfs/
+cd etc/wpa_supplicant/
+wpa_passphrase "ONOF473"
+ssh 192.168.1.48
+cd /root/
+cd boot
+cd Descargas
+sudo dpkg -i dukto_6.0-1_amd64.deb 
+sudo dpkg -i sendanywhere_latest_amd64.deb 
+unzip 2018-11-13-raspbian-stretch-lite.zip 
+fidsk -l
+fdisk -l
+sudo fdisk -l
+history | grep dd
+echo sudo dd if=NextCloudPi_RPi_11-04-18.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+sudo dd if=2018-11-13-raspbian-stretch-lite.img of=/dev/mmcblk0 status=progress conv=fdatasync
+cd /media/lorenzo/
+cd boot/
+touch ssh
+cd ..
+cd rootfs/etc/wpa_supplicant/
+ls
+wpa_passphrase 
+wpa_passphrase ONOF473
+vim wpa_supplicant.conf 
+sudo vim wpa_supplicant.conf 
+cd
+ssh-keygen -f "/home/lorenzo/.ssh/known_hosts" -R "192.168.1.48"
+ssh ncp#192.168.1.48
+ssh ncp@192.168.1.48
+sudo apt update
+sudo apt upgrade
+ssh pi@192.168.1.48
+mosh do1
+gitfp
+mosh do1
+mem
+gitfp
+gitfp
+cd ~/.bash_it
+cd custom/
+cd ..
+cd lib/
+vim custom.bash 
+sincroniza_xps13 
+clear
+mosh do1
+cd 
+cd Descargas
+ls
+sudo dpkg -i "sendanywhere_latest_amd64(1).deb" 
+sudo apt install -f
+sudo apt install -f
+gitfp
+gitfp
+gitp
+mosh do1
+gitfp
+gitfp
+cd ~/.bash_it
+cd custom/
+cd ..
+cd lib/
+vim custom.bash 
+sincroniza_xps13 
+clear
+mosh do1
+cd 
+cd Descargas
+ls
+sudo dpkg -i "sendanywhere_latest_amd64(1).deb" 
+sudo apt install -f
+sudo apt install -f
+gitfp
+gitfp
+gitp
+mosh do1
+cd temporal
+mkdir sample
+cd sample
+python3 -m http.server
+python3 -m http.server 5000
+sudo systemctl start sample
+sudo systemctl stop sample
+vim sample.py
+python3 sample.py 
+sudo systemctl restart sample
+sudo systemctl status sample
+sudo vim /lib/systemd/system/sample.service
+exit
+sudo apt install -f
+gitfp
+gitfp
+gitp
+gsettings reset org.gnome.shell.extensions.dash-to-dock click-action
+mosh do1
+systemctl get-default
+systemctl list-units --type target
+cd temporal
+cd sample/
+ls
+sudo systemctl stop sample
+python3 sample.py 
+gitfp
+python3 sample.py 
+mosh do1
+history | grep lorenzo
+wpa_passphrase SSID
+history | less
+mosh do1
+gitfp
+sudo systemctl stop sample
+python3 sample.py 
+python3 sample.py 
+mosh do1
+history | grep lorenzo
+wpa_passphrase SSID
+history | less
+mosh do1
+gitfp
+wpa_passphrase SSID
+history | less
+mosh do1
+cd Descargas
+unrar
+unrar Face2Face_Intermediate_SB_www.frenglish.ru.rar
+cd Face2Face_Intermediate_SB_www.frenglish.ru/
+rm '! ������� ᯠᨡ�.url' 
+rm Frenglish.ru.url 
+rm Readme-www.frenglish.ru.txt 
+cd ..
+cd Des
+ls
+sudo fdisk -l
+exit
+ssh pi@192.168.1.48
+mosh do1
+mosh do1
+mosh do1
+cd /etc/
+cd wpa_supplicant/
+cd /media/lorenzo/rootfs/
+cd etc/wpa_supplicant/
+wpa_passphrase "ONOF473"
+ssh 192.168.1.48
+cd /root/
+cd boot
+cd Descargas
+sudo dpkg -i dukto_6.0-1_amd64.deb 
+sudo dpkg -i sendanywhere_latest_amd64.deb 
+unzip 2018-11-13-raspbian-stretch-lite.zip 
+fidsk -l
+fdisk -l
+sudo fdisk -l
+history | grep dd
+echo sudo dd if=NextCloudPi_RPi_11-04-18.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+sudo dd if=2018-11-13-raspbian-stretch-lite.img of=/dev/mmcblk0 status=progress conv=fdatasync
+cd /media/lorenzo/
+cd boot/
+touch ssh
+cd rootfs/etc/wpa_supplicant/
+wpa_passphrase 
+wpa_passphrase ONOF473
+vim wpa_supplicant.conf 
+sudo vim wpa_supplicant.conf 
+ssh-keygen -f "/home/lorenzo/.ssh/known_hosts" -R "192.168.1.48"
+ssh ncp#192.168.1.48
+ssh ncp@192.168.1.48
+sudo apt update
+sudo apt upgrade
+ssh pi@192.168.1.48
+gitfp
+mem
+gitfp
+gitfp
+cd ~/.bash_it
+cd custom/
+cd lib/
+vim custom.bash 
+sincroniza_xps13 
+clear
+cd 
+cd Descargas
+sudo dpkg -i "sendanywhere_latest_amd64(1).deb" 
+sudo apt install -f
+sudo apt install -f
+gitfp
+gitfp
+gitp
+gitfp
+gitfp
+cd ~/.bash_it
+cd custom/
+cd lib/
+vim custom.bash 
+sincroniza_xps13 
+clear
+cd 
+cd Descargas
+sudo dpkg -i "sendanywhere_latest_amd64(1).deb" 
+sudo apt install -f
+sudo apt install -f
+gitfp
+gitfp
+gitp
+cd temporal
+mkdir sample
+cd sample
+python3 -m http.server
+python3 -m http.server 5000
+sudo systemctl start sample
+sudo systemctl stop sample
+vim sample.py
+python3 sample.py 
+sudo systemctl restart sample
+sudo systemctl status sample
+sudo vim /lib/systemd/system/sample.service
+exit
+sudo apt install -f
+gitfp
+gitfp
+gitp
+gsettings reset org.gnome.shell.extensions.dash-to-dock click-action
+systemctl get-default
+systemctl list-units --type target
+cd temporal
+cd sample/
+sudo systemctl stop sample
+python3 sample.py 
+gitfp
+python3 sample.py 
+history | grep lorenzo
+wpa_passphrase SSID
+history | less
+gitfp
+sudo systemctl stop sample
+python3 sample.py 
+python3 sample.py 
+history | grep lorenzo
+wpa_passphrase SSID
+history | less
+gitfp
+wpa_passphrase SSID
+history | less
+cd Descargas
+unrar
+unrar Face2Face_Intermediate_SB_www.frenglish.ru.rar
+cd Face2Face_Intermediate_SB_www.frenglish.ru/
+rm '! ������� ᯠᨡ�.url' 
+rm Frenglish.ru.url 
+rm Readme-www.frenglish.ru.txt 
+cd Des
+sudo fdisk -l
+exit
+ssh pi@192.168.1.48
+vim test.sh
+chmod +x test.sh 
+./test.sh 
+mkdir -P .config/systemd/user
+mkdir -p .config/systemd/user
+vim ~/.config/systemd/user/test.timer
+systemctl --user enable
+systemctl --user enable test.timer
+systemctl list-timers
+systemctl --user list-timers
+vim test.sh 
+:q
+vim ~/.config/systemd/user/test.service
+/bin/bash /home/lorenzo/test.sh 
+rm registro.log 
+vim ~/.config/systemd/user/
+systemctl --user daemon.reload
+systemctl --user start test.timer
+systemctl --user status
+cat registro.log 
+cd /usr/share/backgrounds/
+cd contest/
+cd ..
+vim ~/.config/systemd/user/test.service 
+vim ~/.config/systemd/user/test.timer 
+vim ~/.config/systemd/user/gbc.timer
+vim gbc.sh
+/bin/bash gbc.sh 
+systemctl --user enable gbc
+systemctl --user enable gbc.timer
+systemctl --user start gbc.timer
+systemctl status --user
+systemctl status gbc.timer
+systemctl status gbc.timer --user
+systemctl start --user gbc
+systemctl --user reload-daemon
+systemctl --user status gbc.service
+vim ~/.config/systemd/user/gbc.service
+systemctl --user daemon-reload
+systemctl --user start gbc.service
+systemctl --user list-timers all
+systemctl --user stop gbc.timer
+systemctl --user stop test.timer
+systemctl --user disable test.timer
+systemctl --user disable gbc.timer
+systemctl --user list-timers --all
+cd .config/systemd/user/
+ls
+cat test.service 
+cat test.timer
+cast gbc.service 
+cat gbc.service 
+cat gbc.timer 
+cd
+cat test.sh 
+cat gbc.sh 
+mosh do1
+cat test.service 
+cat test.timer
+cast gbc.service 
+cat gbc.service 
+cat gbc.timer 
+cd
+cat test.sh 
+cat gbc.sh 
+mosh do1
+history | grep dd
+echo echo sudo dd if=NextCloudPi_RPi_11-04-18.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+sudo dd if=OMV_4_Raspberry_Pi_2_3_3Plus.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+cd /media/lorenzo/
+cd boot/
+touch ssh
+cd ..
+cd 2666ed46-1bb6-4ad7-ab5d-2ccde455c5e5/
+cd /etc/
+cd wpa_supplicant/
+cd /media/lorenzo/2666ed46-1bb6-4ad7-ab5d-2ccde455c5e5/etc/wpa_supplicant/
+ls
+wpa_passphrase ONOF473
+sudo touch wpa_supplicant.conf
+sudo vim wpa_supplicant.conf
+exit
+./test.sh 
+mkdir -P .config/systemd/user
+mkdir -p .config/systemd/user
+vim ~/.config/systemd/user/test.timer
+systemctl --user enable
+systemctl --user enable test.timer
+systemctl list-timers
+systemctl --user list-timers
+vim test.sh 
+:q
+vim ~/.config/systemd/user/test.service
+/bin/bash /home/lorenzo/test.sh 
+rm registro.log 
+vim ~/.config/systemd/user/
+systemctl --user daemon.reload
+systemctl --user start test.timer
+systemctl --user status
+cat registro.log 
+cd /usr/share/backgrounds/
+cd contest/
+vim ~/.config/systemd/user/test.service 
+vim ~/.config/systemd/user/test.timer 
+vim ~/.config/systemd/user/gbc.timer
+vim gbc.sh
+/bin/bash gbc.sh 
+systemctl --user enable gbc
+systemctl --user enable gbc.timer
+systemctl --user start gbc.timer
+systemctl status --user
+systemctl status gbc.timer
+systemctl status gbc.timer --user
+systemctl start --user gbc
+systemctl --user reload-daemon
+systemctl --user status gbc.service
+vim ~/.config/systemd/user/gbc.service
+systemctl --user daemon-reload
+systemctl --user start gbc.service
+systemctl --user list-timers all
+systemctl --user stop gbc.timer
+systemctl --user stop test.timer
+systemctl --user disable test.timer
+systemctl --user disable gbc.timer
+systemctl --user list-timers --all
+cd .config/systemd/user/
+cat test.service 
+cat test.timer
+cast gbc.service 
+cat gbc.service 
+cat gbc.timer 
+cat test.sh 
+cat gbc.sh 
+sudo snap install pocket-casts
+sudo snap install todoist-thibaut
+ssh pi@192.168.1.48
+mosh pi@rpi
+mosh ncp@rpi
+ssh ncp@rpi
+echo sudo dd if=2018-11-13-raspbian-stretch-lite.img of=/dev/mmcblk0 status=progress conv=fdatasync
+history | grep dd
+echo echo sudo dd if=NextCloudPi_RPi_11-04-18.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+echo sudo dd if=NextCloudPi_RPi_11-04-18.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+fdisk -l
+sudo fdisk -l
+unxz
+ls *.xz
+unxz OMV_4_Raspberry_Pi_2_3_3Plus.img.xz 
+sudo apt-add-repository ppa:zanchey/asciinema
+sudo apt-get update
+sudo apt install asciinema
+ls OM*
+asciinema rec ~/prueba.cast
+cat ~/prueba.cast 
+unzip fonts.zip 
+cd Roboto
+ssh root@192.168.1.48
+node -v
+sudo apt install nodejs
+sudo apt install npm
+chmod +x dat-desktop-2.0.0-x86_64.AppImage 
+./dat-desktop-2.0.0-x86_64.AppImage 
+sudo dd if=2018-11-13-raspbian-stretch-lite.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+cd /media/lorenzo/
+cd boot/
+touch ssh
+cd rootfs/
+cd etc/wpa_supplicant/
+cat wpa_supplicant.conf 
+sudo at wpa_supplicant.conf 
+wpa_passphrase 
+wpa_passphrase ONOF473
+sudo vim wpa_supplicant.conf 
+dat sync --http
+npm install -g data
+cat .npm/_logs/2018-12-01T07_31_06_088Z-debug.log 
+darktable
+npm install dat
+npm dat
+node dat
+npm install -g dat
+sudo npm install -g dat
+dat
+dat clone dat://778f8d955175c92e4ced5e4f5563f69bfec0c86cc6f670352c457943666fe639
+cd 778f8d955175c92e4ced5e4f5563f69bfec0c86cc6f670352c457943666fe639/
+cd ..
+cd 
+mkdir data
+cd data/
+dat create
+cp ../*.img ./
+share dat
+dat share
+history grep | system
+history | grep system
+etc/systemd/system/certbot.servicenit]
+Description=Renovación dos veces al día de los certificados de Let's Encrypt's
+[Timer]
+OnCalendar=0/12:00:00
+RandomizedDelaySec=1h
+Persistent=true
+[Install]
+WantedBy=timers.target
+cd temporal
+wget https://raw.githubusercontent.com/bluezio/ipwebcam-gst/master/prepare-videochat.sh
+chmod +x prepare-videochat.sh 
+sudo apt update && sudo apt upgrade
+sudo apt install ppa-purge
+sudo ppa-purge zanchey/asciinema
+sudo apt update
+sudo apt upgrade
+cd tmp
+vim droidcamx.sh
+chmod +x droidcamx.sh 
+./droidcamx.sh 
+lsmod
+lsmod | grep v4l
+droidcam
+droidcam-cli -h
+droidcam-cli -h 4747
+droidcam-cli -l 4747
+vim prepare-videochat.sh 
+sudo snap install skype
+sudo snap install skype --classic
+./prepare-videochat.sh 
+sudo snap remove skype
+sudo apt install wine-stable
+mosh do1
+sudo apt install wine-stable  playonlinux
+cd
+cd Descargas
+ls
+playonlinux iTunes
+playonlinux iTunesSetup.exe 
+playonlinux
+sudo touch wpa_supplicant.conf
+sudo vim wpa_supplicant.conf
+ssh pi@192.168.1.48
+exit
+java -
+sudo apt install default-jre
+ls
+java -jar ShareOnWifi.jar 
+java -jar ShareOnWifi.jar 
+mosh do1
+mariadb -u lorenzo -h 185.166.214.40 -P 3306 -p
+mariadb -u usr_phpmyadmin -h 185.166.214.40 -P 3306 -p
+ssh xalfoxsudo@185.166.214.40
+sudo vim wpa_supplicant.conf
+ssh pi@192.168.1.48
+exit
+java -
+sudo apt install default-jre
+java -jar ShareOnWifi.jar 
+mariadb -u lorenzo -h 185.166.214.40 -p
+telnet 185.166.214.40 3306
+mariad -u lorenzoc_lcc -p
+mariadb -u lorenzoc_lcc -p
+cat .ssh/config 
+mariadb -u lorenzoc_lcc -p -h 165.227.238.5
+mariadb -u root -p -h 165.227.238.5
+mariadb -u atareao -p -h 165.227.238.5
+man mariadb
+mariadb -u lorenzo -p -h 165.227.238.5 -P 8527
+mariadb -u lorenzo_cc -p -h 165.227.238.5 -P 8527
+mariadb -u atareao root -p -h 165.227.238.5 -P 8527
+mariadb -u lorenzoc_lcc -p -h 165.227.238.5 -P 8527
+mariadb -u root -p -h 165.227.238.5 -P 8527
+mosh do1
+ls
+java -jar ShareOnWifi.jar 
+mariadb
+mariadb -u usr_phpmyadmin -h 185.166.214.40 -p
+mariadb -u lorenzo -h 185.166.214.40  -p
+ssh root@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+sudo apt install nitroshare
+sudo apt-add-repository ppa:george-edison55/nitroshare
+sudo apt update
+mosh do1
+exit
+mosh do1
+ssh xalfoxsudo@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+sudo apt install nitroshare
+sudo apt-add-repository ppa:george-edison55/nitroshare
+sudo apt update
+exit
+mosh do1
+cd .audacity-data/
+ls
+less audacity.cfg 
+curl -F "url=https://oficinalibre.com/mibot/5e3937c7-0511-4af8-b4f7-57ee0f776e38" https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/setWebhook
+mosh do1

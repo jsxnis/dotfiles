@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# VIM as default editor
+export EDITOR=vim
+
 # Path to the bash it configuration
 export BASH_IT="/home/lorenzo/.bash_it"
 
@@ -43,10 +46,6 @@ if [ -f /home/lorenzo/opt/google-cloud-sdk/completion.bash.inc ]; then
   source '/home/lorenzo/opt/google-cloud-sdk/completion.bash.inc'
 fi
 
-if [[ $TERMINIX_ID ]]; then
-        source /etc/profile.d/vte.sh
-fi
-if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
-        source /etc/profile.d/vte.sh
-fi
 source $BASH_IT/bash_it.sh
+
+export PATH="/home/lorenzo/.local/share/umake/bin:/home/lorenzo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/bin:/home/lorenzo/.go/bin:/bin:/home/lorenzo/.go/bin:/home/lorenzo/.vimpkg/bin"

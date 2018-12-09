@@ -1,22 +1,23 @@
 <?xml version="1.0"?>
-<FileZilla3 version="3.28.0" platform="*nix">
-	<Layout Builddate="2017-10-29" Buildtime="11:48:23">
+<FileZilla3 version="3.33.0" platform="*nix">
+	<Layout Builddate="2018-10-14" Buildtime="19:54:23">
 		<Resources>
-			<xrc file="inputdialog.xrc" date="1509277703" />
-			<xrc file="netconfwizard.xrc" date="1509277703" />
-			<xrc file="dialogs.xrc" date="1509277703" />
-			<xrc file="sitemanager.xrc" date="1509277703" />
-			<xrc file="certificate.xrc" date="1509277703" />
-			<xrc file="update.xrc" date="1509277703" />
-			<xrc file="settings.xrc" date="1509277703" />
-			<xrc file="menus.xrc" date="1509277703" />
-			<xrc file="storj.xrc" date="1509277703" />
+			<xrc file="inputdialog.xrc" date="1539546863" />
+			<xrc file="netconfwizard.xrc" date="1539546863" />
+			<xrc file="dialogs.xrc" date="1539546863" />
+			<xrc file="sitemanager.xrc" date="1539546863" />
+			<xrc file="certificate.xrc" date="1539546863" />
+			<xrc file="update.xrc" date="1539546863" />
+			<xrc file="settings.xrc" date="1539546863" />
+			<xrc file="menus.xrc" date="1539546863" />
+			<xrc file="storj.xrc" date="1539546863" />
 			<xrc file="toolbar.xrc" date="1456395528" />
 			<xrc file="quickconnectbar.xrc" date="1456395528" />
 		</Resources>
-		<Language id="es_ES" date="1509277703">
-			<Font font="Ubuntu 11" width="871" height="17" />
-			<Dialog name="Site Manager" width="827" />
+		<Language id="es_ES" date="1539546863">
+			<Font font="Ubuntu 11" width="851" height="17" />
+			<Dialog name="Site Manager" width="825" />
+			<Dialog name="Settings" width="656" />
 		</Language>
 	</Layout>
 </FileZilla3>

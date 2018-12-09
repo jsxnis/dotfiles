@@ -1,11 +1,21 @@
 {
 	"folder_history":
 	[
-		"/datos/Sync/Programacion/Wordpress/tutoriales",
-		"/datos/Sync/Programacion/Wordpress/WEB_201709",
 		"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org",
-		"/home/lorenzo/.local/share/gnome-shell/extensions/world-cup-indicator-gs@atareao.es",
+		"/datos/Sync/Programacion/Wordpress/tutoriales",
+		"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/lib",
+		"/home/lorenzo/temporal/Mastodon-api-php",
+		"/home/lorenzo/temporal/mastodon_wordpress_api",
+		"/datos/Sync/Programacion/Wordpress/WEB_201709",
+		"/datos/Sync/Programacion/Wallpapers/wallpapers-by-linux-pictures",
+		"/datos/Sync/Programacion/Python/wallpapers-by-linux-pictures/debian",
+		"/datos/Sync/Programacion/Python/clipman",
 		"/home/lorenzo/.local/share/gnome-shell/extensions/pomodoro-indicator-gs@atareao.es",
+		"/home/lorenzo/.local/share/gnome-shell/extensions/touchpad-manager@atareao.es",
+		"/datos/dotfiles/.bash_it/lib",
+		"/home/lorenzo/.local/share/gnome-shell/extensions/youtube-search-provider@atareao.es",
+		"/datos/Sync/Programacion/Otros/audiowave",
+		"/home/lorenzo/.local/share/gnome-shell/extensions/world-cup-indicator-gs@atareao.es",
 		"/datos/Sync/Programacion/Python/backlight-indicator",
 		"/home/lorenzo/.local/share/gnome-shell/extensions/microphone-loopback@atareao.es",
 		"/datos/Sync/Programacion/gnome-shell/microphone-loopback@atareao.es",
@@ -15,7 +25,6 @@
 		"/datos/Sync/Programacion/Wordpress/lorenzocarbonell_201711",
 		"/datos/Sync/Programacion/Wordpress/montana",
 		"/datos/Sync/Programacion/gnome-shell/disk-space-usage@atareao.es",
-		"/home/lorenzo/.local/share/gnome-shell/extensions/touchpad-manager@atareao.es",
 		"/home/lorenzo/.local/share/gnome-shell/extensions/gsconnect@andyholmes.github.io",
 		"/datos/Sync/Programacion/gnome-shell/power-commands@atareao.es",
 		"/home/lorenzo/.local/share/gnome-shell/extensions/openweather-extension@jenslody.de",
@@ -119,29 +128,100 @@
 		"/datos/Sync/Articulos",
 		"/datos/Sync/Programacion/CSS/skeleton-framework-sass",
 		"/datos/Sync/Programacion/Wordpress/WEB",
-		"/datos/Sync/Programacion/Ubuntu/suru-icon-theme",
-		"/datos/Sync/Programacion/Wordpress/tutoriales/lib",
-		"/datos/Sync/Programacion/CSS/skeleton-framework-sass-2",
-		"/datos/Sync/Programacion/CSS/scaffolding",
-		"/datos/Sync/Programacion/CSS/lorenzocarbonell",
-		"/datos/Sync/Programacion/Ubuntu/code-fonts",
-		"/datos/Sync/Programacion/Wordpress/WEB_201701",
-		"/datos/Sync/Programacion/Ubuntu/ibm-plex-font",
-		"/datos/Escritorio/fonts/Serif",
-		"/datos/Escritorio/fonts/Sans"
+		"/datos/Sync/Programacion/Ubuntu/suru-icon-theme"
 	],
 	"last_version": 3176,
-	"last_window_id": 708,
+	"last_window_id": 726,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 618.0,
+		"new_window_height": 480.0,
 		"new_window_settings":
 		{
 			"auto_complete":
 			{
 				"selected_items":
 				[
+					[
+						"mastodon",
+						"mastodon_nodo"
+					],
+					[
+						"mastodo",
+						"mastodon_email"
+					],
+					[
+						"back",
+						"background-color\t(_extend.scss)"
+					],
+					[
+						"posted",
+						"posted-icon\t(_extend.scss)"
+					],
+					[
+						"invert",
+						"invert-color\t(_helpers.scss)"
+					],
+					[
+						"command",
+						"command"
+					],
+					[
+						"fom",
+						"format"
+					],
+					[
+						"videot",
+						"videotype\t(youtube_client.js)"
+					],
+					[
+						"videoli",
+						"videolicense\t(youtube_client.js)"
+					],
+					[
+						"vide",
+						"videoduration\t(youtube_client.js)"
+					],
+					[
+						"videodimen",
+						"videodimension\t(youtube_client.js)"
+					],
+					[
+						"videodef",
+						"videodefinition\t(youtube_client.js)"
+					],
+					[
+						"videocap",
+						"videocaption\t(youtube_client.js)"
+					],
+					[
+						"sear",
+						"search_time_string"
+					],
+					[
+						"order",
+						"orderby"
+					],
+					[
+						"json_",
+						"json_encode"
+					],
+					[
+						"json",
+						"json_encode"
+					],
+					[
+						"WAVE",
+						"WAVE_WIDTH"
+					],
+					[
+						"lang",
+						"language\t(evento-rss-template.php)"
+					],
+					[
+						"sus",
+						"substr"
+					],
 					[
 						"comment",
 						"comments-form"
@@ -157,10 +237,6 @@
 					[
 						"hu",
 						"hucha-icon\t(_icons.scss)"
-					],
-					[
-						"back",
-						"background-color"
 					],
 					[
 						"usu",
@@ -577,82 +653,6 @@
 					[
 						"langu",
 						"language"
-					],
-					[
-						"ex",
-						"exclude"
-					],
-					[
-						"fil",
-						"filenames"
-					],
-					[
-						"me",
-						"menu_quit"
-					],
-					[
-						"Po",
-						"PopupMenuItem"
-					],
-					[
-						"mnu_",
-						"menu_help"
-					],
-					[
-						"touc",
-						"touchpad-light-enabled"
-					],
-					[
-						"Pane",
-						"PanelMenu.Button"
-					],
-					[
-						"Panel",
-						"PanelMenuButton"
-					],
-					[
-						"meter",
-						"metering_mode"
-					],
-					[
-						"resolution",
-						"resolution_unit"
-					],
-					[
-						"Gai",
-						"GainControl"
-					],
-					[
-						"touchpad",
-						"touchpad-indicator-light-enabled.svg\t(applet.js)"
-					],
-					[
-						"DATA",
-						"DATA_DIR"
-					],
-					[
-						"auth",
-						"Authenticator"
-					],
-					[
-						"docume",
-						"document_out"
-					],
-					[
-						"doc",
-						"document_out"
-					],
-					[
-						"do",
-						"document_out"
-					],
-					[
-						"dou",
-						"document_out\tstatement"
-					],
-					[
-						"PdfFil",
-						"PdfFileWriter"
 					]
 				]
 			},
@@ -727,6 +727,14 @@
 				"selected_items":
 				[
 					[
+						"convert",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"spaces",
+						"Indentation: Convert to Spaces"
+					],
+					[
 						"pref",
 						"Preferences: Settings"
 					],
@@ -745,10 +753,6 @@
 					[
 						"insta",
 						"Package Control: Install Package"
-					],
-					[
-						"spaces",
-						"Indentation: Convert to Spaces"
 					],
 					[
 						"prefere",
@@ -823,18 +827,31 @@
 			},
 			"file_history":
 			[
+				"/tmp/fz3temp-2/wp-config.php",
+				"/tmp/fz3temp-2/eea3866a-8c38-430b-8ccf-7465f89d9a33.php",
+				"/home/lorenzo/Escritorio/vim_modificada.svg",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/post-views.php",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/admin-theme.php",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/pages/_extend.scss",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/footer.php",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/components/_wordpress.scss",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/template-parts/content.php",
+				"/tmp/fz3temp-2/telegram.php",
+				"/datos/Sync/Programacion/Wallpapers/halloween-2017/generate_kde_gnome_mate_wallpapers.py",
+				"/datos/Sync/Programacion/Python/wallpapers-by-linux-pictures/generate_kde_gnome_mate_wallpapers.py",
+				"/home/lorenzo/.local/share/gnome-shell/extensions/youtube-search-provider@atareao.es/po/messages.pot",
+				"/datos/dotfiles/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+				"/home/lorenzo/.local/share/gnome-shell/extensions/youtube-search-provider@atareao.es/icons/youtube.svg",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/podcast-rss-template.php.back",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/vendors/html2text/Html2TextException.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/vendors/html2text/Html2Text.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/functions.php",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/footer.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/style.scss",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/abstracts/_variables.scss",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/pages/_extend.scss",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/base/_typography.scss",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/style.css",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/languages/gnulinuxvalencia.pot",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/template-tags.php",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/template-parts/content.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/template-parts/content-evento.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/rss.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/evento-rss-template.php",
@@ -937,32 +954,17 @@
 				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-13.svg",
 				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-14.svg",
 				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-15.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-16.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-17.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-18.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-19.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-20.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-21.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-22.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-23.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-24.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-25.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-26.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-27.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-28.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-29.svg"
+				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-16.svg"
 			],
 			"find":
 			{
-				"height": 44.0
+				"height": 28.0
 			},
 			"find_in_files":
 			{
 				"height": 175.0,
 				"where_history":
 				[
-					"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org",
-					"<project>"
 				]
 			},
 			"find_state":
@@ -970,27 +972,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"p, article",
-					"p article",
-					"p .article",
-					"comments-area",
-					"table",
-					"them",
-					"getCurrentUrl",
-					"$post->ID",
-					"filesize",
-					"url",
-					"ogg",
-					"duration",
-					":\n",
-					"license",
-					"leave a comment",
-					"Continue reading",
-					"$font__text-title-base-size",
-					".logo",
-					".menu-item",
-					".menu-item > a",
-					".menu-item"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -998,8 +979,6 @@
 				"regex": false,
 				"replace_history":
 				[
-					"$postID",
-					"$font__text-title-base-mobile-size"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -1009,7 +988,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 32.0
+				"height": 28.0
 			},
 			"input":
 			{
@@ -1031,7 +1010,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 80.0
+				"height": 52.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1065,13 +1044,13 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 298.0,
+			"side_bar_width": 288.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1306.0
+		"new_window_width": 1089.0
 	},
 	"windows":
 	[
@@ -1080,6 +1059,78 @@
 			{
 				"selected_items":
 				[
+					[
+						"mastodon",
+						"mastodon_nodo"
+					],
+					[
+						"mastodo",
+						"mastodon_email"
+					],
+					[
+						"back",
+						"background-color\t(_extend.scss)"
+					],
+					[
+						"posted",
+						"posted-icon\t(_extend.scss)"
+					],
+					[
+						"invert",
+						"invert-color\t(_helpers.scss)"
+					],
+					[
+						"command",
+						"command"
+					],
+					[
+						"fom",
+						"format"
+					],
+					[
+						"videot",
+						"videotype\t(youtube_client.js)"
+					],
+					[
+						"videoli",
+						"videolicense\t(youtube_client.js)"
+					],
+					[
+						"vide",
+						"videoduration\t(youtube_client.js)"
+					],
+					[
+						"videodimen",
+						"videodimension\t(youtube_client.js)"
+					],
+					[
+						"videodef",
+						"videodefinition\t(youtube_client.js)"
+					],
+					[
+						"videocap",
+						"videocaption\t(youtube_client.js)"
+					],
+					[
+						"sear",
+						"search_time_string"
+					],
+					[
+						"order",
+						"orderby"
+					],
+					[
+						"json_",
+						"json_encode"
+					],
+					[
+						"json",
+						"json_encode"
+					],
+					[
+						"WAVE",
+						"WAVE_WIDTH"
+					],
 					[
 						"lang",
 						"language\t(evento-rss-template.php)"
@@ -1103,10 +1154,6 @@
 					[
 						"hu",
 						"hucha-icon\t(_icons.scss)"
-					],
-					[
-						"back",
-						"background-color"
 					],
 					[
 						"usu",
@@ -1523,293 +1570,102 @@
 					[
 						"langu",
 						"language"
-					],
-					[
-						"ex",
-						"exclude"
-					],
-					[
-						"fil",
-						"filenames"
-					],
-					[
-						"me",
-						"menu_quit"
-					],
-					[
-						"Po",
-						"PopupMenuItem"
-					],
-					[
-						"mnu_",
-						"menu_help"
-					],
-					[
-						"touc",
-						"touchpad-light-enabled"
-					],
-					[
-						"Pane",
-						"PanelMenu.Button"
-					],
-					[
-						"Panel",
-						"PanelMenuButton"
-					],
-					[
-						"meter",
-						"metering_mode"
-					],
-					[
-						"resolution",
-						"resolution_unit"
-					],
-					[
-						"Gai",
-						"GainControl"
-					],
-					[
-						"touchpad",
-						"touchpad-indicator-light-enabled.svg\t(applet.js)"
-					],
-					[
-						"DATA",
-						"DATA_DIR"
-					],
-					[
-						"auth",
-						"Authenticator"
-					],
-					[
-						"docume",
-						"document_out"
-					],
-					[
-						"doc",
-						"document_out"
-					],
-					[
-						"do",
-						"document_out"
 					]
 				]
 			},
 			"buffers":
 			[
 				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/custom-post-types.php",
-					"settings":
-					{
-						"buffer_size": 12610,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/pages/_extend.scss",
-					"settings":
-					{
-						"buffer_size": 12062,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/admin-theme.php",
-					"settings":
-					{
-						"buffer_size": 5975,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/functions.php",
-					"settings":
-					{
-						"buffer_size": 5988,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/templates/contactar.php",
-					"settings":
-					{
-						"buffer_size": 8001,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "RewriteEngine On\nRewriteCond %{ENV:HTTPS} !on [NC]\nRewriteCond %{HTTP_HOST} ^gnulinuxvalencia\\.org$ [OR]\nRewriteCond %{HTTP_HOST} ^www\\.gnulinuxvalencia\\.org$\nRewriteRule ^(.*)$ https://gnulinuxvalencia.org/$1 [R=301,L,NE]\n\n# BEGIN WordPress\n<IfModule mod_rewrite.c>\nRewriteEngine On\nRewriteBase /\nRewriteRule ^index\\.php$ - [L]\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteCond %{REQUEST_FILENAME} !-d\nRewriteRule . /index.php [L]\n</IfModule>\n\n# END WordPress\n\nRedirect 301 /feed https://gnulinuxvalencia.org/todo-el-feed/\nRedirect 301 /podcasts/feed https://gnulinuxvalencia.org/podcasts-feed/\nRedirect 301 /eventos/feed https://gnulinuxvalencia.org/eventos-feed/",
-					"file": "/tmp/fz3temp-2/.htaccess",
-					"file_size": 663,
-					"file_write_time": 131755168940025319,
-					"settings":
-					{
-						"buffer_size": 663,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/template-parts/content-podcast.php",
-					"settings":
-					{
-						"buffer_size": 2455,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/evento-rss-template.php",
-					"settings":
-					{
-						"buffer_size": 6045,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/general-rss-template.php",
-					"settings":
-					{
-						"buffer_size": 8413,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/footer.php",
-					"settings":
-					{
-						"buffer_size": 4230,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/components/_icons.scss",
-					"settings":
-					{
-						"buffer_size": 26166,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/style.css",
-					"settings":
-					{
-						"buffer_size": 95185,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
 					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/single-podcast.php",
 					"settings":
 					{
 						"buffer_size": 854,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/datos/Sync/Programacion/Telegram/senderbot/src/tweeter.py",
+					"settings":
+					{
+						"buffer_size": 78,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/datos/Sync/Programacion/Telegram/senderbot/src/reporterbot.py",
+					"settings":
+					{
+						"buffer_size": 15119,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/templates/apuntar.php",
+					"file": "/datos/Sync/Programacion/Telegram/senderbot/src/sendertweet.py",
 					"settings":
 					{
-						"buffer_size": 16369,
+						"buffer_size": 5578,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/podcast-rss-template.php",
+					"file": "/datos/Sync/Programacion/gnome-shell/disk-space-usage@atareao.es/extension.js",
 					"settings":
 					{
-						"buffer_size": 7460,
+						"buffer_size": 8056,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/podcasts-mp3-rss-template.php",
+					"file": "/datos/Sync/Programacion/gnome-shell/disk-space-usage@atareao.es/dsu.js",
 					"settings":
 					{
-						"buffer_size": 7353,
+						"buffer_size": 2573,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/lorenzo/Escritorio/anchor.xml",
+					"settings":
+					{
+						"buffer_size": 25144,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "#!/bin/bash\ntitulo_linea_1=$1\ntitulo_linea_2=$2\nimagen_de_fondo=$3\naudio=$4\nwidth=$5\n\nconvert $3 -resize 640x480 temporal.jpg\nconvert temporal.jpg -font Ubuntu -weight 700 -pointsize 48 -draw \"fill yellow text 10, 400 '$1'\" temporal.jpg\nconvert temporal.jpg -font Ubuntu -weight 700 -pointsize 48 -draw \"fill yellow text 10, 450 '$2'\" temporal.jpg\nffmpeg -loop 1 -i temporal.jpg -i $4 -c:v libx264 -tune stillimage -c:a libmp3lame -b:a 192k -pix_fmt yuv420p -shortest temporal_video.mp4\nffmpeg -i $4 -filter_complex \"[0:a]showwaves=s=640x480:mode=cline,format=yuv420p[v]\" -map \"[v]\" -map 0:a -c:v libx264 -an temporal_onda.mp4\nffmpeg -i temporal_video.mp4 -i temporal_onda.mp4 -filter_complex \" \\\n  [0:v]setpts=PTS-STARTPTS, scale=640x480[top]; \\\n  [1:v]setpts=PTS-STARTPTS, scale=640x480, \\\n  format=yuva420p,colorchannelmixer=aa=0.5[bottom]; \\\n  [top][bottom]overlay=shortest=1\" -c:a libmp3lame -c:v libx264 resultado.mp4\nrm temporal.jpg\nrm temporal_video.mp4\nrm temporal_onda.mp4\n",
-					"file": "/home/lorenzo/Escritorio/audio_to_video.sh",
-					"file_size": 974,
-					"file_write_time": 131755551787992410,
+					"file": "/home/lorenzo/Escritorio/original.xml",
 					"settings":
 					{
-						"buffer_size": 983,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/lorenzo/Escritorio/audio_wave.sh",
-					"settings":
-					{
-						"buffer_size": 3096,
+						"buffer_size": 87621,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/lorenzo/.local/share/gnome-shell/extensions/moon-calendar@atareao.es/extension.js",
+					"file": "/tmp/fz3temp-2/.htaccess",
 					"settings":
 					{
-						"buffer_size": 8637,
+						"buffer_size": 220590,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "Package Control Messages\n========================\n\nWordPress Completions\n---------------------\n\n  Version 4.9.7+1.0\n  -----------------------------------------\n  \n  WordPress 4.9.7\n",
+					"contents": "Package Control Messages\n========================\n\nGitGutter\n---------\n\n  1.9.4:\n  \n    Fix:\n     - avoid line height shifting by displaying annotations (#518)\n  \n  \n  💛 Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n  \n  🏅 ⭐ ES6 ⭐\n  \n  👉 ES6.io/friend/GITGUTTER\n  \n  🏅 ⭐ Sublime Text Book ⭐\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  \n  🏅 ⭐ React For Beginners ⭐\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  \n  \n  Join 15,000 other developers already learning with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n\n\nTypeScript\n----------\n\n  Welcome to the TypeScript plugin for Sublime Text!\n  \n  Details about this package and its feature can be found on its GitHub\n  repository at https://github.com/Microsoft/TypeScript-Sublime-Plugin.\n  \n  # Fundamental Updates\n  \n  v3.1.1 introduces brings and update to TypeScript v3.1.1, and\n  fixes various syntax highlighting issues.\n  \n  # Refactoring\n  \n  v3.1.1 also introduces refactoring functionality! This can be triggered by\n  \n  1. selecting a range of text, or placing the cursor on a location that can be refactored\n  2. invoking the Sublime Quick Panel,\n  3. requesting 'TypeScript: Refactor' and finally\n  4. selecting any refactor that is available.\n",
 					"settings":
 					{
-						"buffer_size": 181,
+						"buffer_size": 1569,
 						"line_ending": "Unix",
 						"name": "Package Control Messages",
 						"read_only": true,
 						"scratch": true
 					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/rss.php",
-					"settings":
-					{
-						"buffer_size": 731,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/search.php",
-					"settings":
-					{
-						"buffer_size": 1176,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/lc-functions-extras.php",
-					"settings":
-					{
-						"buffer_size": 10145,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
 				}
 			],
-			"build_system": "Packages/SASS Build/SASS - Compressed.sublime-build",
+			"build_system": "",
 			"build_system_choices":
 			[
 				[
@@ -1881,6 +1737,14 @@
 				"selected_items":
 				[
 					[
+						"convert",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"spaces",
+						"Indentation: Convert to Spaces"
+					],
+					[
 						"pref",
 						"Preferences: Settings"
 					],
@@ -1899,10 +1763,6 @@
 					[
 						"insta",
 						"Package Control: Install Package"
-					],
-					[
-						"spaces",
-						"Indentation: Convert to Spaces"
 					],
 					[
 						"prefere",
@@ -1978,37 +1838,39 @@
 			"expanded_folders":
 			[
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/images",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/languages",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/layouts",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/abstracts",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/base",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/components",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/layout",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/pages",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/themes",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/vendors",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/template-parts",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/templates"
 			],
 			"file_history":
 			[
+				"/tmp/fz3temp-2/.htaccess",
+				"/tmp/fz3temp-2/wp-config.php",
+				"/tmp/fz3temp-2/wplv-config.php",
+				"/tmp/fz3temp-2/wp-config 2.php",
+				"/tmp/fz3temp-2/load.php",
+				"/tmp/fz3temp-2/eea3866a-8c38-430b-8ccf-7465f89d9a33.php",
+				"/home/lorenzo/Escritorio/vim_modificada.svg",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/post-views.php",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/admin-theme.php",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/pages/_extend.scss",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/footer.php",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/components/_wordpress.scss",
+				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/template-parts/content.php",
+				"/tmp/fz3temp-2/telegram.php",
+				"/datos/Sync/Programacion/Wallpapers/halloween-2017/generate_kde_gnome_mate_wallpapers.py",
+				"/datos/Sync/Programacion/Python/wallpapers-by-linux-pictures/generate_kde_gnome_mate_wallpapers.py",
+				"/home/lorenzo/.local/share/gnome-shell/extensions/youtube-search-provider@atareao.es/po/messages.pot",
+				"/datos/dotfiles/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+				"/home/lorenzo/.local/share/gnome-shell/extensions/youtube-search-provider@atareao.es/icons/youtube.svg",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/podcast-rss-template.php.back",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/vendors/html2text/Html2TextException.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/vendors/html2text/Html2Text.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/functions.php",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/footer.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/style.scss",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/abstracts/_variables.scss",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/pages/_extend.scss",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/base/_typography.scss",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/style.css",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/languages/gnulinuxvalencia.pot",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/template-tags.php",
-				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/template-parts/content.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/template-parts/content-evento.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/rss.php",
 				"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/evento-rss-template.php",
@@ -2107,78 +1969,26 @@
 				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-09.svg",
 				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-10.svg",
 				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-11.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-12.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-13.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-14.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-15.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-16.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-17.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-18.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-19.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-20.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-21.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-22.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-23.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-24.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-25.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-26.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-27.svg",
-				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-28.svg"
+				"/datos/Sync/Programacion/Python/pomodoro-indicator/data/icons/pomodoro-indicator-light-12.svg"
 			],
 			"find":
 			{
-				"height": 31.0
+				"height": 28.0
 			},
 			"find_in_files":
 			{
 				"height": 175.0,
 				"where_history":
 				[
-					"/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org",
-					"<project>"
 				]
 			},
 			"find_state":
 			{
-				"case_sensitive": true,
+				"case_sensitive": false,
 				"find_history":
 				[
-					"TITULO",
-					"WIDTH",
-					"$height",
-					"$width",
-					"480",
-					"640",
-					"]]",
-					"![CDATA[",
-					"[CDATA[",
-					"concact_email",
-					"admin_email",
-					"$email",
-					"admin_e",
-					"correo",
-					"wporg",
-					"p, article",
-					"p article",
-					"p .article",
-					"comments-area",
-					"table",
-					"them",
-					"getCurrentUrl",
-					"$post->ID",
-					"filesize",
-					"url",
-					"ogg",
-					"duration",
-					":\n",
-					"license",
-					"leave a comment",
-					"Continue reading",
-					"$font__text-title-base-size",
-					".logo",
-					".menu-item",
-					".menu-item > a",
-					".menu-item"
+					"GLib",
+					"ini_set"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -2186,16 +1996,6 @@
 				"regex": false,
 				"replace_history":
 				[
-					"TITLE",
-					"$HEIGHT",
-					"$WIDTH",
-					"$height",
-					"$width",
-					"",
-					"concact_email",
-					"admin_settings",
-					"$postID",
-					"$font__text-title-base-mobile-size"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -2212,380 +2012,13 @@
 			"groups":
 			[
 				{
-					"selected": 19,
+					"selected": 8,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/custom-post-types.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 12610,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5774,
-										5774
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 7635.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 9,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/pages/_extend.scss",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 12062,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										11374,
-										11374
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 8805.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 15,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/admin-theme.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 5975,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1948,
-										1948
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"open_with_edit": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 3630.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 10,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/functions.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 5988,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5835,
-										5835
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 3050.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 13,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/templates/contactar.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 8001,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										743,
-										743
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 66.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 12,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/tmp/fz3temp-2/.htaccess",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 663,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										657,
-										657
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": false,
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 11,
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/template-parts/content-podcast.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2455,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										193,
-										193
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 771.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 22,
-							"type": "text"
-						},
-						{
-							"buffer": 7,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/evento-rss-template.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 6045,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5996,
-										5996
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 2327.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 21,
-							"type": "text"
-						},
-						{
-							"buffer": 8,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/general-rss-template.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 8413,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										156,
-										156
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 14,
-							"type": "text"
-						},
-						{
-							"buffer": 9,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/footer.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 4230,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										667,
-										667
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 268.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 19,
-							"type": "text"
-						},
-						{
-							"buffer": 10,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/sass/components/_icons.scss",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 26166,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										2467,
-										2467
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 18,
-							"type": "text"
-						},
-						{
-							"buffer": 11,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/style.css",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 95185,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										95185,
-										95185
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/CSS/CSS.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 16,
-							"type": "text"
-						},
-						{
-							"buffer": 12,
 							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/single-podcast.php",
-							"semi_transient": false,
+							"semi_transient": true,
 							"settings":
 							{
 								"buffer_size": 854,
@@ -2595,8 +2028,8 @@
 								"selection":
 								[
 									[
-										685,
-										685
+										0,
+										0
 									]
 								],
 								"settings":
@@ -2610,170 +2043,16 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 17,
+							"stack_index": 9,
 							"type": "text"
 						},
 						{
-							"buffer": 13,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/templates/apuntar.php",
+							"buffer": 1,
+							"file": "/datos/Sync/Programacion/Telegram/senderbot/src/tweeter.py",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 16369,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										11556,
-										11556
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 2320.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 20,
-							"type": "text"
-						},
-						{
-							"buffer": 14,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/podcast-rss-template.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 7460,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3263,
-										3263
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 1275.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 5,
-							"type": "text"
-						},
-						{
-							"buffer": 15,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/feed/podcasts-mp3-rss-template.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 7353,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3263,
-										3263
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"open_with_edit": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 704.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 16,
-							"file": "/home/lorenzo/Escritorio/audio_to_video.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 983,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										983,
-										983
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": false,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 17,
-							"file": "/home/lorenzo/Escritorio/audio_wave.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3096,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										2694,
-										2694
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": false,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 1254.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 18,
-							"file": "/home/lorenzo/.local/share/gnome-shell/extensions/moon-calendar@atareao.es/extension.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 8637,
+								"buffer_size": 78,
 								"regions":
 								{
 								},
@@ -2786,99 +2065,7 @@
 								],
 								"settings":
 								{
-									"git_gutter_is_enabled": false,
-									"syntax": "Packages/JavaScript Ultimate/javascript.dom.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 1914.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 19,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 181,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										181,
-										181
-									]
-								],
-								"settings":
-								{
-									"auto_indent": false,
-									"default_dir": "/home/lorenzo/.local/share/gnome-shell/extensions/moon-calendar@atareao.es",
-									"git_gutter_is_enabled": false,
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_width": 2,
-									"word_wrap": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 20,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/rss.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 731,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										208,
-										208
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 6,
-							"type": "text"
-						},
-						{
-							"buffer": 21,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/search.php",
-							"semi_transient": true,
-							"settings":
-							{
-								"buffer_size": 1176,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"translate_tabs_to_spaces": false
+									"syntax": "Packages/Python/Python.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -2888,34 +2075,244 @@
 							"type": "text"
 						},
 						{
-							"buffer": 22,
-							"file": "/datos/Sync/Programacion/Wordpress/gnulinuxvalencia.org/inc/lc-functions-extras.php",
+							"buffer": 2,
+							"file": "/datos/Sync/Programacion/Telegram/senderbot/src/reporterbot.py",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 10145,
+								"buffer_size": 15119,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										8416,
-										8416
+										0,
+										0
 									]
 								],
 								"settings":
 								{
 									"git_gutter_is_enabled": true,
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"syntax": "Packages/Python/Python.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/datos/Sync/Programacion/Telegram/senderbot/src/sendertweet.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5578,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1193,
+										1218
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/Python/Python.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 342.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/datos/Sync/Programacion/gnome-shell/disk-space-usage@atareao.es/extension.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8056,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1132,
+										1132
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/JavaScript Ultimate/javascript.dom.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 3432.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/datos/Sync/Programacion/gnome-shell/disk-space-usage@atareao.es/dsu.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2573,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/JavaScript Ultimate/javascript.dom.sublime-syntax",
 									"tab_size": 4,
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 4048.0,
+								"translation.y": 400.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 7,
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/lorenzo/Escritorio/anchor.xml",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 25144,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										301,
+										301
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/XML/XML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/lorenzo/Escritorio/original.xml",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 87621,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										40,
+										40
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/XML/XML.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/tmp/fz3temp-2/.htaccess",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 220590,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										210790,
+										210790
+									]
+								],
+								"settings":
+								{
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 45053.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1569,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1569,
+										1569
+									]
+								],
+								"settings":
+								{
+									"auto_indent": false,
+									"default_dir": "/datos/Sync/Programacion/Telegram/senderbot/src",
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 57.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -2923,7 +2320,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 31.0
+				"height": 28.0
 			},
 			"input":
 			{
@@ -2965,11 +2362,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,1920,1080",
+			"position": "0,1,0,0,0,0,0,0,0,1920,2160",
 			"project": "",
 			"replace":
 			{
-				"height": 58.0
+				"height": 52.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -3007,12 +2404,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 321.0,
+			"side_bar_width": 288.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 703,
+			"window_id": 726,
 			"workspace_name": ""
 		}
 	],
