@@ -2907,3 +2907,897 @@ ls
 less audacity.cfg 
 curl -F "url=https://oficinalibre.com/mibot/5e3937c7-0511-4af8-b4f7-57ee0f776e38" https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/setWebhook
 mosh do1
+sudo apt-get update
+sudo apt install asciinema
+ls OM*
+asciinema rec ~/prueba.cast
+cat ~/prueba.cast 
+unzip fonts.zip 
+cd Roboto
+ssh root@192.168.1.48
+node -v
+sudo apt install nodejs
+sudo apt install npm
+chmod +x dat-desktop-2.0.0-x86_64.AppImage 
+./dat-desktop-2.0.0-x86_64.AppImage 
+sudo dd if=2018-11-13-raspbian-stretch-lite.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+cd boot/
+touch ssh
+cd rootfs/
+cd etc/wpa_supplicant/
+cat wpa_supplicant.conf 
+sudo at wpa_supplicant.conf 
+wpa_passphrase 
+wpa_passphrase ONOF473
+sudo vim wpa_supplicant.conf 
+dat sync --http
+npm install -g data
+cat .npm/_logs/2018-12-01T07_31_06_088Z-debug.log 
+darktable
+npm install dat
+npm dat
+node dat
+npm install -g dat
+sudo npm install -g dat
+dat
+dat clone dat://778f8d955175c92e4ced5e4f5563f69bfec0c86cc6f670352c457943666fe639
+cd 778f8d955175c92e4ced5e4f5563f69bfec0c86cc6f670352c457943666fe639/
+mkdir data
+cd data/
+dat create
+cp ../*.img ./
+share dat
+dat share
+history grep | system
+history | grep system
+etc/systemd/system/certbot.servicenit]
+Description=Renovación dos veces al día de los certificados de Let's Encrypt's
+[Timer]
+OnCalendar=0/12:00:00
+RandomizedDelaySec=1h
+Persistent=true
+[Install]
+WantedBy=timers.target
+wget https://raw.githubusercontent.com/bluezio/ipwebcam-gst/master/prepare-videochat.sh
+chmod +x prepare-videochat.sh 
+sudo apt update && sudo apt upgrade
+sudo apt install ppa-purge
+sudo ppa-purge zanchey/asciinema
+sudo apt update
+sudo apt upgrade
+cd tmp
+vim droidcamx.sh
+chmod +x droidcamx.sh 
+./droidcamx.sh 
+lsmod
+lsmod | grep v4l
+droidcam
+droidcam-cli -h
+droidcam-cli -h 4747
+droidcam-cli -l 4747
+vim prepare-videochat.sh 
+sudo snap install skype
+sudo snap install skype --classic
+./prepare-videochat.sh 
+sudo snap remove skype
+sudo apt install wine-stable
+mosh do1
+sudo apt install wine-stable  playonlinux
+playonlinux iTunes
+playonlinux iTunesSetup.exe 
+playonlinux
+sudo touch wpa_supplicant.conf
+sudo vim wpa_supplicant.conf
+ssh pi@192.168.1.48
+exit
+java -
+sudo apt install default-jre
+java -jar ShareOnWifi.jar 
+java -jar ShareOnWifi.jar 
+mosh do1
+mariadb -u lorenzo -h 185.166.214.40 -P 3306 -p
+mariadb -u usr_phpmyadmin -h 185.166.214.40 -P 3306 -p
+ssh xalfoxsudo@185.166.214.40
+sudo vim wpa_supplicant.conf
+ssh pi@192.168.1.48
+exit
+java -
+sudo apt install default-jre
+java -jar ShareOnWifi.jar 
+mariadb -u lorenzo -h 185.166.214.40 -p
+telnet 185.166.214.40 3306
+mariad -u lorenzoc_lcc -p
+mariadb -u lorenzoc_lcc -p
+cat .ssh/config 
+mariadb -u lorenzoc_lcc -p -h 165.227.238.5
+mariadb -u root -p -h 165.227.238.5
+mariadb -u atareao -p -h 165.227.238.5
+man mariadb
+mariadb -u lorenzo -p -h 165.227.238.5 -P 8527
+mariadb -u lorenzo_cc -p -h 165.227.238.5 -P 8527
+mariadb -u atareao root -p -h 165.227.238.5 -P 8527
+mariadb -u lorenzoc_lcc -p -h 165.227.238.5 -P 8527
+mariadb -u root -p -h 165.227.238.5 -P 8527
+mosh do1
+java -jar ShareOnWifi.jar 
+mariadb
+mariadb -u usr_phpmyadmin -h 185.166.214.40 -p
+mariadb -u lorenzo -h 185.166.214.40  -p
+ssh root@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+sudo apt install nitroshare
+sudo apt-add-repository ppa:george-edison55/nitroshare
+sudo apt update
+mosh do1
+exit
+mosh do1
+https://github.com/WhatsApp/stickers.git
+git clone https://github.com/WhatsApp/stickers.git
+cd ~/.config/libreoffice/4/
+cd user/
+cd config/
+cat soffice.cfg/
+cd soffice.cfg/
+cd modules/
+cd swriter/
+cd menubar/
+ks
+cd ,,
+cd autocorr/
+cd autotext/
+cd backup/
+cd basic/
+cd Standard/
+cd database/
+cd gallery/
+cd /datos/
+cd .audacity-files/
+cd plug-ins/
+rm .audacity-files/
+rm -rf .audacity-files/
+cd Audrey/
+rm -rf Audrey/
+cd .mutt
+cat cuenta.atareao_atareao 
+cd .vscode
+cd extensions/
+cd .ansible/
+cd cp/
+cd tmp/
+cd ansible/
+cat ansible.cfg 
+cat hosts 
+cat .viminfo 
+cd .vim
+cd /datos/.vim/
+rm .vim
+rm -rf .vim
+mv /datos/.vim ./
+cd /datos/.vim
+cd dotfiles/
+mkdir .vim
+cd /datos/dotfiles/.vim
+git clone https://github.com/VundleVim/Vundle.vim.git /datos/dotfiles/.vim/bundle/Vundle.vim
+cd conf
+cd .config/
+cd libreoffice/
+cd 4/user/
+cd template/
+:q
+vim linker.py 
+rm Plantillas
+mv /datos/Plantillas ./
+cd ~/.bash_it/lib/
+./linker.py 
+cd /datos/dotfiles/
+cp .config/libreoffice/4/user/template/Plantilla.ott Plantillas/
+gitp
+nautilus -q
+cd Escritorio
+ls *.cfg
+cp atajos_de_teclado_writer_libreoffice.cfg /datos/dotfiles/.config/libreoffice/4/user/template/
+dmesg
+sudo vim /etc/udev/rules.d/51-androud.rules
+lsusb
+cd /media/lorenzo/
+adb devices
+adb shell unzip
+cd Descargas
+ls busybox-android 
+adb push busybox-android /data/local
+adb push busybox-android /sbin
+adb push busybox-android /data/local/busybox
+adb push busybox-android /storage
+adb push busybox-android /storage/self/primary 
+adb shell /storage/self/primary/unzip
+adb shell 
+cd 
+cd temporal
+mkdir copia
+cd copia
+adb pull "/storage/self/primary/WhatsApp"
+adb push . "/storage/self/primary/"
+adb shell
+cd
+cd /datos/Sync/Programacion/Telegram/
+cd ..
+cd Python/telegram/
+ls
+./update.sh 
+ls -la
+sudo apt install devscripts
+dch -i
+dch -r
+mybuilder
+java -jar ShareOnWifi.jar 
+mariadb
+mariadb -u usr_phpmyadmin -h 185.166.214.40 -p
+mariadb -u lorenzo -h 185.166.214.40  -p
+ssh root@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+sudo apt install nitroshare
+sudo apt-add-repository ppa:george-edison55/nitroshare
+sudo apt update
+mosh do1
+exit
+mosh do1
+ssh xalfoxsudo@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+sudo apt install nitroshare
+sudo apt-add-repository ppa:george-edison55/nitroshare
+sudo apt update
+exit
+mosh do1
+cd .audacity-data/
+less audacity.cfg 
+curl -F "url=https://oficinalibre.com/mibot/5e3937c7-0511-4af8-b4f7-57ee0f776e38" https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/setWebhook
+mosh do1
+cd .bash_it
+cd custom/
+vim linker.py 
+mv /datos/.vim ./
+cd .vscode
+cd extensions/
+cd ..
+cd .config/
+cd Code
+cd User/
+cat settings.json 
+cd ~/.bash_it
+cd lib/
+./linker.py 
+cd
+ls
+cd /datos/dotfiles/.vim
+vim
+rm .vim
+ssh root@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+sudo apt install nitroshare
+sudo apt-add-repository ppa:george-edison55/nitroshare
+sudo apt update
+mosh do1
+exit
+mosh do1
+ssh xalfoxsudo@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+sudo apt install nitroshare
+sudo apt-add-repository ppa:george-edison55/nitroshare
+sudo apt update
+exit
+mosh do1
+cd .audacity-data/
+less audacity.cfg 
+curl -F "url=https://oficinalibre.com/mibot/5e3937c7-0511-4af8-b4f7-57ee0f776e38" https://api.telegram.org/bot628716580:AAFMCfqt12OoClzHnh-SMnjZDxPvU3dnVps/setWebhook
+mosh do1
+cd ~/.bash_it/lib/
+less linker.py 
+vim linker.py 
+./linker.py 
+vim
+rm .NitroShare 
+vim .vimrc
+vim 
+vim test.sh 
+ls -la
+mutt
+cd
+cd /datos/dotfiles/
+git add .
+gitp
+cd .vim/
+cd bundle/
+cd Vundle.vim/
+cd vimroom/
+cd nerdtree/
+ls
+cd ..
+cd /media/lorenzo/
+cd boot/
+touch ssh
+cd 2666ed46-1bb6-4ad7-ab5d-2ccde455c5e5/
+cd /etc/
+cd wpa_supplicant/
+cd /media/lorenzo/2666ed46-1bb6-4ad7-ab5d-2ccde455c5e5/etc/wpa_supplicant/
+wpa_passphrase ONOF473
+sudo touch wpa_supplicant.conf
+sudo vim wpa_supplicant.conf
+exit
+./test.sh 
+mkdir -P .config/systemd/user
+mkdir -p .config/systemd/user
+vim ~/.config/systemd/user/test.timer
+systemctl --user enable
+systemctl --user enable test.timer
+systemctl list-timers
+vim test.sh 
+:q
+vim ~/.config/systemd/user/test.service
+/bin/bash /home/lorenzo/test.sh 
+rm registro.log 
+vim ~/.config/systemd/user/
+systemctl --user daemon.reload
+systemctl --user start test.timer
+systemctl --user status
+cat registro.log 
+cd /usr/share/backgrounds/
+cd contest/
+vim ~/.config/systemd/user/test.service 
+vim ~/.config/systemd/user/test.timer 
+vim ~/.config/systemd/user/gbc.timer
+vim gbc.sh
+/bin/bash gbc.sh 
+systemctl --user enable gbc
+systemctl --user enable gbc.timer
+systemctl --user start gbc.timer
+systemctl status --user
+systemctl status gbc.timer
+systemctl status gbc.timer --user
+systemctl start --user gbc
+systemctl --user reload-daemon
+systemctl --user status gbc.service
+vim ~/.config/systemd/user/gbc.service
+systemctl --user daemon-reload
+systemctl --user start gbc.service
+systemctl --user list-timers all
+systemctl --user stop gbc.timer
+systemctl --user stop test.timer
+systemctl --user disable test.timer
+systemctl --user disable gbc.timer
+systemctl --user list-timers --all
+cd .config/systemd/user/
+cat test.service 
+cat test.timer
+cast gbc.service 
+cat gbc.service 
+cat gbc.timer 
+cat test.sh 
+cat gbc.sh 
+sudo snap install pocket-casts
+sudo snap install todoist-thibaut
+ssh pi@192.168.1.48
+mosh pi@rpi
+mosh ncp@rpi
+ssh ncp@rpi
+echo sudo dd if=2018-11-13-raspbian-stretch-lite.img of=/dev/mmcblk0 status=progress conv=fdatasync
+echo echo sudo dd if=NextCloudPi_RPi_11-04-18.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+echo sudo dd if=NextCloudPi_RPi_11-04-18.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+fdisk -l
+sudo fdisk -l
+unxz
+ls *.xz
+unxz OMV_4_Raspberry_Pi_2_3_3Plus.img.xz 
+sudo apt-add-repository ppa:zanchey/asciinema
+sudo apt-get update
+sudo apt install asciinema
+ls OM*
+asciinema rec ~/prueba.cast
+cat ~/prueba.cast 
+unzip fonts.zip 
+cd Roboto
+ssh root@192.168.1.48
+node -v
+sudo apt install nodejs
+sudo apt install npm
+chmod +x dat-desktop-2.0.0-x86_64.AppImage 
+./dat-desktop-2.0.0-x86_64.AppImage 
+sudo dd if=2018-11-13-raspbian-stretch-lite.img of=/dev/sdb bs=4M status=progress conv=fdatasync
+cd /media/lorenzo/
+cd boot/
+touch ssh
+cd rootfs/
+cd etc/wpa_supplicant/
+cat wpa_supplicant.conf 
+sudo at wpa_supplicant.conf 
+wpa_passphrase 
+wpa_passphrase ONOF473
+sudo vim wpa_supplicant.conf 
+dat sync --http
+npm install -g data
+cat .npm/_logs/2018-12-01T07_31_06_088Z-debug.log 
+darktable
+npm install dat
+npm dat
+node dat
+npm install -g dat
+sudo npm install -g dat
+dat
+dat clone dat://778f8d955175c92e4ced5e4f5563f69bfec0c86cc6f670352c457943666fe639
+cd 778f8d955175c92e4ced5e4f5563f69bfec0c86cc6f670352c457943666fe639/
+mkdir data
+cd data/
+dat create
+cp ../*.img ./
+share dat
+dat share
+history grep | system
+history | grep system
+etc/systemd/system/certbot.servicenit]
+Description=Renovación dos veces al día de los certificados de Let's Encrypt's
+[Timer]
+OnCalendar=0/12:00:00
+RandomizedDelaySec=1h
+Persistent=true
+[Install]
+WantedBy=timers.target
+wget https://raw.githubusercontent.com/bluezio/ipwebcam-gst/master/prepare-videochat.sh
+chmod +x prepare-videochat.sh 
+sudo apt update && sudo apt upgrade
+sudo apt install ppa-purge
+sudo ppa-purge zanchey/asciinema
+cd tmp
+vim droidcamx.sh
+chmod +x droidcamx.sh 
+./droidcamx.sh 
+lsmod
+lsmod | grep v4l
+droidcam
+droidcam-cli -h
+droidcam-cli -h 4747
+droidcam-cli -l 4747
+vim prepare-videochat.sh 
+sudo snap install skype
+sudo snap install skype --classic
+./prepare-videochat.sh 
+sudo snap remove skype
+sudo apt install wine-stable
+sudo apt install wine-stable  playonlinux
+playonlinux iTunes
+playonlinux iTunesSetup.exe 
+playonlinux
+sudo touch wpa_supplicant.conf
+sudo vim wpa_supplicant.conf
+ssh pi@192.168.1.48
+exit
+java -
+sudo apt install default-jre
+java -jar ShareOnWifi.jar 
+java -jar ShareOnWifi.jar 
+mariadb -u lorenzo -h 185.166.214.40 -P 3306 -p
+mariadb -u usr_phpmyadmin -h 185.166.214.40 -P 3306 -p
+ssh xalfoxsudo@185.166.214.40
+sudo vim wpa_supplicant.conf
+ssh pi@192.168.1.48
+exit
+java -
+sudo apt install default-jre
+java -jar ShareOnWifi.jar 
+mariadb -u lorenzo -h 185.166.214.40 -p
+telnet 185.166.214.40 3306
+mariad -u lorenzoc_lcc -p
+mariadb -u lorenzoc_lcc -p
+cat .ssh/config 
+mariadb -u lorenzoc_lcc -p -h 165.227.238.5
+mariadb -u root -p -h 165.227.238.5
+mariadb -u atareao -p -h 165.227.238.5
+man mariadb
+mariadb -u lorenzo -p -h 165.227.238.5 -P 8527
+mariadb -u lorenzo_cc -p -h 165.227.238.5 -P 8527
+mariadb -u atareao root -p -h 165.227.238.5 -P 8527
+mariadb -u lorenzoc_lcc -p -h 165.227.238.5 -P 8527
+mariadb -u root -p -h 165.227.238.5 -P 8527
+java -jar ShareOnWifi.jar 
+mariadb
+mariadb -u usr_phpmyadmin -h 185.166.214.40 -p
+mariadb -u lorenzo -h 185.166.214.40  -p
+ssh root@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+ssh xalfoxsudo@185.166.214.40
+sudo apt install nitroshare
+sudo apt-add-repository ppa:george-edison55/nitroshare
+exit
+chmod +x open_with_linux.py 
+chmod u+x open_with_linux.py 
+./open_with_linux.py 
+scp do1:mumble_scripts.tar.gz ./
+scp do1:mibot.tar.gz ./
+/datos/Sync/Programacion/
+cd Telegram/
+mkdir mibot
+cd mibot/
+mv ~/Descargas/mibot.tar.gz ./
+mv ~/Descargas/mumble_scripts.tar.gz ./
+tar xvzf mibot.tar.gz 
+tar xvzf mumble_scripts.tar.gz 
+mv home/lorenzo/mumble_scripts ./
+rm -rf home/
+mv var/www/oficinalibre.com/mibot ./
+rm -rf var/
+cd mibot
+cd env/
+sudo rm -rf env/
+rm -rf env/
+rm -rf __pycache__/ telegram.db 
+rm database.py 
+rm __pycache__/
+rm -rf __pycache__/
+cd static/
+cd templates/
+rm -rf mibot.log 
+vim app.py 
+rm app.py 
+systemctl --user list-timers
+systemctl --all list-timers
+journalctl -f -u anacron.service 
+journalctl -f -u anacron.timer
+mv mibot mumblebot
+rm mibot.tar.gz 
+rm mumble_scripts.tar.gz 
+cat info.sh 
+cat start.sh 
+cat stop.sh 
+mv mibot.ini mumblebot.ini
+cat wsgi.py 
+cat mumblebot.ini 
+vim mumblebot.ini 
+ls -la
+cd dobot/
+vim __init__.py 
+vim telegramapi.py 
+vim wsgi.py 
+cp ../../../Python/my-weather-indicator/README ./
+cp ../../../Python/my-weather-indicator/LICENSE ./
+cp ../../../Python/my-weather-indicator/AUTHORS ./
+vim AUTHORS 
+vim LICENSE 
+cd mumble_scripts/
+vim start.sh 
+vim stop.sh 
+vim README
+cd mumble
+cd mumblebot/
+vm AUTHORS ../
+mv AUTHORS ../
+mv LICENSE ../
+mv README ../
+vim README 
+git init
+git add .
+git add remote git@github.com:atareao/mumblebot.git
+git remote add origin git@github.com:atareao/mumblebot.git
+git commit -m "First release"
+git push -u origin master
+git pull
+cd Descargas
+rm -rf Face2Face_*
+rm -rf dukto_6.0-1_amd64.deb 
+rm -rf draftSight.deb 
+rm -rf 2018-11-13-raspbian-stretch-lite.*
+rm -rf sendanywhere_latest_amd64*
+rm -rf firefox-65.0b1.tar.bz2 
+rm -rf Screenshot_2018-1*
+rm -rf 'Segobriga Rural (Cartel op3).svg' 
+rm -rf ShareOnWifi-OTHER.zip 
+history grep dd
+history | grep dd
+tar xvJfO OMV_4_Raspberry_Pi_2_3_3Plus.img | dd of=/dev/sdb bs=4M status=progress conv=fdatasync
+tar xvJfO OMV_4_Raspberry_Pi_2_3_3Plus.img | sudo dd of=/dev/sdb bs=4M status=progress conv=fdatasync
+sudo su -
+tar xvJfO OMV_4_Raspberry_Pi_2_3_3Plus.img.xz | sudo dd of=/dev/sdb bs=4M status=progress conv=fdatasync
+man unxz
+xzcat OMV_4_Raspberry_Pi_2_3_3Plus.img.xz | sudo dd of=/dev/sdb bs=4M status=progress conv=fdatasync
+mkdir dev_env
+vim docker-compose.yml
+sudo apt install docker-compose
+sudo vim docker-compose.yml 
+docker-compose logs -f
+docker-compose logs stop
+docker-compose up up -d
+docker-compose up  -d
+cd wp-content/
+cd themes/
+docker-compose up  stop
+docker-compose up
+docker
+docker container
+docker container ls
+docker run --name dda5edf116e8 wp
+docker run --name dda5edf116e8 wp install quark
+docker exec dda5edf116e8 wp install quark
+docker exec dda5edf116e8 wp theme install quark
+docker exec dda5edf116e8 wp
+docker exec dda5edf116e8 wp plugin
+docker exec dda5edf116e8 wp plugin update --all
+docker exec dda5edf116e8 wp theme update --all
+docker exec dda5edf116e8 wp core
+docker exec dda5edf116e8 wp core update
+docker exec dda5edf116e8 wp plugin ls
+docker exec dda5edf116e8 wp plugin delete hello
+docker exec dda5edf116e8 wp plugin delete akismet
+docker compose stop
+docker image remove
+docker image rm *
+docker image rm
+bash-it
+bash-it aliases
+bash-it help aliases
+bash-it aliases enable
+bash-it enable aliases docker-compose
+bash-it enable alias docker-compose
+bash-it show aliases
+rm wp*
+sudo rm wp*
+sudo rm -rf wp*
+sudo rm .htaccess index.php license.txt readme.html xmlrpc.php 
+docker ls images
+docker images list
+docker 
+docker image list
+docker image remove all
+docker image remove --all
+docker image rm --help
+docker rm $(docker ps -a -q)
+docker rmi $(docker images -q)
+docker-compose up -d
+docker exec
+docker exec wp-cli
+docker container list
+docker container 459ac8a140b6 exec wp-cli
+docker container exec 459ac8a140b6 exec wp-cli
+docker exec 459ac8a140b6 exec wp-cli
+docker exec dda5edf116e8 wp plugin list
+docker exec 459ac8a140b6 wp plugin list
+docker exec 459ac8a140b6 wpcli plugin list
+docker exec 459ac8a140b6 wp-cli plugin list
+vim docker-compose.yml 
+docker-compose run --rm my-wpcli
+docker exec 459ac8a140b6 wp
+docker exec 459ac8a140b6 wp-cli
+docker-compose run --rm my-wpcli --info
+less docker-compose.yml 
+mosh do1
+cd /datos/Sync/Programacion/
+cd Wordpress/
+cd dev_env/
+docker-compose stop
+killall gnome-software
+killall snapd
+sudo apt remove nitroshare
+mkdir .audacity-files
+cd .audacity-files/
+mkdir plug-ins
+cp ../.audacity-data/Plug-Ins/compress.ny ./plug-ins/
+cd plug-ins/
+mv compress.ny compress.ny.old
+sudo apt install libttspico-utils
+pico2wave "Hola" -l es-ES
+pico2wave "Hola" -l es-ES --wave=test.wav
+cd temporal
+pico2wave
+pico2wave "Hola" --lang=es-ES --wave=test.wav
+pico2wave --lang=es-ES --wave=test.wav hola
+pico2wave --lang=es-ES --wave=test.wav "hola amigo"
+sudo apt install sox libsox-fmt-mp3
+sox
+vim speak.pl
+vim input.txt
+chmod +x speak.pl 
+/speak.pl es input.txt output.mp3
+sudo apt-get install libwww-perl libhtml-tree-perl sox libsox-fmt-mp3
+sudo apt autoremove
+sudo apt install libwww-mechanize-perl 
+vim speak.pl 
+sudo apt-get install xsel libnotify-bin libttspico0 libttspico-utils libttspico-data libwww-perl libwww-mechanize-perl libhtml-tree-perl sox libsox-fmt-mp3
+./speak.pl es input.txt output.mp3
+./simple_google_tts es "Hola mundo"
+./simple_google_tts es "Vamos tío no me toques los putos cojones, cabronazo"
+cp ../input.txt ./
+./simple_google_tts es input.txt 
+ks
+./simple_google_tts es /home/lorenzo/temporal/simple-google-tts/input.txt 
+./simple_google_tts -p es /home/lorenzo/temporal/simple-google-tts/input.txt 
+cd ,,
+git clone https://github.com/desbma/GoogleSpeech
+cd GoogleSpeech/
+cd 
+vim sample.py
+chmod +x sample.py 
+cd google_speech/
+cat __init__.py 
+sudo apt install python3-appdirs
+./sample.py 
+sudo apt install python3-web_cache
+cd simple-google-tts/
+cat simple_google_tts 
+cd /tmp/
+cd -
+cd
+cd .audacity-data/
+cd Plug-Ins/
+cd ..
+cat pluginregistry.cfg 
+less audacity.cfg 
+vim audacity.cfg 
+sudo add-apt-repository sudo add-apt-repository ppa:ubuntuhandbook1/audacity
+sudo add-apt-repository ppa:ubuntuhandbook1/audacity
+cd /etc/apt/
+cd sources.list.d/
+sudo rm george-edison55-ubuntu-nitroshare-cosmic.list*
+ls
+sudo rm zanchey-ubuntu-asciinema-cosmic.list*
+sudo apt update
+sudo apt upgrade
+sudo apt install audacity
+sudo apt install libreoffice-sytle-sifr
+sudo apt install  libreoffice-style-sifr 
+mem
+sudo apt install carlito caladea
+sudo apt install fonts-croextra-carlito
+sudo apt install fonts-croesxtra-carlito
+sudo apt install fonts-crosextra-carlito fonts-crosextra-caladea
+sudo apt install libreoffice-gtk3
+sudo apt remove libreoffice-gtk2
+sudo apt remove libreoffice-gtk
+sudo apt update
+exit
+cd ~/.bash_it/custom/
+cd ..
+cd lib/
+ls
+cat custom.bash 
+mosh do1
+ssh 192.168.1.48
+ssh pi@192.168.1.48
+cd ~/.bash_it/custom/
+cd ..
+cd lib/
+cat custom.bash 
+mosh do1
+ssh 192.168.1.48
+ssh pi@192.168.1.48
+cd temporal
+cd copia/
+ls
+fu
+du WhatsApp/
+du -hlsc WhatsApp
+adb devices
+history | grep usb
+discover --vendor-id --model-id usb
+lsusb
+history | grep android
+vim /etc/udev/rules.d/51-android.rules
+adb
+sudo apt install rclone
+rclone ls
+rclone
+rclone configr
+rclone listremotes
+rclone lsd box
+rclone lsd Box:
+rclone lsd Google Drive:
+rclone config
+rclone lsd google
+rclone lsd google:
+rclone lsd google:LOGO box:
+rclone copy google:LOGO box:
+rclone copy google:LOGO box:LOGO
+rclone lsd box:
+mosh do1
+ssh 192.168.1.48
+ssh pi@192.168.1.48
+rclone config
+adb
+sudo apt install rclone
+rclone ls
+rclone
+rclone configr
+rclone listremotes
+rclone lsd box
+rclone lsd Box:
+rclone lsd Google Drive:
+rclone config
+rclone lsd google
+rclone lsd google:
+rclone lsd google:LOGO box:
+rclone copy google:LOGO box:
+rclone copy google:LOGO box:LOGO
+rclone lsd box:
+mosh do1
+ssh 192.168.1.48
+ssh pi@192.168.1.48
+rclone config
+gitfp
+python -m pip install -U "pylint<2.0.0" --user
+for i in *.ttf;do ttf2woff $i ${i/.ttf/.woff};done
+history | grep vim
+vim /usr/share/applications/typora.desktop 
+exit
+rclone ls
+rclone
+rclone configr
+rclone listremotes
+rclone lsd box
+rclone lsd Box:
+rclone lsd Google Drive:
+rclone config
+rclone lsd google
+rclone lsd google:
+rclone lsd google:LOGO box:
+rclone copy google:LOGO box:
+rclone copy google:LOGO box:LOGO
+rclone lsd box:
+mosh do1
+ssh 192.168.1.48
+ssh pi@192.168.1.48
+rclone config
+gitfp
+python -m pip install -U "pylint<2.0.0" --user
+sudo apt install pandoc
+ttf2woff
+sudo apt install ttf2woff
+npm install -g ttf2woff
+sudo npm install -g ttf2woff
+sudo npm i npm
+ttf2woff 
+history | grep vim
+cd .local/share/applications
+cat chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop 
+ls chrome*
+./chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop 
+cd ~/.local/share/icons/
+cd hicolor/
+cd scalable/
+cd 128x128/
+cd 96x96/
+cd apps/
+cd ..
+ls
+rclone lsd Google Drive:
+rclone config
+rclone lsd google
+rclone lsd google:
+rclone lsd google:LOGO box:
+rclone copy google:LOGO box:
+rclone copy google:LOGO box:LOGO
+rclone lsd box:
+mosh do1
+ssh 192.168.1.48
+ssh pi@192.168.1.48
+rclone config
+gitfp
+python -m pip install -U "pylint<2.0.0" --user
+sudo apt install pandoc
+ttf2woff
+sudo apt install ttf2woff
+npm install -g ttf2woff
+sudo npm install -g ttf2woff
+sudo npm i npm
+ttf2woff 
+history | grep vim
+cd .local/share/applications
+cat chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop 
+ls chrome*
+./chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop 
+cd ~/.local/share/icons/
+cd hicolor/
+cd scalable/
+cd 128x128/
+cd 96x96/
+cd apps/
+cd ..
+ls
+python3 converter.py 

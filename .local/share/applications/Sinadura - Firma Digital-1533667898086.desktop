@@ -1,0 +1,25 @@
+[Desktop Entry]
+Categories=
+Comment=Starts Sinadura - Firma Digital
+Comment[es]=Starts Sinadura - Firma Digital
+Encoding=UTF-8
+Exec=/home/lorenzo/sinadura/bin/sinadura.sh 
+GenericName=
+GenericName[es]=
+Icon=/home/lorenzo/sinadura/resources/images/sinadura48.png
+MimeType=
+Name=Sinadura - Firma Digital
+Name[es]=Sinadura - Firma Digital
+Path=/home/lorenzo/sinadura/
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=false
+TerminalOptions=
+Type=Application
+URL=
+X-KDE-SubstituteUID=false
+X-KDE-Username=root
+
+# created by com.izforge.izpack.util.os.Unix_Shortcut $Revision: 2452 $
+# $Id: Unix_Shortcut.java 2452 2008-12-16 10:08:10Z eppelman $

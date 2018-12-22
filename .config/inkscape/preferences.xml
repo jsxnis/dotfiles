@@ -341,8 +341,8 @@
        selcue="1"
        align_mode="1">
       <group
-         id="lineheight"
-         display_unit="9" />
+         display_unit="9"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -429,12 +429,12 @@
        offset="0"
        offsetunits="cm" />
     <group
-       id="measure"
-       fontsize="10"
-       precision="2"
-       scale="100"
+       unit="px"
        offset="5"
-       unit="px" />
+       scale="100"
+       precision="2"
+       fontsize="10"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -601,7 +601,7 @@
        rotateCounterClockwise="1"
        x="0"
        y="0"
-       w="470"
+       w="460"
        h="499"
        visible="1"
        state="2"
@@ -616,7 +616,7 @@
        align-to="4"
        x="0"
        y="0"
-       w="470"
+       w="460"
        h="499"
        visible="1"
        state="2"
@@ -651,10 +651,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1906"
-       y="216"
+       x="960"
+       y="540"
        w="675"
-       h="786"
+       h="631"
        visible="0"
        placement="1" />
     <group
@@ -698,7 +698,7 @@
        panel_border="0"
        x="0"
        y="0"
-       w="470"
+       w="460"
        h="499"
        visible="1"
        state="2"
@@ -803,22 +803,8 @@
        on-blur="0.50"
        animate-time="100" />
     <group
-       id="pixelart"
-       panel_size="1"
-       panel_ratio="100"
-       panel_mode="1"
-       panel_wrap="0"
-       panel_border="0"
-       x="0"
-       y="0"
+       h="245"
        w="450"
-       h="245" />
-    <group
-       placement="1"
-       state="2"
-       visible="0"
-       h="154"
-       w="459"
        y="0"
        x="0"
        panel_border="0"
@@ -826,7 +812,21 @@
        panel_mode="1"
        panel_ratio="100"
        panel_size="1"
-       id="livepatheffect" />
+       id="pixelart" />
+    <group
+       id="livepatheffect"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="459"
+       h="154"
+       visible="0"
+       state="2"
+       placement="1" />
   </group>
   <group
      id="printing">
@@ -1112,8 +1112,8 @@
        colorsontop="0"
        partialdynamic="0" />
     <group
-       id="spacepans"
-       value="0" />
+       value="0"
+       id="spacepans" />
     <group
        id="rendering" />
   </group>
@@ -1151,13 +1151,13 @@
      id="desktop"
      style="line-height:125%;fill:#000000;fill-opacity:1;font-size:10.66666667px;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;-inkscape-font-specification:ubuntu;font-family:ubuntu;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1;text-anchor:middle;text-align:center;fill-rule:nonzero;stroke-linecap:round;stroke-dashoffset:0">
     <group
-       width="812"
-       height="480"
+       width="1059"
+       height="619"
        x="0"
        y="27"
        fullscreen="0"
        id="geometry"
-       maximized="1" />
+       maximized="0" />
     <group
        id="XYfront" />
     <group
