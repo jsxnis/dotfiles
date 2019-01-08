@@ -15,5 +15,6 @@ image/jpeg=wine-extension-jpe.desktop;wine-extension-jfif.desktop;
 image/png=wine-extension-png.desktop;
 text/html=wine-extension-htm.desktop;
 text/plain=wine-extension-txt.desktop;
+x-scheme-handler/franz=appimagekit-franz.desktop;
 x-scheme-handler/mailto=shift-application.desktop;
-x-scheme-handler/tg=telegram-desktop.desktop;
+x-scheme-handler/tg=telegram-desktop.desktop;bettergram.desktop;

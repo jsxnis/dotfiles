@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Bettergram
+Comment=Bettergram - our free open source improved version of the Telegram desktop app
+TryExec=/datos/Escritorio/Bettergram
+Exec=/datos/Escritorio/Bettergram -- %u
+Icon=telegram
+Terminal=false
+StartupWMClass=Bettergram
+Type=Application
+Categories=Network;InstantMessaging;Qt;
+MimeType=x-scheme-handler/tg;
+X-Desktop-File-Install-Version=0.23
