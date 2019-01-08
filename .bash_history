@@ -3801,3 +3801,686 @@ cd apps/
 cd ..
 ls
 python3 converter.py 
+gitfp
+python -m pip install -U "pylint<2.0.0" --user
+sudo apt install pandoc
+ttf2woff
+sudo apt install ttf2woff
+npm install -g ttf2woff
+sudo npm install -g ttf2woff
+sudo npm i npm
+ttf2woff 
+history | grep vim
+cd .local/share/applications
+cat chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop 
+ls chrome*
+./chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop 
+cd ~/.local/share/icons/
+cd hicolor/
+cd scalable/
+cd 128x128/
+cd 96x96/
+cd apps/
+cd ..
+cp sass/style.css ./
+minify style.css 
+minify style.css  > style.css 
+minify sass/style.css ./style.css 
+minify sass/style.css > ./style.css 
+ls style.css 
+cd sass/
+cd vendors/icons/
+ls
+python3 converter.py 
+python3 converter.py 
+gitfp
+ls
+dch -r
+dch -i
+compile_extension 
+compile_extension
+gitp
+man ln
+ln -s /datos/Sync/Programacion/gnome-shell/chrome-apps@atareao.es
+cd sass/
+cd vendors/icons/
+python3 converter.py 
+python3 converter.py 
+gitfp
+cd ,,
+cd ..
+cd nautilus-renamer/
+compile_extension 
+dpkg-buildpackage -rfakeroot -us -uc -ui -S -sa
+cd
+cd Descargas
+ls
+ls gitkraken-amd64.deb 
+sudo dpkg -i gitkraken-amd64.deb 
+sudo npm install -g ttf2woff
+sudo npm i npm
+ttf2woff 
+history | grep vim
+cd .local/share/applications
+cat chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop 
+ls chrome*
+./chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop 
+cd ~/.local/share/icons/
+cd hicolor/
+cd scalable/
+cd 128x128/
+cd 96x96/
+cd apps/
+python3 converter.py 
+gitfp
+python -m pip install -U "pylint<2.0.0" --user
+sudo apt install pandoc
+ttf2woff
+sudo apt install ttf2woff
+npm install -g ttf2woff
+sudo npm install -g ttf2woff
+sudo npm i npm
+ttf2woff 
+history | grep vim
+cd .local/share/applications
+cat chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop 
+ls chrome*
+./chrome-aapocclcgogkmnckokdopfmhonfmgoek-Default.desktop 
+cd ~/.local/share/icons/
+cd hicolor/
+cd scalable/
+cd 128x128/
+cd 96x96/
+cd apps/
+cp sass/style.css ./
+minify style.css 
+minify style.css  > style.css 
+minify sass/style.css ./style.css 
+minify sass/style.css > ./style.css 
+ls style.css 
+cd sass/
+cd vendors/icons/
+python3 converter.py 
+echo "deb https://dl.bintray.com/getinsomnia/Insomnia /"     | sudo tee -a /etc/apt/sources.list.d/insomnia.list
+wget --quiet -O - https://insomnia.rest/keys/debian-public.key.asc     | sudo apt-key add -
+sudo apt-get update
+sudo ppa-purge ppa:gencfsm/ppa
+cd /etc/apt/sources.list.d/
+cat gencfsm-ubuntu-ppa-cosmic.list 
+sudo rm gencfsm-ubuntu-ppa-cosmic.list 
+sudo rm sirikali.list 
+sudo dpkg --configure -a
+sudo apt upgrade
+sudo apt install insomnia
+cd /datos/Sync/Programacion/Wordpress/
+git clone git@gitlab.com:atareao/martaprat.es.git
+cd martaprat.es/
+git add .
+git commit -m ":party: First commit"
+git push -u origin master
+10updocker
+10updocker list
+ps 
+docker pss
+docker ps
+cd /datos/Sync/Programacion/
+cd Otros/
+cd Python/
+cd Ubuntu/
+cd whatsapp-desktop/
+git removet -v
+git remote -v
+git push
+git pull
+cd ..
+rm -rf Whatsapp-Desktop/
+sudo rm -rf Whatsapp-Desktop/
+git clone git@github.com:floprock/Whatsapp-Desktop.git
+./create.sh 
+sudo ./create.sh 
+ls -la
+sudo snap install gitkraken
+sudo snap remove gitkraken
+dch -r
+mybuilder
+sudo apt update
+sudo apt install nautilus-renamer
+sudo apt install nautilus-rename
+sudo apt install nautilus-renamewget -O grv https://github.com/rgburke/grv/releases/download/v0.3.0/grv_v0.3.0_linux64
+wget -O grv https://github.com/rgburke/grv/releases/download/v0.3.0/grv_v0.3.0_linux64
+chmod +x grv 
+sudo mv grv /usr/bin
+cd Whatsapp-Desktop/
+grv
+echo $PWD
+grv -repoFilePath $PWD
+cd /usr/bin/
+sudo mv grv gitv
+cd 
+cd /datos/Sync/Programacion/Ubuntu/whatsapp-desktop/Whatsapp-Desktop/
+gjs
+cd
+cd .config/grv/
+cd -
+cd /datos/Sync/Programacion/Python/my-weather-indicator/
+ls
+vim ~/.config/grv/grvc
+gitv -v
+mv ~/.config/grv/grvc ~/.config/grv/grvrc
+gitv
+vim ~/.config/grv/grvrc
+lsexit
+exit
+vim ~/.config/grv/grvc
+gitv -v
+mv ~/.config/grv/grvc ~/.config/grv/grvrc
+vim ~/.config/grv/grvrc
+lsexit
+exit
+cd /datos/Sync/Programacion/Python/my-weather-indicator/
+gitv
+vim ~/.config/grv/grvrc 
+cd
+cd Descargas
+wget https://github.com/isacikgoz/tldr/releases/download/v.0.2.1/tldr_0.2.1_linux_amd64.tar.gz
+tar xzf tldr_0.2.1_linux_amd64.tar.gz
+chmod +x tldr
+sudo mv tldr /usr/bin/
+tldr ls
+tdlr tar 
+tldr
+ls -la
+ls ejemplo.tar 
+tldr tar
+ls
+ls ejemplo.tar*
+cd ..
+cd nautilus-renamer/
+compile_extension 
+dpkg-buildpackage -rfakeroot -us -uc -ui -S -sa
+cd Descargas
+ls gitkraken-amd64.deb 
+sudo dpkg -i gitkraken-amd64.deb 
+cd temporal
+git clone git@github.com:corecoding/Vitals.git
+ls -la
+cd Vitals/
+cp helpers/ /datos/Sync/Programacion/gnome-shell/chrome-apps@atareao.es/
+cp -r helpers/ /datos/Sync/Programacion/gnome-shell/chrome-apps@atareao.es/
+vim extension.js 
+vim sensors.js 
+cd /
+cd .local/share/applications
+ls
+cd
+cd /datos/Sync/Programacion/Python/my-weather-indicator/
+grv
+gitv
+dch -i
+compile_extension 
+compile_extension
+gitp
+ls -la
+git ignore
+helpere
+sudo apt install jq
+helpere -c
+helpere -t
+compile_extension
+gitp
+ls -la
+git ignore
+sudo apt install jq
+helpere
+helpere -u
+helpere -t
+helpere -c
+dpkg-buildpackage -rfakeroot -us -uc -ui -S -sa
+cd Descargas
+ls gitkraken-amd64.deb 
+sudo dpkg -i gitkraken-amd64.deb 
+cd temporal
+git clone git@github.com:corecoding/Vitals.git
+ls -la
+cd Vitals/
+cp helpers/ /datos/Sync/Programacion/gnome-shell/chrome-apps@atareao.es/
+cp -r helpers/ /datos/Sync/Programacion/gnome-shell/chrome-apps@atareao.es/
+vim sensors.js 
+cd /
+cd .local/share/applications
+cd /datos/Sync/Programacion/Python/my-weather-indicator/
+grv
+gitv
+dch -i
+compile_extension 
+compile_extension
+gitp
+ls -la
+git ignore
+helpere
+sudo apt install jq
+helpere -t
+ssh 192.168.1.252
+ssh 192.168.1.252:2222
+ssh -P 2222 192.168.1.252
+tldr ssh
+ssh -p 2222 192.168.1.252
+mosh do1
+mem
+cd wp-local-docker-sites/
+cd martaprat-test/
+cd wordpress/
+sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo apt update
+sudo apt upgrade
+sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+sudo apt install docker
+sudo apt install docker-ce
+apt-cache policy docker-ce
+cd /etc/apt/
+cd sources.list.d/
+cat sources.list
+apt-cache policy docker
+cd .config/google-chrome/Default/
+cd Extension
+cd Extensions
+cd
+cd .local/share/gnome-shell/extensions/
+ln -s /datos/Sync/Programacion/gnome-shell/chromeapps@atareao.es chromeapps@atareao.es
+rm chrome-apps@atareao.es 
+cd chromeapps@atareao.es
+ñs
+vim metadata.json 
+vim extension.js 
+rm gschemas.compiled 
+cd schemas/
+vim es.atareao.chromeapps.gschema.xml 
+cd ..
+helpere -c
+tldeer
+tldr tar
+clear
+ls
+llsls
+exit
+cd sass/
+cd ..
+minify sass/style.css > ./style.css 
+ls -la
+cd ..
+minify sass/style.css > ./style.css 
+find . -name *.css
+find . -iname *.css
+find . -iname .css
+find . -name .css
+tldr find
+ls -la
+ls
+exit
+ls
+find . -name '*.css'
+ls
+find . -name '*.css' -exec rm {} \;
+find . -name '*.css'
+cd Descargas
+ls
+ls Notable.1.0.1.AppImage 
+chmod +x Notable.1.0.1.AppImage 
+cd /
+cd .local/share/applications
+cd /datos/Sync/Programacion/Python/my-weather-indicator/
+grv
+gitv
+dch -i
+compile_extension 
+compile_extension
+gitp
+git ignore
+helpere
+sudo apt install jq
+helpere -t
+ssh 192.168.1.252
+ssh 192.168.1.252:2222
+ssh -P 2222 192.168.1.252
+tldr ssh
+ssh -p 2222 192.168.1.252
+mosh do1
+mem
+cd wp-local-docker-sites/
+cd martaprat-test/
+cd wordpress/
+sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo apt update
+sudo apt upgrade
+sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+sudo apt install docker
+sudo apt install docker-ce
+apt-cache policy docker-ce
+cd /etc/apt/
+cd sources.list.d/
+cat sources.list
+apt-cache policy docker
+cd .config/google-chrome/Default/
+cd Extension
+cd Extensions
+cd
+cd .local/share/gnome-shell/extensions/
+ln -s /datos/Sync/Programacion/gnome-shell/chromeapps@atareao.es chromeapps@atareao.es
+rm chrome-apps@atareao.es 
+cd chromeapps@atareao.es
+ñs
+vim metadata.json 
+vim extension.js 
+rm gschemas.compiled 
+cd schemas/
+vim es.atareao.chromeapps.gschema.xml 
+helpere -c
+tldeer
+tldr tar
+llsls
+exit
+cd sass/
+minify sass/style.css > ./style.css 
+minify sass/style.css > ./style.css 
+find . -name *.css
+find . -iname *.css
+find . -iname .css
+find . -name .css
+tldr find
+exit
+find . -name '*.css'
+find . -name '*.css' -exec rm {} \;
+find . -name '*.css'
+cd Descargas
+ls Notable.1.0.1.AppImage 
+chmod +x Notable.1.0.1.AppImage 
+cd /datos/Sync/atareao.es/
+cd articulos/
+cd podcasts/
+ls -la
+cd recursos/
+cd 2018
+mv draftsight.md ../
+mv audiowave.sh ../
+audacity 
+clear
+./audiowave.sh 
+history | grep audiowave.sh 
+ls T01E06
+ls T01E06/*
+ls 2018/T01E06/*
+python3
+chmod +x creator.py 
+echo ./audiowave.sh -t "Atareao versión podcast" -s "Sobre los complementos" -b sobre-los-complementos.jpg -a T01E05.mp3
+rm T01E06.mp3 
+vim creator.py
+rm T01E07.\ \'Sobre\ la\ automatización\ del\ hogar\'.mp4 
+./creator.py 2018/T01E06
+./creator.py 2018/T01E07
+./creator.py 2018/T01E08
+cd 2018/09
+cd 2018/T01E09
+./audiowave.sh -t 'Atareao versión podcast' -s "Sobre Cursos, eventos, asistencia y productividad" -b T01E09.jpg -a T01E09.mp3
+vim creator.py 
+./creator.py 2018/T01E09
+./creator.py 2018/T01E10
+./creator.py 2018/T01E11
+./creator.py 2018/T01E12
+./creator.py 2018/T01E13
+./creator.py 2018/T01E14
+./creator.py 2018/T01E15
+./creator.py 2018/T01E16
+./creator.py 2018/T01E17
+cd 2018/T01E18
+ls
+cd ..
+./creator.py 2018/T01E18
+./creator.py 2018/T01E19
+cd 2018/T01E18
+cd ..
+./creator.py 2018/T01E18
+./creator.py 2018/T01E19
+gitp
+minify sass/style.css > style.css 
+cp  sass/style.css style.css 
+ls
+cd Extension
+cd Extensions
+cd
+cd .local/share/gnome-shell/extensions/
+ln -s /datos/Sync/Programacion/gnome-shell/chromeapps@atareao.es chromeapps@atareao.es
+rm chrome-apps@atareao.es 
+cd chromeapps@atareao.es
+ñs
+vim metadata.json 
+vim extension.js 
+rm gschemas.compiled 
+cd schemas/
+vim es.atareao.chromeapps.gschema.xml 
+helpere -c
+tldeer
+tldr tar
+llsls
+exit
+cd sass/
+minify sass/style.css > ./style.css 
+minify sass/style.css > ./style.css 
+find . -name *.css
+find . -iname *.css
+find . -iname .css
+find . -name .css
+tldr find
+exit
+find . -name '*.css'
+find . -name '*.css' -exec rm {} \;
+find . -name '*.css'
+cd Descargas
+ls Notable.1.0.1.AppImage 
+chmod +x Notable.1.0.1.AppImage 
+cd /datos/Sync/atareao.es/
+cd articulos/
+cd podcasts/
+ls -la
+cd recursos/
+cd 2018
+mv draftsight.md ../
+mv audiowave.sh ../
+audacity 
+clear
+./audiowave.sh 
+history | grep audiowave.sh 
+ls T01E06
+ls T01E06/*
+ls 2018/T01E06/*
+python3
+chmod +x creator.py 
+echo ./audiowave.sh -t "Atareao versión podcast" -s "Sobre los complementos" -b sobre-los-complementos.jpg -a T01E05.mp3
+rm T01E06.mp3 
+vim creator.py
+rm T01E07.\ \'Sobre\ la\ automatización\ del\ hogar\'.mp4 
+./creator.py 2018/T01E06
+./creator.py 2018/T01E07
+./creator.py 2018/T01E08
+cd 2018/09
+cd 2018/T01E09
+./audiowave.sh -t 'Atareao versión podcast' -s "Sobre Cursos, eventos, asistencia y productividad" -b T01E09.jpg -a T01E09.mp3
+vim creator.py 
+./creator.py 2018/T01E09
+./creator.py 2018/T01E10
+./creator.py 2018/T01E11
+./creator.py 2018/T01E12
+./creator.py 2018/T01E13
+./creator.py 2018/T01E14
+./creator.py 2018/T01E15
+./creator.py 2018/T01E16
+./creator.py 2018/T01E17
+cd 2018/T01E18
+ls
+cd ..
+./creator.py 2018/T01E18
+./creator.py 2018/T01E19
+cd 2018/T01E18
+cd ..
+./creator.py 2018/T01E18
+./creator.py 2018/T01E19
+gitp
+minify sass/style.css > style.css 
+ls
+cp  sass/style.css style.css 
+cp  sass/style.css style.css ç
+cp  sass/style.css style.css
+mosh do1
+base64
+base64 xvz1evFS4wEEPTGEFPHBog:L8qq9PZyRg6ieKGEKhZolGC0vJWLw8iEJ88DRdyOg
+echo 'xvz1evFS4wEEPTGEFPHBog:L8qq9PZyRg6ieKGEKhZolGC0vJWLw8iEJ88DRdyOg' | base64
+echo '4xmeDyBt0mTpVmem7kkhpK34e:6EfSsiDpOoDoj1PYYBZMTZ3F9Z7YiTo7BfRPymubs0QiAs3m4P' | base64
+echo 4xmeDyBt0mTpVmem7kkhpK34e:6EfSsiDpOoDoj1PYYBZMTZ3F9Z7YiTo7BfRPymubs0QiAs3m4P | base64
+echo n8wcxwE4d52LqHmG74JSAkxqk:FZrO3uLl4IqJ2pYZ7UxjpPwMVUARCyWZNCxMIfXBSXlWtXpRye | base64
+sudo apt install ruby-dev
+sudo gem install t
+t authorize
+t
+t authorize --display-uri
+t help
+exit
+echo n8wcxwE4d52LqHmG74JSAkxqk:FZrO3uLl4IqJ2pYZ7UxjpPwMVUARCyWZNCxMIfXBSXlWtXpRye | base64
+sudo apt install ruby-dev
+t authorize
+t authorize --display-uri
+man t
+s
+cd /usr/bin/
+ls
+ls t*
+sudo gem install t
+t help
+t accounts
+t
+exit
+helpere -c
+tldeer
+tldr tar
+llsls
+exit
+cd sass/
+minify sass/style.css > ./style.css 
+minify sass/style.css > ./style.css 
+find . -name *.css
+find . -iname *.css
+find . -iname .css
+find . -name .css
+tldr find
+exit
+find . -name '*.css'
+find . -name '*.css' -exec rm {} \;
+find . -name '*.css'
+cd Descargas
+ls Notable.1.0.1.AppImage 
+chmod +x Notable.1.0.1.AppImage 
+cd /datos/Sync/atareao.es/
+cd articulos/
+cd podcasts/
+ls -la
+cd recursos/
+cd 2018
+mv draftsight.md ../
+mv audiowave.sh ../
+audacity 
+clear
+./audiowave.sh 
+history | grep audiowave.sh 
+ls T01E06
+ls T01E06/*
+ls 2018/T01E06/*
+python3
+chmod +x creator.py 
+echo ./audiowave.sh -t "Atareao versión podcast" -s "Sobre los complementos" -b sobre-los-complementos.jpg -a T01E05.mp3
+rm T01E06.mp3 
+vim creator.py
+rm T01E07.\ \'Sobre\ la\ automatización\ del\ hogar\'.mp4 
+./creator.py 2018/T01E06
+./creator.py 2018/T01E07
+./creator.py 2018/T01E08
+cd 2018/09
+cd 2018/T01E09
+./audiowave.sh -t 'Atareao versión podcast' -s "Sobre Cursos, eventos, asistencia y productividad" -b T01E09.jpg -a T01E09.mp3
+vim creator.py 
+./creator.py 2018/T01E09
+./creator.py 2018/T01E10
+./creator.py 2018/T01E11
+./creator.py 2018/T01E12
+./creator.py 2018/T01E13
+./creator.py 2018/T01E14
+./creator.py 2018/T01E15
+./creator.py 2018/T01E16
+./creator.py 2018/T01E17
+cd 2018/T01E18
+cd ..
+./creator.py 2018/T01E18
+./creator.py 2018/T01E19
+cd 2018/T01E18
+cd ..
+./creator.py 2018/T01E18
+./creator.py 2018/T01E19
+minify sass/style.css > style.css 
+cp  sass/style.css style.css 
+cp  sass/style.css style.css ç
+sass sass/style.scss 
+sass sass/style.css style.css
+minify style.css > style.css
+sass sass/style.scss ./style.css
+minify sass/style.css style.css
+minify sass/style.css > style.css
+minify  sass/style.css > style.css
+ls
+cp  sass/style.css style.css
+gitp
+ls
+gitfp
+cp  sass/style.css style.css ç
+sass sass/style.scss 
+sass sass/style.css style.css
+minify style.css > style.css
+sass sass/style.scss ./style.css
+minify sass/style.css style.css
+minify sass/style.css > style.css
+minify  sass/style.css > style.css
+cp  sass/style.css style.css
+gitp
+gitfp
+10updocker 
+10updocker stop
+docker 
+docker stop
+docker stop 045cb79a3527+
+docker stop 045cb79a3527
+docker stop 96467f99835a
+history | grep docker
+docker ps
+docker ps | awk 1
+docker stop all
+docker stop $(docker ps -a -q)
+bash-it 
+bash-it show aliases
+cd .bash_it
+cd aliases/
+vim custom.aliases.bash 
+docker-stop
+cd
+ls -lah --color
+ls
+ls -lah
+cat .bashrc
+source .bashrc 
+source ~/.bashrc 
+source .bash_it/bash_it.sh 
+source ~/.bash_it/bash_it.sh 
+exit
