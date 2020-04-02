@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Caprine (2.30.2.1338)
+Comment=Caprine is an unofficial and privacy focused Facebook Messenger app with many useful features.
+Exec=/home/lorenzo/Descargas/caprine-2.30.2-x86_64.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_4a16005aac30aa6fda03b95aef582300_caprine
+StartupWMClass=Caprine
+X-AppImage-Version=2.30.2.1338
+Categories=Network;Chat;
+X-AppImage-BuildId=1JIQNmnqCSmQNQeWDytPbKxOjD6
+
+TryExec=/home/lorenzo/Descargas/caprine-2.30.2-x86_64.AppImage
+X-AppImage-Old-Icon=caprine
+X-AppImage-Old-Name=Caprine
+X-AppImage-Identifier=4a16005aac30aa6fda03b95aef582300

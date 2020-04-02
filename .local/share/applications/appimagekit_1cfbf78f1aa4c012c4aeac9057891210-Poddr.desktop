@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Poddr (1.1.0)
+Comment=Podcast client
+Exec=firejail --env=DESKTOPINTEGRATION=appimaged --noprofile --appimage /home/lorenzo/.local/bin/Poddr.1.1.0.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_1cfbf78f1aa4c012c4aeac9057891210_poddr
+StartupWMClass=Poddr
+X-AppImage-Version=1.1.0
+Categories=Audio;Music;Player;AudioVideo;
+X-AppImage-BuildId=1HzI5soOfBBO5gltuVpfZyqkBhH
+
+TryExec=/home/lorenzo/.local/bin/Poddr.1.1.0.AppImage
+X-AppImage-Old-Icon=poddr
+X-AppImage-Old-Name=Poddr
+X-AppImage-Identifier=1cfbf78f1aa4c012c4aeac9057891210
+Actions=FirejailProfile;
+
+[Desktop Action FirejailProfile]
+Name=Run without sandbox profile
+Exec=firejail --env=DESKTOPINTEGRATION=appimaged --private --appimage /home/lorenzo/.local/bin/Poddr.1.1.0.AppImage
+TryExec=firejail

@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/datos/Sync/Programacion/docker/rates/scripts'
+let g:netrw_dirhist_2='/datos/Sync/Programacion/docker/rates/src'
+let g:netrw_dirhist_3='/datos/Sync/atareao.es/tutoriales/vim/trucos.md'
+let g:netrw_dirhist_4='/datos/Sync/atareao.es/tutoriales/vim/11 - trucos/trucos.md'
+let g:netrw_dirhist_5='/datos/Sync/atareao.es/podcasts/T02'
+let g:netrw_dirhist_6='/home/lorenzo/temporal/monitor/src/templates'
+let g:netrw_dirhist_7='/home/lorenzo/temporal'
+let g:netrw_dirhist_8='/datos/Sync/Programacion/docker/docker-mumble/files'

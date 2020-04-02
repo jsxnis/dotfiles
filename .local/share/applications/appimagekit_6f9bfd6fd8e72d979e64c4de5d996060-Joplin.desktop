@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Joplin (1.0.170.629)
+Comment=Joplin for Desktop
+Exec=/home/lorenzo/.local/bin/Joplin-1.0.170-x86_64.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_6f9bfd6fd8e72d979e64c4de5d996060_joplin
+StartupWMClass=Joplin
+X-AppImage-Version=1.0.170.629
+Categories=Office;
+X-AppImage-BuildId=1SALflQhcXfTF2mJqSpoihxlYVR
+
+TryExec=/home/lorenzo/.local/bin/Joplin-1.0.170-x86_64.AppImage
+X-AppImage-Old-Icon=joplin
+X-AppImage-Old-Name=Joplin
+X-AppImage-Identifier=6f9bfd6fd8e72d979e64c4de5d996060

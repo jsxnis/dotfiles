@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=AppImageUpdate
+Type=Application
+Icon=appimagekit_6d7b9560997e51633ace7ab961351493_AppImage
+Exec=/home/lorenzo/.local/bin/AppImageUpdate-x86_64.AppImage
+Comment=Update applications distributed in AppImage format
+
+TryExec=/home/lorenzo/.local/bin/AppImageUpdate-x86_64.AppImage
+X-AppImage-Old-Icon=AppImage
+X-AppImage-Identifier=6d7b9560997e51633ace7ab961351493

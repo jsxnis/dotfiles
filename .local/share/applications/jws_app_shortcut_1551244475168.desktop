@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Icon=/home/lorenzo/.java/deployment/cache/6.0/41/11fe4b29-45c1e24c.ico
+Comment=Aplicacion para la firma de documentos PDF
+Terminal=false
+Categories=Applications;ACCV/FirmaOnlinePDF
+Name=FirmaOnlinePDF
+Exec=/usr/lib/jvm/java-8-oracle/jre/bin/javaws -localfile -offline -J-Djnlp.application.href=http://www.accv.es/descargas/kogui/firmapdf.jnlp /home/lorenzo/.java/deployment/cache/6.0/35/bc814e3-5a36713e
+Encoding=UTF-8

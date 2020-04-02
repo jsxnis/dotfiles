@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Dat (2.0.0.1155)
+Comment=Dat Desktop App
+Exec=/home/lorenzo/.local/bin/dat-desktop-2.0.0-x86_64.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_5dd0e435d0d3b679c13cf2e2ff013318_dat-desktop
+X-AppImage-Version=2.0.0.1155
+X-AppImage-BuildId=022cfc70-45d6-11a7-3992-0fdf4059e69e
+
+TryExec=/home/lorenzo/.local/bin/dat-desktop-2.0.0-x86_64.AppImage
+X-AppImage-Old-Icon=dat-desktop
+X-AppImage-Old-Name=Dat
+X-AppImage-Identifier=5dd0e435d0d3b679c13cf2e2ff013318

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Six Days of Snow
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/754810
+Icon=steam_icon_754810
+Terminal=false
+Type=Application
+Categories=Game;

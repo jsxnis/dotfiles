@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Altus (2.0.0)
+Comment=Electron-based desktop wrapper for Whatsapp Web
+Exec=/home/lorenzo/.local/bin/Altus.2.0.0.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_0a9255ea1491548c64b55a15a33449e1_altus
+StartupWMClass=Altus
+X-AppImage-Version=2.0.0
+Categories=Chat;
+X-AppImage-BuildId=1Hj50eMUdxaQntu28SLZOnqPvbQ
+
+TryExec=/home/lorenzo/.local/bin/Altus.2.0.0.AppImage
+X-AppImage-Old-Icon=altus
+X-AppImage-Old-Name=Altus
+X-AppImage-Identifier=0a9255ea1491548c64b55a15a33449e1

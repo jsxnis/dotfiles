@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Lepton (1.8.1)
+Comment=Democratizing Code Snippets Management (macOS/Win/Linux)
+Exec=/home/lorenzo/.local/bin/Lepton-1.8.1-x86_64.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_f47cc179b0a35ecaf3a4e3bec2d66d22_lepton
+StartupWMClass=Lepton
+X-AppImage-Version=1.8.1
+Categories=Development;
+X-AppImage-BuildId=1QDpnM12Txduhe9P6zJijmi8edt
+
+TryExec=/home/lorenzo/.local/bin/Lepton-1.8.1-x86_64.AppImage
+X-AppImage-Old-Icon=lepton
+X-AppImage-Old-Name=Lepton
+X-AppImage-Identifier=f47cc179b0a35ecaf3a4e3bec2d66d22

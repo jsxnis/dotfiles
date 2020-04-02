@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=qTox (8eed684)
+GenericName=Tox client
+Comment=Qt 5 based Tox instant messenger for secure communication
+TryExec=/home/lorenzo/.local/bin/qTox-v1.16.3.x86_64.AppImage
+Exec=/home/lorenzo/.local/bin/qTox-v1.16.3.x86_64.AppImage %u
+Icon=appimagekit_b62e0798c2d8ee4680919056be667e8c_qtox
+Categories=Network;InstantMessaging;Chat;Telephony;VideoConference;
+Terminal=false
+MimeType=x-scheme-handler/tox;application/x-tox;
+X-AppImage-Version=8eed684
+
+X-AppImage-Old-Icon=qtox
+X-AppImage-Old-Name=qTox
+X-AppImage-Identifier=b62e0798c2d8ee4680919056be667e8c

@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=App Outlet (1.2.0.89)
+Exec=/home/lorenzo/.local/bin/App.Outlet-1.2.0.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_de259efb8a42e65e070e8203c51c1669_app-outlet
+StartupWMClass=App Outlet
+X-AppImage-Version=1.2.0.89
+Comment=An Universal linux app store 
+Categories=Utility;
+
+TryExec=/home/lorenzo/.local/bin/App.Outlet-1.2.0.AppImage
+X-AppImage-Old-Icon=app-outlet
+X-AppImage-Old-Name=App Outlet
+X-AppImage-Identifier=de259efb8a42e65e070e8203c51c1669

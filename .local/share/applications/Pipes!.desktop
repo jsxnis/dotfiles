@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Pipes!
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/755890
+Icon=steam_icon_755890
+Terminal=false
+Type=Application
+Categories=Game;

@@ -1,0 +1,22 @@
+[global_config]
+  enabled_plugins = ActivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  focus = system
+  putty_paste_style = True
+  title_font = Hack 13
+  title_use_system_font = False
+[keybindings]
+  new_tab = <Primary><Super>t
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    font = Hack 13
+    use_system_font = False

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Cryptomator
+Comment=Cloud Storage Encryption Utility
+Exec=/home/lorenzo/.local/bin/cryptomator-1.4.0-x86_64.AppImage
+Icon=appimagekit_8f6e8cbce93616aaf01107af5f68a7d3_cryptomator
+Terminal=false
+Type=Application
+Categories=Utility;Security;FileTools;
+
+TryExec=/home/lorenzo/.local/bin/cryptomator-1.4.0-x86_64.AppImage
+X-AppImage-Old-Icon=cryptomator
+X-AppImage-Identifier=8f6e8cbce93616aaf01107af5f68a7d3

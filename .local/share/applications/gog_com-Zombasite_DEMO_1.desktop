@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Value=1.0
+Type=Application
+Name=Zombasite DEMO
+GenericName=Zombasite DEMO
+Comment=Zombasite DEMO
+Icon=/datos/GOGLibrary/Zombasite DEMO/support/icon.png
+Exec="/datos/GOGLibrary/Zombasite DEMO/start.sh" ""
+Categories=Game;
+Path=/datos/GOGLibrary/Zombasite DEMO
+
