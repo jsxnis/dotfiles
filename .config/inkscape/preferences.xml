@@ -133,15 +133,15 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="3.3371"
-         height="15.9513"
+         width="10.1364"
+         height="69.9414"
          rx="0"
          ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
          usecurrent="1"
-         persp="perspective5121">
+         persp="perspective4745">
         <side
            id="XYfront"
            style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
@@ -174,16 +174,17 @@
          start="0"
          usecurrent="1"
          open="0"
-         rx="45"
-         ry="45" />
+         rx="87.4891"
+         ry="87.4891" />
       <eventcontext
          id="star"
-         magnitude="5"
+         magnitude="3"
          style="fill:yellow;"
          usecurrent="1"
          proportion="0.5"
          rounded="0"
-         randomized="0" />
+         randomized="0"
+         isflatsided="0" />
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
@@ -329,7 +330,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -337,12 +338,13 @@
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:'Font Awesome 5 Free';font-style:normal;font-weight:normal;font-size:50px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Font Awesome 5 Free';font-stretch:normal;font-variant:normal"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:Hack;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Hack, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"
        selcue="1"
-       align_mode="1">
+       align_mode="1"
+       outer_style="0">
       <group
-         id="lineheight"
-         display_unit="9" />
+         display_unit="9"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -360,8 +362,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="43.844"
-       y="107.201"
+       x="0"
+       y="0"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -429,12 +431,12 @@
        offset="0"
        offsetunits="cm" />
     <group
-       id="measure"
-       fontsize="10"
-       precision="2"
-       scale="100"
+       unit="mm"
        offset="5"
-       unit="px" />
+       scale="100"
+       precision="2"
+       fontsize="10"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -555,7 +557,7 @@
   </group>
   <group
      id="colorselector"
-     page="1" />
+     page="0" />
   <group
      id="embedded">
     <group
@@ -581,15 +583,24 @@
        page="0"
        x="0"
        y="0"
-       w="462"
-       h="421"
+       w="408"
+       h="424"
        visible="1"
        state="2"
-       placement="1" />
+       placement="5" />
     <group
        id="filtereffects" />
     <group
-       id="textandfont" />
+       id="textandfont"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="460"
+       h="467" />
     <group
        id="transformation"
        applyseparately="1"
@@ -601,8 +612,8 @@
        rotateCounterClockwise="0"
        x="0"
        y="0"
-       w="460"
-       h="467"
+       w="408"
+       h="424"
        visible="1"
        state="2"
        placement="5" />
@@ -616,11 +627,12 @@
        align-to="4"
        x="0"
        y="0"
-       w="460"
-       h="467"
+       w="408"
+       h="424"
        visible="1"
        state="2"
-       placement="5" />
+       placement="5"
+       sel-as-groups="0" />
     <group
        id="xml" />
     <group
@@ -651,10 +663,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1333"
-       y="252"
-       w="675"
-       h="631"
+       x="1480"
+       y="393"
+       w="647"
+       h="602"
        visible="0"
        placement="1" />
     <group
@@ -698,8 +710,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="460"
-       h="467"
+       w="408"
+       h="424"
        visible="1"
        state="2"
        placement="5">
@@ -708,14 +720,14 @@
          value="drawing" />
       <group
          id="defaultxdpi"
-         value="12" />
+         value="96" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="0"
        enable_preview="1"
-       path="/home/lorenzo/wp-local-docker-sites/martaprat-test/wordpress/wp-content/themes/martaprat.es/icons"
+       path="/datos/Sync/Programacion/Python/todotxt-indicator/data/icons"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -726,7 +738,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/lorenzo/Escritorio/" />
+       path="/datos/Sync/Programacion/Python/todotxt-indicator/data/icons/" />
     <group
        id="import"
        enable_preview="1"
@@ -763,7 +775,16 @@
        state="2"
        placement="1" />
     <group
-       id="swatches" />
+       id="swatches"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="423"
+       h="66" />
     <group
        id="iconpreview" />
     <group
@@ -783,10 +804,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1266"
+       x="1319"
        y="0"
-       w="650"
-       h="386"
+       w="597"
+       h="356"
        visible="0"
        placement="1" />
     <group
@@ -796,29 +817,27 @@
     <group
        id="colorpickerwindow" />
     <group
-       id="undo-history" />
+       id="undo-history"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="410"
+       h="101"
+       visible="1"
+       state="2"
+       placement="1" />
     <group
        id="transparency"
        on-focus="1.0"
        on-blur="0.50"
        animate-time="100" />
     <group
-       id="pixelart"
-       panel_size="1"
-       panel_ratio="100"
-       panel_mode="1"
-       panel_wrap="0"
-       panel_border="0"
-       x="0"
-       y="0"
+       h="245"
        w="450"
-       h="245" />
-    <group
-       placement="1"
-       state="2"
-       visible="0"
-       h="154"
-       w="459"
        y="0"
        x="0"
        panel_border="0"
@@ -826,7 +845,21 @@
        panel_mode="1"
        panel_ratio="100"
        panel_size="1"
-       id="livepatheffect" />
+       id="pixelart" />
+    <group
+       id="livepatheffect"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="459"
+       h="154"
+       visible="0"
+       state="2"
+       placement="1" />
   </group>
   <group
      id="printing">
@@ -1062,7 +1095,8 @@
        check_on_reading="0"
        check_on_editing="0"
        check_on_writing="0"
-       sort_attributes="0" />
+       sort_attributes="0"
+       disable_optimizations="0" />
     <group
        id="externalresources">
       <group
@@ -1112,8 +1146,8 @@
        colorsontop="0"
        partialdynamic="0" />
     <group
-       id="spacepans"
-       value="0" />
+       value="0"
+       id="spacepans" />
     <group
        id="rendering" />
   </group>
@@ -1123,8 +1157,8 @@
      org.inkscape.output.pdf.cairorenderer.resolution="96"
      org.inkscape.output.pdf.cairorenderer.bleed="0"
      org.inkscape.effect.filter.ColorDropShadow.blur="6"
-     org.inkscape.effect.filter.ColorDropShadow.xoffset="6"
-     org.inkscape.effect.filter.ColorDropShadow.yoffset="-6"
+     org.inkscape.effect.filter.ColorDropShadow.xoffset="10"
+     org.inkscape.effect.filter.ColorDropShadow.yoffset="10"
      org.inkscape.effect.filter.ColorDropShadow.type="outer"
      org.inkscape.effect.filter.ColorDropShadow.__live_effect__="0"
      org.inkscape.effect.filter.Blur.hblur="2"
@@ -1149,10 +1183,10 @@
      org.inkscape.print.ps.cairo.bleed="0" />
   <group
      id="desktop"
-     style="line-height:125%;fill:#dd8dc5;fill-opacity:1;font-size:10.66666667px;stroke-width:10;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;-inkscape-font-specification:ubuntu;font-family:ubuntu;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1;text-anchor:middle;text-align:center;fill-rule:nonzero;stroke-linecap:round;stroke-dashoffset:0">
+     style="fill:#3c3c3c;fill-opacity:1;font-size:48px;stroke-width:14;stroke-miterlimit:4;stroke-dasharray:none;stroke:#3c3c3c;-inkscape-font-specification:'Ubuntu Mono, Normal';font-family:'Ubuntu Mono';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1;text-anchor:middle;text-align:center;fill-rule:nonzero;stroke-linecap:round;stroke-dashoffset:0;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;line-height:125%">
     <group
-       width="1059"
-       height="619"
+       width="905"
+       height="480"
        x="0"
        y="27"
        fullscreen="0"

@@ -1,6 +1,7 @@
 {
+	"color_scheme": "Packages/JavaScript Ultimate/themes/Monokai JU.tmTheme",
 	"default_encoding": "UTF-8",
-	"dictionary": "Packages/Language - Spanish/Spanish.dic",
+	"dictionary": "Packages/Language - Spanish/es_ES.dic",
 	"draw_white_space": "all",
 	"font_face": "Hack",
 	"font_size": 12,
@@ -15,6 +16,7 @@
 		80,
 		120
 	],
-	"theme": "Default.sublime-theme",
+	"spell_check": true,
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true
 }

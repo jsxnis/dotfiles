@@ -7,6 +7,7 @@ import shlex
 import glob
 
 KEY = '2962A198'
+KEY = 'F9A9F326A89151DAE54F66F72174E3022962A198'
 PPA = 'atareao/test'
 FORGET = ['.git', '.gitignore', 'extcre.py', 'temporal']
 FORGETEXT = ['.pyc']
@@ -38,6 +39,8 @@ def dow_dir(parentdir, odirname, fb):
 def dow_file(parentdir, ofilename, fb):
     global NEWVERSION
     global APP
+    if ofilename.endswith('.pdf'):
+        return
     tempdir = os.path.join(parentdir, 'temporal')
     relative_path = os.path.relpath(ofilename, parentdir)
     nfilename = os.path.join(tempdir, relative_path)
@@ -89,7 +92,7 @@ def create_package(parentdir):
     app = data[0:posi].lower().strip()
     version = data[posi + 1:posf].strip()
     print('\r\n*** Building debian package... ***\r\n')
-    p = subprocess.Popen(shlex.split('debuild -S -sa -k%s' % (KEY)),
+    p = subprocess.Popen(shlex.split('debuild -S -sa -k{}'.format(KEY)),
                          stdout=subprocess.PIPE)
     p.communicate()
     # time.sleep(1)

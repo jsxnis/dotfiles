@@ -1,81 +1,36 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-"Plugin 'Valloric/YouCompleteMe'
-"    status/tabline
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-"    Git wrapper
-Plugin 'tpope/vim-fugitive'
-"    NERDTree
-Plugin 'scrooloose/nerdtree'
-
-Plugin 'tpope/vim-surround'
-Bundle 'gabrielelana/vim-markdown'
-Plugin 'mikewest/vimroom'
-" ===========================
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
-" Plugin 'tpope/vim-fugitive'
-" plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
-" Git plugin not hosted on GitHub
-" Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-" Plugin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
-"
+call plug#begin('~/.vim/plugged')
+" -------------------------------------------------
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-surround'
+Plug 'valloric/youcompleteme'
+Plug 'godlygeek/tabular', {'for': 'markdown'}
+Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
+Plug 'stephpy/vim-yaml', {'for': 'yaml'}
+Plug 'kovetskiy/vim-bash', {'for': 'sh'}
+Plug 'ironcamel/vim-script-runner', {'for': 'sh'}
+" -------------------------------------------------
+call plug#end()
+" Commands to manage Plug:
+" ------------------------
+" PlugInstall [name ...] [#threads] 	Install plugins
+" PlugUpdate [name ...] [#threads] 	Install or update plugins
+" PlugClean[!] 	Remove unlisted plugins (bang version will clean without prompt)
+" PlugUpgrade 	Upgrade vim-plug itself
+" PlugStatus 	Check the status of plugins
+" PlugDiff 	Examine changes from the previous update and the pending changes
+" PlugSnapshot[!] [output path] 	Generate script for restoring the current snapshot of the plugins
 " ==== Lorenzo ====
 :set wrap linebreak nolist
-:set spelllang=es
+:set spelllang=en
+:setlocal spelllang=es
 
-" When editing a file, always jump to the last cursor position
-autocmd BufReadPost *
-      \ if line("'\"") > 0 && line ("'\"") <= line("$") |
-      \   exe "normal g'\"" |
-      \ endif
-
-" sw -> espacios de la indentacion
-set sw=4
-
-" tabulacion
+filetype plugin indent on
+" show existing tab with 4 spaces width
 set tabstop=4
-set smarttab
-
-" Reemplazar tabs con espacios
-"set expandtab
-
-" ignore case en las busquedas
-set ic
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
 
 " highlight search, incsearch
 set hls is
@@ -87,52 +42,23 @@ set ruler
 syntax on
 
 " Lineas
-"set number
+set relativenumber
+set nu rnu
 
-"Sin beep ni aviso visual
-"set vb t_vb=
+" Plegado
+set foldmethod=manual
+set nofoldenable
 
-"Sin beep
-"set vb
+" Remap keys
+" Not to use arrow keys
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
 
-" Configuración del explorador de ficheros (":Explore")
-"""""""""""""""""""""
-" Al abrir un fichero, hacerlo en la ventana actual
-let g:netrw_browse_split=0
+inoremap <Up> <nop>
+inoremap <Down> <nop>
+inoremap <Left> <nop>
+inoremap <Right> <nop>
 
-" Activar la ocultacion de ficheros
-let g:netrw_hide=1
-
-" Lista de ficheros a ocultar (separar por comas)
-let g:netrw_list_hide='^\..*'
-
-" Modo de lista larga (con detalles)
-let g:netrw_longlist=1
-
-" Ordenar por "name", "time", o "size"
-let g:netrw_sort_by="name"
-
-" Orden "normal" o "reverse"
-let g:netrw_sort_direction="normal"
-""""""""""""""""""
-
-" Mostrar siempre la barra de tabs
-set stal=2
-
-" Remapeo de comandos
-nmap :W :w
-nmap :Q :q
-nmap :WQ :wq
-
-" tab navigation
-:nmap <C-p> :tabprevious<cr>
-:nmap <C-n> :tabnext<cr>
-:nmap <C-t> :tabnew<cr>
-:map <C-c> :tabclose<cr>
-
-" No guardar fichero de backup *~
-set nobackup
-
-" NERDTree
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
+colorscheme molokai
