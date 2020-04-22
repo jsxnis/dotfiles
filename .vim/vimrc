@@ -23,7 +23,7 @@ Plug 'honza/vim-snippets', {'for': ['sh', 'python', 'markdown']}
 Plug 'vim-syntastic/syntastic', {'for': 'python'}
 Plug 'jeetsukumaran/ctrlp-pythonic.vim', {'for': 'python'}
 Plug 'jeetsukumaran/vim-pythonsense', {'for': 'pyhon'}
-Plug 'airblade/vim-gitgutter', {'for': ['python', 'markdown']}
+Plug 'airblade/vim-gitgutter'
 Plug 'dracula/vim', { 'as': 'dracula' }
 " -------------------------------
 call plug#end()
