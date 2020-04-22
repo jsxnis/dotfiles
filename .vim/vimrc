@@ -1,0 +1,148 @@
+" Auto installation of Plug
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+" Plugins
+call plug#begin('~/.vim/plugged')
+" -------------------------------
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+Plug 'ervandew/supertab'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'godlygeek/tabular', {'for': 'markdown'}
+Plug 'plasticboy/vim-markdown', {'for': 'markdown'}
+Plug 'kovetskiy/vim-bash', {'for': 'sh'}
+Plug 'stephpy/vim-yaml', {'for': 'yaml'}
+Plug 'tpope/vim-commentary', {'for': ['sh', 'python', 'markdown']}
+Plug 'ironcamel/vim-script-runner', {'for': ['sh', 'python']}
+Plug 'SirVer/ultisnips', {'for': ['sh', 'python', 'markdown']}
+Plug 'honza/vim-snippets', {'for': ['sh', 'python', 'markdown']}
+Plug 'vim-syntastic/syntastic', {'for': 'python'}
+Plug 'jeetsukumaran/ctrlp-pythonic.vim', {'for': 'python'}
+Plug 'jeetsukumaran/vim-pythonsense', {'for': 'pyhon'}
+Plug 'airblade/vim-gitgutter', {'for': ['python', 'markdown']}
+Plug 'dracula/vim', { 'as': 'dracula' }
+" -------------------------------
+call plug#end()
+" Commands to manage Plug:
+" ------------------------
+" PlugInstall [name ...] [#threads]     Install plugins
+" PlugUpdate [name ...] [#threads]      Install or update plugins
+" PlugClean[!]  Remove unlisted plugins (bang version will clean without prompt)
+" PlugUpgrade   Upgrade vim-plug itself
+" PlugStatus    Check the status of plugins
+" PlugDiff      Examine changes from the previous update and the pending changes
+" PlugSnapshot[!] [output path]         Generate script for restoring the current snapshot of the plugins
+" ==== Configuration for Plugins ====
+"----------- vim-markdown -----------
+let g:vim_markdown_conceal = 0
+" ---------- ctrlp-pythonic ---------
+nnoremap <Leader>py :CtrlPPythonic<Cr>
+let g:ctrlp_extensions = ['pythonic']
+if has("autocmd")
+    augroup CtrlPPythonic
+        au!
+        autocmd FileType python nnoremap <Leader><Leader> :CtrlPPythonic<CR>
+    augroup END
+endif
+" ------------ indentLine -----------
+let g:indentLine_color_term = 239
+let g:indentLine_char = '·'
+" ----------- vim-syntastic ---------
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_python_checkers = ['flake8', 'pylint']
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:script_runner_python = '/usr/bin/python3.8'
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_w = 0
+
+" ----------- supertab ---------
+let g:SuperTabDefaultCompletionType    = '<C-n>'
+let g:SuperTabCrMapping                = 0
+
+" ------------- ultisnips -------------
+let g:UltiSnipsExpandTrigger           = '<tab>'
+let g:UltiSnipsJumpForwardTrigger      = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
+let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
+let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsListSnippets="<c-t>"
+
+" -------------- personal ---------------
+" ---- Color theme -----
+" important!!
+set termguicolors
+
+" for dark or light version select dark/light
+set background=dark
+
+colorscheme dracula
+
+" Relative number
+set number relativenumber
+
+" Remove newbie crutches in Command Mode
+cnoremap <Down> <Nop>
+cnoremap <Left> <Nop>
+cnoremap <Right> <Nop>
+cnoremap <Up> <Nop>
+
+" Remove newbie crutches in Insert Mode
+inoremap <Down> <Nop>
+inoremap <Left> <Nop>
+inoremap <Right> <Nop>
+inoremap <Up> <Nop>
+
+" Remove newbie crutches in Normal Mode
+nnoremap <Down> <Nop>
+nnoremap <Left> <Nop>
+nnoremap <Right> <Nop>
+nnoremap <Up> <Nop>
+
+" Remove newbie crutches in Visual Mode
+vnoremap <Down> <Nop>
+vnoremap <Left> <Nop>
+vnoremap <Right> <Nop>
+vnoremap <Up> <Nop>
+
+" Line wrap
+set wrap linebreak nolist
+
+" Spell Check
+setlocal spell spelllang=es
+
+" Highlight search
+set incsearch
+set hlsearch
+
+set ruler
+
+setlocal ts=4 sts=4 sw=4 expandtab
+" add yaml stuffs
+au! BufNewFile,BufReadPost *.{yaml,yml} set filetype=yaml foldmethod=indent
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab indentkeys-=0# indentkeys-=<:> foldmethod=indent nofoldenable
+autocmd FileType markdown setlocal ts=4 sts=4 sw=4 expandtab indentkeys-=0# indentkeys-=<:> foldmethod=indent nofoldenable
+" Plegado
+"
+set foldmethod=manual
+set 
+" Colors
+syntax on
+set syntax=gray
+
+" Show spaces
+" set list
+" show leading spaces
+hi Conceal guibg=NONE ctermbg=NONE ctermfg=DarkGrey
+autocmd BufRead * setlocal conceallevel=2 concealcursor=nv
+autocmd BufRead * syn match LeadingSpace /\(^ *\)\@<= / containedin=ALL conceal cchar=·
+
