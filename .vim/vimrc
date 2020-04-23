@@ -38,7 +38,8 @@ call plug#end()
 " PlugSnapshot[!] [output path]         Generate script for restoring the current snapshot of the plugins
 " ==== Configuration for Plugins ====
 "----------- vim-markdown -----------
-let g:vim_markdown_conceal = 0
+let g:vim_markdown_conceal = 2
+let g:vim_markdown_conceal_code_blocks = 0
 " ---------- ctrlp-pythonic ---------
 nnoremap <Leader>py :CtrlPPythonic<Cr>
 let g:ctrlp_extensions = ['pythonic']
@@ -127,14 +128,13 @@ set hlsearch
 set ruler
 
 setlocal ts=4 sts=4 sw=4 expandtab
-" add yaml stuffs
+"add yaml stuffs
 au! BufNewFile,BufReadPost *.{yaml,yml} set filetype=yaml foldmethod=indent
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab indentkeys-=0# indentkeys-=<:> foldmethod=indent nofoldenable
 autocmd FileType markdown setlocal ts=4 sts=4 sw=4 expandtab indentkeys-=0# indentkeys-=<:> foldmethod=indent nofoldenable
 " Plegado
 "
 set foldmethod=manual
-set 
 " Colors
 syntax on
 set syntax=gray
