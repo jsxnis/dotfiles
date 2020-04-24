@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/datos/Sync/atareao.es/articulos/2020/58 * jitsi'
+let g:netrw_dirhist_4='/datos/Sync/atareao.es/articulos/2020'
+let g:netrw_dirhist_3='/datos/Sync/atareao.es/articulos'
 let g:netrw_dirhist_2='/datos/Sync/atareao.es/articulos/2020/58 * jitsi/jitsi.md'
 let g:netrw_dirhist_1='/datos/Sync/atareao.es/tutoriales/vim/15 - Markdown con Vim'
