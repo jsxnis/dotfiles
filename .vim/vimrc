@@ -22,8 +22,10 @@ Plug 'SirVer/ultisnips', {'for': ['sh', 'python', 'markdown']}
 Plug 'honza/vim-snippets', {'for': ['sh', 'python', 'markdown']}
 Plug 'vim-syntastic/syntastic', {'for': 'python'}
 Plug 'jeetsukumaran/ctrlp-pythonic.vim', {'for': 'python'}
-Plug 'jeetsukumaran/vim-pythonsense', {'for': 'pyhon'}
+Plug 'jeetsukumaran/vim-pythonsense', {'for': 'python'}
+Plug 'davidhalter/jedi-vim', {'for': 'python'}
 Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/fzf.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 " -------------------------------
 call plug#end()
@@ -38,7 +40,7 @@ call plug#end()
 " PlugSnapshot[!] [output path]         Generate script for restoring the current snapshot of the plugins
 " ==== Configuration for Plugins ====
 "----------- vim-markdown -----------
-let g:vim_markdown_conceal = 2
+let g:vim_markdown_conceal = 0
 let g:vim_markdown_conceal_code_blocks = 0
 " ---------- ctrlp-pythonic ---------
 nnoremap <Leader>py :CtrlPPythonic<Cr>
@@ -125,6 +127,14 @@ setlocal spell spelllang=es
 set incsearch
 set hlsearch
 
+" Show column 80
+if exists('+colorcolumn')
+    set colorcolumn=80
+else
+    au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+endif
+
+" Show ruler
 set ruler
 
 setlocal ts=4 sts=4 sw=4 expandtab

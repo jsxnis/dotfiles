@@ -23,17 +23,5 @@ La extensión «LaTeX» no se ha cargado porque no se cumplió una dependencia.
 Dependencia:
   tipo: executable
   localización: trayecto
-  cadena: latex
-
-La extensión «LaTeX» no se ha cargado porque no se cumplió una dependencia.
-Dependencia:
-  tipo: executable
-  localización: trayecto
-  cadena: dvips
-
-La extensión «LaTeX» no se ha cargado porque no se cumplió una dependencia.
-Dependencia:
-  tipo: executable
-  localización: trayecto
   cadena: pstoedit
 

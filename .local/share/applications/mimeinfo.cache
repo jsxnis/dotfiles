@@ -22,5 +22,5 @@ x-scheme-handler/mailto=shift-application.desktop;
 x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
 x-scheme-handler/station=appimagekit-browserx.desktop;appimagekit_5987b413e4f8fc6f215d95652b574014-Station.desktop;
 x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
-x-scheme-handler/tg=bettergram.desktop;telegramdesktop.desktop;
+x-scheme-handler/tg=telegramdesktop.desktop;
 x-scheme-handler/tox=appimagekit_b62e0798c2d8ee4680919056be667e8c-qTox.desktop;
