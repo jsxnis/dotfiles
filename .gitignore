@@ -111,3 +111,4 @@ venv.bak/
 .config/sublime-text-3/Installed Packages
 .config/sublime-text-3/Lib
 .config/sublime-text-3/Packages
+.bash_history
