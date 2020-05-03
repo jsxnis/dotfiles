@@ -8,6 +8,7 @@ import glob
 
 KEY = '2962A198'
 KEY = 'F9A9F326A89151DAE54F66F72174E3022962A198'
+KEY = '726BF28194F177B10C85F46D0AD17DF58AA94BFB'
 PPA = 'atareao/test'
 FORGET = ['.git', '.gitignore', 'extcre.py', 'temporal']
 FORGETEXT = ['.pyc']

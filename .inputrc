@@ -51,6 +51,7 @@ $endif
 "\C-b": unix-filename-rubout
 "\C-j": menu-complete
 "\C-k": menu-complete-backward
+"\C-l": clear-screen
 
 set show-mode-in-prompt On
 set colored-stats On

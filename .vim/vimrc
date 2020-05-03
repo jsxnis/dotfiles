@@ -25,6 +25,7 @@ Plug 'jeetsukumaran/ctrlp-pythonic.vim', {'for': 'python'}
 Plug 'jeetsukumaran/vim-pythonsense', {'for': 'python'}
 Plug 'davidhalter/jedi-vim', {'for': 'python'}
 Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 " -------------------------------
@@ -51,9 +52,6 @@ if has("autocmd")
         autocmd FileType python nnoremap <Leader><Leader> :CtrlPPythonic<CR>
     augroup END
 endif
-" ------------ indentLine -----------
-let g:indentLine_color_term = 239
-let g:indentLine_char = '·'
 " ----------- vim-syntastic ---------
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -152,7 +150,6 @@ set syntax=gray
 " Show spaces
 " set list
 " show leading spaces
-hi Conceal guibg=NONE ctermbg=NONE ctermfg=DarkGrey
+hi Conceal guibg=NONE ctermbg=NONE ctermfg=LightGrey
 autocmd BufRead * setlocal conceallevel=2 concealcursor=nv
 autocmd BufRead * syn match LeadingSpace /\(^ *\)\@<= / containedin=ALL conceal cchar=·
-
