@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=WhatsApp
+GenericName=WhatsApp
+Comment=WhatsApp desktop webapp
+Exec=/usr/bin/firefox -ssb https://web.whatsapp.com -P whatsapp
+Terminal=false
+Type=Application
+Icon=whatsapp
+StartupNotify=true
+MimeType=text/plain;
+Categories=Network;Application;
+Keywords=WhatsApp;webapp;
+X-Ubuntu-Gettext-Domain=WhatsApp
+StartupWMClass=web.whatsapp.com

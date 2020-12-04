@@ -1,0 +1,34 @@
+[Desktop Entry]
+Name=Easy File Organizer (2.7.0) (1)
+Exec="/home/lorenzo/.local/bin/Easy File Organizer-2.7.0 - Free.AppImage"
+Terminal=false
+Type=Application
+Icon=appimagekit_3405369a561893cf3870e4c6f4d51c05_easy-file-organizer
+StartupWMClass=Easy File Organizer
+X-AppImage-Version=2.7.0
+Comment=Organize files, folders and Desktop easily!
+Categories=Utility;
+
+TryExec=/home/lorenzo/.local/bin/Easy File Organizer-2.7.0 - Free.AppImage
+X-AppImage-Old-Icon=easy-file-organizer
+X-AppImage-Old-Name=Easy File Organizer
+X-AppImage-Identifier=3405369a561893cf3870e4c6f4d51c05
+Actions=Remove;
+X-AppImageLauncher-Version=2.1.3 (git commit 7408819), built on 2020-04-19 22:02:05 UTC
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher-Lite
+Exec=/home/lorenzo/.local/lib/appimagelauncher-lite/appimagelauncher-lite.AppImage remove "/home/lorenzo/.local/bin/Easy File Organizer-2.7.0 - Free.AppImage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage

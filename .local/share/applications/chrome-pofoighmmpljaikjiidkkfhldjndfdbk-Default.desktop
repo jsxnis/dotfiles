@@ -4,6 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Type Fu
-Exec=/usr/bin/chromium-browser --profile-directory=Default --app-id=pofoighmmpljaikjiidkkfhldjndfdbk
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=pofoighmmpljaikjiidkkfhldjndfdbk
 Icon=chrome-pofoighmmpljaikjiidkkfhldjndfdbk-Default
 StartupWMClass=crx_pofoighmmpljaikjiidkkfhldjndfdbk

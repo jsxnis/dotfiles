@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+export XDG_CONFIG_HOME=$HOME/.config
 # VIM as default editor
 export EDITOR=vim
 
@@ -20,29 +21,22 @@ export BASH_IT_THEME='powerline-plain'
 # cloned bash-it with a remote other than origin such as `bash-it`.
 # export BASH_IT_REMOTE='bash-it'
 
-# Your place for hosting Git repos. I use this for private repos.
-export GIT_HOSTING='git@git.domain.com'
-
-# Don't check mail when opening terminal.
-unset MAILCHECK
-
-# Change this to your console based IRC client of choice.
-export IRC_CLIENT='irssi'
-
-# Set this to the command you use for todo.txt-cli
-export TODO="t"
-
 export HISTTIMEFORMAT="%F %T | "
 
-export PATH="/home/lorenzo/.local/share/umake/bin:/home/lorenzo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/bin:/home/lorenzo/.go/bin:/bin:/home/lorenzo/.go/bin:/home/lorenzo/.vimpkg/bin"
+if [[ "$XDG_SESSION_DESKTOP" =~ i3 ]] || \
+   [[ "$XDG_SESSION_DESKTOP" =~ "qtile-venv" ]]
+then
+    xrandr --auto
+    xrandr --auto --output HDMI-1 --primary
+    xrandr --auto --output DVI-I-1-1 --right-of HDMI-1
+    xrandr --auto --output eDP-1 --right-of DVI-I-1-1
+fi
 
-export NPM_PACKAGES="/home/lorenzo/.npm-packages"
-export NODE_PATH="$NPM_PACKAGES/lib/node_modules${NODE_PATH:+:$NODE_PATH}"
-export PATH="$NPM_PACKAGES/bin:$PATH"
-# Unset manpath so we can inherit from /etc/manpath via the `manpath`
-# command
-unset MANPATH  # delete if you already modified MANPATH elsewhere in your config
-export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+. $BASH_IT/bash_it.sh
 
-source $BASH_IT/bash_it.sh
-
+# Configuración para fzf
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
+[ -f $HOME/.fzf.bash ] && source $HOME/.fzf.bash
+eval "$(jump shell)"
+eval "$(gh completion -s bash)"

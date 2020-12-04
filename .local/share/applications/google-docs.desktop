@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=Google Docs
-Comment=An applicatio for edit Sqlite databases
-Exec=chromium-browser --app=https://docs.google.com/document/u/0/
-Icon=/home/lorenzo/.local/share/icons/hicolor/scalable/google-docs.svg
-Terminal=false
-Type=Application
-Categories=Office;

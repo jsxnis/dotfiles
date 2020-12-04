@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Beekeeper Studio (1.5.3)
+Exec=/home/lorenzo/.local/bin/Beekeeper-Studio-1.5.3.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_9d425b4bcf72f0af799f59260a74480c_beekeeper-studio
+StartupWMClass=beekeeper-studio
+X-AppImage-Version=1.5.3
+Comment=An easy-to use SQL query editor and database UI for Mac, Windows, and Linux
+Categories=Development;
+
+TryExec=/home/lorenzo/.local/bin/Beekeeper-Studio-1.5.3.AppImage
+X-AppImage-Old-Icon=beekeeper-studio
+X-AppImage-Old-Name=Beekeeper Studio
+X-AppImage-Identifier=9d425b4bcf72f0af799f59260a74480c

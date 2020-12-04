@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Easy File Organizer (2.7.0)
+Exec="/datos/.local/bin/Easy File Organizer-2.7.0 - Free.AppImage"
+Terminal=false
+Type=Application
+Icon=appimagekit_74fa225807404d44952e3363bed82d37_easy-file-organizer
+StartupWMClass=Easy File Organizer
+X-AppImage-Version=2.7.0
+Comment=Organize files, folders and Desktop easily!
+Categories=Utility;
+
+TryExec=/datos/.local/bin/Easy File Organizer-2.7.0 - Free.AppImage
+X-AppImage-Old-Icon=easy-file-organizer
+X-AppImage-Old-Name=Easy File Organizer
+X-AppImage-Identifier=74fa225807404d44952e3363bed82d37

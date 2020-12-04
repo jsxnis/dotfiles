@@ -82,7 +82,7 @@
 		<Setting name="Queue column widths">180 60 798 80 60 150</Setting>
 		<Setting name="Local filelist colwidths">327 80 100 206</Setting>
 		<Setting name="Remote filelist colwidths">476 75 222 198 80 80</Setting>
-		<Setting name="Window position and size">1 219 46 1200 820 </Setting>
+		<Setting name="Window position and size">1 1931 0 1200 820 </Setting>
 		<Setting name="Splitter positions (v2)">221 -128 394791666 285 200 500000000</Setting>
 		<Setting name="Local filelist sortorder">0 0</Setting>
 		<Setting name="Remote filelist sortorder">0 0</Setting>
@@ -100,11 +100,11 @@ md /usr/bin/gedit
 gz /usr/bin/libreoffice</Setting>
 		<Setting name="Comparison mode">1</Setting>
 		<Setting name="Comparison threshold">1</Setting>
-		<Setting name="Site Manager position">0 2080 247 1599 609 </Setting>
+		<Setting name="Site Manager position">0 161 193 1599 609 </Setting>
 		<Setting name="Icon theme">default</Setting>
 		<Setting name="Icon scale">125</Setting>
 		<Setting name="Timestamp in message log">0</Setting>
-		<Setting name="Sitemanager last selected">0/atareao.es</Setting>
+		<Setting name="Sitemanager last selected">0/segobrig-cp5024.wordpresstemporal.com</Setting>
 		<Setting name="Local filelist shown columns">1111</Setting>
 		<Setting name="Remote filelist shown columns">111111</Setting>
 		<Setting name="Local filelist column order">0,1,2,3</Setting>
@@ -175,7 +175,7 @@ gz /usr/bin/libreoffice</Setting>
 					<Name>atareao.es</Name>
 					<Site>0/atareao.es</Site>
 					<RemotePath>1 0 10 wp-content 6 themes 10 WEB_201711</RemotePath>
-					<LocalPath>/datos/Sync/Programacion/Wordpress/www.atareao.es/</LocalPath>
+					<LocalPath>/datos/Sync/Programacion/Wordpress/www.atareao.es/js/</LocalPath>
 				</Tab>
 			</Tabs>
 		</Setting>

@@ -31,7 +31,7 @@
        state="1" />
     <group
        id="rulers"
-       state="1" />
+       state="0" />
     <group
        id="scrollbars"
        state="0" />
@@ -133,10 +133,10 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="11.0643"
-         height="0.593262"
-         rx="0.3"
-         ry="0.3" />
+         width="822.816"
+         height="407.063"
+         rx="0"
+         ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -170,12 +170,13 @@
       <eventcontext
          id="arc"
          style="fill:red;"
-         end="0"
+         end="353.4"
          start="0"
          usecurrent="1"
          open="0"
-         rx="4"
-         ry="4" />
+         rx="112.29"
+         ry="110.313"
+         arc_type="1" />
       <eventcontext
          id="star"
          magnitude="3"
@@ -202,7 +203,8 @@
          selcue="1"
          style="stroke-width:1px;"
          usecurrent="0"
-         average_all_sketches="1" />
+         average_all_sketches="1"
+         pressure="0" />
       <eventcontext
          id="pen"
          mode="drag"
@@ -338,19 +340,19 @@
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:Hack;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Hack, Normal';font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal"
+       use_svg2="1"
+       style="font-family:Impact;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Impact;writing-mode:lr;"
        selcue="1"
        align_mode="1"
        outer_style="0">
       <group
-         display_unit="9"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="9" />
     </eventcontext>
     <eventcontext
        id="nodes"
        selcue="1"
        gradientdrag="1"
-       highlight_color="4278190335"
        pathflash_enabled="1"
        pathflash_unselected="0"
        pathflash_timeout="500"
@@ -362,10 +364,11 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="-7.29331"
-       y="15.8163"
+       x="400"
+       y="400"
        edit_clipping_paths="0"
-       edit_masks="0" />
+       edit_masks="0"
+       highlight_color="4278190335" />
     <eventcontext
        id="tweak"
        selcue="0"
@@ -401,7 +404,9 @@
        id="mesh"
        selcue="1"
        mesh_rows="1"
-       mesh_cols="1" />
+       mesh_cols="1"
+       edit_fill="1"
+       edit_stroke="0" />
     <eventcontext
        id="zoom"
        selcue="1"
@@ -431,12 +436,14 @@
        offset="0"
        offsetunits="cm" />
     <group
-       unit="mm"
-       offset="5"
-       scale="100"
-       precision="2"
+       id="measure"
        fontsize="10"
-       id="measure" />
+       precision="2"
+       scale="100"
+       offset="5"
+       unit="mm"
+       measure-start="0,0"
+       measure-end="0,0" />
   </group>
   <group
      id="palette">
@@ -557,7 +564,7 @@
   </group>
   <group
      id="colorselector"
-     page="1" />
+     page="0" />
   <group
      id="embedded">
     <group
@@ -580,11 +587,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="1"
+       page="0"
        x="0"
        y="0"
-       w="469"
-       h="461"
+       w="526"
+       h="443"
        visible="1"
        state="2"
        placement="5" />
@@ -609,11 +616,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       rotateCounterClockwise="0"
+       rotateCounterClockwise="1"
        x="0"
        y="0"
-       w="469"
-       h="461"
+       w="526"
+       h="443"
        visible="1"
        state="2"
        placement="5" />
@@ -627,12 +634,13 @@
        align-to="4"
        x="0"
        y="0"
-       w="469"
-       h="461"
+       w="526"
+       h="443"
        visible="1"
        state="2"
        placement="5"
-       sel-as-groups="0" />
+       sel-as-groups="0"
+       align-nodes-to="0" />
     <group
        id="xml" />
     <group
@@ -644,17 +652,17 @@
        panel_border="0"
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="526"
+       h="218"
        visible="1"
-       state="3"
-       placement="1" />
+       state="2"
+       placement="2" />
     <group
        id="spellcheck"
        w="200"
        h="250"
-       lang="en_US"
-       ignorenumbers="1" />
+       ignorenumbers="1"
+       lang="en_US" />
     <group
        id="documentoptions"
        state="1"
@@ -663,16 +671,16 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1920"
-       y="191"
-       w="687"
-       h="660"
-       visible="1"
+       x="0"
+       y="102"
+       w="716"
+       h="775"
+       visible="0"
        placement="1" />
     <group
        id="preferences"
        state="1"
-       page="20"
+       page="15"
        panel_size="1"
        panel_ratio="100"
        panel_mode="1"
@@ -681,7 +689,9 @@
        x="326"
        y="203"
        w="1268"
-       h="701" />
+       h="701"
+       visible="0"
+       placement="1" />
     <group
        id="gradienteditor" />
     <group
@@ -693,11 +703,11 @@
        panel_border="0"
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="526"
+       h="443"
        visible="1"
-       state="3"
-       placement="1" />
+       state="2"
+       placement="5" />
     <group
        id="export"
        default=""
@@ -710,14 +720,14 @@
        panel_border="0"
        x="0"
        y="0"
-       w="469"
-       h="461"
+       w="526"
+       h="443"
        visible="1"
        state="2"
        placement="5">
       <group
          id="exportarea"
-         value="selection" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -726,8 +736,8 @@
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="0"
-       enable_preview="1"
-       path="/datos/Sync/Programacion/Python/readmaker/data/icons/scalable"
+       enable_preview="0"
+       path="/datos/Sync/atareao.es/territorio-linux"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -738,15 +748,17 @@
     <group
        id="open"
        enable_preview="1"
-       path="/datos/Sync/Programacion/Python/tasker/data/icons/scalable/apps/" />
+       path="/datos/Sync/atareao.es/podcasts/T03/E231/" />
     <group
        id="import"
        enable_preview="1"
-       path="/home/lorenzo/Descargas/"
+       path="/datos/Sync/atareao.es/podcasts/T03/E231/"
        ask="1"
+       ask_svg="1"
        link="embed"
        scale="auto"
-       forcexdpi="0" />
+       forcexdpi="0"
+       import_mode_svg="include" />
     <group
        id="debug"
        redirect="0" />
@@ -804,10 +816,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1068"
-       y="82"
-       w="649"
-       h="382"
+       x="0"
+       y="85"
+       w="1106"
+       h="808"
        visible="0"
        placement="1" />
     <group
@@ -825,41 +837,41 @@
        panel_border="0"
        x="0"
        y="0"
-       w="471"
-       h="101"
+       w="526"
+       h="95"
        visible="1"
        state="2"
        placement="1" />
     <group
-       id="transparency"
-       on-focus="1.0"
+       animate-time="100"
        on-blur="0.50"
-       animate-time="100" />
+       on-focus="1.0"
+       id="transparency" />
     <group
-       h="245"
+       id="pixelart"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
        w="450"
-       y="0"
-       x="0"
-       panel_border="0"
-       panel_wrap="0"
-       panel_mode="1"
-       panel_ratio="100"
-       panel_size="1"
-       id="pixelart" />
+       h="245" />
     <group
-       id="livepatheffect"
-       panel_size="1"
-       panel_ratio="100"
-       panel_mode="1"
-       panel_wrap="0"
-       panel_border="0"
-       x="0"
-       y="0"
-       w="459"
-       h="154"
-       visible="0"
+       placement="1"
        state="2"
-       placement="1" />
+       visible="0"
+       h="154"
+       w="459"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="livepatheffect" />
   </group>
   <group
      id="printing">
@@ -872,7 +884,8 @@
   <group
      id="options"
      dpifixbackup="1"
-     dpiupdatemethod="0">
+     dpiupdatemethod="0"
+     onimport="0">
     <group
        id="renderingcache"
        size="64" />
@@ -1003,8 +1016,8 @@
        id="dialogsskiptaskbar"
        value="1" />
     <group
-       id="defaultwindowsize"
-       value="2" />
+       value="2"
+       id="defaultwindowsize" />
     <group
        id="arenatilescachesize"
        value="8192" />
@@ -1062,14 +1075,14 @@
        id="outlinemode"
        value="0" />
     <group
-       id="ocalurl"
-       str="openclipart.org" />
+       str="openclipart.org"
+       id="ocalurl" />
     <group
-       id="ocalusername"
-       str="" />
+       str=""
+       id="ocalusername" />
     <group
-       id="ocalpassword"
-       str="" />
+       str=""
+       id="ocalpassword" />
     <group
        id="wireframecolors"
        onlight="255"
@@ -1125,10 +1138,10 @@
          origin_y="0.0"
          spacing_x="20"
          spacing_y="20"
-         color="1061158688"
-         empcolor="1061158720"
          empspacing="40"
-         dotted="0" />
+         dotted="0"
+         color="1061158688"
+         empcolor="1061158720" />
       <group
          id="axonom"
          units="mm"
@@ -1137,26 +1150,35 @@
          spacing_y="1.0"
          angle_x="30.0"
          angle_z="30.0"
+         empspacing="5"
          color="1061158688"
-         empcolor="1061158720"
-         empspacing="5" />
+         empcolor="1061158720" />
     </group>
     <group
        id="workarounds"
        colorsontop="0"
        partialdynamic="0" />
     <group
-       value="0"
-       id="spacepans" />
+       id="spacepans"
+       value="0" />
     <group
        id="rendering" />
+    <group
+       id="svgeditor"
+       value="inkscape" />
+    <group
+       id="dash"
+       scale="1" />
+    <group
+       unitType="2"
+       id="font" />
   </group>
   <group
      id="extensions"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.resolution="96"
      org.inkscape.output.pdf.cairorenderer.bleed="0"
-     org.inkscape.effect.filter.ColorDropShadow.blur="10"
+     org.inkscape.effect.filter.ColorDropShadow.blur="5"
      org.inkscape.effect.filter.ColorDropShadow.xoffset="0"
      org.inkscape.effect.filter.ColorDropShadow.yoffset="0"
      org.inkscape.effect.filter.ColorDropShadow.type="outer"
@@ -1181,12 +1203,19 @@
      org.inkscape.print.ps.cairo.PSlevel="PS3"
      org.inkscape.print.ps.cairo.resolution="90"
      org.inkscape.print.ps.cairo.bleed="0"
-     org.inkscape.effect.filter.ColorDropShadow.tab="optionstab" />
+     org.inkscape.effect.filter.ColorDropShadow.tab="coltab"
+     org.inkscape.qr_code.typenumber="0"
+     org.inkscape.qr_code.correctionlevel="1"
+     org.inkscape.qr_code.encoding="latin_1"
+     org.inkscape.qr_code.drawtype="neutral"
+     org.inkscape.qr_code.text="https://www.atareao.es"
+     org.inkscape.effect.filter.ColorDropShadow.color="4294967198"
+     org.inkscape.effect.filter.ImageBlur.blend="normal" />
   <group
      id="desktop"
-     style="fill:#ffff00;fill-opacity:1;font-size:10.66666667px;stroke-width:14;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;-inkscape-font-specification:'aakar Medium';font-family:aakar;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke-opacity:1;text-anchor:middle;text-align:center;fill-rule:nonzero;stroke-linecap:round;stroke-dashoffset:0;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;line-height:125%">
+     style="fill:#000000;font-size:133.33333333px;stroke-width:2.302;-inkscape-font-specification:Garuda;font-family:Garuda;text-align:center;stroke-linecap:round;writing-mode:lr;line-height:125%;text-anchor:middle;">
     <group
-       width="906"
+       width="928"
        height="480"
        x="0"
        y="27"
@@ -1289,4 +1318,23 @@
   <group
      id="ui"
      language="" />
+  <group
+     symbolicIcons="1"
+     darkTheme="1"
+     preferDarkTheme="1"
+     id="theme"
+     defaultTheme="Yaru-dark"
+     defaultIconTheme="Yaru"
+     gtkTheme="Yaru-dark"
+     iconTheme="Yaru"
+     menuIcons_canvas="0"
+     menuIcons_layers="0"
+     menuIcons_objects="0">
+    <group
+       symbolicErrorColor="3340119039"
+       symbolicWarningColor="4187689471"
+       symbolicSuccessColor="208476927"
+       symbolicBaseColor="4160223231"
+       id="Yaru" />
+  </group>
 </inkscape>

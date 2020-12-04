@@ -1,27 +1,12 @@
-La extensión «Win32 Vector Print» no se ha cargado porque la extensión está diseñada solo para Windows. La causa de esto es un archivo .inx incorrecto para esta extensión. Un archivo inx incorrecto puede ser el resultado de una instalación defectuosa de Inkscape.
-La extensión «Sketch Input» no se ha cargado porque no se cumplió una dependencia.
+La extensión XFIG Input» no se ha cargado porque no se cumplió una dependencia.
 Dependencia:
-  tipo: executable
-  localización: trayecto
-  cadena: skconvert
+	tipo: executable
+	localización: trayecto
+	cadena: fig2dev
 
-La extensión «DXF Output» no se ha cargado porque no se cumplió una dependencia.
+La extensión Export to PDF via Scribus» no se ha cargado porque no se cumplió una dependencia.
 Dependencia:
-  tipo: executable
-  localización: trayecto
-  cadena: pstoedit
-  descripción: pstoedit debe estar instalado, infórmese en: http://www.pstoedit.net/pstoedit
-
-La extensión «Dia Input» no se ha cargado porque no se cumplió una dependencia.
-Dependencia:
-  tipo: executable
-  localización: trayecto
-  cadena: dia
-  descripción: Para poder importar archivos Dia, éste debe estar instalado. Puede obtener Dia en http://live.gnome.org/Dia
-
-La extensión «LaTeX» no se ha cargado porque no se cumplió una dependencia.
-Dependencia:
-  tipo: executable
-  localización: trayecto
-  cadena: pstoedit
+	tipo: executable
+	localización: trayecto
+	cadena: scribus
 

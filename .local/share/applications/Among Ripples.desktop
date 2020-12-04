@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Among Ripples
-Comment=Play this game on Steam
-Exec=steam steam://rungameid/341720
-Icon=steam_icon_341720
-Terminal=false
-Type=Application
-Categories=Game;

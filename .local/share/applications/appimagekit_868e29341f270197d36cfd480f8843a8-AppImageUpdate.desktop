@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=AppImageUpdate
+Type=Application
+Icon=appimagekit_868e29341f270197d36cfd480f8843a8_appimage
+Exec=/datos/.local/bin/AppImageUpdate-x86_64.AppImage
+Comment=Update applications distributed in AppImage format
+Categories=Utility;
+
+TryExec=/datos/.local/bin/AppImageUpdate-x86_64.AppImage
+X-AppImage-Old-Icon=appimage
+X-AppImage-Identifier=868e29341f270197d36cfd480f8843a8

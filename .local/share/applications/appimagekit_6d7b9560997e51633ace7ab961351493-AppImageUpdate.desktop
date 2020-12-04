@@ -1,10 +1,47 @@
 [Desktop Entry]
-Name=AppImageUpdate
+Name=AppImageUpdate (1)
 Type=Application
-Icon=appimagekit_6d7b9560997e51633ace7ab961351493_AppImage
+Icon=appimagekit_6d7b9560997e51633ace7ab961351493_appimage
 Exec=/home/lorenzo/.local/bin/AppImageUpdate-x86_64.AppImage
 Comment=Update applications distributed in AppImage format
+Categories=Utility;
 
 TryExec=/home/lorenzo/.local/bin/AppImageUpdate-x86_64.AppImage
-X-AppImage-Old-Icon=AppImage
+X-AppImage-Old-Icon=appimage
 X-AppImage-Identifier=6d7b9560997e51633ace7ab961351493
+Actions=Remove;Update;
+X-AppImageLauncher-Version=2.1.3 (git commit 7408819), built on 2020-04-19 22:02:05 UTC
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher-Lite
+Exec=/home/lorenzo/.local/lib/appimagelauncher-lite/appimagelauncher-lite.AppImage remove "/home/lorenzo/.local/bin/AppImageUpdate-x86_64.AppImage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage
+
+[Desktop Action Update]
+Name=Update AppImage
+Icon=AppImageLauncher-Lite
+Exec=/home/lorenzo/.local/lib/appimagelauncher-lite/appimagelauncher-lite.AppImage update "/home/lorenzo/.local/bin/AppImageUpdate-x86_64.AppImage"
+Name[ast]=Anovar AppImage
+Name[de]=AppImage aktualisieren
+Name[en]=Update AppImage
+Name[es]=Actualizar Appimage
+Name[fr]=Mettre à jour l'AppImage
+Name[it]=Aggiorna AppImage
+Name[nl]=AppImage bijwerken
+Name[pl]=Uaktualnij AppImage
+Name[pt]=Actualizar AppImage
+Name[pt_PT]=Actualizar AppImage
+Name[ru]=Обновить AppImage
+Name[zh_Hans]=更新 AppImage

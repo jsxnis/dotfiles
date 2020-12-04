@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Bitwarden (1.18.0)
+Exec=/home/lorenzo/.local/bin/Bitwarden-1.18.0-x86_64.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_8b132bb0ca75580979ba7f6504bffe75_bitwarden
+StartupWMClass=Bitwarden
+X-AppImage-Version=1.18.0
+GenericName=Password Manager
+Comment=A secure and free password manager for all of your devices.
+Categories=Utility;
+
+TryExec=/home/lorenzo/.local/bin/Bitwarden-1.18.0-x86_64.AppImage
+X-AppImage-Old-Icon=bitwarden
+X-AppImage-Old-Name=Bitwarden
+X-AppImage-Identifier=8b132bb0ca75580979ba7f6504bffe75

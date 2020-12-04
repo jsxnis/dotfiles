@@ -1,11 +1,11 @@
 <tags>
-	<tag name="GENRE" value="Podcast"/>
-	<tag name="Band" value="atareao"/>
-	<tag name="TRACKNUMBER" value="156"/>
-	<tag name="ALBUM" value="Atareao versión podcast"/>
-	<tag name="TITLE" value=" El cambio de divisas en tu escritorio o en un contenedor"/>
-	<tag name="Part of a set" value="02"/>
-	<tag name="YEAR" value="2020"/>
+	<tag name="Part of a set" value="03"/>
 	<tag name="COMMENTS" value="Copyright © 2020 Lorenzo Carbonell (CC BY 4.0) "/>
+	<tag name="GENRE" value="Podcast"/>
+	<tag name="YEAR" value="2020"/>
+	<tag name="Band" value="atareao"/>
+	<tag name="TRACKNUMBER" value="215"/>
+	<tag name="ALBUM" value="Atareao versión podcast"/>
+	<tag name="TITLE" value="Trabajar con hojas de cálculo en el terminal"/>
 	<tag name="ARTIST" value="atareao"/>
 </tags>

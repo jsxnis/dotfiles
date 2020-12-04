@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Joplin (1.0.227.2422)
+Exec=/datos/.local/bin/Joplin.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_0a57a8556bf641f076c660db2904fca2_joplin
+StartupWMClass=Joplin
+X-AppImage-Version=1.0.227.2422
+Comment=Joplin for Desktop
+Categories=Office;
+
+TryExec=/datos/.local/bin/Joplin.AppImage
+X-AppImage-Old-Icon=joplin
+X-AppImage-Old-Name=Joplin
+X-AppImage-Identifier=0a57a8556bf641f076c660db2904fca2

@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Desinstalar
-Exec=env WINEPREFIX="/home/lorenzo/.wine" /opt/wine-staging/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/lorenzo/.wine/dosdevices/c:/users/lorenzo/Start\\ Menu/Programs/TallerMatic/Desinstalar.lnk
-Type=Application
-StartupNotify=true
-Path=/home/lorenzo/.wine/dosdevices/c:/tallermatic
-Icon=9359_uninstall.0

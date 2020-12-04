@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Sorter
+GenericName=Sorter
+Icon=applications-engineering-symbolic
+Exec=/bin/bash /home/lorenzo/temporal/sort_gui.sh
+Type=Application

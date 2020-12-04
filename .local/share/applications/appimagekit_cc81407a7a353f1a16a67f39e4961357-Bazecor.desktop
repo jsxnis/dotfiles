@@ -1,0 +1,33 @@
+[Desktop Entry]
+Name=Bazecor (0.2.5.177) (1)
+Exec=/home/lorenzo/.local/bin/Bazecor-0.2.5.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_cc81407a7a353f1a16a67f39e4961357_bazecor
+StartupWMClass=Bazecor
+X-AppImage-Version=0.2.5.177
+Categories=Utility;
+
+TryExec=/home/lorenzo/.local/bin/Bazecor-0.2.5.AppImage
+X-AppImage-Old-Icon=bazecor
+X-AppImage-Old-Name=Bazecor
+X-AppImage-Identifier=cc81407a7a353f1a16a67f39e4961357
+Actions=Remove;
+X-AppImageLauncher-Version=2.1.3 (git commit 7408819), built on 2020-04-19 22:02:05 UTC
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher-Lite
+Exec=/home/lorenzo/.local/lib/appimagelauncher-lite/appimagelauncher-lite.AppImage remove "/home/lorenzo/.local/bin/Bazecor-0.2.5.AppImage"
+Name[ast]=Desaniciar AppImage del sistema
+Name[de]=AppImage vom System entfernen
+Name[en]=Remove AppImage from system
+Name[es]=Eliminar Appimage del Sistema
+Name[fr]=Supprimer l'AppImage du système
+Name[it]=Rimuovi AppImage dal sistema
+Name[nl]=AppImage deïnstalleren
+Name[pl]=Usuń AppImage z systemu
+Name[pt]=Remover AppImage do sistema
+Name[pt_PT]=Remover AppImage do sistema
+Name[ru]=Удалить AppImage из системы
+Name[zh_Hans]=从系统中移除 AppImage

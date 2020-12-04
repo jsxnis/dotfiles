@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Bazecor (0.2.5.177)
+Exec=/datos/.local/bin/Bazecor-0.2.5.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_35e3f045590d4d09ada0883a68ae96ec_bazecor
+StartupWMClass=Bazecor
+X-AppImage-Version=0.2.5.177
+Categories=Utility;
+
+TryExec=/datos/.local/bin/Bazecor-0.2.5.AppImage
+X-AppImage-Old-Icon=bazecor
+X-AppImage-Old-Name=Bazecor
+X-AppImage-Identifier=35e3f045590d4d09ada0883a68ae96ec

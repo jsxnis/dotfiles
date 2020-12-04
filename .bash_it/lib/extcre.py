@@ -12,6 +12,7 @@ KEY = '726BF28194F177B10C85F46D0AD17DF58AA94BFB'
 PPA = 'atareao/test'
 FORGET = ['.git', '.gitignore', 'extcre.py', 'temporal']
 FORGETEXT = ['.pyc']
+NOCONVERT = ['.pdf', '.png', '.svg']
 
 
 def case_sensitive_replace(s, before, after):
@@ -40,8 +41,7 @@ def dow_dir(parentdir, odirname, fb):
 def dow_file(parentdir, ofilename, fb):
     global NEWVERSION
     global APP
-    if ofilename.endswith('.pdf'):
-        return
+    filename, file_extension = os.path.splitext(ofilename)
     tempdir = os.path.join(parentdir, 'temporal')
     relative_path = os.path.relpath(ofilename, parentdir)
     nfilename = os.path.join(tempdir, relative_path)
@@ -50,21 +50,26 @@ def dow_file(parentdir, ofilename, fb):
     nfilename = os.path.join(head, tail)
     if os.path.exists(nfilename):
         os.remove(nfilename)
-    print(ofilename)
-    ofile = open(ofilename, 'r')
-    odata = ofile.read()
-    ofile.close()
-    nfile = open(nfilename, 'w')
-    ndata = case_sensitive_replace(odata, 'nautilus', fb)
-    if fb == 'caja':
-        ndata = ndata.replace("gi.require_version('Caja', '3.0')",
-                              "gi.require_version('Caja', '2.0')")
-        ndata = ndata.replace('gir1.2-caja-3.0', 'gir1.2-caja')
-    # ndata = re.sub("VERSION = '.*'", NEWVERSION, ndata)
-    ndata = ndata.replace('$VERSION$', NEWVERSION)
-    ndata = ndata.replace('$APP$', APP)
-    nfile.write(ndata)
-    nfile.close()
+    print('===', ofilename, '===')
+    if file_extension in NOCONVERT:
+        shutil.copyfile(ofilename, nfilename)
+    else:
+        ofile = open(ofilename, 'r')
+        odata = ofile.read()
+        ofile.close()
+        nfile = open(nfilename, 'w')
+        ndata = case_sensitive_replace(odata, 'nautilus', fb)
+        if fb == 'caja':
+            ndata = ndata.replace("gi.require_version('Caja', '3.0')",
+                                  "gi.require_version('Caja', '2.0')")
+            ndata = ndata.replace('gir1.2-caja-3.0', 'gir1.2-caja')
+        elif fb == 'nemo':
+            ndata = ndata.replace('python3-nemo', 'python-nemo')
+        # ndata = re.sub("VERSION = '.*'", NEWVERSION, ndata)
+        ndata = ndata.replace('$VERSION$', NEWVERSION)
+        ndata = ndata.replace('$APP$', APP)
+        nfile.write(ndata)
+        nfile.close()
 
 
 def get_app_version(parentdir):

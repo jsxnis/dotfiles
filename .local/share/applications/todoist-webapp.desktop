@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Todoist
+GenericName=Todoist
+Comment=Todoist desktop webapp
+Exec=/usr/bin/firefox -ssb https://todoist.com/app/#start -P todoist
+Terminal=false
+Type=Application
+Icon=todoist
+StartupNotify=true
+MimeType=text/plain;
+Categories=Network;Application;
+Keywords=Todoist;webapp;
+X-Ubuntu-Gettext-Domain=Todoist
+StartupWMClass=todoist.com
