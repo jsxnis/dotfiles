@@ -276,10 +276,6 @@ endif
 " The configuration options should be placed before `colorscheme sonokai`.
 let ayucolor="dark"
 colorscheme ayu
-" for dark or light version select dark/light
-"set background=dark
-
-" Force to use underline for spell check results
 
 " Relative number
 set number relativenumber
@@ -289,6 +285,7 @@ set wrap linebreak nolist
 
 " Spell Check
 setlocal spell spelllang=es
+set spellfile=~/.vim/spell/es.utf-8.add
 
 " Highlight search
 set incsearch

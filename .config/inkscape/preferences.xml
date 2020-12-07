@@ -133,15 +133,15 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="822.816"
-         height="407.063"
+         width="758.083"
+         height="718.313"
          rx="0"
          ry="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
          usecurrent="1"
-         persp="perspective4745">
+         persp="perspective1537">
         <side
            id="XYfront"
            style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
@@ -174,8 +174,8 @@
          start="0"
          usecurrent="1"
          open="0"
-         rx="112.29"
-         ry="110.313"
+         rx="10.8657"
+         ry="14.9141"
          arc_type="1" />
       <eventcontext
          id="star"
@@ -364,8 +364,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="400"
-       y="400"
+       x="412.28"
+       y="283.794"
        edit_clipping_paths="0"
        edit_masks="0"
        highlight_color="4278190335" />
@@ -591,7 +591,7 @@
        x="0"
        y="0"
        w="526"
-       h="443"
+       h="479"
        visible="1"
        state="2"
        placement="5" />
@@ -620,7 +620,7 @@
        x="0"
        y="0"
        w="526"
-       h="443"
+       h="479"
        visible="1"
        state="2"
        placement="5" />
@@ -635,7 +635,7 @@
        x="0"
        y="0"
        w="526"
-       h="443"
+       h="479"
        visible="1"
        state="2"
        placement="5"
@@ -653,7 +653,7 @@
        x="0"
        y="0"
        w="526"
-       h="218"
+       h="230"
        visible="1"
        state="2"
        placement="2" />
@@ -671,9 +671,9 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="0"
-       y="102"
-       w="716"
+       x="1180"
+       y="0"
+       w="740"
        h="775"
        visible="0"
        placement="1" />
@@ -704,7 +704,7 @@
        x="0"
        y="0"
        w="526"
-       h="443"
+       h="479"
        visible="1"
        state="2"
        placement="5" />
@@ -721,7 +721,7 @@
        x="0"
        y="0"
        w="526"
-       h="443"
+       h="479"
        visible="1"
        state="2"
        placement="5">
@@ -748,7 +748,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/datos/Sync/atareao.es/podcasts/T03/E231/" />
+       path="/datos/Sync/atareao.es/territorio-linux/" />
     <group
        id="import"
        enable_preview="1"
@@ -1213,7 +1213,7 @@
      org.inkscape.effect.filter.ImageBlur.blend="normal" />
   <group
      id="desktop"
-     style="fill:#000000;font-size:133.33333333px;stroke-width:2.302;-inkscape-font-specification:Garuda;font-family:Garuda;text-align:center;stroke-linecap:round;writing-mode:lr;line-height:125%;text-anchor:middle;">
+     style="fill:#ffffff;font-size:133.33333333px;stroke-width:2.302;-inkscape-font-specification:Garuda;font-family:Garuda;text-align:center;stroke-linecap:round;writing-mode:lr;line-height:125%;text-anchor:middle">
     <group
        width="928"
        height="480"

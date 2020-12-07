@@ -40,3 +40,4 @@ export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.g
 [ -f $HOME/.fzf.bash ] && source $HOME/.fzf.bash
 eval "$(jump shell)"
 eval "$(gh completion -s bash)"
+export TERM=xterm-256color-italic
